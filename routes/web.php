@@ -1,5 +1,4 @@
 <?php
-
 include('auth/routes.php');
 
 include('website/routes.php');

@@ -10,7 +10,7 @@
 
     @yield('content')
 
-    @livewire('website.components.google-reviews-slider')
+    {{-- @livewire('website.components.google-reviews-slider') --}}
 
     @include('website.layouts.footer')
     @include('website.layouts.scripts')
