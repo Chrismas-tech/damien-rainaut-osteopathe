@@ -1,0 +1,157 @@
+$google-primary-color: #4285F4;
+$google-hover-color: #1367ef;
+$google-rating-color: #e5a911;
+$google-star-color: #f5c03b;
+$google-text-color: #637381;
+
+.google-reviews {
+    width: 80%;
+    margin: auto;
+    font-family: Inter, sans-serif;
+
+    .google-section-spacing {
+        margin: 15px 0;
+    }
+
+    .google-title-business,
+    .google-review-name {
+        font-weight: bold;
+    }
+
+    .google-title-business {
+        color: black;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .google-general-rating {
+        font-size: 30px;
+        color: $google-rating-color;
+        font-weight: bold;
+    }
+
+    .google-photo-profile-business,
+    .google-photo-profile {
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .google-photo-profile-business {
+        width: 60px;
+        height: 60px;
+    }
+
+    .google-photo-profile {
+        width: 40px;
+        height: 40px;
+    }
+
+    .google-logo-img {
+        max-width: 30px;
+        height: auto;
+    }
+
+    .google-review-header,
+    .google-rating-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .google-rating-container {
+        gap: 10px;
+    }
+
+    .google-stars {
+        color: $google-star-color;
+    }
+
+    .google-review-date {
+        font-style: italic;
+        color: $google-text-color;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .google-review-name {
+        color: rgb(55, 93, 231);
+    }
+
+    .google-powered-by,
+    .google-review-text {
+        font-size: 14px;
+        color: $google-text-color;
+        font-family: Inter, sans-serif;
+    }
+
+    .google-powered-by {
+        margin: 10px 0;
+    }
+
+    .google-logo {
+        display: inline-block;
+        font-weight: bold;
+
+        span:nth-child(1) {
+            color: #4285F4;
+        }
+
+        span:nth-child(2) {
+            color: #EA4335;
+        }
+
+        span:nth-child(3) {
+            color: #FBBC05;
+        }
+
+        span:nth-child(4) {
+            color: #4285F4;
+        }
+
+        span:nth-child(5) {
+            color: #34A853;
+        }
+
+        span:nth-child(6) {
+            color: #EA4335;
+        }
+    }
+
+    .google-btn-review {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 15px;
+        background-color: $google-primary-color;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        max-width: fit-content;
+
+        &:hover {
+            background-color: $google-hover-color;
+        }
+
+        img {
+            width: 20px;
+            height: auto;
+            margin-left: 8px;
+        }
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #555;
+        border-radius: 10px;
+        border: 2px solid #ccc;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #e0e0e0;
+        border-radius: 10px;
+    }
+}

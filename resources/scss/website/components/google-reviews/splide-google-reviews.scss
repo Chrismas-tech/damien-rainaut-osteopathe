@@ -1,0 +1,73 @@
+// Splide Google Reviews
+
+.google-reviews {
+
+    .splide__progress__bar {
+        background: rgb(113, 255, 47) !important;
+        height: 3px !important;
+    }
+
+    .splide__arrow {
+        background: rgb(224, 223, 223);
+    }
+
+    .splide__arrows i {
+        color: rgb(55, 54, 54);
+        font-size: 20px;
+    }
+
+    .splide__arrow--prev,
+    .splide__arrow--next {
+        position: absolute;
+        top: 45%;
+        z-index: 1;
+        cursor: pointer;
+        transition: transform ease-in 0.2s, -webkit-transform ease-in 0.2s;
+    }
+
+    .splide__arrow--prev {
+        left: -4%;
+    }
+
+    .splide__arrow--next {
+        right: -4%;
+    }
+
+    .splide__arrow--prev:hover,
+    .splide__arrow--next:hover {
+        background: rgb(196, 194, 194);
+    }
+
+    .splide__list {
+        cursor: grab;
+
+        li {
+            background-color: rgb(242, 240, 240);
+            padding: 20px;
+            border-radius: 2%;
+            max-height: 300px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+    }
+
+    .splide__pagination {
+        bottom: -50px;
+
+        .is-active {
+            background-color: rgb(42, 42, 42);
+        }
+    }
+
+    .splide__pagination__page {
+        background: #666866;
+        height: 15px;
+        width: 15px;
+    }
+
+    .splide__pagination__page.is-active {
+        transform: scale(1.2);
+        z-index: 1;
+    }
+
+}

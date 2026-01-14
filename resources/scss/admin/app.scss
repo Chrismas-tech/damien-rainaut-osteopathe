@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------------------------------------------------------------- */
+
+/* Font Awesome */
+@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '@fortawesome/fontawesome-free/css/regular.css';
+@import '@fortawesome/fontawesome-free/css/solid.css';
+@import '@fortawesome/fontawesome-free/css/brands.css';
+
+/* --------------------------------------------------------------- */
+
+/* Theme Tailwind */
+@import "theme.scss";
+
+/* SimpleBar */
+@import "simplebar.scss";
+
+/* ApexCharts */
+@import "apexcharts.scss";
+
+
+/* --------------------------------------------------------------- */
+
+/* Pages */
+@import "pages/profile.scss";
+
+/* --------------------------------------------------------------- */
+
+/* My Styles */
+@import "myStyles.scss";
+
+/* --------------------------------------------------------------- */
+
+/* Website Components */
+
+/* Splide JS*/
+@import "../../../node_modules/@splidejs/splide/dist/css/splide.min.css";
+
+/* Google Reviews & Splide Google Reviews */
+@import "../website/components/google-reviews/google-reviews.scss";
+@import "../website/components/google-reviews/splide-google-reviews.scss";
+
+/* NanoGallery */
+@import "../website/components/nanogallery2/nanogallery2.min.css";
+@import "../website/components/nanogallery2/nanogallery2.woff.min.css";
+
+/* Jumbotrons */
+@import "../website/components/jumbotrons/jumbotron-video.scss";
+
+/* Fonts-import */
+@import "../website/fonts/fonts-import.scss";
+
+/* Contact Form */
+
+/* --------------------------------------------------------------- */

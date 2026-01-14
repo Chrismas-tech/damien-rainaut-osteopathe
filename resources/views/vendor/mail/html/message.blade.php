@@ -1,0 +1,3 @@
+<p style="font-size: 16px; color: #333; line-height: 1.5; margin: 10px 0 0;">
+    {!! nl2br($message) !!}
+</p>
