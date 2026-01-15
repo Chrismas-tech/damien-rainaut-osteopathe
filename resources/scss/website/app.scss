@@ -6,14 +6,6 @@
 
 /* --------------------------------------------------------------- */
 
-/* Font Awesome */
-@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "@fortawesome/fontawesome-free/scss/solid.scss";
-@import "@fortawesome/fontawesome-free/scss/regular.scss";
-@import "@fortawesome/fontawesome-free/scss/brands.scss";
-
-/* --------------------------------------------------------------- */
-
 /* Fonts-import */
 @import "./fonts/fonts-import.scss";
 
@@ -30,10 +22,17 @@
 @import "./components/nanogallery2/nanogallery2.woff.min.css";
 @import "./components/nanogallery2/MyNanogallery.scss";
 
+
+
+/*   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> */
+/* <link href="assets/css/main.css" rel="stylesheet"> */
+
+
 /* --------------------------------------------------------------- */
 
 /* Bootstrap v5.3.8 */
-@import './bootstrap.scss';
+@import "bootstrap/scss/bootstrap";
 
 /* --------------------------------------------------------------- */
 
@@ -41,6 +40,28 @@
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
 /* --------------------------------------------------------------- */
+
+/* Bootstrap Icons v1.13.1  */
+@import "aos/dist/aos.css";
+
+/* --------------------------------------------------------------- */
+
+/* Font Awesome */
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/regular.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
+
+/* --------------------------------------------------------------- */
+
+/* Swiper CSS */
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+/* --------------------------------------------------------------- */
+
 
 /* main Template Scss */
 @import './main.scss';
@@ -53,12 +74,12 @@
 /* --------------------------------------------------------------- */
 
 /* Layouts */
-@import "./layouts/header.scss";
 
 /* --------------------------------------------------------------- */
 
-/* Pages */
+/* Pages & Layouts */
 @import "./html-base.scss";
+@import "./pages/home.scss";
 
 /* --------------------------------------------------------------- */
 

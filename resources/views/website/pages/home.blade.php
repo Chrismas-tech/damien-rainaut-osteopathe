@@ -6,7 +6,7 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section">
 
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="container custom-container-margin" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -77,7 +77,7 @@
                     <div class="col-lg-6">
                         <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
                             <div class="main-image">
-                                <img src="assets/img/health/staff-10.webp" alt="Modern Healthcare Facility"
+                                <img src={{ asset('img/website/health/staff-10.webp') }} alt="Modern Healthcare Facility"
                                     class="img-fluid">
                                 <div class="floating-card appointment-card">
                                     <div class="card-icon">
@@ -164,7 +164,7 @@
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                         <div class="about-visual">
                             <div class="main-image">
-                                <img src="assets/img/health/facilities-9.webp" alt="Modern medical facility"
+                                <img src={{ asset('img/website/health/facilities-9.webp') }} alt="Modern medical facility"
                                     class="img-fluid">
                             </div>
                             <div class="floating-card">
@@ -224,7 +224,7 @@
                                 </a>
                             </div>
                             <div class="specialty-visual">
-                                <img src="assets/img/health/cardiology-1.webp" alt="Cardiovascular Medicine"
+                                <img src={{ asset('img/website/health/cardiology-1.webp') }} alt="Cardiovascular Medicine"
                                     class="img-fluid">
                                 <div class="visual-overlay">
                                     <i class="bi bi-heart-pulse"></i>
@@ -252,7 +252,7 @@
                                 </a>
                             </div>
                             <div class="specialty-visual">
-                                <img src="assets/img/health/neurology-4.webp" alt="Neurological Sciences"
+                                <img src={{ asset('img/website/health/neurology-4.webp') }} alt="Neurological Sciences"
                                     class="img-fluid">
                                 <div class="visual-overlay">
                                     <i class="bi bi-cpu"></i>
@@ -354,7 +354,7 @@
                     <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
                         <div class="featured-service-main">
                             <div class="service-image-wrapper">
-                                <img src="assets/img/health/consultation-4.webp" alt="Premier Healthcare Services"
+                                <img src={{ asset('img/website/health/consultation-4.webp') }} alt="Premier Healthcare Services"
                                     class="img-fluid" loading="lazy">
                                 <div class="service-overlay">
                                     <div class="service-badge">
@@ -425,7 +425,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="specialty-card">
                                 <div class="specialty-image">
-                                    <img src="assets/img/health/maternal-2.webp" alt="Maternal Care" class="img-fluid"
+                                    <img src={{ asset('img/website/health/maternal-2.webp') }} alt="Maternal Care" class="img-fluid"
                                         loading="lazy">
                                 </div>
                                 <div class="specialty-content">
@@ -438,7 +438,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="specialty-card">
                                 <div class="specialty-image">
-                                    <img src="assets/img/health/vaccination-3.webp" alt="Vaccination" class="img-fluid"
+                                    <img src={{ asset('img/website/health/vaccination-3.webp') }} alt="Vaccination" class="img-fluid"
                                         loading="lazy">
                                 </div>
                                 <div class="specialty-content">
@@ -451,7 +451,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="specialty-card">
                                 <div class="specialty-image">
-                                    <img src="assets/img/health/emergency-1.webp" alt="Emergency Care" class="img-fluid"
+                                    <img src={{ asset('img/website/health/emergency-1.webp') }} alt="Emergency Care" class="img-fluid"
                                         loading="lazy">
                                 </div>
                                 <div class="specialty-content">
@@ -464,7 +464,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="specialty-card">
                                 <div class="specialty-image">
-                                    <img src="assets/img/health/facilities-6.webp" alt="Advanced Tech" class="img-fluid"
+                                    <img src={{ asset('img/website/health/facilities-6.webp') }} alt="Advanced Tech" class="img-fluid"
                                         loading="lazy">
                                 </div>
                                 <div class="specialty-content">
@@ -532,7 +532,7 @@
                     <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="100">
                         <div class="profile-header">
                             <div class="doctor-avatar">
-                                <img src="assets/img/health/staff-2.webp" alt="Dr. Amanda Foster" class="img-fluid">
+                                <img src={{ asset('img/website/health/staff-2.webp') }} alt="Dr. Amanda Foster" class="img-fluid">
                                 <div class="status-indicator available"></div>
                             </div>
                             <div class="doctor-details">
@@ -564,7 +564,7 @@
                     <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="200">
                         <div class="profile-header">
                             <div class="doctor-avatar">
-                                <img src="assets/img/health/staff-6.webp" alt="Dr. Marcus Johnson" class="img-fluid">
+                                <img src={{ asset('img/website/health/staff-6.webp') }} alt="Dr. Marcus Johnson" class="img-fluid">
                                 <div class="status-indicator busy"></div>
                             </div>
                             <div class="doctor-details">
@@ -596,7 +596,7 @@
                     <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="300">
                         <div class="profile-header">
                             <div class="doctor-avatar">
-                                <img src="assets/img/health/staff-4.webp" alt="Dr. Rachel Williams" class="img-fluid">
+                                <img src={{ asset('img/website/health/staff-4.webp') }} alt="Dr. Rachel Williams" class="img-fluid">
                                 <div class="status-indicator available"></div>
                             </div>
                             <div class="doctor-details">
@@ -628,7 +628,7 @@
                     <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="400">
                         <div class="profile-header">
                             <div class="doctor-avatar">
-                                <img src="assets/img/health/staff-8.webp" alt="Dr. David Chen" class="img-fluid">
+                                <img src={{ asset('img/website/health/staff-8.webp') }} alt="Dr. David Chen" class="img-fluid">
                                 <div class="status-indicator offline"></div>
                             </div>
                             <div class="doctor-details">
@@ -660,7 +660,7 @@
                     <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="500">
                         <div class="profile-header">
                             <div class="doctor-avatar">
-                                <img src="assets/img/health/staff-11.webp" alt="Dr. Victoria Torres" class="img-fluid">
+                                <img src={{ asset('img/website/health/staff-11.webp') }} alt="Dr. Victoria Torres" class="img-fluid">
                                 <div class="status-indicator available"></div>
                             </div>
                             <div class="doctor-details">
@@ -692,7 +692,7 @@
                     <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="600">
                         <div class="profile-header">
                             <div class="doctor-avatar">
-                                <img src="assets/img/health/staff-14.webp" alt="Dr. Benjamin Lee" class="img-fluid">
+                                <img src={{ asset('img/website/health/staff-14.webp') }} alt="Dr. Benjamin Lee" class="img-fluid">
                                 <div class="status-indicator available"></div>
                             </div>
                             <div class="doctor-details">
@@ -764,7 +764,7 @@
 
                         <div class="col-lg-6">
                             <div class="image-container" data-aos="fade-left" data-aos-delay="300">
-                                <img src="assets/img/health/facilities-9.webp" alt="Medical Excellence"
+                                <img src={{ asset('img/website/health/facilities-9.webp') }} alt="Medical Excellence"
                                     class="img-fluid">
                             </div>
                         </div>
@@ -846,7 +846,12 @@
         </section><!-- /Call To Action Section -->
 
     </main>
-    {{-- @livewire('admin.website.components.jumbotrons.jumbotron-video')
+
+    <h1>COMPONENTS</h1>
+
+    @livewire('admin.website.components.jumbotrons.jumbotron-video')
     @livewire('admin.website.components.slider')
-    @livewire('admin.website.components.nanogallery') --}}
+    @livewire('admin.website.components.nanogallery')
+
+
 @endsection
