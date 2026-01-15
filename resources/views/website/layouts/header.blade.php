@@ -1,84 +1,106 @@
-<header class="">
-    @if (Route::has('login'))
-        <nav class="">
-            @auth
-                @if (Auth::user()->role === 'admin')
-                    <a href="{{ route('admin.dashboard') }}" class="">
-                        Votre espace Admin
-                    </a>
-                @elseif (Auth::user()->role === 'employee')
-                    <a href="{{ route('employee.dashboard') }}" class="">
-                        Votre espace Salarié
-                    </a>
-                @elseif (Auth::user()->role === 'beneficiary')
-                    <a href="{{ route('beneficiary.dashboard') }}" class="">
-                        Votre espace Bénéficiaire
-                    </a>
-                @endif
-            @else
-                <a href="{{ route('login') }}" class="">
-                    Log in
-                </a>
-                {{-- @if (Route::has('register'))
-                    <a href="{{ route('register') }}"
-                        class="">
-                        Register
-                    </a>
-                @endif --}}
-            @endauth
+<header id="header" class="header fixed-top">
 
-            <li class="">
-                <a href="#">
-                    @if ($website->lang === 'fr')
-                        <div class="">
-                            <img src="{{ asset('img/website/lang/french.png') }}" alt="french">
-                            <span class="">FR</span>
-                        </div>
-                    @else
-                        <div class="">
-                            <img src="{{ asset('img/website/lang/english.png') }}" alt="english">
-                            <span class="">EN</span>
-                        </div>
-                    @endif
-                </a>
+    <div class="topbar d-flex align-items-center dark-background">
+        <div class="container d-flex justify-content-center justify-content-md-between">
+            <div class="contact-info d-flex align-items-center">
+                <i class="bi bi-envelope d-flex align-items-center">
+                    <a href="mailto:{{ App\Models\Website::getSettings()->email_website }}">
+                        {{ App\Models\Website::getSettings()->email_website }}
+                    </a>
+                </i>
+                <i class="bi bi-phone d-flex align-items-center ms-4">
+                    <span>{{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}</span>
+                </i>
+            </div>
+            <div class="social-links d-none d-md-flex align-items-center">
+                <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+            <a href="{{ route('website.home') }}" class="logo d-flex align-items-center">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="{{ asset('storage/logo/logo.svg') }}" alt="{{ $website->application_name }}"> -->
+                <h1 class="sitename">{{ $website->application_name }}</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
                 <ul>
                     <li>
-                        @if ($website->lang === 'fr')
-                            <a href="{{ route('lang.en') }}">
-                                <div class="">
-                                    <img class="me-2" src="{{ asset('img/website/lang/english.png') }}"
-                                        alt="english">
-                                    <span>
-                                        English
-                                    </span>
-                                </div>
-                            </a>
-                        @else
-                            <a href="{{ route('lang.fr') }}">
-                                <div class="">
-                                    <img class="me-2" src="{{ asset('img/website/lang/french.png') }}" alt="french">
-                                    <span>
-                                        Français
-                                    </span>
-                                </div>
-                            </a>
-                        @endif
+                        <a href="{{ route('website.home') }}" class="{{ Route::currentRouteName() === 'website.home' ? 'active' : '' }}">
+                            Home
+                        </a>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Deep Dropdown</span>
-                            <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+{{--                     <li>
+                        <a href="{{ route('website.about') }}" class="{{ Route::currentRouteName() === 'website.about' ? 'active' : '' }}">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('website.departments') }}" class="{{ Route::currentRouteName() === 'website.departments' ? 'active' : '' }}">
+                            Departments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('website.services') }}" class="{{ Route::currentRouteName() === 'website.services' ? 'active' : '' }}">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('website.doctors') }}" class="{{ Route::currentRouteName() === 'website.doctors' ? 'active' : '' }}">
+                            Doctors
+                        </a>
+                    </li> --}}
+                    <li class="dropdown">
+                        <a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Deep Dropdown 1</a></li>
-                            <li><a href="#">Deep Dropdown 2</a></li>
-                            <li><a href="#">Deep Dropdown 3</a></li>
-                            <li><a href="#">Deep Dropdown 4</a></li>
-                            <li><a href="#">Deep Dropdown 5</a></li>
+                            {{-- <li><a href="{{ route('website.department-details') }}">Department Details</a></li>
+                            <li><a href="{{ route('website.service-details') }}">Service Details</a></li>
+                            <li><a href="{{ route('website.appointment') }}">Appointment</a></li>
+                            <li><a href="{{ route('website.testimonials') }}">Testimonials</a></li>
+                            <li><a href="{{ route('website.faq') }}">Frequently Asked Questions</a></li>
+                            <li><a href="{{ route('website.gallery') }}">Gallery</a></li>
+                            <li><a href="{{ route('website.terms-of-services') }}">Terms</a></li> --}}
+                            <li><a href="{{ route('website.privacy-policy') }}">Privacy</a></li>
+                           {{--  <li><a href="{{ route('website.404') }}">404</a></li> --}}
                         </ul>
                     </li>
-                    <li><a href="#">Dropdown 2</a></li>
-                    <li><a href="#">Dropdown 3</a></li>
-                    <li><a href="#">Dropdown 4</a></li>
+                    <li class="dropdown">
+                        <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li class="dropdown">
+                                <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{{ route('website.contact') }}" class="{{ Route::currentRouteName() === 'website.contact' ? 'active' : '' }}">
+                            Contact
+                        </a>
+                    </li>
                 </ul>
-            </li>
-        </nav>
-    @endif
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+
+    </div>
+
 </header>

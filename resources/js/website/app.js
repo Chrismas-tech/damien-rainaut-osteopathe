@@ -83,16 +83,8 @@ new PureCounter();
 
 /*---------------------------------------------------------------------*/
 /* Swiper */
-/* import Swiper, { Navigation, Pagination, Autoplay } from "swiper";
-
-const swiper = new Swiper(".my-swiper", {
-    modules: [Navigation, Pagination, Autoplay],
-    slidesPerView: 1,
-    loop: true,
-    autoplay: { delay: 4000 },
-    navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
-    pagination: { el: ".swiper-pagination", clickable: true }
-}); */
+import Swiper from 'swiper/bundle';
+window.Swiper = Swiper;
 
 /*---------------------------------------------------------------------*/
 

@@ -3,8 +3,8 @@
 @include('website.layouts.doctype-header')
 
 <body>
+    @include('website.layouts.header')
 
-    @include('website.layouts.top-bar')
     {{--  @if (Auth::check() && Auth::user()->role === 'admin') --}}
     {{-- @include('website.layouts.header') --}}
     {{--  @endif --}}
