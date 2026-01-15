@@ -7,10 +7,10 @@
 /* --------------------------------------------------------------- */
 
 /* Font Awesome */
-@import '@fortawesome/fontawesome-free/css/fontawesome.css';
-@import '@fortawesome/fontawesome-free/css/regular.css';
-@import '@fortawesome/fontawesome-free/css/solid.css';
-@import '@fortawesome/fontawesome-free/css/brands.css';
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/regular.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
 
 /* --------------------------------------------------------------- */
 
@@ -29,6 +29,21 @@
 @import "./components/nanogallery2/nanogallery2.min.css";
 @import "./components/nanogallery2/nanogallery2.woff.min.css";
 @import "./components/nanogallery2/MyNanogallery.scss";
+
+/* --------------------------------------------------------------- */
+
+/* Bootstrap v5.3.8 */
+@import './bootstrap.scss';
+
+/* --------------------------------------------------------------- */
+
+/* Bootstrap Icons v1.13.1  */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* --------------------------------------------------------------- */
+
+/* main Template Scss */
+@import './main.scss';
 
 /* --------------------------------------------------------------- */
 

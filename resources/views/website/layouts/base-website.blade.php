@@ -4,9 +4,10 @@
 
 <body>
 
-   {{--  @if (Auth::check() && Auth::user()->role === 'admin') --}}
-        @include('website.layouts.header')
-   {{--  @endif --}}
+    @include('website.layouts.top-bar')
+    {{--  @if (Auth::check() && Auth::user()->role === 'admin') --}}
+    {{-- @include('website.layouts.header') --}}
+    {{--  @endif --}}
 
     @yield('content')
 
@@ -14,7 +15,6 @@
 
     @include('website.layouts.footer')
     @include('website.layouts.scripts')
-
     @livewireScripts
     <x-livewire-alert::scripts />
 </body>
