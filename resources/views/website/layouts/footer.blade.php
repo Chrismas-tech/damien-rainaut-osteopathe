@@ -22,7 +22,10 @@
                             </div>
                             <div class="contact-item">
                                 <i class="bi bi-telephone"></i>
-                                <span>{{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}</span>
+                                <a
+                                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}">
+                                    {{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}
+                                </a>
                             </div>
                             <div class="contact-item">
                                 <i class="bi bi-envelope"></i>
@@ -37,9 +40,14 @@
                                 class="me-2"><i class="bi bi-facebook"></i></a>
                             <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank"
                                 class="me-2"><i class="bi bi-instagram"></i></a>
-                            <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
+                            <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank"
+                                class="me-2"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://wa.me/"{{ App\Models\Website::getSettings()->whatsapp_phone }}"
+                                target="_blank" class="me-2">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
                         </div>
+
                     </div>
                 </div>
 

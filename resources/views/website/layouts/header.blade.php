@@ -8,16 +8,31 @@
                         {{ App\Models\Website::getSettings()->email_website }}
                     </a>
                 </i>
-                <i class="bi bi-phone d-flex align-items-center ms-4">
-                    <span>{{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}</span>
-                </i>
+
+                <a
+                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}">
+                    <i class="bi bi-phone d-flex align-items-center ms-4">
+                        {{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}
+                    </i>
+                </a>
+
             </div>
             <div class="social-links d-none d-md-flex align-items-center">
-                <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
-                <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank" class="twitter"><i
+                        class="bi bi-twitter-x"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/{{ App\Models\Website::getSettings()->whatsapp_phone }}" class="whatsapp"
+                    target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                    {{ App\Models\Website::getSettings()->country_code_whatsapp_phone }}{{ App\Models\Website::getSettings()->whatsapp_phone }}
+                </a>
             </div>
+
         </div>
     </div><!-- End Top Bar -->
 
@@ -33,11 +48,12 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li>
-                        <a href="{{ route('website.home') }}" class="{{ Route::currentRouteName() === 'website.home' ? 'active' : '' }}">
+                        <a href="{{ route('website.home') }}"
+                            class="{{ Route::currentRouteName() === 'website.home' ? 'active' : '' }}">
                             Home
                         </a>
                     </li>
-{{--                     <li>
+                    {{--                     <li>
                         <a href="{{ route('website.about') }}" class="{{ Route::currentRouteName() === 'website.about' ? 'active' : '' }}">
                             About
                         </a>
@@ -68,7 +84,7 @@
                             <li><a href="{{ route('website.gallery') }}">Gallery</a></li>
                             <li><a href="{{ route('website.terms-of-services') }}">Terms</a></li> --}}
                             <li><a href="{{ route('website.privacy-policy') }}">Privacy</a></li>
-                           {{--  <li><a href="{{ route('website.404') }}">404</a></li> --}}
+                            {{--  <li><a href="{{ route('website.404') }}">404</a></li> --}}
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -76,7 +92,8 @@
                         <ul>
                             <li><a href="#">Dropdown 1</a></li>
                             <li class="dropdown">
-                                <a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <a href="#"><span>Deep Dropdown</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
                                 <ul>
                                     <li><a href="#">Deep Dropdown 1</a></li>
                                     <li><a href="#">Deep Dropdown 2</a></li>
@@ -91,7 +108,8 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="{{ route('website.contact') }}" class="{{ Route::currentRouteName() === 'website.contact' ? 'active' : '' }}">
+                        <a href="{{ route('website.contact') }}"
+                            class="{{ Route::currentRouteName() === 'website.contact' ? 'active' : '' }}">
                             Contact
                         </a>
                     </li>
