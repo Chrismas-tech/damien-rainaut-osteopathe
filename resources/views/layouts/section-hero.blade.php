@@ -9,52 +9,61 @@
                     <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
                         <div class="badge-item">
                             <i class="bi bi-shield-check"></i>
-                            <span>Accredited</span>
+                            <span>Ostéopathe diplômé</span>
                         </div>
                         <div class="badge-item">
                             <i class="bi bi-clock"></i>
-                            <span>24/7 Emergency</span>
+                            <span>Consultations sur rendez-vous</span>
                         </div>
                         <div class="badge-item">
                             <i class="bi bi-star-fill"></i>
-                            <span>4.9/5 Rating</span>
+                            <span>Excellents avis patients</span>
                         </div>
                     </div>
 
                     <h1 data-aos="fade-right" data-aos-delay="300">
-                        Excellence in <span class="highlight">Healthcare</span> With Compassionate Care
+                        Ostéopathe à <span class="highlight">Nice</span><br>
+                        Une prise en charge humaine et personnalisée
                     </h1>
 
                     <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        Damien Rainaut est ostéopathe à Nice et vous accueille au cabinet pour la prise en charge
+                        des douleurs musculo-squelettiques, troubles fonctionnels et tensions du quotidien.
+                        Chaque consultation est adaptée à votre histoire, vos besoins et votre mode de vie.
                     </p>
 
                     <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
                         <div class="stat-item">
-                            <h3><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="2"
-                                    class="purecounter"></span>+</h3>
-                            <p>Years Experience</p>
+                            <h3>
+                                <span data-purecounter-start="0" data-purecounter-end="10"
+                                    data-purecounter-duration="2" class="purecounter"></span>+
+                            </h3>
+                            <p>Années de pratique</p>
                         </div>
                         <div class="stat-item">
-                            <h3><span data-purecounter-start="0" data-purecounter-end="5000"
-                                    data-purecounter-duration="2" class="purecounter"></span>+</h3>
-                            <p>Patients Treated</p>
+                            <h3>
+                                <span data-purecounter-start="0" data-purecounter-end="4000"
+                                    data-purecounter-duration="2" class="purecounter"></span>+
+                            </h3>
+                            <p>Patients accompagnés</p>
                         </div>
                         <div class="stat-item">
-                            <h3><span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="2"
-                                    class="purecounter"></span>+</h3>
-                            <p>Medical Experts</p>
+                            <h3>
+                                <span data-purecounter-start="0" data-purecounter-end="100"
+                                    data-purecounter-duration="2" class="purecounter"></span>%
+                            </h3>
+                            <p>Approche personnalisée</p>
                         </div>
                     </div>
 
                     <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
                         <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
-                            class="btn btn-primary">Prendre Rendez-vous</a>
+                            class="btn btn-primary">
+                            Prendre rendez-vous
+                        </a>
                         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
                             <i class="bi bi-play-circle me-2"></i>
-                            Watch Our Story
+                            Découvrir le cabinet
                         </a>
                     </div>
 
@@ -63,8 +72,8 @@
                             <i class="bi bi-telephone-fill"></i>
                         </div>
                         <div class="emergency-info">
-                            <small>Emergency Hotline</small>
-                            <strong>+1 (555) 911-2468</strong>
+                            <small>Renseignements et rendez-vous</small>
+                            <strong>Via Doctolib</strong>
                         </div>
                     </div>
                 </div>
@@ -74,17 +83,19 @@
                 <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
                     <div class="main-image">
                         <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }}
-                            alt="Modern Healthcare Facility" class="img-fluid">
+                            alt="Cabinet d’ostéopathie à Nice - Damien Rainaut" class="img-fluid">
+
                         <div class="floating-card appointment-card">
                             <div class="card-icon">
                                 <i class="bi bi-calendar-check"></i>
                             </div>
                             <div class="card-content">
-                                <h6>Next Available</h6>
-                                <p>Today 2:30 PM</p>
-                                <small>Dr. Sarah Johnson</small>
+                                <h6>Disponibilités</h6>
+                                <p>Consultations sur rendez-vous</p>
+                                <small>Damien Rainaut, Ostéopathe</small>
                             </div>
                         </div>
+
                         <div class="floating-card rating-card">
                             <div class="card-content">
                                 <div class="rating-stars">
@@ -94,11 +105,12 @@
                                     <i class="bi bi-star-fill"></i>
                                     <i class="bi bi-star-fill"></i>
                                 </div>
-                                <h6>4.9/5</h6>
-                                <small>1,234 Reviews</small>
+                                <h6>4.9 / 5</h6>
+                                <small>Avis patients Doctolib</small>
                             </div>
                         </div>
                     </div>
+
                     <div class="background-elements">
                         <div class="element element-1"></div>
                         <div class="element element-2"></div>
@@ -110,4 +122,5 @@
 
     </div>
 
-</section><!-- /Hero Section -->
+</section>
+<!-- /Hero Section -->
