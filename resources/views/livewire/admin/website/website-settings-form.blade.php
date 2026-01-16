@@ -88,6 +88,30 @@
 
                     <div class="mb-4">
                         <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-teal-600 me-1"></i>
+                            <label for="iframeLinkGoogleMapSrc">Iframe Link Google Map Src</label>
+                        </div>
+                        <div class="flex">
+                            <input disabled wire:model.live="iframeLinkGoogleMapSrc"
+                                class="ClipboardText flex-grow px-4 text-lg text-black bg-gray-400 border-gray-500 rounded focus:border-indigo-600 focus:ring-indigo-600 disabled:pointer-events-none disabled:opacity-70"
+                                type="text" />
+                            <button onclick="copyToClipboard(this)" type="button"
+                                class="btn inline-block bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none">
+                                <span>
+                                    <i class="fa-regular
+                        fa-copy me-1"></i>
+                                </span>
+                                <span>Copy to Clipboard</span>
+                            </button>
+                        </div>
+                        @error('iframeLinkGoogleMapSrc')
+                            <span
+                                class="bg-red-200 px-2 py-1 text-red-700 text-sm font-medium rounded-md inline-block mt-1">{{ $message }}</span>
+                        @enderror
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="flex items-center">
                             <i class="fas fa-phone text-purple-600 me-1"></i>
                             <label for="phoneWebsite">Phone Website</label>
                         </div>
@@ -339,19 +363,6 @@
                                 @enderror
                             </div>
                         </div>
-                    </div>
-
-                    <div class="mb-4">
-                        <div class="flex items-center">
-                            <i class="fas fa-map-marker-alt text-teal-600 me-1"></i>
-                            <label for="iframeGoogleMap">Iframe Url Google Map Src</label>
-                        </div>
-                        <textarea rows="5" wire:model.live="iframeGoogleMap"
-                            class="px-4 text-lg block w-full border-gray-500 rounded focus:border-indigo-600 focus:ring-indigo-600"></textarea>
-                        @error('iframeGoogleMap')
-                            <span
-                                class="bg-red-200 px-2 py-1 text-red-700 text-sm font-medium rounded-md inline-block mt-1">{{ $message }}</span>
-                        @enderror
                     </div>
 
                     <div class="mb-4">

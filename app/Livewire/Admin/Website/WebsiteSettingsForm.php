@@ -36,7 +36,7 @@ class WebsiteSettingsForm extends Component
     public string $countryCodeWhatsAppPhone;
 
     // Iframe Google Maps
-    public string $iframeGoogleMap;
+    public string $iframeLinkGoogleMapSrc;
 
     // Calendly URL
     public string $calendlyUrl;
@@ -55,7 +55,7 @@ class WebsiteSettingsForm extends Component
             'whatsAppPhone' => 'nullable|string|regex:/^\d{9}$/',
             'countryCodePhoneWebsite' => 'nullable|string|regex:/^\+\d{1,4}$/',
             'countryCodeWhatsAppPhone' => 'nullable|string|regex:/^\+\d{1,4}$/',
-            'iframeGoogleMap' => 'nullable|string',
+            'iframeLinkGoogleMapSrc' => 'nullable|string',
             'calendlyUrl' => 'nullable|string',
             'faq' => 'nullable|string',
             'termsOfService' => 'nullable|string',
@@ -81,7 +81,7 @@ class WebsiteSettingsForm extends Component
         $this->whatsAppPhone = $this->websiteSettings->whatsapp_phone;
         $this->countryCodeWhatsAppPhone = $this->websiteSettings->country_code_whatsapp_phone;
 
-        $this->iframeGoogleMap = $this->websiteSettings->iframe_google_map_src;
+        $this->iframeLinkGoogleMapSrc = $this->websiteSettings->iframe_link_google_map_src;
         $this->calendlyUrl = $this->websiteSettings->calendly_url;
 
         $this->faq = $this->websiteSettings->faq;
@@ -92,6 +92,13 @@ class WebsiteSettingsForm extends Component
         $this->linkTwitter = $this->websiteSettings->link_twitter;
         $this->linkPinterest = $this->websiteSettings->link_pinterest;
         $this->linkInstagram = $this->websiteSettings->link_instagram;
+    }
+
+    public function updatedAddressService($value)
+    {
+        $this->addressService = $value;
+        $addressForMap = str_replace(' ', '+', $this->addressService);
+        $this->iframeLinkGoogleMapSrc = "https://www.google.com/maps?q=" . $addressForMap . "&output=embed";
     }
 
 

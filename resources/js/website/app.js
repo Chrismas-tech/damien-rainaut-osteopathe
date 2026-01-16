@@ -102,7 +102,7 @@ import AOS from "aos";
  * Animation on scroll function and init
  */
 AOS.init({
-    duration: 600,
+    duration: 500,
     easing: 'ease-in-out',
     once: true,
     mirror: false
