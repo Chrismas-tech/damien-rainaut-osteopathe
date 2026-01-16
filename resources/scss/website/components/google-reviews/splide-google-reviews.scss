@@ -1,6 +1,9 @@
 // Splide Google Reviews
-
 .google-reviews {
+
+    .splide__slide {
+        height: max-content;
+    }
 
     .splide__progress__bar {
         background: rgb(113, 255, 47) !important;
@@ -38,16 +41,19 @@
         background: rgb(196, 194, 194);
     }
 
+    .splide__track {
+        overflow: visible;
+    }
+
     .splide__list {
         cursor: grab;
+        overflow: visible;
 
         li {
-            background-color: rgb(242, 240, 240);
             padding: 20px;
-            border-radius: 2%;
-            max-height: 300px;
-            overflow: scroll;
-            overflow-x: hidden;
+            border: 1px solid rgb(200, 200, 200);
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
         }
     }
 

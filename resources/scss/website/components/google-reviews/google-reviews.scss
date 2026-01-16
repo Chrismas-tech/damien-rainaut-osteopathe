@@ -47,13 +47,16 @@ $google-text-color: #637381;
     }
 
     .google-logo-img {
-        max-width: 30px;
+        max-width: 60px;
         height: auto;
+        right: 10px;
+        top: 10px;
     }
 
     .google-review-header,
     .google-rating-container {
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -69,7 +72,7 @@ $google-text-color: #637381;
         font-style: italic;
         color: $google-text-color;
         font-size: 14px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .google-review-name {

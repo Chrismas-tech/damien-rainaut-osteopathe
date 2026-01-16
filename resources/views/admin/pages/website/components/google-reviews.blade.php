@@ -2,7 +2,7 @@
 @section('title', 'Google Reviews')
 @section('content')
     <div class="px-6 my-6">
-        <div class="card shadow">
+        <div class="card shadow overflow-hidden">
             <!-- Nav -->
             <ul class="nav nav-line-bottom mb-3 border-b" id="pills-tab" role="tablist">
                 <!-- Nav item -->

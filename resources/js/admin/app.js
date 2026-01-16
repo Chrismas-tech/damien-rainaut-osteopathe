@@ -37,9 +37,10 @@ window.copyToClipboard = copyToClipboard
 
 /*---------------------------------------------------------------------*/
 
-/* Splide Js Google Review */
+/* Import Splide Js */
 import Splide from '@splidejs/splide'
 
+/* Splide Js Google Review */
 if (document.getElementById('splide-google-reviews')) {
     new Splide('#splide-google-reviews', {
         type: 'loop',
