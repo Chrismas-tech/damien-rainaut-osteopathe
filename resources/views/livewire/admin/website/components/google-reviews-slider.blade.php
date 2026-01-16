@@ -3,7 +3,7 @@
         <div class="google-reviews">
             <div class="google-wrapper">
                 <div class="google-section-spacing">
-                    <div class="google-review-header">
+                    <div class="google-review-header-1">
                         <img class="google-photo-profile-business" src="{{ $photoSrc }}" alt="profile photo business">
                         <div>
                             <h3 class="google-title-business">~{{ $business }}</h3>
@@ -43,7 +43,7 @@
                             <ul class="splide__list">
                                 @foreach ($googleReviews as $review)
                                     <li class="splide__slide">
-                                        <div class="google-review-header">
+                                        <div class="google-review-header-2">
                                             <div>
                                                 <img class="google-photo-profile" src="{{ $review->profile_photo_url }}"
                                                     alt="profile photo">
@@ -139,7 +139,7 @@
         <div class="google-reviews">
             <div class="google-wrapper">
                 <div class="google-section-spacing">
-                    <div class="google-review-header">
+                    <div class="google-review-header-1">
                         <img class="google-photo-profile-business" src="{{ $photoSrc }}"
                             alt="profile photo business">
                         <div>
@@ -180,7 +180,7 @@
                             <ul class="splide__list">
                                 @foreach ($googleReviews as $review)
                                     <li class="splide__slide">
-                                        <div class="google-review-header">
+                                        <div class="google-review-header-2">
                                             <div>
                                                 <img class="google-photo-profile"
                                                     src="{{ $review->profile_photo_url }}" alt="profile photo">

@@ -53,10 +53,19 @@ $google-text-color: #637381;
         top: 10px;
     }
 
-    .google-review-header,
-    .google-rating-container {
+    .google-review-header-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .google-review-header-2 {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    .google-rating-container {
+        display: flex;
         align-items: center;
     }
 
