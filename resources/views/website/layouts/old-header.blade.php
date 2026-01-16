@@ -34,7 +34,17 @@
                             <img src="{{ asset('img/website/lang/french.png') }}" alt="french">
                             <span class="">FR</span>
                         </div>
-                    @else
+                    @elseif($website->lang === 'it')
+                        <div class="">
+                            <img src="{{ asset('img/website/lang/italian.png') }}" alt="italian">
+                            <span class="">IT</span>
+                        </div>
+                    @elseif($website->lang === 'de')
+                        <div class="">
+                            <img src="{{ asset('img/website/lang/german.png') }}" alt="german">
+                            <span class="">DE</span>
+                        </div>
+                    @elseif($website->lang === 'fr')
                         <div class="">
                             <img src="{{ asset('img/website/lang/english.png') }}" alt="english">
                             <span class="">EN</span>
@@ -44,7 +54,7 @@
                 <ul>
                     <li>
                         @if ($website->lang === 'fr')
-                            <a href="{{ route('lang.en') }}">
+                            <a href="{{ route('lang.fr') }}">
                                 <div class="">
                                     <img class="me-2" src="{{ asset('img/website/lang/english.png') }}"
                                         alt="english">
@@ -53,12 +63,33 @@
                                     </span>
                                 </div>
                             </a>
-                        @else
-                            <a href="{{ route('lang.fr') }}">
+                        @elseif($website->lang === 'it')
+                            <a href="{{ route('lang.it') }}">
                                 <div class="">
-                                    <img class="me-2" src="{{ asset('img/website/lang/french.png') }}" alt="french">
+                                    <img class="me-2" src="{{ asset('img/website/lang/italian.png') }}"
+                                        alt="italian">
                                     <span>
-                                        Français
+                                        Italian
+                                    </span>
+                                </div>
+                            </a>
+                        @elseif($website->lang === 'de')
+                            <a href="{{ route('lang.de') }}">
+                                <div class="">
+                                    <img class="me-2" src="{{ asset('img/website/lang/german.png') }}"
+                                        alt="english">
+                                    <span>
+                                        English
+                                    </span>
+                                </div>
+                            </a>
+                        @elseif($website->lang === 'en')
+                            <a href="{{ route('lang.en') }}">
+                                <div class="">
+                                    <img class="me-2" src="{{ asset('img/website/lang/english.png') }}"
+                                        alt="french">
+                                    <span>
+                                        English
                                     </span>
                                 </div>
                             </a>
