@@ -33,7 +33,7 @@ class WebsiteSeeder extends Seeder
             'whatsapp_phone' => "782854875",
             'country_code_whatsapp_phone' => "+33",
             "maintenance" => false,
-            "calendly_url" => "lucianichristophe0",
+            "calendly_url" => "",
             'lang' => 'fr'
         ]);
     }

@@ -11,8 +11,8 @@
                             <span class="sitename">{{ App\Models\Website::getSettings()->application_name }}</span>
                         </a>
                         <p class="brand-description">
-                            Nous créons des expériences digitales exceptionnelles grâce à un design réfléchi et des
-                            solutions innovantes qui valorisent votre présence en ligne.
+                            Cabinet d’ostéopathie à Nice proposant une prise en charge globale et personnalisée
+                            pour soulager douleurs, tensions et troubles fonctionnels du quotidien.
                         </p>
 
                         <div class="contact-info mt-5">
@@ -42,7 +42,7 @@
                                 class="me-2"><i class="bi bi-instagram"></i></a>
                             <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank"
                                 class="me-2"><i class="bi bi-linkedin"></i></a>
-                            <a href="https://wa.me/"{{ App\Models\Website::getSettings()->whatsapp_phone }}"
+                            <a href="https://wa.me/{{ App\Models\Website::getSettings()->whatsapp_phone }}"
                                 target="_blank" class="me-2">
                                 <i class="bi bi-whatsapp"></i>
                             </a>
@@ -57,52 +57,53 @@
 
                             <div class="col-6 col-lg-3">
                                 <div class="nav-column">
-                                    <h6>Studio</h6>
+                                    <h6>Cabinet</h6>
                                     <nav class="footer-nav">
-                                        <a href="#">Notre Histoire</a>
-                                        <a href="#">Processus de Design</a>
-                                        <a href="#">Portfolio</a>
-                                        <a href="#">Études de Cas</a>
-                                        <a href="#">Récompenses</a>
+                                        <a href="#">Présentation</a>
+                                        <a href="#">Approche ostéopathique</a>
+                                        <a href="#">Le cabinet</a>
+                                        <a href="#">Honoraires</a>
+                                        <a href="#">Accès</a>
                                     </nav>
                                 </div>
                             </div>
 
                             <div class="col-6 col-lg-3">
                                 <div class="nav-column">
-                                    <h6>Services</h6>
+                                    <h6>Consultations</h6>
                                     <nav class="footer-nav">
-                                        <a href="#">Identité de Marque</a>
-                                        <a href="#">Web Design</a>
-                                        <a href="#">Applications Mobiles</a>
-                                        <a href="#">Stratégie Digitale</a>
-                                        <a href="#">Consultation</a>
+                                        <a href="#">Adultes</a>
+                                        <a href="#">Sportifs</a>
+                                        <a href="#">Femmes</a>
+                                        <a href="#">Douleurs chroniques</a>
+                                        <a href="#">Prévention</a>
                                     </nav>
                                 </div>
                             </div>
 
                             <div class="col-6 col-lg-3">
                                 <div class="nav-column">
-                                    <h6>Ressources</h6>
+                                    <h6>Informations</h6>
                                     <nav class="footer-nav">
-                                        <a href="#">Blog Design</a>
-                                        <a href="#">Guide de Style</a>
-                                        <a href="#">Ressources Gratuites</a>
-                                        <a href="#">Tutoriels</a>
-                                        <a href="#">Inspiration</a>
+                                        <a href="#">Déroulement d’une séance</a>
+                                        <a href="#">Questions fréquentes</a>
+                                        <a href="#">Remboursement mutuelle</a>
+                                        <a href="#">Conseils post-consultation</a>
+                                        <a href="#">Actualités</a>
                                     </nav>
                                 </div>
                             </div>
 
                             <div class="col-6 col-lg-3">
                                 <div class="nav-column">
-                                    <h6>Nous Contacter</h6>
+                                    <h6>Rendez-vous</h6>
                                     <nav class="footer-nav">
-                                        <a href="#">Lancer un Projet</a>
-                                        <a href="#">Planifier un Appel</a>
-                                        <a href="#">S’abonner à la Newsletter</a>
-                                        <a href="#">Suivre les Actualités</a>
-                                        <a href="#">Partenariat</a>
+                                        <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut"
+                                            target="_blank">Prendre rendez-vous</a>
+                                        <a href="#">Contact</a>
+                                        <a href="#">Horaires</a>
+                                        <a href="#">Urgences</a>
+                                        <a href="#">Accès Doctolib</a>
                                     </nav>
                                 </div>
                             </div>
@@ -122,8 +123,8 @@
 
                     <div class="col-lg-6">
                         <div class="copyright">
-                            <p>© {{ App\Models\Website::getSettings()->application_name }} - {{ date('Y') }}. Tous
-                                droits réservés.</p>
+                            <p>© {{ App\Models\Website::getSettings()->application_name }} - {{ date('Y') }}.
+                                Tous droits réservés.</p>
                         </div>
                     </div>
 
