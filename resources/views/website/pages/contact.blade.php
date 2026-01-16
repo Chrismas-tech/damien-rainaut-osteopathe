@@ -5,6 +5,16 @@
 
         @include('website.layouts.page-title')
 
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/7veUU0GwRZWrAdIdSXPcuc?utm_source=generator&autoplay=true"
+            width="100%" height="152" frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+        </iframe>
+
+        <a
+            href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut/booking/motives?specialityId=10&telehealth=false&placeId=practice-159544&bookingFunnelSource=profile">Prendre
+            RDV</a>
+
         <!-- Contact Section -->
         <section id="contact" class="contact section">
 
@@ -53,9 +63,8 @@
 
             <div class="container-fluid map-container" data-aos="fade-up" data-aos-delay="200">
                 <div class="map-overlay"></div>
-                <iframe
-                    src="{{ App\Models\Website::getSettings()->iframe_link_google_map_src }}"
-                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                <iframe src="{{ App\Models\Website::getSettings()->iframe_link_google_map_src }}" width="100%"
+                    height="500" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 

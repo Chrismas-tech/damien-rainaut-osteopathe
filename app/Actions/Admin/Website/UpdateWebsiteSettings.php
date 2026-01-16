@@ -23,7 +23,7 @@ class UpdateWebsiteSettings
             'link_twitter' => $attributes['linkTwitter'],
             'link_pinterest' => $attributes['linkPinterest'],
             'link_instagram' => $attributes['linkInstagram'],
-            'iframe_link_google_map_src' => $attributes['iframeLinkGoogleMap'],
+            'iframe_link_google_map_src' => $attributes['iframeLinkGoogleMapSrc'],
             'calendly_url' => $attributes['calendlyUrl'],
             'maintenance' => $attributes['maintenance']
         ]);
