@@ -14,6 +14,8 @@
     @livewire('admin.website.components.google-reviews-slider')
 
     @include('website.layouts.footer')
+    @include('website.layouts.scroll-to-top')
+    @include('website.layouts.preloader')
     @include('website.layouts.scripts')
     @livewireScripts
     <x-livewire-alert::scripts />

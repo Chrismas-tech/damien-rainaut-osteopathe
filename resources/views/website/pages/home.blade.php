@@ -77,7 +77,7 @@
                     <div class="col-lg-6">
                         <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
                             <div class="main-image">
-                                <img src={{ asset('img/website/health/staff-10.webp') }} alt="Modern Healthcare Facility"
+                                <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Modern Healthcare Facility"
                                     class="img-fluid">
                                 <div class="floating-card appointment-card">
                                     <div class="card-icon">
