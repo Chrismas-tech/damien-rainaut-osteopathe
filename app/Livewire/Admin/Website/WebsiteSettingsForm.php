@@ -98,7 +98,7 @@ class WebsiteSettingsForm extends Component
     {
         $this->addressService = $value;
         $addressForMap = str_replace(' ', '+', $this->addressService);
-        $this->iframeLinkGoogleMapSrc = "https://www.google.com/maps?q=" . $addressForMap . "&output=embed";
+        $this->iframeLinkGoogleMapSrc = "https://www.google.com/maps?q=" . $addressForMap . "&output=embed&z=18";
     }
 
 

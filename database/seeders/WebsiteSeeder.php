@@ -22,7 +22,7 @@ class WebsiteSeeder extends Seeder
         Website::create([
             "application_name" => "Your Website",
             "email_website" => "rbernard06@gmail.com",
-            "address_service" => "60 bis rue du Faubourg Saint-Honoré, 06000 Nice",
+            "address_service" => "22 Rue Gounod, 06000 Nice, France",
             "link_facebook" => "https://www.facebook.com/sharer/sharer.php?u=",
             "link_twitter" => "https://twitter.com/intent/tweet?url=",
             "link_pinterest" => "https://pinterest.com/pin/create/button/?url=",
