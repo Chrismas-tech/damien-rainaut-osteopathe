@@ -15,6 +15,9 @@
         @livewire('admin.website.components.google-reviews-slider')
     </div>
 
+ {{--    <div id="featurable-e956991d-27f2-44b6-a0d6-3212ce47fc5a" data-featurable-async></div>
+    <script src="https://featurable.com/assets/v2/carousel_default.min.js" defer charset="UTF-8"></script> --}}
+
     @include('website.layouts.footer')
     @include('website.layouts.scroll-to-top')
     @include('website.layouts.preloader')

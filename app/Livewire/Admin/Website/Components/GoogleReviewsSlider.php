@@ -25,13 +25,14 @@ class GoogleReviewsSlider extends Component
 
         /* $url="https://featurable.com/api/v2/widgets/30540fb1-56d1-44f7-8a7f-90d24e92f5ff"; */
 
-        $response = json_decode(Http::get($url));
+        /* $response = json_decode(Http::get($url)); */
 
         /* Test if response status false */
-        /* $response = new \stdClass();
-        $response->status = "e"; */
+        $response = new \stdClass();
+        $response->status = "e";
 
-        /* dd($response); */
+        /*  dd($response); */
+
 
         if ($response->status === 'OK') {
             $this->apiChecker = true;

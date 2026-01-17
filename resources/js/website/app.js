@@ -26,10 +26,10 @@ import Splide from '@splidejs/splide'
 if (document.getElementById('splide-google-reviews')) {
     new Splide('#splide-google-reviews', {
         type: 'loop',
-        perPage: 3,
+        perPage: 2,
         gap: '20px',
         autoplay: true,
-        pauseOnHover: false,
+        pauseOnHover: true,
         interval: 8000,
         breakpoints: {
             1200: {

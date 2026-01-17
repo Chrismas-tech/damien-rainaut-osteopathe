@@ -30,7 +30,7 @@
                         <a class="google-btn-review"
                             href="https://search.google.com/local/writereview?placeid={{ $placeId }}"
                             target="_blank" rel="nofollow noopener">
-                            <span>Notez-nous sur</span>
+                            <span>Laissez un avis</span>
                             <img class="google-logo-img" src="{{ asset('img/admin/logo/google-logo-white.png') }}"
                                 alt="Google logo">
                         </a>
@@ -66,10 +66,10 @@
                                 @endforeach
                             </ul>
                         </div>
-                        <div class="splide__progress">
+                        {{-- <div class="splide__progress">
                             <div class="splide__progress__bar">
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
