@@ -3,8 +3,8 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Departments</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Mes Spécialisations en Ostéopathie</h2>
+        <p>Approche manuelle globale, douce et personnalisée pour soulager douleurs, tensions et déséquilibres, et restaurer votre mobilité et bien-être</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -15,25 +15,23 @@
                 <div class="specialty-card">
                     <div class="specialty-content">
                         <div class="specialty-meta">
-                            <span class="specialty-label">Specialized Care</span>
+                            <span class="specialty-label">Spécialité phare</span>
                         </div>
-                        <h3>Cardiovascular Medicine</h3>
-                        <p>Advanced diagnostic imaging and interventional procedures for comprehensive heart health
-                            management
-                            with personalized treatment protocols.</p>
+                        <h3>Ostéopathie du Sport</h3>
+                        <p>Optimisation de la performance, récupération après effort, prévention et prise en charge des blessures musculaires, articulaires et ligamentaires chez les sportifs amateurs ou confirmés, avec conseils en nutrition sportive.</p>
                         <div class="specialty-features">
-                            <span><i class="bi bi-check-circle-fill"></i>24/7 Emergency Cardiac Care</span>
-                            <span><i class="bi bi-check-circle-fill"></i>Minimally Invasive Procedures</span>
+                            <span><i class="bi bi-check-circle-fill"></i>Récupération accélérée</span>
+                            <span><i class="bi bi-check-circle-fill"></i>Prévention des récidives</span>
                         </div>
                         <a href="department-details.html" class="specialty-link">
-                            Explore Cardiology <i class="bi bi-arrow-right"></i>
+                            Découvrir l'ostéopathie du sport <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <div class="specialty-visual">
-                        <img src={{ asset('img/website/health/cardiology-1.webp') }} alt="Cardiovascular Medicine"
+                        <img src={{ asset('img/website/health/cardiology-1.webp') }} alt="Ostéopathie du sport"
                             class="img-fluid">
                         <div class="visual-overlay">
-                            <i class="bi bi-heart-pulse"></i>
+                            <i class="bi bi-bicycle"></i>
                         </div>
                     </div>
                 </div>
@@ -43,25 +41,23 @@
                 <div class="specialty-card">
                     <div class="specialty-content">
                         <div class="specialty-meta">
-                            <span class="specialty-label">Expert Care</span>
+                            <span class="specialty-label">Spécialité phare</span>
                         </div>
-                        <h3>Neurological Sciences</h3>
-                        <p>Cutting-edge neuroimaging and neurosurgical expertise for complex brain and spinal cord
-                            conditions
-                            with innovative treatment approaches.</p>
+                        <h3>Ostéopathie Crânienne & Oro-faciale</h3>
+                        <p>Traitement doux des tensions crâniennes, troubles de l'ATM (mâchoire), migraines, sinusites, stress cranio-sacré et problèmes maxillo-faciaux pour un relâchement profond et durable.</p>
                         <div class="specialty-features">
-                            <span><i class="bi bi-check-circle-fill"></i>Advanced Brain Imaging</span>
-                            <span><i class="bi bi-check-circle-fill"></i>Robotic Surgery</span>
+                            <span><i class="bi bi-check-circle-fill"></i>Techniques ultra-douces</span>
+                            <span><i class="bi bi-check-circle-fill"></i>Équilibre du système cranio-sacré</span>
                         </div>
                         <a href="department-details.html" class="specialty-link">
-                            Explore Neurology <i class="bi bi-arrow-right"></i>
+                            Découvrir l'ostéopathie crânienne <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <div class="specialty-visual">
-                        <img src={{ asset('img/website/health/neurology-4.webp') }} alt="Neurological Sciences"
+                        <img src={{ asset('img/website/health/neurology-4.webp') }} alt="Ostéopathie crânienne et maxillo-faciale"
                             class="img-fluid">
                         <div class="visual-overlay">
-                            <i class="bi bi-cpu"></i>
+                            <i class="bi bi-emoji-smile"></i>
                         </div>
                     </div>
                 </div>
@@ -70,35 +66,32 @@
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="department-highlight">
                     <div class="highlight-icon">
-                        <i class="bi bi-shield-plus"></i>
+                        <i class="bi bi-heart"></i>
                     </div>
-                    <h4>Orthopedic Surgery</h4>
-                    <p>Comprehensive musculoskeletal care utilizing advanced arthroscopic techniques and joint
-                        replacement
-                        procedures.</p>
+                    <h4>Ostéopathie de la Femme</h4>
+                    <p>Accompagnement spécifique des troubles gynécologiques, endométriose, douleurs menstruelles, suivi de grossesse et post-partum avec des techniques adaptées et respectueuses du corps féminin.</p>
                     <ul class="highlight-list">
-                        <li>Sports Medicine</li>
-                        <li>Joint Replacement</li>
-                        <li>Spine Surgery</li>
+                        <li>Endométriose</li>
+                        <li>Grossesse & post-partum</li>
+                        <li>Troubles du cycle</li>
                     </ul>
-                    <a href="department-details.html" class="highlight-cta">Learn More</a>
+                    <a href="department-details.html" class="highlight-cta">En savoir plus</a>
                 </div>
             </div><!-- End Department Highlight -->
 
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="department-highlight">
                     <div class="highlight-icon">
-                        <i class="bi bi-people"></i>
+                        <i class="bi bi-geo-alt"></i>
                     </div>
-                    <h4>Pediatric Care</h4>
-                    <p>Child-centered healthcare services from newborn to adolescence with family-focused treatment
-                        approaches.</p>
+                    <h4>Bilan Postural & Posturologie</h4>
+                    <p>Évaluation complète de la posture, détection des déséquilibres et corrections ostéopathiques pour soulager les douleurs chroniques du dos, cervicales, sciatiques et améliorer l'équilibre global.</p>
                     <ul class="highlight-list">
-                        <li>Neonatal Intensive Care</li>
-                        <li>Developmental Pediatrics</li>
-                        <li>Pediatric Surgery</li>
+                        <li>Bilan postural détaillé</li>
+                        <li>Posturologie</li>
+                        <li>Correction des asymétries</li>
                     </ul>
-                    <a href="department-details.html" class="highlight-cta">Learn More</a>
+                    <a href="department-details.html" class="highlight-cta">En savoir plus</a>
                 </div>
             </div><!-- End Department Highlight -->
 
@@ -107,15 +100,14 @@
                     <div class="highlight-icon">
                         <i class="bi bi-activity"></i>
                     </div>
-                    <h4>Cancer Treatment</h4>
-                    <p>Multidisciplinary oncology program offering personalized cancer care with latest therapeutic
-                        innovations.</p>
+                    <h4>Drainage Lymphatique & Myofascial</h4>
+                    <p>Techniques de drainage manuel et libération myofasciale pour réduire les œdèmes, améliorer la circulation lymphatique, décongestionner les tissus et relâcher les fascias en profondeur.</p>
                     <ul class="highlight-list">
-                        <li>Precision Medicine</li>
-                        <li>Immunotherapy</li>
-                        <li>Radiation Oncology</li>
+                        <li>Drainage lymphatique</li>
+                        <li>Ostéopathie myofasciale</li>
+                        <li>Libération des tensions profondes</li>
                     </ul>
-                    <a href="department-details.html" class="highlight-cta">Learn More</a>
+                    <a href="department-details.html" class="highlight-cta">En savoir plus</a>
                 </div>
             </div><!-- End Department Highlight -->
 
@@ -125,16 +117,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-8">
                     <div class="emergency-content">
-                        <h3>Emergency Services Available 24/7</h3>
-                        <p>Our emergency department is equipped with state-of-the-art technology and staffed by
-                            board-certified
-                            emergency physicians ready to provide immediate care.</p>
+                        <h3>Consultations & Visites à Domicile</h3>
+                        <p>Ouvert du lundi au dimanche au cabinet Pôle Ostéo à Nice (22 Rue Gounod) ou en visite à domicile pour votre confort – RDV flexibles et rapides possibles.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a href="tel:+15551234567" class="emergency-btn">
+                    <a href="tel:0493859184" class="emergency-btn">
                         <i class="bi bi-telephone-fill"></i>
-                        Call Emergency: (555) 123-4567
+                        Appeler : 04 93 85 91 84
                     </a>
                 </div>
             </div>

@@ -75,7 +75,7 @@
             </div>
         </div>
     @else
-        <div class="error-message">
+        <div class="google-error-message">
             Les vrais avis Google ne peuvent pas être affichés pour le moment en raison d'un problème avec la clé API
             Google.
             <br>

@@ -8,19 +8,19 @@
 
                 <div class="col-lg-6">
                     <div class="content-wrapper" data-aos="fade-up" data-aos-delay="200">
-                        <h1>Excellence in Medical Care, Every Day</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                            incididunt
-                            ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <h1>Ostéopathie attentive à Nice</h1>
+                        <p>Damien Rainaut, Ostéopathe D.O., vous accompagne avec une approche manuelle globale et
+                            personnalisée pour soulager vos douleurs, restaurer votre mobilité et améliorer votre
+                            bien-être au quotidien – au cabinet Pôle Ostéo ou en visite à domicile.</p>
 
                         <div class="cta-wrapper">
-                            <a href="appointment.html" class="primary-cta">
-                                <span>Schedule Consultation</span>
+                            <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut" class="primary-cta"
+                                target="_blank">
+                                <span>Prendre RDV</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
-                            <a href="services.html" class="secondary-cta">
-                                <span>Explore Services</span>
+                            <a href="#featured-services" class="secondary-cta">
+                                <span>Découvrir mes spécialités</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
@@ -29,8 +29,8 @@
 
                 <div class="col-lg-6">
                     <div class="image-container" data-aos="fade-left" data-aos-delay="300">
-                        <img src={{ asset('img/website/health/facilities-9.webp') }} alt="Medical Excellence"
-                            class="img-fluid">
+                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }}
+                            alt="Cabinet d'ostéopathie Damien Rainaut Nice" class="img-fluid">
                     </div>
                 </div>
 
@@ -46,11 +46,9 @@
                         <div class="feature-icon">
                             <i class="bi bi-shield-check"></i>
                         </div>
-                        <h3>Advanced Technology</h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            mollit
-                            anim id est
-                            laborum.</p>
+                        <h3>Approche globale et douce</h3>
+                        <p>Techniques structurelles, crâniennes, viscérales, fasciales et myofasciales adaptées à chaque
+                            patient : nourrissons, enfants, femmes enceintes, sportifs, seniors.</p>
                     </div>
                 </div>
 
@@ -59,11 +57,9 @@
                         <div class="feature-icon">
                             <i class="bi bi-clock"></i>
                         </div>
-                        <h3>24/7 Availability</h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                            fugiat
-                            nulla pariatur
-                            excepteur.</p>
+                        <h3>Horaires flexibles</h3>
+                        <p>Du lundi au dimanche – Consultations au cabinet (22 Rue Gounod, Nice) et visites à domicile
+                            pour plus de confort et de disponibilité.</p>
                     </div>
                 </div>
 
@@ -72,10 +68,9 @@
                         <div class="feature-icon">
                             <i class="bi bi-people"></i>
                         </div>
-                        <h3>Expert Team</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium
-                            totam rem.</p>
+                        <h3>Spécialisations variées</h3>
+                        <p>Ostéopathie du sport, de la femme (endométriose, grossesse), crânienne & maxillo-faciale,
+                            bilan postural, drainage lymphatique et posturologie.</p>
                     </div>
                 </div>
 
@@ -88,21 +83,20 @@
 
                 <div class="col-lg-8">
                     <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
-                        <h2>Need Immediate Medical Assistance?</h2>
-                        <p>Our emergency response team is available around the clock to provide immediate
-                            medical
-                            support when
-                            you need it most.</p>
+                        <h2>Besoin d'un RDV rapide ou d'une visite à domicile ?</h2>
+                        <p>Contactez-moi directement ou prenez rendez-vous en ligne via Doctolib – je m'adapte à vos
+                            besoins et à vos urgences non médicales.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
                     <div class="contact-actions" data-aos="fade-up" data-aos-delay="300">
-                        <a href="tel:5551234567" class="emergency-call">
+                        <a href="tel:0493859184" class="emergency-call">
                             <i class="bi bi-telephone"></i>
-                            <span>(555) 123-4567</span>
+                            <span>04 93 85 91 84</span>
                         </a>
-                        <a href="contact.html" class="contact-link">Find Location</a>
+                        <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut" class="contact-link"
+                            target="_blank">Voir sur Doctolib</a>
                     </div>
                 </div>
 

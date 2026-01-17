@@ -6,39 +6,31 @@
         <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
                 <div class="about-content">
-                    <h2 class="section-heading">Compassionate Care, Advanced Medicine</h2>
-                    <p class="lead-text">For over two decades, we've been dedicated to providing exceptional
-                        healthcare that
-                        combines cutting-edge medical technology with the personal touch our patients deserve.</p>
+                    <h2 class="section-heading">Ostéopathie attentive et experte</h2>
+                    <p class="lead-text">Diplômé de l’Institut Toulousain d’Ostéopathie (D.O.), j’accompagne mes patients depuis plusieurs années avec une approche globale et personnalisée, alliant techniques structurelles, crâniennes, viscérales et fasciales.</p>
 
-                    <p>Our multidisciplinary team of specialists works collaboratively to ensure every patient
-                        receives
-                        comprehensive care tailored to their unique needs. From preventive services to complex
-                        procedures, we
-                        maintain the highest standards of medical excellence while fostering an environment of trust
-                        and
-                        healing.</p>
+                    <p>Spécialisé dans le drainage lymphatique, l’ostéopathie du sport, la prise en charge de l’endométriose, l’ostéopathie de la femme, la posturologie et le bilan postural, je propose des soins adaptés à chaque étape de la vie : nourrissons, enfants, femmes enceintes, sportifs, seniors.</p>
 
                     <div class="stats-grid">
                         <div class="stat-item">
-                            <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="15000"
+                            <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="4500"
                                 data-purecounter-duration="1"></div>
-                            <div class="stat-label">Patients Served</div>
+                            <div class="stat-label">Patients accompagnés</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="25"
+                            <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="5"
                                 data-purecounter-duration="1"></div>
-                            <div class="stat-label">Years of Excellence</div>
+                            <div class="stat-label">Années de pratique</div>
                         </div>
                         <div class="stat-item">
-                            <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="50"
+                            <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="12"
                                 data-purecounter-duration="1"></div>
-                            <div class="stat-label">Medical Specialists</div>
+                            <div class="stat-label">Spécialisations développées</div>
                         </div>
                     </div>
 
                     <div class="cta-section">
-                        <a href="about.html" class="btn-primary">Learn More About Us</a>
+                        <a href="about.html" class="btn-primary">En savoir plus sur mon approche</a>
                     </div>
                 </div>
             </div>
@@ -46,24 +38,24 @@
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
-                        <img src={{ asset('img/website/health/facilities-9.webp') }} alt="Modern medical facility"
+                        <img src={{ asset('img/website/health/facilities-9.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid">
                     </div>
                     <div class="floating-card">
                         <div class="card-content">
                             <div class="icon">
-                                <i class="bi bi-heart-pulse"></i>
+                                <i class="bi bi-hand-index-thumb"></i>
                             </div>
                             <div class="card-text">
-                                <h4>24/7 Emergency Care</h4>
-                                <p>Always here when you need us most</p>
+                                <h4>Consultations sur RDV</h4>
+                                <p>Du lundi au dimanche – Nice et visites à domicile</p>
                             </div>
                         </div>
                     </div>
                     <div class="experience-badge">
                         <div class="badge-content">
-                            <span class="years">25+</span>
-                            <span class="text">Years of Trusted Care</span>
+                            <span class="years">D.O.</span>
+                            <span class="text">Ostéopathe exclusif</span>
                         </div>
                     </div>
                 </div>

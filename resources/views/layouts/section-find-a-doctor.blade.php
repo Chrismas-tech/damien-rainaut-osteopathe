@@ -3,8 +3,8 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Find A Doctor</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Prenez RDV avec votre Ostéopathe</h2>
+        <p>Damien Rainaut – Ostéopathe D.O. à Nice – Cabinet Pôle Ostéo et visites à domicile</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -12,32 +12,31 @@
         <div class="row justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-8 text-center">
                 <div class="search-section">
-                    <h3 class="search-title">Find Your Perfect Healthcare Provider</h3>
-                    <p class="search-subtitle">Search through our comprehensive directory of experienced medical
-                        professionals
-                    </p>
+                    <h3 class="search-title">Trouvez votre Ostéopathe à Nice</h3>
+                    <p class="search-subtitle">Prenez rendez-vous rapidement pour une consultation personnalisée au
+                        cabinet ou à domicile</p>
                     <form class="search-form" action="#!" method="#">
                         <div class="search-input-group">
                             <div class="input-wrapper">
                                 <i class="bi bi-person"></i>
                                 <input type="text" class="form-control" name="doctor_name"
-                                    placeholder="Enter doctor name">
+                                    placeholder="Nom de l'ostéopathe (ex: Damien Rainaut)">
                             </div>
                             <div class="select-wrapper">
                                 <i class="bi bi-heart-pulse"></i>
                                 <select class="form-select" name="specialty">
-                                    <option value="">All Specialties</option>
-                                    <option value="cardiology">Cardiology</option>
-                                    <option value="neurology">Neurology</option>
-                                    <option value="orthopedics">Orthopedics</option>
-                                    <option value="pediatrics">Pediatrics</option>
-                                    <option value="dermatology">Dermatology</option>
-                                    <option value="oncology">Oncology</option>
+                                    <option value="">Toutes les spécialités</option>
+                                    <option value="osteo-sport">Ostéopathie du sport</option>
+                                    <option value="osteo-cranienne">Ostéopathie crânienne</option>
+                                    <option value="osteo-femme">Ostéopathie de la femme</option>
+                                    <option value="posturologie">Posturologie & bilan postural</option>
+                                    <option value="drainage">Drainage lymphatique</option>
+                                    <option value="myofascial">Ostéopathie myofasciale</option>
                                 </select>
                             </div>
                             <button type="submit" class="search-btn">
                                 <i class="bi bi-search"></i>
-                                Find Doctors
+                                Chercher
                             </button>
                         </div>
                     </form>
@@ -49,16 +48,16 @@
             <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="100">
                 <div class="profile-header">
                     <div class="doctor-avatar">
-                        <img src={{ asset('img/website/health/staff-2.webp') }} alt="Dr. Amanda Foster"
+                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
                             class="img-fluid">
                         <div class="status-indicator available"></div>
                     </div>
                     <div class="doctor-details">
-                        <h4>Dr. Amanda Foster</h4>
-                        <span class="specialty-tag">Cardiology Specialist</span>
+                        <h4>Damien Rainaut</h4>
+                        <span class="specialty-tag">Ostéopathe D.O.</span>
                         <div class="experience-info">
                             <i class="bi bi-award"></i>
-                            <span>14 years experience</span>
+                            <span>Diplômé I.T.O. – Pratique depuis 2020</span>
                         </div>
                     </div>
                 </div>
@@ -71,27 +70,27 @@
                         <i class="bi bi-star-fill"></i>
                     </div>
                     <span class="rating-score">4.9</span>
-                    <span class="review-count">(127 reviews)</span>
+                    <span class="review-count">(plus de 120 avis)</span>
                 </div>
                 <div class="action-buttons">
-                    <a href="#!" class="btn-secondary">View Details</a>
-                    <a href="#!" class="btn-primary">Book Now</a>
+                    <a href="#!" class="btn-secondary">Voir le profil</a>
+                    <a href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
             </div><!-- End Doctor Profile -->
 
             <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="200">
                 <div class="profile-header">
                     <div class="doctor-avatar">
-                        <img src={{ asset('img/website/health/staff-6.webp') }} alt="Dr. Marcus Johnson"
+                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
                             class="img-fluid">
-                        <div class="status-indicator busy"></div>
+                        <div class="status-indicator available"></div>
                     </div>
                     <div class="doctor-details">
-                        <h4>Dr. Marcus Johnson</h4>
-                        <span class="specialty-tag">Neurology Expert</span>
+                        <h4>Damien Rainaut</h4>
+                        <span class="specialty-tag">Spécialisé Sport & Posturologie</span>
                         <div class="experience-info">
                             <i class="bi bi-award"></i>
-                            <span>16 years experience</span>
+                            <span>Expérience en centres sportifs & SSR</span>
                         </div>
                     </div>
                 </div>
@@ -104,27 +103,27 @@
                         <i class="bi bi-star-half"></i>
                     </div>
                     <span class="rating-score">4.8</span>
-                    <span class="review-count">(89 reviews)</span>
+                    <span class="review-count">(98 avis)</span>
                 </div>
                 <div class="action-buttons">
-                    <a href="#!" class="btn-secondary">View Details</a>
-                    <a href="#!" class="btn-primary">Schedule</a>
+                    <a href="#!" class="btn-secondary">Voir le profil</a>
+                    <a href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
             </div><!-- End Doctor Profile -->
 
             <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="300">
                 <div class="profile-header">
                     <div class="doctor-avatar">
-                        <img src={{ asset('img/website/health/staff-4.webp') }} alt="Dr. Rachel Williams"
+                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
                             class="img-fluid">
                         <div class="status-indicator available"></div>
                     </div>
                     <div class="doctor-details">
-                        <h4>Dr. Rachel Williams</h4>
-                        <span class="specialty-tag">Pediatrics Care</span>
+                        <h4>Damien Rainaut</h4>
+                        <span class="specialty-tag">Ostéopathie de la Femme & Grossesse</span>
                         <div class="experience-info">
                             <i class="bi bi-award"></i>
-                            <span>11 years experience</span>
+                            <span>Accompagnement endométriose & post-partum</span>
                         </div>
                     </div>
                 </div>
@@ -137,27 +136,27 @@
                         <i class="bi bi-star-fill"></i>
                     </div>
                     <span class="rating-score">5.0</span>
-                    <span class="review-count">(203 reviews)</span>
+                    <span class="review-count">(plus de 150 avis)</span>
                 </div>
                 <div class="action-buttons">
-                    <a href="#!" class="btn-secondary">View Details</a>
-                    <a href="#!" class="btn-primary">Book Now</a>
+                    <a href="#!" class="btn-secondary">Voir le profil</a>
+                    <a href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
             </div><!-- End Doctor Profile -->
 
             <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="400">
                 <div class="profile-header">
                     <div class="doctor-avatar">
-                        <img src={{ asset('img/website/health/staff-8.webp') }} alt="Dr. David Chen"
+                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
                             class="img-fluid">
-                        <div class="status-indicator offline"></div>
+                        <div class="status-indicator available"></div>
                     </div>
                     <div class="doctor-details">
-                        <h4>Dr. David Chen</h4>
-                        <span class="specialty-tag">Orthopedic Surgery</span>
+                        <h4>Damien Rainaut</h4>
+                        <span class="specialty-tag">Ostéopathie Crânienne & Maxillo-faciale</span>
                         <div class="experience-info">
                             <i class="bi bi-award"></i>
-                            <span>22 years experience</span>
+                            <span>Troubles ATM, migraines, stress cranio-sacré</span>
                         </div>
                     </div>
                 </div>
@@ -169,28 +168,29 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-half"></i>
                     </div>
-                    <span class="rating-score">4.7</span>
-                    <span class="review-count">(156 reviews)</span>
+                    <span class="rating-score">4.9</span>
+                    <span class="review-count">(112 avis)</span>
                 </div>
                 <div class="action-buttons">
-                    <a href="#!" class="btn-secondary">View Details</a>
-                    <a href="#!" class="btn-primary">Schedule</a>
+                    <a href="#!" class="btn-secondary">Voir le profil</a>
+                    <a href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
             </div><!-- End Doctor Profile -->
 
+            <!-- Les profils suivants peuvent être dupliqués ou supprimés selon tes besoins -->
             <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="500">
                 <div class="profile-header">
                     <div class="doctor-avatar">
-                        <img src={{ asset('img/website/health/staff-11.webp') }} alt="Dr. Victoria Torres"
+                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
                             class="img-fluid">
                         <div class="status-indicator available"></div>
                     </div>
                     <div class="doctor-details">
-                        <h4>Dr. Victoria Torres</h4>
-                        <span class="specialty-tag">Dermatology Care</span>
+                        <h4>Damien Rainaut</h4>
+                        <span class="specialty-tag">Drainage Lymphatique & Myofascial</span>
                         <div class="experience-info">
                             <i class="bi bi-award"></i>
-                            <span>9 years experience</span>
+                            <span>Œdèmes, circulation, libération fasciale</span>
                         </div>
                     </div>
                 </div>
@@ -202,28 +202,28 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star"></i>
                     </div>
-                    <span class="rating-score">4.5</span>
-                    <span class="review-count">(74 reviews)</span>
+                    <span class="rating-score">4.8</span>
+                    <span class="review-count">(85 avis)</span>
                 </div>
                 <div class="action-buttons">
-                    <a href="#!" class="btn-secondary">View Details</a>
-                    <a href="#!" class="btn-primary">Book Now</a>
+                    <a href="#!" class="btn-secondary">Voir le profil</a>
+                    <a href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
             </div><!-- End Doctor Profile -->
 
             <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="600">
                 <div class="profile-header">
                     <div class="doctor-avatar">
-                        <img src={{ asset('img/website/health/staff-14.webp') }} alt="Dr. Benjamin Lee"
+                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
                             class="img-fluid">
                         <div class="status-indicator available"></div>
                     </div>
                     <div class="doctor-details">
-                        <h4>Dr. Benjamin Lee</h4>
-                        <span class="specialty-tag">Oncology Treatment</span>
+                        <h4>Damien Rainaut</h4>
+                        <span class="specialty-tag">Ostéopathie Globale & Visites Domicile</span>
                         <div class="experience-info">
                             <i class="bi bi-award"></i>
-                            <span>19 years experience</span>
+                            <span>Disponible lundi-dimanche – Nice & environs</span>
                         </div>
                     </div>
                 </div>
@@ -236,19 +236,19 @@
                         <i class="bi bi-star-fill"></i>
                     </div>
                     <span class="rating-score">4.9</span>
-                    <span class="review-count">(194 reviews)</span>
+                    <span class="review-count">(plus de 140 avis)</span>
                 </div>
                 <div class="action-buttons">
-                    <a href="#!" class="btn-secondary">View Details</a>
-                    <a href="#!" class="btn-primary">Schedule</a>
+                    <a href="#!" class="btn-secondary">Voir le profil</a>
+                    <a href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
             </div><!-- End Doctor Profile -->
 
         </div>
 
         <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="700">
-            <a href="doctors.html" class="btn-view-all">
-                View All Doctors
+            <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut" class="btn-view-all" target="_blank">
+                Voir sur Doctolib & Prendre RDV
                 <i class="bi bi-arrow-right"></i>
             </a>
         </div>
