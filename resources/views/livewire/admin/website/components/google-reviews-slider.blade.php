@@ -75,14 +75,6 @@
             </div>
         </div>
     @else
-        <div class="google-error-message">
-            Les vrais avis Google ne peuvent pas être affichés pour le moment en raison d'un problème avec la clé API
-            Google.
-            <br>
-            <br>
-            En attendant, voici des avis Google fictifs.
-        </div>
-
         @php
             $business = 'Cabinet Ostéopathie Jean Dupont';
             $generalRating = 5;
@@ -135,6 +127,16 @@
                 ],
             ];
         @endphp
+
+        <div class="google-api-error-message">
+            <div>
+                Les vrais avis Google ne peuvent pas être affichés pour le moment en raison d'un problème avec la clé
+                API
+                Google.
+                <br>
+                En attendant, voici des avis Google fictifs.
+            </div>
+        </div>
 
         <div class="google-reviews">
             <div class="google-wrapper">
@@ -203,10 +205,10 @@
                                 @endforeach
                             </ul>
                         </div>
-                        <div class="splide__progress">
+                        {{-- <div class="splide__progress">
                             <div class="splide__progress__bar">
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
