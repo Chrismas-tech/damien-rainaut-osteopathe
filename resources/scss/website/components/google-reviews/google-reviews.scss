@@ -4,6 +4,17 @@ $google-rating-color: #e5a911;
 $google-star-color: #f5c03b;
 $google-text-color: #637381;
 
+.google-error-message {
+    background-color: #fecaca;
+    padding: 0.25rem 0.5rem;
+    color: #b91c1c;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 0.375rem;
+    display: inline-block;
+    margin-top: 0.25rem;
+}
+
 .google-reviews {
     width: 80%;
     margin: auto;
@@ -165,16 +176,5 @@ $google-text-color: #637381;
     ::-webkit-scrollbar-track {
         background-color: #e0e0e0;
         border-radius: 10px;
-    }
-
-    .google-error-message {
-        background-color: #fecaca;
-        padding: 0.25rem 0.5rem;
-        color: #b91c1c;
-        font-size: 0.8rem;
-        font-weight: 500;
-        border-radius: 0.375rem;
-        display: inline-block;
-        margin-top: 0.25rem;
     }
 }

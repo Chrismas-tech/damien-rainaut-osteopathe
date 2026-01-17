@@ -30,7 +30,7 @@ if (document.getElementById('splide-google-reviews')) {
         gap: '20px',
         autoplay: true,
         pauseOnHover: false,
-        interval: 4000,
+        interval: 8000,
         breakpoints: {
             1200: {
                 perPage: 1,
