@@ -29,7 +29,9 @@
                             </div>
                             <div class="contact-item">
                                 <i class="bi bi-envelope"></i>
-                                <span>{{ App\Models\Website::getSettings()->email_website }}</span>
+                                <a href="mailto:{{ App\Models\Website::getSettings()->email_website }}">
+                                    {{ App\Models\Website::getSettings()->email_website }}
+                                </a>
                             </div>
                         </div>
 

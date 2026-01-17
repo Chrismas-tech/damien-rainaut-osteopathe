@@ -11,11 +11,9 @@
 
     @yield('content')
 
-    <section>
-        <div class="container">
-            @livewire('admin.website.components.google-reviews-slider')
-        </div>
-    </section>
+    <div class="container">
+        @livewire('admin.website.components.google-reviews-slider')
+    </div>
 
     @include('website.layouts.footer')
     @include('website.layouts.scroll-to-top')

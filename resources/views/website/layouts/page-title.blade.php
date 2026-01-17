@@ -6,10 +6,9 @@
                 <div class="col-lg-8">
                     <h1 class="heading-title">@yield('title')</h1>
                     <p class="mb-0">
-                        Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo
-                        odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum
-                        debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat
-                        ipsum dolorem.
+                        Ostéopathe D.O. à Nice – Approche manuelle douce et globale pour soulager vos douleurs,
+                        restaurer votre mobilité et améliorer votre bien-être au quotidien.
+                        Cabinet Pôle Ostéo et consultations à domicile.
                     </p>
                 </div>
             </div>
