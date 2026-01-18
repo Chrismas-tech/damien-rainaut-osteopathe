@@ -53,7 +53,7 @@ Schedule::call(function () {
             'writeAReviewUri' => $googleProfile->writeAReviewUri
         ]);
 
-        foreach ( $reviews as $review) {
+        foreach ($reviews as $review) {
 
             GoogleReviews::create([
                 'author_name' => $review->author->name,
