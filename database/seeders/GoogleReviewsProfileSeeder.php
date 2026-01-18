@@ -14,10 +14,9 @@ class GoogleReviewsProfileSeeder extends Seeder
     public function run(): void
     {
         GoogleReviewsProfile::create([
-            'business_name' => 'Cabinet Ostéopathie Jean Dupont',
             'general_rating' => 5,
             'user_rating_total' => 128,
-            'profile_photo_src' => 'https://picsum.photos/200/200',
+            'WriteAReviewUri' => null
         ]);
     }
 }

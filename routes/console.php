@@ -3,6 +3,7 @@
 use App\Models\EmailScheduler;
 use App\Models\GoogleReviews;
 use App\Models\GoogleReviewsProfile;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Schedule;
@@ -22,37 +23,47 @@ if (Schema::hasTable('email_schedulers')) {
 };
 
 /* Call Api Google To Display 5 Last Reviews */
-/* Schedule::call(function () {
-    GoogleReviewsProfile::first()->delete();
+
+Schedule::call(function () {
+
+    $googleProfileDB = GoogleReviewsProfile::first();
+
+    if ($googleProfileDB) {
+        GoogleReviewsProfile::first()->delete();
+    }
+
     GoogleReviews::truncate();
 
-    $placeID = "ChIJxTKGRwHRzRIRcEX6Youk4d0";
 
-    $url = 'https://maps.googleapis.com/maps/api/place/details/json?place_id=' . $placeID . '&fields=name,user_ratings_total,reviews,photos,rating&language=fr&key=' . env('GOOGLE_REVIEWS_API');
+    $url = 'https://featurable.com/api/v2/widgets/fa05b389-6556-4834-bce4-6213463a2511';
 
     $response = json_decode(Http::get($url));
 
-    if ($response->status === 'OK') {
+    /*  dd($response); */
 
-        $photoReference = $response->result->photos[0]->photo_reference;
+    $googleProfile = $response->widget->gbpLocationSummary;
+    $reviews = $response->widget->reviews;
+
+
+    if ($response->success === true) {
 
         GoogleReviewsProfile::create([
-            'business_name' => $response->result->name,
-            'general_rating' =>  $response->result->rating,
-            'user_rating_total' => $response->result->user_ratings_total,
-            'profile_photo_src' =>  'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=' . $photoReference . '&key=' . env('GOOGLE_REVIEWS_API'),
+            'general_rating' =>  $googleProfile->rating,
+            'user_rating_total' => $googleProfile->reviewsCount,
+            'writeAReviewUri' => $googleProfile->writeAReviewUri
         ]);
 
-        foreach ($response->result->reviews as $review) {
+        foreach ( $reviews as $review) {
+
             GoogleReviews::create([
-                'author_name' => $review->author_name,
-                'rating' => $review->rating,
+                'author_name' => $review->author->name,
+                'rating' => $review->rating->value,
                 'text' => $review->text,
-                'relative_time_description' => $review->relative_time_description,
-                'profile_photo_src' => $review->profile_photo_url,
+                'relative_time_description' => \Carbon\Carbon::parse($review->publishedAt)->translatedFormat('d F Y'),
+                'profile_photo_src' => $review->author->avatarUrl,
             ]);
         }
     } else {
         dd('Problem avec Google API KEY');
     }
-})->weeklyOn(1, '00:00'); */
+})->weeklyOn(1, '00:00');

@@ -13,10 +13,9 @@ return new class extends Migration
     {
         Schema::create('google_reviews_profiles', function (Blueprint $table) {
             $table->id();
-            $table->string('business_name');
             $table->bigInteger('general_rating')->default(0);
             $table->bigInteger('user_rating_total')->default(0);
-            $table->text('profile_photo_src')->nullable();
+            $table->longText('writeAReviewUri')->nullable();
             $table->timestamps();
         });
     }

@@ -2,9 +2,9 @@
     <div class="google-wrapper">
         <div class="google-section-spacing">
             <div class="google-review-header-1">
-                <img class="google-photo-profile-business" src="{{ $profilePhotoSrc }}" alt="profile photo business">
+                {{-- <img class="google-photo-profile-business" src="{{ $profilePhotoSrc }}" alt="profile photo business"> --}}
                 <div>
-                    <h3 class="google-title-business">~{{ $businessName }}</h3>
+                   {{--  <h3 class="google-title-business">~{{ $businessName }}</h3> --}}
                     <div class="google-rating-container">
                         <span class="google-general-rating">{{ $generalRating }}.0</span>
                         <div class="google-stars">
@@ -26,7 +26,7 @@
 
             <div>
                 <a class="google-btn-review"
-                    href="https://search.google.com/local/writereview?placeid={{ $placeId }}" target="_blank"
+                    href="{{ $writeAReviewUri }}" target="_blank"
                     rel="nofollow noopener">
                     <span>Laissez un avis</span>
                     <img class="google-logo-img" src="{{ asset('img/admin/logo/google-logo-white.png') }}"
