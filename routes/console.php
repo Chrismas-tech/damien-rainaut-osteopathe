@@ -34,12 +34,11 @@ Schedule::call(function () {
 
     GoogleReviews::truncate();
 
-
-    $url = 'https://featurable.com/api/v2/widgets/fa05b389-6556-4834-bce4-6213463a2511';
+    $url = 'https://featurable.com/api/v2/widgets/732f4e08-03c6-4468-82b3-01683f7c328e';
 
     $response = json_decode(Http::get($url));
 
-    /*  dd($response); */
+   /*  dd($response); */
 
     $googleProfile = $response->widget->gbpLocationSummary;
     $reviews = $response->widget->reviews;
@@ -58,7 +57,7 @@ Schedule::call(function () {
             GoogleReviews::create([
                 'author_name' => $review->author->name,
                 'rating' => $review->rating->value,
-                'text' => $review->text,
+                'text' => $review->originalText,
                 'relative_time_description' => \Carbon\Carbon::parse($review->publishedAt)->translatedFormat('d F Y'),
                 'profile_photo_src' => $review->author->avatarUrl,
             ]);
@@ -66,4 +65,5 @@ Schedule::call(function () {
     } else {
         dd('Problem avec Google API KEY');
     }
-})->weeklyOn(1, '00:00');
+    /* })->weeklyOn(1, '00:00'); */ /* Pour le serveur */
+});

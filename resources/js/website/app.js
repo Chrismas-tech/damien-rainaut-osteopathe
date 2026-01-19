@@ -26,19 +26,27 @@ import Splide from '@splidejs/splide'
 if (document.getElementById('splide-google-reviews')) {
     new Splide('#splide-google-reviews', {
         type: 'loop',
-        perPage: 2,
+        perPage: 4,
         gap: '20px',
         autoplay: true,
         pauseOnHover: true,
         interval: 8000,
         breakpoints: {
+            1500: {
+                perPage: 3,
+                gap: '1rem'
+            },
             1200: {
+                perPage: 2,
+                gap: '1rem'
+            },
+            850: {
                 perPage: 1,
                 gap: '1rem'
             },
             640: {
                 perPage: 1,
-                gap: 0
+                gap: '5rem'
             }
         }
     }).mount()

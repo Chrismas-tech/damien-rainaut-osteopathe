@@ -11,12 +11,10 @@
 
     @yield('content')
 
+    <div id="featurable-dcbe86cd-ae90-46a5-8cf0-6c656870f0ab" data-featurable-async></div>
+    <script src="https://featurable.com/assets/v2/grid_default.min.js" defer charset="UTF-8"></script>
 
     @livewire('admin.website.components.google-reviews-slider')
-
-
-    {{--    <div id="featurable-e956991d-27f2-44b6-a0d6-3212ce47fc5a" data-featurable-async></div>
-    <script src="https://featurable.com/assets/v2/carousel_default.min.js" defer charset="UTF-8"></script> --}}
 
     @include('website.layouts.footer')
     @include('website.layouts.scroll-to-top')

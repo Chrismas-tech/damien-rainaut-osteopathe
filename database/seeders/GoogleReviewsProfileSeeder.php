@@ -16,7 +16,7 @@ class GoogleReviewsProfileSeeder extends Seeder
         GoogleReviewsProfile::create([
             'general_rating' => 5,
             'user_rating_total' => 128,
-            'WriteAReviewUri' => null
+            'WriteAReviewUri' => 'https://search.google.com/local/writereview?placeid=ChIJxTKGRwHRzRIRcEX6Youk4d0'
         ]);
     }
 }

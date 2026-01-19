@@ -5,17 +5,18 @@ $google-star-color: #f5c03b;
 $google-text-color: #637381;
 
 .google-api-error-message {
-    margin: 60px auto ;
+    margin: 0 10%;
     width: fit-content;
     background-color: #fecaca;
-    padding: 0.25rem 0.5rem;
+    padding: 0.45rem 1rem;
     color: #b91c1c;
-    font-size: 0.8rem;
+    font-size: 15px;
     font-weight: 500;
     border-radius: 0.375rem;
 }
 
 .google-reviews {
+    overflow: hidden;
 
     .google-section-spacing {
         margin: 15px 0;

@@ -11,6 +11,7 @@ class GoogleReviewsSlider extends Component
 {
     use LivewireAlert;
 
+    public bool $apiCheck;
     public array $googleReviews = [];
     public int $generalRating;
     public int $userRatingTotal;
@@ -18,13 +19,18 @@ class GoogleReviewsSlider extends Component
 
     public function mount()
     {
-        $googleReviewsProfile = GoogleReviewsProfile::first();
+        if (GoogleReviewsProfile::first() && GoogleReviews::count() > 0) {
+            $this->apiCheck = true;
+            $googleReviewsProfile = GoogleReviewsProfile::first();
 
-        $this->generalRating = $googleReviewsProfile->general_rating;
-        $this->userRatingTotal = $googleReviewsProfile->user_rating_total;
-        $this->writeAReviewUri = $googleReviewsProfile->writeAReviewUri;
+            $this->generalRating = $googleReviewsProfile->general_rating;
+            $this->userRatingTotal = $googleReviewsProfile->user_rating_total;
+            $this->writeAReviewUri = $googleReviewsProfile->writeAReviewUri;
 
-        $this->googleReviews = GoogleReviews::all()->toArray();
+            $this->googleReviews = GoogleReviews::all()->toArray();
+        } else {
+            $this->apiCheck = false;
+        }
     }
 
     public function render()
