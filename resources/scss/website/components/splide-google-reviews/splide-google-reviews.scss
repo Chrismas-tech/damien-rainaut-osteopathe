@@ -1,6 +1,12 @@
 // Splide Google Reviews
 .google-reviews {
-    margin: 60px 0;
+    margin: 60px;
+    overflow: hidden;
+    font-family: Inter, sans-serif;
+
+    .splide {
+        margin: 0 80px;
+    }
 
     .splide__slide {
         height: max-content;
@@ -30,11 +36,11 @@
     }
 
     .splide__arrow--prev {
-        left: -4%;
+        left: -3%;
     }
 
     .splide__arrow--next {
-        right: -4%;
+        right: -3%;
     }
 
     .splide__arrow--prev:hover,
@@ -61,6 +67,8 @@
     .splide__pagination {
         position: unset !important;
         /* Je pense que Splide met absolute par défaut */
+        margin-top: 20px;
+        ;
 
         .is-active {
             background-color: rgb(42, 42, 42);
