@@ -22,8 +22,14 @@ if (Schema::hasTable('email_schedulers')) {
     }
 };
 
-/* Call Api Google To Display 5 Last Reviews */
 
+
+/**
+ * Call Api Google Reviews via Cron Weekly
+ * 1.Erase GoogleProfileDB and GoogleReviewsDB
+ * 2.Call Api
+ * 3.Save new recent Reviews in DB
+ */
 Schedule::call(function () {
 
     $googleProfileDB = GoogleReviewsProfile::first();

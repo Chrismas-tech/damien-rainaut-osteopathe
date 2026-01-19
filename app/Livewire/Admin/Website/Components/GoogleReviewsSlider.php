@@ -19,9 +19,11 @@ class GoogleReviewsSlider extends Component
 
     public function mount()
     {
-        if (GoogleReviewsProfile::first() && GoogleReviews::count() > 0) {
+        $googleReviewsProfile = GoogleReviewsProfile::first();
+
+        if ($googleReviewsProfile && GoogleReviews::count() > 0) {
+
             $this->apiCheck = true;
-            $googleReviewsProfile = GoogleReviewsProfile::first();
 
             $this->generalRating = $googleReviewsProfile->general_rating;
             $this->userRatingTotal = $googleReviewsProfile->user_rating_total;
