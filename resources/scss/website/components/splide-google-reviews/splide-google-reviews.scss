@@ -2,6 +2,7 @@
 .google-reviews {
     margin: 35px;
     font-family: Inter, sans-serif;
+    padding: 20px;
 
     @media (max-width: 580px) {
         margin: 0 20px;
@@ -12,7 +13,7 @@
     }
 
     .splide {
-        padding: 20px;
+
 
         @media (max-width: 580px) {
             padding: 10px;

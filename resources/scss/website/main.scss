@@ -1007,7 +1007,7 @@ section,
   overflow: hidden;
 }
 
-.hero::before {
+/* .hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1017,7 +1017,7 @@ section,
   background: url("../../../public/img/website/bg/abstract-bg-3.webp") center/cover;
   opacity: 0.08;
   z-index: 0;
-}
+} */
 
 .hero .container {
   position: relative;

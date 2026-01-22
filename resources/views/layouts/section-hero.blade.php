@@ -42,7 +42,7 @@
                         </div>
                         <div class="stat-item">
                             <h3>
-                                <span data-purecounter-start="0" data-purecounter-end="4000"
+                                <span data-purecounter-start="0" data-purecounter-end="{{ App\Models\GoogleReviewsProfile::first()->user_rating_total }}"
                                     data-purecounter-duration="2" class="purecounter"></span>+
                             </h3>
                             <p>Patients accompagnés</p>
@@ -105,7 +105,7 @@
                                     <i class="bi bi-star-fill"></i>
                                     <i class="bi bi-star-fill"></i>
                                 </div>
-                                <h6>4.9 / 5</h6>
+                                <h6>{{ App\Models\GoogleReviewsProfile::first()->general_rating }} / 5</h6>
                                 <small>Avis patients Doctolib</small>
                             </div>
                         </div>

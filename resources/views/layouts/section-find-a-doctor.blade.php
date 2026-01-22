@@ -48,7 +48,7 @@
             <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="100">
                 <div class="profile-header">
                     <div class="doctor-avatar">
-                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
+                        <img src={{ asset('img/website/damien/osteo-8.webp') }} alt="Damien Rainaut Ostéopathe"
                             class="img-fluid">
                         <div class="status-indicator available"></div>
                     </div>
@@ -78,7 +78,7 @@
                 </div>
             </div><!-- End Doctor Profile -->
 
-            <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="200">
+            {{-- <div class="doctor-profile" data-aos="zoom-in" data-aos-delay="200">
                 <div class="profile-header">
                     <div class="doctor-avatar">
                         <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }} alt="Damien Rainaut Ostéopathe"
@@ -242,7 +242,7 @@
                     <a href="#!" class="btn-secondary">Voir le profil</a>
                     <a href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
-            </div><!-- End Doctor Profile -->
+            </div><!-- End Doctor Profile --> --}}
 
         </div>
 

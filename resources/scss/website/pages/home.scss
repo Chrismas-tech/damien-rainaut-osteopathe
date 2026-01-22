@@ -6,3 +6,16 @@
     display: flex;
     align-items: center !important;
 }
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../../../public/img/website/bg/abstract-bg-3.webp") center/cover;
+    /* background: url("../../../public/img/website/damien/osteo-3.webp") center/cover; */
+    opacity: 0.08;
+    z-index: 0;
+}
