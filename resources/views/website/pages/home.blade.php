@@ -4,6 +4,7 @@
 
     <main class="main">
         @include('layouts.section-hero')
+        @include('layouts.map')
         @include('layouts.section-home-about')
         @include('layouts.section-features-departments')
         @include('layouts.section-features-services')

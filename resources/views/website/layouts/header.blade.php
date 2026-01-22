@@ -204,18 +204,10 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown">
+                    {{-- <li class="dropdown">
                         <a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="{{ route('website.privacy-policy') }}">Privacy</a></li>
-                            {{-- <li><a href="{{ route('website.department-details') }}">Department Details</a></li>
-                            <li><a href="{{ route('website.service-details') }}">Service Details</a></li>
-                            <li><a href="{{ route('website.appointment') }}">Appointment</a></li>
-                            <li><a href="{{ route('website.testimonials') }}">Testimonials</a></li>
-                            <li><a href="{{ route('website.faq') }}">Frequently Asked Questions</a></li>
-                            <li><a href="{{ route('website.gallery') }}">Gallery</a></li>
-                            <li><a href="{{ route('website.terms-of-services') }}">Terms</a></li>
-                             <li><a href="{{ route('website.404') }}">404</a></li> --}}
                             <li><a href="#">Dropdown 1</a></li>
                             <li class="dropdown">
                                 <a href="#"><span>Deep Dropdown</span> <i
@@ -232,7 +224,7 @@
                             <li><a href="#">Dropdown 3</a></li>
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
-                    </li>
+                    </li> --}}
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>

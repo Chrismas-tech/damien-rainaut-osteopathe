@@ -35,32 +35,37 @@
                     <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
                         <div class="stat-item">
                             <h3>
-                                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2"
+                                <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="2"
                                     class="purecounter"></span>+
                             </h3>
                             <p>Années de pratique</p>
                         </div>
                         <div class="stat-item">
                             <h3>
-                                <span data-purecounter-start="0" data-purecounter-end="{{ App\Models\GoogleReviewsProfile::first()->user_rating_total }}"
+                                <span data-purecounter-start="0"
+                                    data-purecounter-end="500"
                                     data-purecounter-duration="2" class="purecounter"></span>+
                             </h3>
-                            <p>Patients accompagnés</p>
+                            <p>Plus de patients accompagnés</p>
                         </div>
-                        <div class="stat-item">
+                        {{-- <div class="stat-item">
                             <h3>
                                 <span data-purecounter-start="0" data-purecounter-end="100"
                                     data-purecounter-duration="2" class="purecounter"></span>%
                             </h3>
                             <p>Approche personnalisée</p>
-                        </div>
+                        </div> --}}
                     </div>
 
                     <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
-                        <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                        <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                             class="btn btn-primary">
-                            Prendre rendez-vous
+                            Prendre rendez-vous au cabinet
                         </a>
+                        {{--  <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                            class="btn btn-primary">
+                            Prendre rendez-vous à domicile
+                        </a> --}}
                         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
                             <i class="bi bi-play-circle me-2"></i>
                             Découvrir le cabinet en vidéo
