@@ -28,7 +28,7 @@
                         </a>
                     </div>
                     <div class="specialty-visual">
-                        <img src={{ asset('img/website/health/cardiology-1.webp') }} alt="Ostéopathie du sport"
+                        <img src={{ asset('img/website/damien/osteo-5.webp') }} alt="Ostéopathie du sport"
                             class="img-fluid">
                         <div class="visual-overlay">
                             <i class="bi bi-bicycle"></i>
@@ -54,7 +54,7 @@
                         </a>
                     </div>
                     <div class="specialty-visual">
-                        <img src={{ asset('img/website/health/neurology-4.webp') }} alt="Ostéopathie crânienne et maxillo-faciale"
+                        <img src={{ asset('img/website/damien/osteo-6.webp') }} alt="Ostéopathie crânienne et maxillo-faciale"
                             class="img-fluid">
                         <div class="visual-overlay">
                             <i class="bi bi-emoji-smile"></i>

@@ -24,7 +24,6 @@ class GoogleReviewsSlider extends Component
         if ($googleReviewsProfile && GoogleReviews::count() > 0) {
 
             $this->apiCheck = true;
-
             $this->generalRating = $googleReviewsProfile->general_rating;
             $this->userRatingTotal = $googleReviewsProfile->user_rating_total;
             $this->writeAReviewUri = $googleReviewsProfile->writeAReviewUri;

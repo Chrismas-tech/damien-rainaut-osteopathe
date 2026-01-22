@@ -15,7 +15,7 @@
             <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
                 <div class="featured-service-main">
                     <div class="service-image-wrapper">
-                        <img src={{ asset('img/website/health/consultation-4.webp') }}
+                        <img src={{ asset('img/website/damien/osteo-4.webp') }}
                             alt="Cabinet d'ostéopathie à Nice" class="img-fluid" loading="lazy">
                         <div class="service-overlay">
                             <div class="service-badge">

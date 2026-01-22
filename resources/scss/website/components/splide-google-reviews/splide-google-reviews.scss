@@ -1,6 +1,7 @@
 // Splide Google Reviews
 .google-reviews {
     margin: 35px;
+    font-family: Inter, sans-serif;
 
     @media (max-width: 580px) {
         margin: 0 20px;
@@ -9,10 +10,6 @@
     @media (max-width: 350px) {
         margin: 0 5px;
     }
-
-    font-family: Inter,
-
-    sans-serif;
 
     .splide {
         padding: 20px;

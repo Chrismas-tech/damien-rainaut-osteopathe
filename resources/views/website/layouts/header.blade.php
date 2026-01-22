@@ -40,8 +40,7 @@
 
         <div class="container position-relative d-flex align-items-center justify-content-between">
             <a href="{{ route('website.home') }}" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="{{ asset('storage/logo/logo.svg') }}" alt="{{ $website->application_name }}"> -->
+                <img src="{{ asset('storage/logo/logo.svg') }}" alt="{{ $website->application_name }}">
                 <h1 class="sitename">{{ $website->application_name }}</h1>
             </a>
 

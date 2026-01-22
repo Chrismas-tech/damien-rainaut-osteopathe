@@ -29,7 +29,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-container" data-aos="fade-left" data-aos-delay="300">
-                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }}
+                        <img src={{ asset('img/website/damien/osteo-8.webp') }}
                             alt="Cabinet d'ostéopathie Damien Rainaut Nice" class="img-fluid">
                     </div>
                 </div>

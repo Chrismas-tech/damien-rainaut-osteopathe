@@ -8,7 +8,8 @@
                 <div class="col-lg-5">
                     <div class="brand-section">
                         <a href="{{ route('website.home') }}" class="logo d-flex align-items-center mb-4">
-                            <span class="sitename">{{ App\Models\Website::getSettings()->application_name }}</span>
+                            <img src="{{ asset('storage/logo/logo.svg') }}" alt="{{ $website->application_name }}">
+                            <span class="sitename mx-1">{{ App\Models\Website::getSettings()->application_name }}</span>
                         </a>
                         <p class="brand-description">
                             Cabinet d’ostéopathie à Nice proposant une prise en charge globale et personnalisée

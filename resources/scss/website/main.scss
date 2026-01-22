@@ -211,7 +211,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 60px;
   margin-right: 8px;
 }
 
@@ -1256,7 +1256,8 @@ section,
 }
 
 .hero .hero-visual .main-image .floating-card.appointment-card {
-  top: 20px;
+  /* top: 20px; */
+  bottom:20px;
   right: 20px;
   display: flex;
   align-items: center;

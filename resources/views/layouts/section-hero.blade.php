@@ -35,8 +35,8 @@
                     <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
                         <div class="stat-item">
                             <h3>
-                                <span data-purecounter-start="0" data-purecounter-end="10"
-                                    data-purecounter-duration="2" class="purecounter"></span>+
+                                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2"
+                                    class="purecounter"></span>+
                             </h3>
                             <p>Années de pratique</p>
                         </div>
@@ -82,7 +82,7 @@
             <div class="col-lg-6">
                 <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
                     <div class="main-image">
-                        <img src={{ asset('img/website/health/photos-damien/photo-1.jpg') }}
+                        <img src={{ asset('img/website/damien/osteo-8.webp') }}
                             alt="Cabinet d’ostéopathie à Nice - Damien Rainaut" class="img-fluid">
 
                         <div class="floating-card appointment-card">
