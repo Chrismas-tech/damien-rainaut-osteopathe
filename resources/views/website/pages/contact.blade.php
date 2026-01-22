@@ -18,7 +18,7 @@
                                 </div>
                                 <div class="info-content">
                                     <h3>Notre Adresse</h3>
-                                    <p>1842 Maple Avenue, Portland, Oregon 97204</p>
+                                    <p>{{ App\Models\Website::getSettings()->address_service }}</p>
                                 </div>
                             </div>
 

@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
         | DELETE PUBLIC STORAGE DIRECTORY
         |--------------------------------------------------------------------------
         */
-        Storage::disk('public')->deleteDirectory('/');
+        /* Storage::disk('public')->deleteDirectory('/'); */
 
         /*
         |--------------------------------------------------------------------------
