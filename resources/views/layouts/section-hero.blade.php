@@ -63,7 +63,7 @@
                         </a>
                         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
                             <i class="bi bi-play-circle me-2"></i>
-                            Découvrir le cabinet
+                            Découvrir le cabinet en vidéo
                         </a>
                     </div>
 
