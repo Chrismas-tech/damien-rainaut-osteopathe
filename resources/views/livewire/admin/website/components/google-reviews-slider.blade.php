@@ -1,6 +1,6 @@
 <div>
     @if ($apiCheck)
-        <div class="google-reviews">
+        <div class="google-reviews" data-aos="fade-up" data-aos-delay="200>
             <div class="google-wrapper">
                 <div class="google-section-spacing">
                     <div class="google-review-header-1">
