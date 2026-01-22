@@ -42,8 +42,7 @@
                         </div>
                         <div class="stat-item">
                             <h3>
-                                <span data-purecounter-start="0"
-                                    data-purecounter-end="500"
+                                <span data-purecounter-start="0" data-purecounter-end="500"
                                     data-purecounter-duration="2" class="purecounter"></span>+
                             </h3>
                             <p>Plus de patients accompagnés</p>
@@ -60,7 +59,7 @@
                     <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
                         <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                             class="btn btn-primary">
-                            Prendre rendez-vous au cabinet
+                            Prendre rendez-vous sur Doctolib
                         </a>
                         {{--  <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                             class="btn btn-primary">
@@ -78,7 +77,8 @@
                         </div>
                         <div class="emergency-info">
                             <small>Renseignements et rendez-vous</small>
-                            <strong>Via Doctolib</strong>
+                            <strong>{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}
+                            </strong>
                         </div>
                     </div>
                 </div>

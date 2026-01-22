@@ -66,7 +66,7 @@
                                         <a href="#">Approche ostéopathique</a>
                                         <a href="#">Le cabinet</a>
                                         <a href="#">Honoraires</a>
-                                        <a href="#">Accès</a>
+                                        <a href="https://search.google.com/local/writereview?placeid=ChIJxTKGRwHRzRIRcEX6Youk4d0">Avis</a>
                                     </nav>
                                 </div>
                             </div>
