@@ -1,49 +1,40 @@
-<!doctype html>
-<html lang="en">
+@extends('website.layouts.base-website')
+@section('title', 'Error - 404')
+@section('content')
+    <main class="main">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+        <!-- Error 404 Section -->
+        <section id="error-404" class="error-404 section">
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/admin/favicon/favicon.ico') }}" />
+            <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 
-    <!-- Libs CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
 
-    <title>{{ config('app.name', 'Laravel') }} | 404 Error</title>
+                        <div class="error-number aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+                            404
+                        </div>
 
-    <!-- Scripts -->
-    @vite(['resources/scss/admin/app.scss', 'resources/js/admin/app.js'])
-</head>
+                        <h1 class="error-title aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            Page Not Found
+                        </h1>
 
-<body>
-    <!-- start error page -->
-    <div class="h-screen flex justify-center items-center mx-auto">
-        <!-- row -->
-        <div class="flex flex-col">
-            <!-- col -->
-            <!-- content -->
-            <div class="text-center">
-                <div class="mb-3">
-                    <!-- img -->
-                    <img src="{{ asset('img/admin/error/404-error-img.png') }}" alt="" class="mw-100" />
+                        <p class="error-description aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                            The page you are looking for might have been removed, had its name changed, or is
+                            temporarily unavailable.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore.
+                        </p>
+
+                        <div class="error-actions aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                            <a href="{{ route('website.home') }}" class="btn-primary">
+                                <i class="bi bi-house"></i>
+                                Retourner à l'accueil
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- text -->
-                <h1 class="text-5xl font-bold mb-3">Oops! the page not found.</h1>
-                <p class="mb-8 text-xl">Or simply leverage the expertise of our consultation team.</p>
-                <!-- button -->
-                <a href="{{ route('website.home') }}"
-                    class="btn bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none  focus:ring-indigo-300">
-                    Go Home
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- end of navbar -->
-</body>
+        </section><!-- /Error 404 Section -->
 
-</html>
+    </main>
+@endsection
