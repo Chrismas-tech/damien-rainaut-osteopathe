@@ -1,8 +1,6 @@
 <!-- Hero Section -->
 <section id="hero" class="hero section">
-
     <div class="container custom-container-margin" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="hero-content">
@@ -145,17 +143,30 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="background-elements">
                         <div class="element element-1"></div>
                         <div class="element element-2"></div>
                         <div class="element element-3"></div>
                     </div>
                 </div>
+                <div class="featured-departments">
+                    <div class="my-emergency-banner aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                        <div class="row align-items-center">
+                            <div class="emergency-content">
+                                <h3>Consultations &amp; Visites à Domicile</h3>
+                                <p>
+                                    Ouvert du lundi au dimanche au cabinet Pôle Ostéo à Nice - 22 Rue Gounod ou en
+                                    visite à domicile pour votre confort.
+                                    <br>
+                                    <br>
+                                    RDV flexibles et rapides possibles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
-
 </section>
 <!-- /Hero Section -->
