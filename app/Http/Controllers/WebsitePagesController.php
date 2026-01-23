@@ -24,4 +24,14 @@ class WebsitePagesController extends Controller
     {
         return view('website.pages.contact');
     }
+
+    public function honoraires()
+    {
+        return view('website.pages.honoraires');
+    }
+
+    public function credits()
+    {
+        return view('website.pages.credits');
+    }
 }

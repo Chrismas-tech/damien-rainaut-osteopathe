@@ -155,11 +155,14 @@
                             <div class="emergency-content">
                                 <h3>Consultations &amp; Visites à Domicile</h3>
                                 <p>
-                                    Ouvert du lundi au dimanche au cabinet Pôle Ostéo à Nice - 22 Rue Gounod ou en
-                                    visite à domicile pour votre confort.
+                                    Ouvert du lundi au samedi de 7h30 à 21h et le dimanche de 10-17h au cabinet Pôle
+                                    Ostéo à Nice - 22 Rue Gounod - ou à domicile pour votre confort.
                                     <br>
                                     <br>
-                                    RDV flexibles et rapides possibles.
+                                    <i class="bi bi-calendar-check me-1"></i>
+                                    <span>
+                                        RDV flexibles et rapides possibles.
+                                    </span>
                                 </p>
                             </div>
                         </div>

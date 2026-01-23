@@ -65,7 +65,7 @@
                                         <a href="#">Présentation</a>
                                         <a href="#">Approche ostéopathique</a>
                                         <a href="#">Le cabinet</a>
-                                        <a href="#">Honoraires</a>
+                                        <a href="{{ route('website.honoraires') }}">Honoraires</a>
                                         <a
                                             href="https://search.google.com/local/writereview?placeid=ChIJxTKGRwHRzRIRcEX6Youk4d0">Avis</a>
                                     </nav>
@@ -89,7 +89,7 @@
                                 <div class="nav-column">
                                     <h6>Informations</h6>
                                     <nav class="footer-nav">
-                                        <a href="#">Déroulement d’une séance</a>
+                                        <a href="{{ route('website.credits') }}">Crédits</a>
                                         <a href="#">Questions fréquentes</a>
                                         <a href="#">Remboursement mutuelle</a>
                                         <a href="#">Conseils post-consultation</a>
@@ -104,7 +104,7 @@
                                     <nav class="footer-nav">
                                         <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut"
                                             target="_blank">Prendre rendez-vous</a>
-                                        <a href="#">Contact</a>
+                                        <a href="{{ route('website.contact') }}">Contact</a>
                                         <a href="#">Horaires</a>
                                         <a href="#">Urgences</a>
                                         <a href="#">Accès Doctolib</a>

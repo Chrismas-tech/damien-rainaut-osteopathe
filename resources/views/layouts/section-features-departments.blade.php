@@ -4,7 +4,8 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Mes Spécialisations en Ostéopathie</h2>
-        <p>Approche manuelle globale, douce et personnalisée pour soulager douleurs, tensions et déséquilibres, et restaurer votre mobilité et bien-être</p>
+        <p>Approche manuelle globale, douce et personnalisée pour soulager douleurs, tensions et déséquilibres, et
+            restaurer votre mobilité et bien-être</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -18,7 +19,9 @@
                             <span class="specialty-label">Spécialité phare</span>
                         </div>
                         <h3>Ostéopathie du Sport</h3>
-                        <p>Optimisation de la performance, récupération après effort, prévention et prise en charge des blessures musculaires, articulaires et ligamentaires chez les sportifs amateurs ou confirmés, avec conseils en nutrition sportive.</p>
+                        <p>Optimisation de la performance, récupération après effort, prévention et prise en charge des
+                            blessures musculaires, articulaires et ligamentaires chez les sportifs amateurs ou
+                            confirmés, avec conseils en nutrition sportive.</p>
                         <div class="specialty-features">
                             <span><i class="bi bi-check-circle-fill"></i>Récupération accélérée</span>
                             <span><i class="bi bi-check-circle-fill"></i>Prévention des récidives</span>
@@ -28,11 +31,8 @@
                         </a>
                     </div>
                     <div class="specialty-visual">
-                        <img src={{ asset('img/website/damien/osteo-5.webp') }} alt="Ostéopathie du sport"
+                        <img src={{ asset('img/website/damien/sport-1.webp') }} alt="Ostéopathie du sport"
                             class="img-fluid">
-                        <div class="visual-overlay">
-                            <i class="bi bi-bicycle"></i>
-                        </div>
                     </div>
                 </div>
             </div><!-- End Specialty Card -->
@@ -44,7 +44,8 @@
                             <span class="specialty-label">Spécialité phare</span>
                         </div>
                         <h3>Ostéopathie Crânienne & Oro-faciale</h3>
-                        <p>Traitement doux des tensions crâniennes, troubles de l'ATM (mâchoire), migraines, sinusites, stress cranio-sacré et problèmes maxillo-faciaux pour un relâchement profond et durable.</p>
+                        <p>Traitement doux des tensions crâniennes, troubles de l'ATM (mâchoire), migraines, sinusites,
+                            stress cranio-sacré et problèmes maxillo-faciaux pour un relâchement profond et durable.</p>
                         <div class="specialty-features">
                             <span><i class="bi bi-check-circle-fill"></i>Techniques ultra-douces</span>
                             <span><i class="bi bi-check-circle-fill"></i>Équilibre du système cranio-sacré</span>
@@ -54,11 +55,8 @@
                         </a>
                     </div>
                     <div class="specialty-visual">
-                        <img src={{ asset('img/website/damien/osteo-6.webp') }} alt="Ostéopathie crânienne et maxillo-faciale"
-                            class="img-fluid">
-                        <div class="visual-overlay">
-                            <i class="bi bi-emoji-smile"></i>
-                        </div>
+                        <img src={{ asset('img/website/damien/sport-2.webp') }}
+                            alt="Ostéopathie crânienne et maxillo-faciale" class="img-fluid">
                     </div>
                 </div>
             </div><!-- End Specialty Card -->
@@ -69,7 +67,8 @@
                         <i class="bi bi-heart"></i>
                     </div>
                     <h4>Ostéopathie de la Femme</h4>
-                    <p>Accompagnement spécifique des troubles gynécologiques, endométriose, douleurs menstruelles, suivi de grossesse et post-partum avec des techniques adaptées et respectueuses du corps féminin.</p>
+                    <p>Accompagnement spécifique des troubles gynécologiques, endométriose, douleurs menstruelles, suivi
+                        de grossesse et post-partum avec des techniques adaptées et respectueuses du corps féminin.</p>
                     <ul class="highlight-list">
                         <li>Endométriose</li>
                         <li>Grossesse & post-partum</li>
@@ -85,7 +84,9 @@
                         <i class="bi bi-geo-alt"></i>
                     </div>
                     <h4>Bilan Postural & Posturologie</h4>
-                    <p>Évaluation complète de la posture, détection des déséquilibres et corrections ostéopathiques pour soulager les douleurs chroniques du dos, cervicales, sciatiques et améliorer l'équilibre global.</p>
+                    <p>Évaluation complète de la posture, détection des déséquilibres et corrections ostéopathiques pour
+                        soulager les douleurs chroniques du dos, cervicales, sciatiques et améliorer l'équilibre global.
+                    </p>
                     <ul class="highlight-list">
                         <li>Bilan postural détaillé</li>
                         <li>Posturologie</li>
@@ -101,7 +102,8 @@
                         <i class="bi bi-activity"></i>
                     </div>
                     <h4>Drainage Lymphatique & Myofascial</h4>
-                    <p>Techniques de drainage manuel et libération myofasciale pour réduire les œdèmes, améliorer la circulation lymphatique, décongestionner les tissus et relâcher les fascias en profondeur.</p>
+                    <p>Techniques de drainage manuel et libération myofasciale pour réduire les œdèmes, améliorer la
+                        circulation lymphatique, décongestionner les tissus et relâcher les fascias en profondeur.</p>
                     <ul class="highlight-list">
                         <li>Drainage lymphatique</li>
                         <li>Ostéopathie myofasciale</li>
@@ -118,7 +120,8 @@
                 <div class="col-lg-8">
                     <div class="emergency-content">
                         <h3>Consultations & Visites à Domicile</h3>
-                        <p>Ouvert du lundi au dimanche au cabinet Pôle Ostéo à Nice (22 Rue Gounod) ou en visite à domicile pour votre confort – RDV flexibles et rapides possibles.</p>
+                        <p>Ouvert du lundi au dimanche au cabinet Pôle Ostéo à Nice (22 Rue Gounod) ou en visite à
+                            domicile pour votre confort – RDV flexibles et rapides possibles.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-lg-end">
