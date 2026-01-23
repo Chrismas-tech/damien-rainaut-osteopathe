@@ -59,6 +59,21 @@
     object-position: 56% 0 !important;
 }
 
+.my-emergency-banner {
+    margin-top: 25px;
+    background: #2762df;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+
+    h3 {
+        color: white;
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+}
+
 
 .appointment-card {
     @media (max-width: 1200px) {
