@@ -73,7 +73,7 @@
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
-                        <img src={{ asset('img/website/damien/osteo-4.webp') }} alt="Cabinet d'ostéopathie à Nice"
+                        <img src={{ asset('img/website/damien/osteo-7.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid">
                     </div>
                     <div class="experience-badge">

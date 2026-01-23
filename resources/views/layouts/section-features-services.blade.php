@@ -8,7 +8,7 @@
             La précision du geste et la rigueur du diagnostic sont au cœur de ma pratique.
             <br>
             Mon approche de l’ostéopathie
-            est indissociable de mes 10 ans d’expérience terrain dans le secours d’urgence.
+            est indissociable de mes 10 ans d’expérience terrain dans les secours d’urgence.
             <br>
             Ancien Chef d’équipe
             Sapeur-Pompier, j’ai développé une capacité d’analyse rapide et une rigueur qui constituent aujourd’hui le
@@ -23,7 +23,7 @@
             <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
                 <div class="featured-service-main">
                     <div class="service-image-wrapper">
-                        <img src={{ asset('img/website/damien/osteo-4.webp') }} alt="Cabinet d'ostéopathie à Nice"
+                        <img src={{ asset('img/website/damien/osteo-5.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid" loading="lazy">
                         <div class="service-overlay">
                             <div class="service-badge">
@@ -111,7 +111,8 @@
                         </div>
                         <div class="specialty-content">
                             <h5>Diagnostic d’Opportunité</h5>
-                            <span>Identification des signaux d'alerte pour orienter rapidement vers les soins adaptés</span>
+                            <span>Identification des signaux d'alerte pour orienter rapidement vers les soins
+                                adaptés</span>
                         </div>
                     </div>
                 </div>
@@ -132,7 +133,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="specialty-card">
                         <div class="specialty-image">
-                            <img src={{ asset('img/website/health/emergency-1.webp') }} alt="Réorientation médicale"
+                            <img src={{ asset('img/website/damien/stéthoscope.webp') }} alt="Réorientation médicale"
                                 class="img-fluid" loading="lazy">
                         </div>
                         <div class="specialty-content">
@@ -145,7 +146,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="specialty-card">
                         <div class="specialty-image">
-                            <img src={{ asset('img/website/health/facilities-6.webp') }} alt="Expertise terrain"
+                            <img src={{ asset('img/website/damien/secours.webp') }} alt="Expertise terrain"
                                 class="img-fluid" loading="lazy">
                         </div>
                         <div class="specialty-content">
