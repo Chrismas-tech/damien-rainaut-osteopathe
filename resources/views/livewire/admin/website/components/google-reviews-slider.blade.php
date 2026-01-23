@@ -1,40 +1,48 @@
 <div>
     @if ($apiCheck)
-        <div class="google-reviews" data-aos="fade-up" data-aos-delay="200>
+        <div class="google-reviews" data-aos="fade-up" data-aos-delay="200">
             <div class="google-wrapper">
                 <div class="google-section-spacing">
-                    <div class="google-review-header-1">
-                        {{-- <img class="google-photo-profile-business" src="{{ $profilePhotoSrc }}" alt="profile photo business"> --}}
-                        <div>
-                            {{--  <h3 class="google-title-business">~{{ $businessName }}</h3> --}}
-                            <div class="google-rating-container">
-                                <span class="google-general-rating">{{ $generalRating }}.0</span>
-                                <div class="google-stars">
-                                    @for ($i = 1; $i <= $generalRating; $i++)
-                                        <i class="fa fa-star"></i>
-                                    @endfor
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/Damien+Rainaut+Ostéopathe+D.O/@43.7007632,7.2581134,16z/data=!4m8!3m7!1s0x12cdd101478632c5:0xdde1a48b62fa4570!8m2!3d43.7007632!4d7.2606883!9m1!1b1!16s%2Fg%2F11zj7hm8lj?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoASAFQAw%3D%3D">
+                        <div class="google-review-header-1">
+                            {{-- <img class="google-photo-profile-business" src="{{ $profilePhotoSrc }}" alt="profile photo business"> --}}
+                            <div class="google-photo-profile-business">
+                                <img src="{{ asset('storage/logo/logo.svg') }}" alt="">
+                            </div>
+                            <div>
+                                <h3 class="google-title-business">
+                                    {{ App\Models\Website::getSettings()->application_name }}
+                                </h3>
+                                <div class="google-rating-container">
+                                    <span class="google-general-rating">{{ $generalRating }}.0</span>
+                                    <div class="google-stars">
+                                        @for ($i = 1; $i <= $generalRating; $i++)
+                                            <i class="fa fa-star"></i>
+                                        @endfor
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="google-powered-by">
-                        Based on {{ $userRatingTotal }} reviews.<br>
-                        powered by
-                        <span class="google-logo">
-                            <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
-                        </span>
-                    </div>
+                        <div class="google-powered-by">
+                            Based on {{ $userRatingTotal }} reviews.<br>
+                            powered by
+                            <span class="google-logo">
+                                <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+                            </span>
+                        </div>
 
-                    <div>
-                        <a class="google-btn-review" href="{{ $writeAReviewUri }}" target="_blank"
-                            rel="nofollow noopener">
-                            <span>Laissez un avis</span>
-                            <img class="google-logo-img" src="{{ asset('img/admin/logo/google-logo-white.png') }}"
-                                alt="Google logo">
-                        </a>
-                    </div>
+                        <div>
+                            <a class="google-btn-review" href="{{ $writeAReviewUri }}" target="_blank"
+                                rel="nofollow noopener">
+                                <span>Laissez un avis</span>
+                                <img class="google-logo-img" src="{{ asset('img/admin/logo/google-logo-white.png') }}"
+                                    alt="Google logo">
+                            </a>
+                        </div>
                 </div>
+                </a>
 
                 <div class="splide" id="splide-google-reviews">
                     <div class="splide__slider">

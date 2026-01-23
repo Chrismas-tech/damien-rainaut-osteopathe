@@ -125,28 +125,6 @@
                         <li>Correction des asymétries et restrictions</li>
                         <li>Amélioration de l'équilibre et de la fluidité biomécanique</li>
                     </ul>
-                    <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut" class="highlight-cta">Prendre
-                        RDV</a>
-                </div>
-            </div><!-- End Department Highlight -->
-
-            <!-- Department Highlight 2 : Ostéopathie Pédiatrique & Périnatale -->
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="department-highlight">
-                    <div class="highlight-icon">
-                        <i class="bi bi-people"></i>
-                    </div>
-                    <h4>Ostéopathie Pédiatrique & Périnatale</h4>
-                    <p>Accompagnement doux et adapté pour les nourrissons, enfants, femmes enceintes et post-partum,
-                        avec des techniques crâniennes, viscérales et structurelles sur-mesure pour favoriser un
-                        développement harmonieux et un bien-être familial.</p>
-                    <ul class="highlight-list">
-                        <li>Techniques ultra-douces et respectueuses</li>
-                        <li>Suivi grossesse et préparation à l'accouchement</li>
-                        <li>Équilibre et accompagnement du développement du nourrisson</li>
-                    </ul>
-                    <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut" class="highlight-cta">Prendre
-                        RDV</a>
                 </div>
             </div><!-- End Department Highlight -->
 
@@ -173,8 +151,24 @@
                         </li>
                         <li>Complément direct à l'ostéopathie du sport après gros volumes ou effort intense à Nice</li>
                     </ul>
-                    <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut" class="highlight-cta">Prendre
-                        RDV</a>
+                </div>
+            </div><!-- End Department Highlight -->
+
+            <!-- Department Highlight 2 : Ostéopathie Pédiatrique & Périnatale -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="department-highlight">
+                    <div class="highlight-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h4>Ostéopathie Pédiatrique & Périnatale</h4>
+                    <p>Accompagnement doux et adapté pour les nourrissons, enfants, femmes enceintes et post-partum,
+                        avec des techniques crâniennes, viscérales et structurelles sur-mesure pour favoriser un
+                        développement harmonieux et un bien-être familial.</p>
+                    <ul class="highlight-list">
+                        <li>Techniques ultra-douces et respectueuses</li>
+                        <li>Suivi grossesse et préparation à l'accouchement</li>
+                        <li>Équilibre et accompagnement du développement du nourrisson</li>
+                    </ul>
                 </div>
             </div><!-- End Department Highlight -->
 

@@ -3,9 +3,17 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Expertise & Sécurité Clinique en Ostéopathie</h2>
-        <p>Mon approche de l’ostéopathie s’appuie sur mes 10 ans d’expérience terrain dans le secours d’urgence.
-            Chaque séance combine rigueur diagnostique, sécurité et efficacité pour optimiser votre bien-être.</p>
+        <h2>Expertise Terrain & Sécurité Clinique</h2>
+        <p>
+            La précision du geste et la rigueur du diagnostic sont au cœur de ma pratique.
+            <br>
+            Mon approche de l’ostéopathie
+            est indissociable de mes 10 ans d’expérience terrain dans le secours d’urgence.
+            <br>
+            Ancien Chef d’équipe
+            Sapeur-Pompier, j’ai développé une capacité d’analyse rapide et une rigueur qui constituent aujourd’hui le
+            socle de ma pratique en cabinet.
+        </p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -20,19 +28,33 @@
                         <div class="service-overlay">
                             <div class="service-badge">
                                 <i class="bi bi-heart-pulse"></i>
-                                <span>Prise en charge sécurisée</span>
+                                <span>Prise en Charge Diagnostique</span>
                             </div>
                         </div>
                     </div>
                     <div class="service-details">
-                        <h2>Prise en Charge Diagnostique de Haute Précision</h2>
-                        <p>Chaque séance débute par une évaluation clinique stricte. Je m’assure que votre motif de
-                            consultation relève bien de l’ostéopathie.
-                            Grâce à mon expérience de Chef d’équipe Sapeur-Pompier, j’identifie rapidement les signaux
-                            d’alerte (Red Flags) et évalue l’ensemble de vos systèmes pour une prise en charge cohérente
-                            et sécurisée. Si nécessaire, je peux vous réorienter vers le professionnel de santé adapté.
-                        </p>
-                        <a href="#!" class="main-cta">Prendre RDV</a>
+                        <h2>
+                            <i class="bi bi-heart-pulse my-blue"></i>
+                            Une Prise en Charge Diagnostique de Haute Précision
+                        </h2>
+                        <p>Chaque séance débute par une évaluation clinique stricte. Ma priorité est de garantir que
+                            votre motif de consultation relève bien de l’ostéopathie.</p>
+
+                        <p><i class="bi bi-eyeglasses my-blue"></i> <strong>Diagnostic d’opportunité (Différentiel)
+                                :</strong> Grâce à mes enseignements et à mes
+                            expériences en intervention, je sais identifier les "signaux d’alerte" (Red Flags). Si votre
+                            douleur nécessite une prise en charge médicale urgente ou spécialisée, je peux le détecter
+                            immédiatement.</p>
+
+                        <p><i class="bi bi-kanban-fill my-blue"></i> <strong>Évaluation Systématique :</strong> Je ne me
+                            contente pas de traiter la zone
+                            douloureuse. J’analyse l’ensemble de vos systèmes (mécanique, viscéral, neurologique) pour
+                            assurer une prise en charge cohérente et sécurisée.</p>
+
+                        <p><i class="bi bi-arrow-repeat my-blue"></i> <strong>Réorientation Médicale :</strong> Ma
+                            méthode de travail structurée me permet de
+                            collaborer efficacement avec votre parcours de soins classique et de vous réorienter vers le
+                            professionnel de santé adapté si nécessaire.</p>
                     </div>
                 </div>
             </div>
@@ -46,7 +68,8 @@
                         </div>
                         <div class="service-info">
                             <h4>Sûreté</h4>
-                            <p>Manipulations sécurisées, respectant les limites physiologiques de votre corps.</p>
+                            <p>Vous avez la garantie d’une manipulation effectuée dans un cadre sécurisé, respectant les
+                                limites physiologiques de votre corps.</p>
                         </div>
                     </div>
 
@@ -56,8 +79,8 @@
                         </div>
                         <div class="service-info">
                             <h4>Fiabilité</h4>
-                            <p>Évaluation rapide et fiable des situations complexes, même pour les douleurs chroniques
-                                installées.</p>
+                            <p>Évaluation rapide et fiable des situations complexes, même pour des douleurs chroniques
+                                installées depuis longtemps.</p>
                         </div>
                     </div>
 
@@ -67,7 +90,8 @@
                         </div>
                         <div class="service-info">
                             <h4>Sérénité</h4>
-                            <p>Une pratique ancrée dans le réel pour désamorcer vos tensions en toute confiance.</p>
+                            <p>Ma pratique est ancrée dans le réel. L’objectif est de désamorcer vos tensions en toute
+                                confiance, en m’appuyant sur des bases cliniques solides.</p>
                         </div>
                     </div>
 
@@ -82,12 +106,12 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="specialty-card">
                         <div class="specialty-image">
-                            <img src={{ asset('img/website/health/maternal-2.webp') }}
-                                alt="Ostéopathie de la femme et grossesse" class="img-fluid" loading="lazy">
+                            <img src={{ asset('img/website/health/maternal-2.webp') }} alt="Diagnostic d'opportunité"
+                                class="img-fluid" loading="lazy">
                         </div>
                         <div class="specialty-content">
                             <h5>Diagnostic d’Opportunité</h5>
-                            <span>Identification des Red Flags pour orienter rapidement vers les soins appropriés</span>
+                            <span>Identification des signaux d'alerte pour orienter rapidement vers les soins adaptés</span>
                         </div>
                     </div>
                 </div>
@@ -113,8 +137,7 @@
                         </div>
                         <div class="specialty-content">
                             <h5>Réorientation Médicale</h5>
-                            <span>Collaboration avec votre parcours de soins pour garantir la sécurité et
-                                l’efficacité</span>
+                            <span>Collaboration avec votre parcours de soins pour garantir sécurité et efficacité</span>
                         </div>
                     </div>
                 </div>
