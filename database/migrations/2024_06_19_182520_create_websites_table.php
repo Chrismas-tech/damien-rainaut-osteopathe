@@ -29,6 +29,7 @@ return new class extends Migration
             $table->string('link_twitter')->nullable();
             $table->string('link_pinterest')->nullable();
             $table->string('link_instagram')->nullable();
+            $table->string('link_linkedin')->nullable();
             $table->longText('iframe_link_google_map_src')->nullable();
             $table->boolean('maintenance')->nullable();
             $table->timestamps();

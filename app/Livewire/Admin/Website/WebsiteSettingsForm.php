@@ -25,6 +25,7 @@ class WebsiteSettingsForm extends Component
 
     // Social Media Links
     public  string $linkFacebook;
+    public  string $linkLinkedin;
     public  string $linkTwitter;
     public  string $linkPinterest;
     public  string $linkInstagram;
@@ -64,6 +65,7 @@ class WebsiteSettingsForm extends Component
             'linkTwitter' => 'nullable|string',
             'linkPinterest' => 'nullable|string',
             'linkInstagram' => 'nullable|string',
+            'linkLinkedin' => 'nullable|string',
         ];
     }
 
@@ -92,6 +94,7 @@ class WebsiteSettingsForm extends Component
         $this->linkTwitter = $this->websiteSettings->link_twitter;
         $this->linkPinterest = $this->websiteSettings->link_pinterest;
         $this->linkInstagram = $this->websiteSettings->link_instagram;
+        $this->linkLinkedin = $this->websiteSettings->link_linkedin;
     }
 
     public function updatedAddressService($value)

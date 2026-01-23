@@ -20,13 +20,14 @@ class WebsiteSeeder extends Seeder
         */
 
         Website::create([
-            "application_name" => "Damien Rainaut - Ostéopathie",
+            "application_name" => "Damien Rainaut - Ostéopathie D.O",
             "email_website" => "damienrainaut@gmail.com",
             "address_service" => "22 Rue Gounod, 06000 Nice, France",
-            "link_facebook" => "https://www.facebook.com/sharer/sharer.php?u=",
+            "link_facebook" => "https://www.facebook.com/profile.php?id=61581345867974",
             "link_twitter" => "https://twitter.com/intent/tweet?url=",
             "link_pinterest" => "https://pinterest.com/pin/create/button/?url=",
             "link_instagram" => "https://www.instagram.com",
+            "link_linkedin" => "https://www.linkedin.com/in/damien-rainaut-372159334/",
             "iframe_link_google_map_src" => "https://www.google.com/maps?q=22+Rue+Gounod+Nice&output=embed",
             'phone_website' => "650866257",
             'country_code_phone_website' => "+33",

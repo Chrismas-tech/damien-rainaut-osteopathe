@@ -24,8 +24,8 @@
                             <div class="contact-item">
                                 <i class="bi bi-telephone"></i>
                                 <a
-                                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}">
-                                    {{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}
+                                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
+                                    {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
                                 </a>
                             </div>
                             <div class="contact-item">
@@ -37,14 +37,14 @@
                         </div>
 
                         <div class="social-links mt-4 d-flex">
-                            <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank"
-                                class="me-2"><i class="bi bi-twitter-x"></i></a>
+                            {{-- <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank"
+                                class="me-2"><i class="bi bi-twitter-x"></i></a> --}}
+                            <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank"
+                                class="me-2"><i class="bi bi-linkedin"></i></a>
                             <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank"
                                 class="me-2"><i class="bi bi-facebook"></i></a>
                             <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank"
                                 class="me-2"><i class="bi bi-instagram"></i></a>
-                            <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank"
-                                class="me-2"><i class="bi bi-linkedin"></i></a>
                             <a href="https://wa.me/{{ App\Models\Website::getSettings()->whatsapp_phone }}"
                                 target="_blank" class="me-2">
                                 <i class="bi bi-whatsapp"></i>
@@ -66,7 +66,8 @@
                                         <a href="#">Approche ostéopathique</a>
                                         <a href="#">Le cabinet</a>
                                         <a href="#">Honoraires</a>
-                                        <a href="https://search.google.com/local/writereview?placeid=ChIJxTKGRwHRzRIRcEX6Youk4d0">Avis</a>
+                                        <a
+                                            href="https://search.google.com/local/writereview?placeid=ChIJxTKGRwHRzRIRcEX6Youk4d0">Avis</a>
                                     </nav>
                                 </div>
                             </div>

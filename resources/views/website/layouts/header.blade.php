@@ -10,26 +10,24 @@
                 </i>
 
                 <a
-                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}">
+                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
                     <i class="bi bi-phone d-flex align-items-center ms-4">
-                        {{ App\Models\Website::getSettings()->country_code_phone_website }}{{ App\Models\Website::getSettings()->phone_website }}
+                        {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
                     </i>
                 </a>
 
             </div>
             <div class="social-links d-none d-md-flex align-items-center">
-                <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank" class="twitter"><i
-                        class="bi bi-twitter-x"></i></a>
+                <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
                 <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank" class="facebook"><i
                         class="bi bi-facebook"></i></a>
                 <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank" class="instagram"><i
                         class="bi bi-instagram"></i></a>
-                <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank" class="linkedin"><i
-                        class="bi bi-linkedin"></i></a>
                 <a href="https://wa.me/{{ App\Models\Website::getSettings()->whatsapp_phone }}" class="whatsapp"
                     target="_blank">
                     <i class="bi bi-whatsapp"></i>
-                    {{ App\Models\Website::getSettings()->country_code_whatsapp_phone }}{{ App\Models\Website::getSettings()->whatsapp_phone }}
+                    {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
                 </a>
             </div>
 

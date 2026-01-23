@@ -262,4 +262,28 @@ class CustomClasses
 
         return $resizedImage;
     }
+
+    /**
+     * Format +33XXXXXXXXX
+     * to
+     * +33 X XX XX XX XX
+     * @param string $number
+     * */
+    public static function formatFrontEndPhoneNumber($number)
+    {
+        $formatNumber = "";
+        foreach (str_split($number) as $key => $char) {
+            if (
+                $key === 3 ||
+                $key === 4 ||
+                $key === 6 ||
+                $key === 8 ||
+                $key === 10
+            ) {
+                $formatNumber .= " ";
+            }
+            $formatNumber .= $char;
+        }
+        return $formatNumber;
+    }
 }

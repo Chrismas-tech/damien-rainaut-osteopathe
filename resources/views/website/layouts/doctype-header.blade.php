@@ -22,7 +22,7 @@
     <!-- SEO -->
     {!! SEOMeta::generate() !!}
     {!! OpenGraph::generate() !!}
-    {!! Twitter::generate() !!}
+    {{-- {!! Twitter::generate() !!} --}}
     <!-- SEO -->
 
     <!-- Google Site Verification -->

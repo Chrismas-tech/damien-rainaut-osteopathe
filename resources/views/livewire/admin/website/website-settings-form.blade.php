@@ -384,6 +384,20 @@
                     <i class="fa-solid fa-square-share-nodes fa-2x text-indigo-600 mr-2"></i>
                     <h4>Social Medias</h4>
                 </div>
+
+                <div class="mb-4">
+                    <div class="flex items-center">
+                        <i class="fab fa-linkedin text-indigo-800 me-1"></i>
+                        <label for="linkLinkedin">Link Linkedin</label>
+                    </div>
+                    <input wire:model.live="linkLinkedin" type="text"
+                        class="px-4 text-lg block w-full border-gray-500 rounded focus:border-indigo-600 focus:ring-indigo-600" />
+                    @error('Linkedin')
+                        <span
+                            class="bg-red-200 px-2 py-1 text-red-700 text-sm font-medium rounded-md inline-block mt-1">{{ $message }}</span>
+                    @enderror
+                </div>
+
                 <div class="mb-4">
                     <div class="flex items-center">
                         <i class="fab fa-facebook text-indigo-800 me-1"></i>

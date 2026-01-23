@@ -77,7 +77,11 @@
                         </div>
                         <div class="emergency-info">
                             <small>Renseignements et rendez-vous</small>
-                            <strong>{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}
+                            <strong>
+                                <a
+                                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
+                                    {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
+                                </a>
                             </strong>
                         </div>
                     </div>
