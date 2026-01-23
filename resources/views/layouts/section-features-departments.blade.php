@@ -57,7 +57,7 @@
                             <span><i class="bi bi-check-circle-fill"></i>Rééducation post-blessure et approche
                                 corps-esprit (gestion stress compétition)</span>
                         </div>
-                        <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing" class="specialty-link">
+                        <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing" class="specialty-link">
                             Prendre RDV <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -104,7 +104,7 @@
                             <span><i class="bi bi-check-circle-fill"></i>Bilan postural global et approche corps-esprit
                                 personnalisée</span>
                         </div>
-                        <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing" class="specialty-link">
+                        <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing" class="specialty-link">
                             Prendre RDV <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>

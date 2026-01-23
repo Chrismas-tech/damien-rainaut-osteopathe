@@ -74,7 +74,7 @@
                 </div>
                 <div class="action-buttons">
                     <a href="#!" class="btn-secondary">Voir le profil</a>
-                    <a href="#!" class="btn-primary">Prendre RDV</a>
+                    <a target="_blank" href="#!" class="btn-primary">Prendre RDV</a>
                 </div>
             </div><!-- End Doctor Profile -->
 
@@ -247,7 +247,8 @@
         </div>
 
         <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="700">
-            <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut" class="btn-view-all" target="_blank">
+            <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing" class="btn-view-all"
+                target="_blank">
                 Voir sur Doctolib & Prendre RDV
                 <i class="bi bi-arrow-right"></i>
             </a>
