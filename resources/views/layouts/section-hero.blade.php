@@ -157,7 +157,7 @@
                                 <p>
                                     <strong>
 
-                                        <a class="honoraires-link"
+                                        <a target="_blank" class="honoraires-link"
                                             href="https://www.google.com/maps?ll=43.700763,7.260688&z=16&t=m&hl=fr-FR&gl=US&mapclient=embed&q=22+Rue+Gounod+06000+Nice">
                                             <span>
                                                 <i class="bi bi-geo-alt me-1"></i>
@@ -181,7 +181,7 @@
                                 </p>
                                 <p>
                                     <strong>
-                                        <a class="honoraires-link"
+                                        <a target="_blank" class="honoraires-link"
                                             href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing">
                                             <span>
                                                 <i class="bi bi-arrow-right-square me-1">
