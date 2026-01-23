@@ -1258,7 +1258,7 @@ section,
 .hero .hero-visual .main-image .floating-card.appointment-card {
   /* top: 20px; */
   bottom:20px;
-  right: 20px;
+  left: 20px;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -1298,7 +1298,7 @@ section,
 
 .hero .hero-visual .main-image .floating-card.rating-card {
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   text-align: center;
   min-width: 140px;
 }

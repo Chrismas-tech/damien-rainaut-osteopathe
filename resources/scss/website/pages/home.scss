@@ -35,3 +35,26 @@
         color: #112344 !important
     }
 }
+
+.my-floating-card {
+    /* border: solid 3px yellow; */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    .my-badge-card {
+        /*  border: solid 3px green; */
+        width: fit-content;
+        background: #dae7f4;
+        border-radius: 50px;
+        color: #175cdd;
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+}
+
+.hero .hero-visual .main-image img {
+    object-position: 56% 0 !important;
+}

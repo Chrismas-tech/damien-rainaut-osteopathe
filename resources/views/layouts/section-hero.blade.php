@@ -6,7 +6,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="hero-content">
-                    <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
+                    {{-- <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
                         <div class="badge-item">
                             <i class="bi bi-shield-check"></i>
                             <span>Ostéopathe diplômé</span>
@@ -19,7 +19,7 @@
                             <i class="bi bi-star-fill"></i>
                             <span>Excellents avis patients</span>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <h1 data-aos="fade-right" data-aos-delay="300">
                         Ostéopathe à <span class="highlight">Nice</span><br>
@@ -102,6 +102,32 @@
                                 <h6>Disponibilités</h6>
                                 <p>Consultations sur rendez-vous</p>
                                 <small>Damien Rainaut, Ostéopathe</small>
+                            </div>
+                        </div>
+
+                        <div class="my-floating-card">
+                            <div class="d-flex justify-content-end">
+                                <div class="my-badge-card">
+                                    <div>
+                                        <i class="bi bi-shield-check"></i>
+                                        <span>Ostéopathe diplômé</span>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- <div class="d-flex justify-content-end">
+                                <div class="my-badge-card">
+                                    <div>
+                                        <i class="bi bi-calendar-check"></i>
+                                        <span>Consultations sur rendez-vous</span>
+                                    </div>
+                                </div>
+                            </div> --}}
+                        </div>
+
+                        <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
+                            <div class="badge-item">
+                                <i class="bi bi-shield-check"></i>
+                                <span>Ostéopathe diplômé</span>
                             </div>
                         </div>
 
