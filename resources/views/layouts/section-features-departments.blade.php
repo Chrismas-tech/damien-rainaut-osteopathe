@@ -15,12 +15,16 @@
             <!-- Specialty Card 1 : Ostéopathie du Sport -->
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="specialty-card">
+                    <div class="specialty-visual">
+                        <img src="{{ asset('img/website/damien/sport-1.webp') }}" alt="Ostéopathie du Sport Nice"
+                            class="img-fluid">
+                    </div>
                     <div class="specialty-content">
                         <div class="specialty-meta">
-                            <span class="specialty-label">Expertise phare</span>
+                            <span class="specialty-label">Sport</span>
                         </div>
                         <h3>Ostéopathie du Sport à Nice – Optimisez votre Performance Durable</h3>
-                        <p>Damien Rainaut – Ostéopathe D.O.<br>
+                        <p>
                             Nice, la nouvelle capitale du triathlon : avec l’Ironman France, les Championnats du Monde
                             Ironman (hommes et femmes) et IRONMAN 70.3 qui s’enchaînent sur la Promenade des Anglais, la
                             Baie des Anges et les routes de l’hinterland, notre ville est devenue le terrain de jeu
@@ -57,22 +61,22 @@
                             Prendre RDV <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
-                    <div class="specialty-visual">
-                        <img src="{{ asset('img/website/damien/sport-1.webp') }}" alt="Ostéopathie du Sport Nice"
-                            class="img-fluid">
-                    </div>
+
                 </div>
             </div><!-- End Specialty Card -->
 
             <!-- Specialty Card 2 : Gestion de l’Anxiété & du Stress -->
             <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
                 <div class="specialty-card">
+                    <div class="specialty-visual">
+                        <img src="{{ asset('img/website/damien/sport-2.webp') }}" alt="Gestion Stress Anxiété Nice"
+                            class="img-fluid">
+                    </div>
                     <div class="specialty-content">
                         <div class="specialty-meta">
-                            <span class="specialty-label">Expertise phare</span>
+                            <span class="specialty-label">Anxiété & Stress</span>
                         </div>
                         <h3>Gestion de l’Anxiété & du Stress à Nice – Retrouvez un Équilibre Corps-Esprit Durable</h3>
-                        <p>Damien Rainaut – Ostéopathe D.O.</p>
                         <p>L’anxiété et le stress chronique touchent de plus en plus de personnes à Nice : rythme urbain
                             intense, télétravail prolongé, pression professionnelle, vie familiale, ou même anticipation
                             de compétitions sportives... Ces états se traduisent souvent par des tensions physiques
@@ -103,10 +107,6 @@
                         <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing" class="specialty-link">
                             Prendre RDV <i class="bi bi-arrow-right"></i>
                         </a>
-                    </div>
-                    <div class="specialty-visual">
-                        <img src="{{ asset('img/website/damien/sport-2.webp') }}" alt="Gestion Stress Anxiété Nice"
-                            class="img-fluid">
                     </div>
                 </div>
             </div><!-- End Specialty Card -->
@@ -158,9 +158,13 @@
                     </div>
                     <h4>Récupération Accélérée & Drainage Tissulaire</h4>
                     <p>Libération post-effort et drainage tissulaire pour rebondir rapidement après une longue sortie,
-                        une compétition (Ironman, 70.3, marathon, trail) ou une micro-lésion. Restauration de la
+                        une compétition (Ironman, 70.3, marathon, trail) ou une micro-lésion.
+                        <br>
+                        <br>
+                        Restauration de la
                         vascularisation et de la mobilité pour une récupération optimale et une performance durable sur
-                        les parcours de la Côte d'Azur.</p>
+                        les parcours de la Côte d'Azur.
+                    </p>
                     <ul class="highlight-list">
                         <li>Drainage tissulaire post-effort pour restaurer la vascularisation et accélérer le retour à
                             l'entraînement</li>
