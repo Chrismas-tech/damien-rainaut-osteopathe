@@ -139,7 +139,7 @@
                                     <i class="bi bi-star-fill"></i>
                                 </div>
                                 <h6>{{ App\Models\GoogleReviewsProfile::first()->general_rating }} / 5</h6>
-                                <small>Avis patients Doctolib</small>
+                                <small>Avis patients</small>
                             </div>
                         </div>
                     </div>

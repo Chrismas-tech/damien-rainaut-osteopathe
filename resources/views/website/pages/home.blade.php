@@ -8,6 +8,9 @@
         @include('layouts.section-home-about')
         @include('layouts.section-features-departments')
         @include('layouts.section-features-services')
+        @include('layouts.section-about')
+        @include('layouts.section-departments-tab')
+        @include('layouts.section-departments-cards')
         {{-- @include('layouts.section-find-a-doctor') --}}
         @include('layouts.section-call-to-action')
     </main>
