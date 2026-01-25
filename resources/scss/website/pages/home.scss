@@ -15,10 +15,24 @@
     right: 0;
     bottom: 0;
     background: url("../../../public/img/website/bg/abstract-bg-3.webp") center/cover;
-    /* background: url("../../../public/img/website/damien/osteo-3.webp") center/cover; */
     opacity: 0.3;
     z-index: 0;
 }
+
+
+.about {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("../../../public/img/website/bg/abstract-bg-3.webp") center / cover;
+        opacity: 0.2;
+        z-index: 0;
+    }
+}
+
 
 .featured-departments .specialty-visual img {
     object-position: 48% 67%;

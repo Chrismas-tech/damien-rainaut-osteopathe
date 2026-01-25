@@ -42,16 +42,6 @@
                         <p class="fst-italic">"Un collaborateur libéré de ses tensions est un collaborateur 100 %
                             opérationnel. Ne laissez pas les TMS dicter votre calendrier."</p>
                     </blockquote>
-
-                    <p class="text-center text-lg-start mt-4">
-                        <a target="_blank" href="{{ route('website.contact') }}" class="btn-custom-outline">
-                            <i class="bi bi-arrow-right"></i>
-                            <span class="ms-1">
-                                Contactez-moi pour un devis
-                                gratuit
-                            </span>
-                        </a>
-                    </p>
                 </div>
             </div>
 
@@ -67,6 +57,18 @@
                             alt="Séance ostéopathie entreprise" style="max-width: 280px; height: auto;">
                     </div> --}}
                 </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <p class="text-center text-lg-start">
+                    <a target="_blank" href="{{ route('website.contact') }}" class="btn-custom-outline">
+                        <i class="bi bi-arrow-right"></i>
+                        <span class="ms-1">
+                            Contactez-moi pour un devis
+                            gratuit
+                        </span>
+                    </a>
+                </p>
             </div>
         </div>
 
