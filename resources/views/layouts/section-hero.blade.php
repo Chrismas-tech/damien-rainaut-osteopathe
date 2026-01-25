@@ -89,7 +89,7 @@
             <div class="col-lg-6">
                 <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
                     <div class="main-image">
-                        <img src={{ asset('img/website/damien/osteo-8.webp') }}
+                        <img src={{ asset('img/website/damien/damien-1.webp') }}
                             alt="Cabinet d’ostéopathie à Nice - Damien Rainaut" class="img-fluid">
 
                         <div class="floating-card appointment-card">

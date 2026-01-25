@@ -56,7 +56,7 @@
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
-                        <img src={{ asset('img/website/damien/osteo-4.webp') }} alt="Cabinet d'ostéopathie à Nice"
+                        <img src={{ asset('img/website/damien/cabinet-1.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid">
                     </div>
                     <div class="experience-badge">
@@ -73,7 +73,7 @@
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
-                        <img src={{ asset('img/website/damien/osteo-7.webp') }} alt="Cabinet d'ostéopathie à Nice"
+                        <img src={{ asset('img/website/damien/damien-2.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid">
                     </div>
                     <div class="experience-badge">
@@ -115,7 +115,7 @@
                     </div>
 
                     <div class="cta-section">
-                        <a href="about.html" class="btn-primary">En savoir plus sur mon approche</a>
+                        <a href="about.html" class="btn-custom-outline">En savoir plus sur mon approche</a>
                     </div>
                 </div>
             </div>

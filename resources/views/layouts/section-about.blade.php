@@ -35,7 +35,13 @@
                     </blockquote>
 
                     <p class="text-center text-lg-start mt-4">
-                        <a href="{{ route('website.contact') }}" class="">Contactez-moi pour un devis gratuit</a>
+                        <a href="{{ route('website.contact') }}" class="btn-custom-outline">
+                            <i class="bi bi-arrow-right"></i>
+                            <span class="ms-1">
+                                Contactez-moi pour un devis
+                                gratuit
+                            </span>
+                        </a>
                     </p>
                 </div>
             </div>

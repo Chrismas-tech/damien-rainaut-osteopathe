@@ -68,5 +68,60 @@ $white: #fff;
     color: white !important;
 }
 
+/* Bouton principal plein */
+.btn-custom-primary {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    background-color: #175cdd;
+    /* Bleu primary Bootstrap */
+    color: white;
+    cursor: pointer;
+}
+
+.btn-custom-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(13, 110, 253, 0.3);
+}
+
+.btn-custom-primary:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.2);
+}
+
+/* Bouton outline */
+.btn-custom-outline {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border: 2px solid #175cdd;
+    background-color: transparent;
+    color: #175cdd;
+    cursor: pointer;
+}
+
+.btn-custom-outline:hover {
+    background-color: #175cdd;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(13, 110, 253, 0.3);
+}
+
+.btn-custom-outline:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.2);
+}
 
 /* --------------------------------------------------------------- */
