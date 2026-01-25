@@ -168,7 +168,7 @@
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                 <div class="specialty-card">
                     <div class="specialty-visual">
-                        <img src="{{ asset('img/website/damien/osteo-11.webp') }}" alt="Ostéopathie Pédiatrique Nice"
+                        <img src="{{ asset('img/website/damien/Femme enceinte-1.webp') }}" alt="Ostéopathie Pédiatrique Nice"
                             class="img-fluid">
                     </div>
                     <div class="specialty-content">

@@ -27,7 +27,7 @@
                     <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
                         Le corps possède une capacité d’adaptation remarquable lorsqu’on prend le temps de l’observer et
                         de le comprendre. Mon objectif est de vous accompagner vers des mouvements plus libres et un
-                        quotidien plus confortable, à la maison comme au travail. Consultations 22 Rue Gounod.
+                        quotidien plus confortable, à la maison comme au travail.
                         <br>
                         <br>
                         Une pratique ostéopathique centrée sur la personne, qui s’intéresse aux causes profondes plutôt

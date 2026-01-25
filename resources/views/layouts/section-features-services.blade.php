@@ -4,7 +4,7 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Expertise Terrain & Sécurité Clinique</h2>
-        <p>
+        {{-- <p>
             La précision du geste et la rigueur du diagnostic sont au cœur de ma pratique.
             <br>
             Mon approche de l’ostéopathie
@@ -13,7 +13,7 @@
             Ancien Chef d’équipe
             Sapeur-Pompier, j’ai développé une capacité d’analyse rapide et une rigueur qui constituent aujourd’hui le
             socle de ma pratique en cabinet.
-        </p>
+        </p> --}}
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -23,7 +23,7 @@
             <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
                 <div class="featured-service-main">
                     <div class="service-image-wrapper">
-                        <img src={{ asset('img/website/damien/osteo-5.webp') }} alt="Cabinet d'ostéopathie à Nice"
+                        <img src={{ asset('img/website/damien/expertise-terrain.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid" loading="lazy">
                         <div class="service-overlay">
                             <div class="service-badge">
@@ -106,7 +106,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="specialty-card">
                         <div class="specialty-image">
-                            <img src={{ asset('img/website/health/maternal-2.webp') }} alt="Diagnostic d'opportunité"
+                            <img src={{ asset('img/website/damien/tensionmètre.webp') }} alt="Diagnostic d'opportunité"
                                 class="img-fluid" loading="lazy">
                         </div>
                         <div class="specialty-content">

@@ -3,16 +3,16 @@
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="about-content">
-            <h2 class="section-heading">Ostéopathie & Performance Durable à Nice</h2>
-            <p class="lead-text">Spécialiste de la dynamique du mouvement et de la régulation corps-esprit,
-                j’accompagne toute personne en quête d’un mieux-être durable : sportifs (amateurs ou de haut
-                niveau), télé-travailleurs tendus, parents stressés, ou simplement ceux qui veulent mieux gérer
-                leur anxiété, leur stress quotidien et retrouver un équilibre profond.</p>
-        </div>
-
         <div class="row mb-4">
             <div class="col-lg-6 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+
+                <div class="about-content">
+                    <h2 class="section-heading">Ostéopathie & Performance Durable à Nice</h2>
+                    <p class="lead-text">Spécialiste de la dynamique du mouvement et de la régulation corps-esprit,
+                        j’accompagne toute personne en quête d’un mieux-être durable : sportifs (amateurs ou de haut
+                        niveau), télé-travailleurs tendus, parents stressés, ou simplement ceux qui veulent mieux gérer
+                        leur anxiété, leur stress quotidien et retrouver un équilibre profond.</p>
+                </div>
                 <div class="about-content">
                     <p>Au-delà du soulagement ponctuel, chaque consultation est une analyse précise et 100 %
                         personnalisée :
@@ -50,13 +50,33 @@
                             enfants dès 5 ans, femmes enceintes, seniors
                         </span>
                     </div>
+                    <p>Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
+                        persistante,
+                        un
+                        stress professionnel intense, ou simplement en recherche d’un équilibre
+                        corps-esprit
+                        retrouvé,
+                        je vous aide à vous sentir mieux, performer plus sereinement et durer sans
+                        douleur ni
+                        épuisement.
+                    </p>
+                    <p>Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
+                        persistante,
+                        un
+                        stress professionnel intense, ou simplement en recherche d’un équilibre
+                        corps-esprit
+                        retrouvé,
+                        je vous aide à vous sentir mieux, performer plus sereinement et durer sans
+                        douleur ni
+                        épuisement.
+                    </p>
                 </div>
             </div>
 
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
-                        <img src={{ asset('img/website/damien/cabinet-1.webp') }} alt="Cabinet d'ostéopathie à Nice"
+                        <img src={{ asset('img/website/damien/damien-2.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid">
                     </div>
                     <div class="experience-badge">
@@ -69,7 +89,7 @@
             </div>
         </div>
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
@@ -86,17 +106,8 @@
             </div>
             <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
                 <div class="about-content">
-                    <p>Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
-                        persistante,
-                        un
-                        stress professionnel intense, ou simplement en recherche d’un équilibre
-                        corps-esprit
-                        retrouvé,
-                        je vous aide à vous sentir mieux, performer plus sereinement et durer sans
-                        douleur ni
-                        épuisement.
-                    </p>
-                   {{--  <div class="stats-grid">
+
+                     <div class="stats-grid">
                         <div class="stat-item">
                             <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="4500"
                                 data-purecounter-duration="1"></div>
@@ -116,12 +127,9 @@
 
                     <div class="cta-section">
                         <a href="about.html" class="btn-custom-outline">En savoir plus sur mon approche</a>
-                    </div> --}}
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
-
-    </div>
-
 </section><!-- /Home About Section -->

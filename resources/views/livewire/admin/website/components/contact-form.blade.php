@@ -42,9 +42,18 @@
                 </div>
 
                 <div class="col-12">
-                    <input type="text" wire:model.live="subject"
-                        class="form-control @error('subject') is-invalid @enderror" id="subject" placeholder="Sujet"
-                        required>
+                    <select wire:model.live="subject" class="form-control @error('subject') is-invalid @enderror"
+                        id="subject" required>
+                        <option value="" selected>Sélectionnez un type de demande</option>
+                        <option value="Demande de Contact">Demande de contact</option>
+                        <option value="Demande de devis">Demande de devis</option>
+                    </select>
+
+                    @error('subject')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                    @enderror
                 </div>
 
                 <div class="col-12">

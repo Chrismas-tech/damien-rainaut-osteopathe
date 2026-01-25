@@ -56,6 +56,8 @@ class ContactForm extends Component
             $this->isFormValid = false;
         }
         $this->validate();
+
+        dd($this->validate());
     }
 
     public function submit()

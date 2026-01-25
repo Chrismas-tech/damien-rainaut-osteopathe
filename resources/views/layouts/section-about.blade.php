@@ -8,7 +8,8 @@
                 <div class="about-content">
                     <h2>Santé & Performance en entreprise : Votre Partenaire QVT à Nice</h2>
                     <p class="lead">Environ 30 % des arrêts de travail sont liés aux Troubles Musculo-Squelettiques
-                        (TMS). Lombalgies, cervicalgies, canal carpien… <br><br> Ces douleurs ne sont pas une fatalité. Mon rôle
+                        (TMS). Lombalgies, cervicalgies, canal carpien… <br><br> Ces douleurs ne sont pas une fatalité.
+                        Mon rôle
                         ? Intervenir en prévention pour transformer la santé de vos équipes en véritable levier de
                         performance durable.</p>
 
@@ -18,14 +19,23 @@
 
                     <h3 class="mt-5">Trois piliers pour un impact concret</h3>
                     <ul class="list-unstyled">
-                        <li class="mb-3"><i class="bi bi-shield-check text-primary me-2"></i><strong>Rigueur Clinique
-                                & Sécurité</strong> : Diagnostic précis et prise en charge sécurisée</li>
-                        <li class="mb-3"><i class="bi bi-gear-wide-connected text-primary me-2"></i><strong>Ingénierie
-                                du Mouvement & Ergonomie</strong> : Analyse des postes et corrections posturales
-                            adaptées, que ce soit en bureau ou sur le terrain.</li>
-                        <li class="mb-3"><i class="bi bi-calm text-primary me-2"></i><strong>Régulation de la Charge
-                                Mentale</strong> : Réduction du stress (une des premières raisons de TMS) pour moins de
-                            tensions et plus de concentration.</li>
+                        <li class="mb-3">
+                            <i class="bi bi-shield-check text-primary me-2"></i>
+                            <strong>Rigueur Clinique & Sécurité</strong> :
+                            Diagnostic précis et prise en charge sécurisée.
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-gear-wide-connected text-primary me-2"></i>
+                            <strong>Ingénierie du Mouvement & Ergonomie</strong> :
+                            Analyse des postes de travail et corrections posturales adaptées,
+                            que ce soit au bureau ou sur le terrain.
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-peace text-primary me-2"></i>
+                            <strong>Régulation de la Charge Mentale</strong> :
+                            Réduction du stress (première cause de TMS), pour diminuer les tensions
+                            et améliorer la concentration.
+                        </li>
                     </ul>
 
                     <blockquote class="blockquote border-start border-primary border-3 ps-4 mt-4 mb-4">
@@ -48,14 +58,14 @@
             <!-- Image avec TES paths originaux + hauteur forcée pour qu'elle soit vraiment haute -->
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
                 <div class="image-wrapper position-relative">
-                    <img src="{{ asset('img/website/damien/osteo-3.webp') }}"
+                    <img src="{{ asset('img/website/damien/entreprise-1.webp') }}"
                         class="img-fluid rounded shadow main-image" alt="Ostéopathie en entreprise Nice"
                         style="height: 580px; object-fit: cover; width: 100%;">
-                    <div class="floating-image position-absolute bottom-0 end-0 me-4 mb-4" data-aos="zoom-in"
+                    {{-- <div class="floating-image position-absolute bottom-0 end-0 me-4 mb-4" data-aos="zoom-in"
                         data-aos-delay="400">
                         <img src="{{ asset('img/website/damien/osteo-3.webp') }}" class="img-fluid rounded shadow"
                             alt="Séance ostéopathie entreprise" style="max-width: 280px; height: auto;">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
