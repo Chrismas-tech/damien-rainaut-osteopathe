@@ -21,7 +21,7 @@ class WebsiteSeeder extends Seeder
 
         Website::create([
             "application_name" => "Damien Rainaut - Ostéopathie D.O",
-            "email_website" => "damienrainaut@gmail.com",
+            "email_website" => "damien.rainaut.osteopathedo@gmail.com",
             "address_service" => "22 Rue Gounod, 06000 Nice, France",
             "link_facebook" => "https://www.facebook.com/profile.php?id=61581345867974",
             "link_twitter" => "https://twitter.com/intent/tweet?url=",

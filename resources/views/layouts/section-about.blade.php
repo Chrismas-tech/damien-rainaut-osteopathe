@@ -8,7 +8,7 @@
                 <div class="about-content">
                     <h2>Santé & Performance en entreprise : Votre Partenaire QVT à Nice</h2>
                     <p class="lead">Environ 30 % des arrêts de travail sont liés aux Troubles Musculo-Squelettiques
-                        (TMS). Lombalgies, cervicalgies, canal carpien… Ces douleurs ne sont pas une fatalité. Mon rôle
+                        (TMS). Lombalgies, cervicalgies, canal carpien… <br><br> Ces douleurs ne sont pas une fatalité. Mon rôle
                         ? Intervenir en prévention pour transformer la santé de vos équipes en véritable levier de
                         performance durable.</p>
 
@@ -19,13 +19,12 @@
                     <h3 class="mt-5">Trois piliers pour un impact concret</h3>
                     <ul class="list-unstyled">
                         <li class="mb-3"><i class="bi bi-shield-check text-primary me-2"></i><strong>Rigueur Clinique
-                                & Sécurité</strong> : Diagnostic précis et prise en charge sécurisée, alignée sur vos
-                            protocoles internes (expérience secours d’urgence).</li>
+                                & Sécurité</strong> : Diagnostic précis et prise en charge sécurisée</li>
                         <li class="mb-3"><i class="bi bi-gear-wide-connected text-primary me-2"></i><strong>Ingénierie
                                 du Mouvement & Ergonomie</strong> : Analyse des postes et corrections posturales
                             adaptées, que ce soit en bureau ou sur le terrain.</li>
                         <li class="mb-3"><i class="bi bi-calm text-primary me-2"></i><strong>Régulation de la Charge
-                                Mentale</strong> : Réduction du stress (premier amplificateur de TMS) pour moins de
+                                Mentale</strong> : Réduction du stress (une des premières raisons de TMS) pour moins de
                             tensions et plus de concentration.</li>
                     </ul>
 
@@ -35,7 +34,7 @@
                     </blockquote>
 
                     <p class="text-center text-lg-start mt-4">
-                        <a href="{{ route('website.contact') }}" class="btn-custom-outline">
+                        <a target="_blank" href="{{ route('website.contact') }}" class="btn-custom-outline">
                             <i class="bi bi-arrow-right"></i>
                             <span class="ms-1">
                                 Contactez-moi pour un devis

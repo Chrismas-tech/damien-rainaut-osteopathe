@@ -25,9 +25,14 @@
                     </h1>
 
                     <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                        Damien Rainaut est ostéopathe à Nice et vous accueille au cabinet pour la prise en charge
-                        des douleurs musculo-squelettiques, troubles fonctionnels et tensions du quotidien.
-                        Chaque consultation est adaptée à votre histoire, vos besoins et votre mode de vie.
+                        Le corps possède une capacité d’adaptation remarquable lorsqu’on prend le temps de l’observer et
+                        de le comprendre. Mon objectif est de vous accompagner vers des mouvements plus libres et un
+                        quotidien plus confortable, à la maison comme au travail. Consultations 22 Rue Gounod.
+                        <br>
+                        <br>
+                        Une pratique ostéopathique centrée sur la personne, qui s’intéresse aux causes profondes plutôt
+                        qu’à la
+                        simple manifestation de la douleur, pour vous guider durablement vers l’équilibre.
                     </p>
 
                     <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
@@ -108,7 +113,7 @@
                                 <div class="my-badge-card">
                                     <div>
                                         <i class="bi bi-shield-check"></i>
-                                        <span>Ostéopathe diplômé</span>
+                                        <span>Ostéopathe diplômé D.O</span>
                                     </div>
                                 </div>
                             </div>

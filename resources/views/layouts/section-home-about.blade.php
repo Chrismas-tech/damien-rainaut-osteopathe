@@ -62,7 +62,7 @@
                     <div class="experience-badge">
                         <div class="badge-content">
                             <span class="years">D.O.</span>
-                            <span class="text">Ostéopathe exclusif</span>
+                            <span class="text">Ostéopathe diplômé et reconnu</span>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     <div class="experience-badge">
                         <div class="badge-content">
                             <span class="years">D.O.</span>
-                            <span class="text">Ostéopathe exclusif</span>
+                            <span class="text">Ostéopathe diplômé et reconnu</span>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                         douleur ni
                         épuisement.
                     </p>
-                    <div class="stats-grid">
+                   {{--  <div class="stats-grid">
                         <div class="stat-item">
                             <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="4500"
                                 data-purecounter-duration="1"></div>
@@ -116,7 +116,7 @@
 
                     <div class="cta-section">
                         <a href="about.html" class="btn-custom-outline">En savoir plus sur mon approche</a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
