@@ -4,17 +4,25 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row mb-4">
+            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                <h2>Ostéopathie & Performance Durable à Nice</h2>
+            </div>
             <div class="col-lg-6 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+                <div class="about-content">
+                    <p class="lead-text">
+                        Spécialiste de la dynamique du mouvement et de la régulation corps-esprit,
+                        j’accompagne toute personne en quête d’un mieux-être durable :
+                        <br>
+                        <span class="fw-bold">
+                            sportifs (amateurs ou de haut
+                            niveau), télé-travailleurs tendus, parents stressés, ou simplement ceux qui veulent mieux
+                            gérer
+                            leur anxiété, leur stress quotidien et retrouver un équilibre profond.
+                        </span>
+                    </p>
 
-                <div class="about-content">
-                    <h2 class="section-heading">Ostéopathie & Performance Durable à Nice</h2>
-                    <p class="lead-text">Spécialiste de la dynamique du mouvement et de la régulation corps-esprit,
-                        j’accompagne toute personne en quête d’un mieux-être durable : sportifs (amateurs ou de haut
-                        niveau), télé-travailleurs tendus, parents stressés, ou simplement ceux qui veulent mieux gérer
-                        leur anxiété, leur stress quotidien et retrouver un équilibre profond.</p>
-                </div>
-                <div class="about-content">
-                    <p>Au-delà du soulagement ponctuel, chaque consultation est une analyse précise et 100 %
+                    <p>
+                        Au-delà du soulagement ponctuel, chaque consultation est une analyse précise et 100 %
                         personnalisée :
                         <br>
                         votre histoire de vie, votre posture, votre mode de vie et vos objectifs guident
@@ -23,44 +31,43 @@
                         <br>
                         J’associe des techniques structurelles, crâniennes, viscérales et fasciales, adaptées à chacun.
                         Mes domaines d’expertise à Nice :
+                        <br>
                     </p>
 
-                    <div class="mb-2">
-                        <i class="bi bi-check-circle-fill me-2"></i>
-                        <span>
-                            Gestion du stress, de l’anxiété et prévention du burn-out
-                        </span>
+                    <div class="skills-section">
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Gestion du stress, de l’anxiété et prévention du burn-out
+                            </span>
+                        </div>
+
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Ostéopathie du sport & optimisation de la performance
+                            </span>
+                        </div>
+
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Bilan postural & posturologie avancée
+                            </span>
+                        </div>
+
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Accompagnement à toutes les étapes de la vie :
+                                <br>
+                                enfants dès 5 ans, femmes enceintes, seniors
+                            </span>
+                        </div>
                     </div>
-                    <div class="mb-2">
-                        <i class="bi bi-check-circle-fill me-2"></i>
-                        <span>
-                            Ostéopathie du sport & optimisation de la performance
-                        </span>
-                    </div>
-                    <div class="mb-2">
-                        <i class="bi bi-check-circle-fill me-2"></i>
-                        <span>
-                            Bilan postural & posturologie avancée
-                        </span>
-                    </div>
-                    <div class="mb-2">
-                        <i class="bi bi-check-circle-fill me-2"></i>
-                        <span>
-                            Accompagnement à toutes les étapes de la vie :
-                            enfants dès 5 ans, femmes enceintes, seniors
-                        </span>
-                    </div>
-                    <p>Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
-                        persistante,
-                        un
-                        stress professionnel intense, ou simplement en recherche d’un équilibre
-                        corps-esprit
-                        retrouvé,
-                        je vous aide à vous sentir mieux, performer plus sereinement et durer sans
-                        douleur ni
-                        épuisement.
-                    </p>
-                    <p>Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
+
+                    <p>
+                        Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
                         persistante,
                         un
                         stress professionnel intense, ou simplement en recherche d’un équilibre
@@ -88,8 +95,8 @@
                 </div>
             </div>
         </div>
-
-        {{-- <div class="row">
+    </div>
+    {{-- <div class="row">
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">

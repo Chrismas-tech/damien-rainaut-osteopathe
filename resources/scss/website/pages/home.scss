@@ -61,7 +61,7 @@
         width: fit-content;
         background: #dae7f4;
         border-radius: 50px;
-        color: #175cdd;
+        color: $primary;
         padding: 0.5rem 1rem;
         font-size: 0.875rem;
         font-weight: 500;
@@ -75,13 +75,13 @@
 
 .my-emergency-banner {
     margin-top: 25px;
-    background: #2762df;
+    background: $primary;
     border-radius: 20px;
     padding: 20px;
-    color: white;
+    color: $white;
 
     h3 {
-        color: white;
+        color: $white;
         font-size: 28px;
         font-weight: 400;
         margin-bottom: 10px;
@@ -95,16 +95,167 @@
     }
 }
 
-.about-content {
-    .bi-check-circle-fill {
-        color: #175cdd;
-    }
-}
+
 
 .my-blue {
-    color: #175cdd;
+    color: $primary;
 }
 
 .featured-services .service-image-wrapper img {
     object-position: 0% 45% !important;
+}
+
+.home-about .about-content .section-heading {
+    font-size: 44px;
+}
+
+.section-title h2 {
+    font-size: 44px;
+}
+
+.section-title p {
+    font-size: 20px;
+}
+
+.home-about .about-visual .experience-badge {
+    background-color: $white;
+    color: $primary !important;
+    border: solid 2px $primary !important;
+}
+
+.featured-departments .specialty-card p {
+    font-size: 18px;
+}
+
+.home-about .about-content .lead-text {
+    font-size: 22px;
+}
+
+.featured-departments .specialty-features span {
+    font-weight: bold;
+    font-size: 20px;
+
+    i {
+        font-size: 36px;
+    }
+}
+
+.featured-services .service-details p {
+    font-size: 20px;
+}
+
+.badge-content {
+    .text {
+        font-size: 17px !important;
+    }
+}
+
+.hero .hero-content .hero-actions .btn.btn-primary {
+    font-size: 22px;
+}
+
+#home-about {
+    background-color: $primary;
+
+    .lead-text,
+    h2 {
+        color: $white !important;
+
+        &::after {
+            background-color: $white !important;
+        }
+
+        &::before {
+            background-color: rgb(11, 131, 236) !important;
+        }
+    }
+
+    p,
+    i {
+        color: $white !important;
+
+        &::after {
+            background-color: $white !important;
+        }
+    }
+
+    .about-content {
+        .skills-section {
+            margin-bottom: 40px;
+
+            .skills {
+                display: flex;
+                align-items: center;
+                margin-bottom: 7px !important;
+                font-size: 20px;
+                font-weight: bold;
+
+                span {
+                    color: $white;
+                    font-size: 20px;
+                }
+
+                i {
+                    font-size: 30px !important;
+                }
+            }
+        }
+    }
+}
+
+#featured-services {
+    background-color: $primary;
+
+    .lead-text,
+    h2 {
+        color: $white !important;
+
+        &::after {
+            background-color: $white !important;
+        }
+
+        &::before {
+            background-color: rgb(11, 131, 236) !important;
+        }
+    }
+
+    p,
+    i {
+        color: $white !important;
+
+        &::after {
+            background-color: $white !important;
+        }
+    }
+
+    .specialty-content {
+        span {
+            font-size: 16px;
+            color: $white !important;
+        }
+
+        h5 {
+            font-size: 18px;
+            color: $white !important;
+            font-weight: bold;
+        }
+    }
+
+    .service-item {
+        border-bottom: $white 1px solid !important;
+    }
+
+    .service-icon-wrapper {
+        background-color: $white;
+
+        i {
+            color: $primary !important;
+        }
+    }
+
+    .service-info {
+        h4 {
+            color: $white !important;
+        }
+    }
 }

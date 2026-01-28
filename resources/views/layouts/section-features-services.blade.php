@@ -23,14 +23,14 @@
             <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
                 <div class="featured-service-main">
                     <div class="service-image-wrapper">
-                        <img src={{ asset('img/website/damien/expertise-terrain.webp') }} alt="Cabinet d'ostéopathie à Nice"
-                            class="img-fluid" loading="lazy">
-                        <div class="service-overlay">
+                        <img src={{ asset('img/website/damien/expertise-terrain.webp') }}
+                            alt="Cabinet d'ostéopathie à Nice" class="img-fluid" loading="lazy">
+                        {{-- <div class="service-overlay">
                             <div class="service-badge">
                                 <i class="bi bi-heart-pulse"></i>
                                 <span>Prise en Charge Diagnostique</span>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="service-details">
                         <h2>
@@ -41,20 +41,24 @@
                             votre motif de consultation relève bien de l’ostéopathie.</p>
 
                         <p><i class="bi bi-eyeglasses my-blue"></i> <strong>Diagnostic d’opportunité (Différentiel)
-                                :</strong> Grâce à mes enseignements et à mes
+                            </strong> <br>
+                            Grâce à mes enseignements et à mes
                             expériences en intervention, je sais identifier les "signaux d’alerte" (Red Flags). Si votre
                             douleur nécessite une prise en charge médicale urgente ou spécialisée, je peux le détecter
                             immédiatement.</p>
 
-                        <p><i class="bi bi-kanban-fill my-blue"></i> <strong>Évaluation Systématique :</strong> Je ne me
+                        <p><i class="bi bi-kanban-fill my-blue"></i> <strong>Évaluation Systématique</strong> <br>
+                            Je ne me
                             contente pas de traiter la zone
                             douloureuse. J’analyse l’ensemble de vos systèmes (mécanique, viscéral, neurologique) pour
                             assurer une prise en charge cohérente et sécurisée.</p>
 
-                        <p><i class="bi bi-arrow-repeat my-blue"></i> <strong>Réorientation Médicale :</strong> Ma
+                        <p><i class="bi bi-arrow-repeat my-blue"></i> <strong>Réorientation Médicale </strong> <br>
+                            Ma
                             méthode de travail structurée me permet de
                             collaborer efficacement avec votre parcours de soins classique et de vous réorienter vers le
-                            professionnel de santé adapté si nécessaire.</p>
+                            professionnel de santé adapté si nécessaire.
+                        </p>
                     </div>
                 </div>
             </div>

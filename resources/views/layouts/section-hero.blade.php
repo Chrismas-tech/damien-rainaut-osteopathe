@@ -30,6 +30,14 @@
                         quotidien plus confortable, à la maison comme au travail.
                         <br>
                         <br>
+                        Je mets mes compétences à votre disposition pour soulager ces douleurs et troubles qui entravent
+                        votre épanouissement :
+                        <strong>
+                            maux de dos, maux de genoux, articulations douloureuses, tensions,
+                            douleurs aiguës, blocages, troubles digestifs, etc…
+                        </strong>
+                        <br>
+                        <br>
                         Une pratique ostéopathique centrée sur la personne, qui s’intéresse aux causes profondes plutôt
                         qu’à la
                         simple manifestation de la douleur, pour vous guider durablement vers l’équilibre.

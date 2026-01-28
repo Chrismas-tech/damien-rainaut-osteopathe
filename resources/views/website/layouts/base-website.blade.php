@@ -15,12 +15,12 @@
     <script src="https://featurable.com/assets/v2/grid_default.min.js" defer charset="UTF-8"></script>
 
 
-    <section class="container">
+    {{-- <section class="container">
         <div class="container section-title aos-init aos-animate" data-aos="fade-up">
             <h2>Nos Témoignages</h2>
         </div>
         @livewire('admin.website.components.google-reviews-slider')
-    </section>
+    </section> --}}
 
     @include('website.layouts.footer')
     @include('website.layouts.scroll-to-top')

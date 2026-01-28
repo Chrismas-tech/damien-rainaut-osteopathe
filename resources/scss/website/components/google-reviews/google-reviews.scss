@@ -20,6 +20,8 @@ $google-text-color: #637381;
 
     .google-section-spacing {
         margin: 15px 0;
+        display: flex;
+        justify-content: center;
     }
 
     .google-title-business,
@@ -29,7 +31,7 @@ $google-text-color: #637381;
 
     .google-title-business {
         color: black;
-        font-size: 18px;
+        font-size: 26px;
         margin: 0;
     }
 
@@ -43,7 +45,7 @@ $google-text-color: #637381;
         margin-right: 10px;
 
         img {
-            width: 72px;
+            width: 88px;
             height: auto;
         }
     }
@@ -92,7 +94,7 @@ $google-text-color: #637381;
 
     .google-powered-by,
     .google-review-text {
-        font-size: 14px;
+        font-size: 22px;
         color: $google-text-color;
         font-family: Inter, sans-serif;
     }

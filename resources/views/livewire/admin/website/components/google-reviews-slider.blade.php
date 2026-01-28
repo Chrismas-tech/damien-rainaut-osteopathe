@@ -32,18 +32,15 @@
                                 <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
                             </span>
                         </div>
-
-                        <div>
-                            <a class="google-btn-review" href="{{ $writeAReviewUri }}" target="_blank"
-                                rel="nofollow noopener">
-                                <span>Laissez un avis</span>
-                                <img class="google-logo-img" src="{{ asset('img/admin/logo/google-logo-white.png') }}"
-                                    alt="Google logo">
-                            </a>
-                        </div>
+                    </a>
                 </div>
-                </a>
-
+                <div class="d-flex justify-content-center">
+                    <a class="google-btn-review" href="{{ $writeAReviewUri }}" target="_blank" rel="nofollow noopener">
+                        <span>Laissez un avis</span>
+                        <img class="google-logo-img" src="{{ asset('img/admin/logo/google-logo-white.png') }}"
+                            alt="Google logo">
+                    </a>
+                </div>
                 <div class="splide" id="splide-google-reviews">
                     <div class="splide__slider">
                         <div class="splide__track">

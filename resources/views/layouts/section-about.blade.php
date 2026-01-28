@@ -4,9 +4,15 @@
 
         <!-- Première partie : Texte + Image côte-à-côte -->
         <div class="row align-items-start g-5">
+            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                <h2>
+                    Santé & Performance en entreprise :
+                    <br>
+                    Votre Partenaire QVT à Nice
+                </h2>
+            </div>
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-content">
-                    <h2>Santé & Performance en entreprise : Votre Partenaire QVT à Nice</h2>
                     <p class="lead">Environ 30 % des arrêts de travail sont liés aux Troubles Musculo-Squelettiques
                         (TMS). Lombalgies, cervicalgies, canal carpien… <br><br> Ces douleurs ne sont pas une fatalité.
                         Mon rôle
