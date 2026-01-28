@@ -1,7 +1,7 @@
 <!-- Hero Section -->
 <section id="hero" class="hero section">
     <div class="container custom-container-margin" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col-lg-6">
                 <div class="hero-content">
                     {{-- <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
@@ -82,7 +82,7 @@
                         </a>
                     </div>
 
-                    <div class="emergency-contact" data-aos="fade-right" data-aos-delay="700">
+                    <div class="emergency-contact shadow-sm" data-aos="fade-right" data-aos-delay="700">
                         <div class="emergency-icon">
                             <i class="bi bi-telephone-fill"></i>
                         </div>

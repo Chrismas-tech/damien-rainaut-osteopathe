@@ -127,3 +127,43 @@ $white: #fff;
 }
 
 /* --------------------------------------------------------------- */
+
+#footer {
+    .copyright p {
+        color: $white !important;
+    }
+
+    .nav-column {
+        h6 {
+            color: $white !important;
+        }
+
+        .footer-nav {
+            a {
+                color: $white !important;
+            }
+        }
+    }
+
+    .sitename {
+        color: $white !important;
+    }
+
+    .brand-section {
+        .contact-item {
+
+            span,
+            i,
+            a {
+                color: $white !important;
+            }
+        }
+    }
+
+    .brand-description {
+        color: $white !important;
+    }
+
+    background-color: $primary !important;
+    color: $white !important;
+}

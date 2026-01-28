@@ -7,6 +7,14 @@
     align-items: center !important;
 }
 
+.hero-description {
+    font-size: 20px !important;
+
+    .highlight {
+        color: $white !important;
+    }
+}
+
 .hero::before {
     content: "";
     position: absolute;
@@ -257,5 +265,15 @@
         h4 {
             color: $white !important;
         }
+    }
+}
+
+#about {
+    p {
+        font-size: 20px !important;
+    }
+
+    .list-unstyled {
+        font-size: 20px !important;
     }
 }
