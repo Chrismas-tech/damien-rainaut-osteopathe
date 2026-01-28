@@ -69,7 +69,7 @@
 
                     <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
                         <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
-                            class="btn btn-primary">
+                            class="btn-custom-primary">
                             Prendre rendez-vous sur Doctolib
                         </a>
                         {{--  <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
