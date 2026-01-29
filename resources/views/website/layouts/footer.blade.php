@@ -9,7 +9,7 @@
                     <div class="brand-section">
                         <a href="{{ route('website.home') }}" class="logo d-flex align-items-center mb-4">
                             <img src="{{ asset('storage/logo/logo.svg') }}" alt="{{ $website->application_name }}">
-                            <span class="sitename mx-1">{{ App\Models\Website::getSettings()->application_name }}</span>
+                            <span class="sitename ms-2">{{ App\Models\Website::getSettings()->application_name }}</span>
                         </a>
                         <p class="brand-description">
                             Cabinet d’ostéopathie à Nice proposant une prise en charge globale et personnalisée
@@ -58,7 +58,7 @@
                     <div class="footer-nav-wrapper">
                         <div class="row">
 
-                            <div class="col-6 col-lg-3">
+                            <div class="col-6 col-lg-4">
                                 <div class="nav-column">
                                     <h6>Cabinet</h6>
                                     <nav class="footer-nav">
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-6 col-lg-3">
+                            <div class="col-6 col-lg-4">
                                 <div class="nav-column">
                                     <h6>Consultations</h6>
                                     <nav class="footer-nav">
@@ -85,7 +85,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-6 col-lg-3">
+                            <div class="col-6 col-lg-4">
                                 <div class="nav-column">
                                     <h6>Informations</h6>
                                     <nav class="footer-nav">
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-6 col-lg-3">
+                            <div class="col-6 col-lg-4">
                                 <div class="nav-column">
                                     <h6>Rendez-vous</h6>
                                     <nav class="footer-nav">

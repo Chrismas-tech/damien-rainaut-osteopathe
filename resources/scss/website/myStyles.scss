@@ -135,11 +135,13 @@ $white: #fff;
 
     .nav-column {
         h6 {
+            font-size: 22px !important;
             color: $white !important;
         }
 
         .footer-nav {
             a {
+                font-size: 16px !important;
                 color: $white !important;
             }
         }
@@ -161,6 +163,7 @@ $white: #fff;
     }
 
     .brand-description {
+        font-size: 20px;
         color: $white !important;
     }
 
