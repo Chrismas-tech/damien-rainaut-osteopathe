@@ -1633,7 +1633,7 @@ section,
 
 .home-about .about-visual .experience-badge {
     position: absolute;
-    top: 20px;
+    bottom: 20px;
     right: -20px;
     background-color: var(--accent-color);
     color: var(--contrast-color);
@@ -1674,7 +1674,7 @@ section,
     }
 
     .home-about .row {
-        text-align: center;
+        /* text-align: center; */
     }
 
     .home-about .about-content .stats-grid {

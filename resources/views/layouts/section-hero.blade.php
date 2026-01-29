@@ -69,32 +69,25 @@
 
                     <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
                         <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
-                            class="btn-custom-primary">
-                            Prendre rendez-vous sur Doctolib
+                            class="btn-custom-primary w-100">
+                            <span>
+                                Prendre rendez-vous sur
+                            </span>
+                            <span class="kaushan-script-regular ms-1">
+                                Doctolib
+                            </span>
                         </a>
                         {{--  <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                             class="btn btn-primary">
                             Prendre rendez-vous à domicile
                         </a> --}}
+                    </div>
+
+                    <div class="hero-actions d-flex justify-content-center" data-aos="fade-right" data-aos-delay="600">
                         <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
                             <i class="bi bi-play-circle me-2"></i>
                             Découvrir le cabinet en vidéo
                         </a>
-                    </div>
-
-                    <div class="emergency-contact shadow-sm" data-aos="fade-right" data-aos-delay="700">
-                        <div class="emergency-icon">
-                            <i class="bi bi-telephone-fill"></i>
-                        </div>
-                        <div class="emergency-info">
-                            <small>Renseignements et rendez-vous</small>
-                            <strong>
-                                <a
-                                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
-                                    {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
-                                </a>
-                            </strong>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -207,6 +200,22 @@
                                     </strong>
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-content mt-4">
+                    <div class="emergency-contact shadow-sm" data-aos="fade-right" data-aos-delay="700">
+                        <div class="emergency-icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="emergency-info">
+                            <small>Renseignements et rendez-vous</small>
+                            <strong>
+                                <a
+                                    href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
+                                    {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
+                                </a>
+                            </strong>
                         </div>
                     </div>
                 </div>
