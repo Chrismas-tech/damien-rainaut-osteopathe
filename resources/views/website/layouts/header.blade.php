@@ -152,24 +152,24 @@
                     <li class="dropdown">
                         <a href="#">
                             @if ($website->lang === 'fr')
-                                <div>
+                                <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/french.png') }}" alt="french">
-                                    <span>FR</span>
+                                    <span class="ms-1">FR</span>
                                 </div>
                             @elseif($website->lang === 'en')
-                                <div>
+                                <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/english.png') }}" alt="english">
-                                    <span>EN</span>
+                                    <span class="ms-1">EN</span>
                                 </div>
                             @elseif($website->lang === 'it')
-                                <div>
+                                <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/italian.png') }}" alt="italian">
-                                    <span>IT</span>
+                                    <span class="ms-1">IT</span>
                                 </div>
                             @elseif($website->lang === 'de')
-                                <div>
+                                <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/german.png') }}" alt="german">
-                                    <span>DE</span>
+                                    <span class="ms-1">DE</span>
                                 </div>
                             @endif
                             <i class="bi bi-chevron-down toggle-dropdown"></i>
@@ -187,7 +187,7 @@
                                 @foreach ($flags as $flag)
                                     @if ($website->lang !== $flag[0])
                                         <a href="{{ route($flag[1]) }}">
-                                            <div>
+                                            <div class="d-flex align-items-center">
                                                 <img class="me-2"
                                                     src="{{ asset('img/website/lang/' . $flag[2] . '.png') }}"
                                                     alt="{{ $flag[2] }}">

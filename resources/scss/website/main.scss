@@ -1749,7 +1749,7 @@ section,
 
 .featured-departments .specialty-features span {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 10px;
     font-size: 14px;
     color: color-mix(in srgb, var(--default-color), transparent 15%);
