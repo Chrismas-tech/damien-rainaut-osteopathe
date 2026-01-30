@@ -16,7 +16,7 @@
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="specialty-card">
                     <div class="specialty-visual">
-                        <img src="{{ asset('img/website/damien/sport-1.webp') }}" alt="Ostéopathie du Sport Nice"
+                        <img src="{{ asset('img/website/damien/damien-13.webp') }}" alt="Ostéopathie du Sport Nice"
                             class="img-fluid">
                     </div>
                     <div class="specialty-content">
@@ -131,8 +131,8 @@
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="250">
                 <div class="specialty-card">
                     <div class="specialty-visual">
-                        <img src="{{ asset('img/website/damien/sport-4.webp') }}"
-                            alt="Récupération Ostéopathie Sport Nice" class="img-fluid">
+                        <img src="{{ asset('img/website/damien/dami.webp') }}" alt="Récupération Ostéopathie Sport Nice"
+                            class="img-fluid">
                     </div>
                     <div class="specialty-content">
                         <div class="specialty-meta">
@@ -168,8 +168,8 @@
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                 <div class="specialty-card">
                     <div class="specialty-visual">
-                        <img src="{{ asset('img/website/damien/Femme enceinte-1.webp') }}" alt="Ostéopathie Pédiatrique Nice"
-                            class="img-fluid">
+                        <img src="{{ asset('img/website/damien/Femme enceinte-1.webp') }}"
+                            alt="Ostéopathie Pédiatrique Nice" class="img-fluid">
                     </div>
                     <div class="specialty-content">
                         <div class="specialty-meta">
