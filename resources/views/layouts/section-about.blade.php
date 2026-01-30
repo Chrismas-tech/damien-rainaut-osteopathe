@@ -120,7 +120,58 @@
                     </table>
                 </div>
             </div>
-        </div>
+            <!-- Remplacer toute la div #departments par ceci -->
 
+            <div class="departments mt-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10 col-12">
+
+                            <!-- Carte Bootstrap centrée -->
+                            <div class="card shadow-lg border-0 overflow-hidden h-100 department-card"
+                                data-aos="fade-up" data-aos-delay="100">
+
+                                <div class="row g-0">
+                                    <!-- Image à gauche (ou en haut sur mobile) -->
+                                    <div class="col-md-5">
+                                        <img src="https://damien-rainaut-osteopathe.laragon/img/website/damien/osteo-11.webp"
+                                            class="img-fluid h-100 object-fit-cover"
+                                            alt="Demi-journée prévention TMS Nice">
+                                    </div>
+
+                                    <!-- Contenu à droite -->
+                                    <div class="col-md-7">
+                                        <div class="card-body d-flex flex-column p-4 p-lg-5">
+
+                                            <div class="d-flex align-items-center mb-4">
+                                                <h3 class="card-title mb-0">Demi-Journée Prévention (4h)
+                                                    <i class="fas fa-clock fa-md"></i>
+                                                </h3>
+                                            </div>
+
+                                            <p class="card-text text-muted lead">
+                                                Idéal pour une petite équipe ou un suivi ciblé.
+                                                Consultations individuelles de 30 à 45 min sur site
+                                                pour désamorcer rapidement les tensions aiguës et prévenir les TMS.
+                                            </p>
+
+                                            <div class="mt-auto">
+                                                <a href="https://damien-rainaut-osteopathe.laragon/contact"
+                                                    class="btn-custom-outline">
+                                                    <span>Demander un devis</span>
+                                                    <i class="fas fa-arrow-right ms-2"></i>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section><!-- End About Section -->

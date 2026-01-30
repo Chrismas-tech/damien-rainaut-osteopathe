@@ -23,7 +23,7 @@
             <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
                 <div class="featured-service-main">
                     <div class="service-image-wrapper">
-                        <img src={{ asset('img/website/damien/expertise-terrain.webp') }}
+                        <img src={{ asset('img/website/damien/expertise-terrain-1.webp') }}
                             alt="Cabinet d'ostéopathie à Nice" class="img-fluid" loading="lazy">
                         {{-- <div class="service-overlay">
                             <div class="service-badge">

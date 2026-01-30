@@ -2,7 +2,7 @@
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 32px;
+    font-size: 38px;
     letter-spacing: 1px;
 }
 
@@ -119,7 +119,7 @@
 }
 
 .featured-services .service-image-wrapper img {
-    object-position: 0% 45% !important;
+    height: fit-content !important
 }
 
 .home-about .about-content .section-heading {
@@ -137,7 +137,7 @@
 .home-about .about-visual .experience-badge {
     background-color: $white;
     color: $primary !important;
-    border: solid 2px $primary !important;
+    border: solid 2px #175cd1 !important;
 }
 
 .featured-departments .specialty-card p {
@@ -153,7 +153,7 @@
     font-size: 20px;
 
     i {
-        font-size: 36px;
+        font-size: 30px !important;
     }
 }
 
@@ -245,6 +245,10 @@
         }
     }
 
+    i {
+        font-size: 30px;
+    }
+
     .specialty-content {
         span {
             font-size: 16px;
@@ -284,5 +288,15 @@
 
     .list-unstyled {
         font-size: 20px !important;
+
+        i {
+            font-size: 30px !important;
+        }
     }
+
+    th {
+        background-color: $primary !important;
+        color: $white !important;
+    }
+
 }

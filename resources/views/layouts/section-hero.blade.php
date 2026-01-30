@@ -67,13 +67,14 @@
                         </div> --}}
                     </div>
 
-                    <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
+                    <div class="hero-actions d-flex justify-content-center" data-aos="fade-right"
+                        data-aos-delay="600">
                         <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                             class="btn-custom-primary w-100">
                             <span>
                                 Prendre rendez-vous sur
                             </span>
-                            <span class="kaushan-script-regular ms-1">
+                            <span class="kaushan-script-regular ms-2">
                                 Doctolib
                             </span>
                         </a>
