@@ -5,6 +5,18 @@
     font-style: normal;
     font-size: 38px;
     letter-spacing: 1px;
+
+    @media (max-width: 800px) {
+        font-size: 28px;
+    }
+
+    @media (max-width: 550px) {
+        font-size: 24px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 20px;
+    }
 }
 
 /* Utilities */
@@ -339,4 +351,3 @@
 .departments-tabs .specialty-navigation .department-tab.active {
     color: $white !important;
 }
-

@@ -35,7 +35,7 @@
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
                                         <img src="{{ asset('img/website/damien/anxiété-1.webp') }}"
-                                            alt="Gestion stress entreprise Nice" class="img-fluid">
+                                            alt="Gestion stress entreprise Nice" class="img-fluid w-100">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
@@ -111,7 +111,7 @@
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
                                         <img src="{{ asset('img/website/damien/sport-1.webp') }}"
-                                            alt="Ostéopathie du sport Nice" class="img-fluid">
+                                            alt="Ostéopathie du sport Nice" class="img-fluid w-100">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
@@ -186,7 +186,7 @@
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
                                         <img src="{{ asset('img/website/damien/damien-13.webp') }}"
-                                            alt="Récupération ostéopathie Nice" class="img-fluid">
+                                            alt="Récupération ostéopathie Nice" class="img-fluid w-100">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
@@ -263,7 +263,7 @@
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
                                         <img src="{{ asset('img/website/damien/Femme enceinte-1.webp') }}"
-                                            alt="Ostéopathie Pédiatrique Nice" class="img-fluid">
+                                            alt="Ostéopathie Pédiatrique Nice" class="img-fluid w-100">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 order-lg-1">

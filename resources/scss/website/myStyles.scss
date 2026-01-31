@@ -69,6 +69,8 @@ $white: #fff;
 }
 
 .btn-custom-primary {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     font-size: 28px;
     padding: 1rem 2rem;
@@ -83,6 +85,19 @@ $white: #fff;
     background-color: $primary;
     color: $white;
     cursor: pointer;
+    cursor: pointer;
+
+    @media (max-width: 800px) {
+        font-size: 22px;
+    }
+
+    @media (max-width: 550px) {
+        font-size: 20px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 18px;
+    }
 }
 
 .btn-custom-primary:hover {
@@ -111,7 +126,6 @@ $white: #fff;
     border: 2px solid primary;
     background-color: transparent;
     color: primary;
-    cursor: pointer;
 }
 
 .btn-custom-outline:hover {
