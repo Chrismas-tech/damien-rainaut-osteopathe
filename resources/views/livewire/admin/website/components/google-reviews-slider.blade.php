@@ -64,7 +64,7 @@
                                                 <i class="fa fa-md fa-star"></i>
                                             @endfor
                                         </div>
-                                        <p class="google-review-date">{{ $review['relative_time_description'] }}</p>
+                                        <p class="google-review-date">{{ $review['date'] }}</p>
                                         <p class="google-review-text">{{ $review['text'] }}</p>
                                     </li>
                                 @endforeach

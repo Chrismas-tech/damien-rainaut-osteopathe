@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('author_name');
             $table->bigInteger('rating')->default(0);
             $table->longText('text')->nullable();
-            $table->string('relative_time_description')->nullable();
+            $table->string('date')->nullable();
             $table->text('profile_photo_src')->nullable();
             $table->timestamps();
         });

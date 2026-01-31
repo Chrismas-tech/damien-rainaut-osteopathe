@@ -1,3 +1,4 @@
+/* Typography */
 .kaushan-script-regular {
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
@@ -6,75 +7,62 @@
     letter-spacing: 1px;
 }
 
-
+/* Utilities */
 .custom-container-margin {
     margin-top: 120px;
 }
 
-.contact-item {
-    display: flex;
-    align-items: center !important;
+.my-blue {
+    color: $primary;
 }
 
-.hero-description {
-    font-size: 20px !important;
-
-    .highlight {
-        color: $white !important;
-    }
+.active {
+    color: $primary !important;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url("../../../public/img/website/bg/abstract-bg-3.webp") center/cover;
-    opacity: 0.3;
-    z-index: 0;
-}
-
-
-.about {
-    position: relative;
-
+/* Hero */
+.hero {
     &::before {
         content: "";
         position: absolute;
         inset: 0;
         background: url("../../../public/img/website/bg/abstract-bg-3.webp") center / cover;
-        opacity: 0.2;
+        opacity: 0.3;
         z-index: 0;
     }
-}
 
+    .hero-description {
+        font-size: 20px !important;
 
-.featured-departments .specialty-visual img {
-    object-position: 48% 67%;
-}
+        .highlight {
+            color: $white !important;
+        }
+    }
 
-.featured-departments .specialty-visual {
-    height: 475px;
-}
+    .hero-visual {
+        .main-image {
+            img {
+                object-position: 56% 0 !important;
+            }
+        }
+    }
 
-.emergency-info strong {
-    font-size: 32px !important;
-
-    a {
-        color: #112344 !important
+    .hero-content {
+        .hero-actions {
+            .btn.btn-primary {
+                font-size: 22px;
+            }
+        }
     }
 }
 
+/* Floating card */
 .my-floating-card {
-    /* border: solid 3px yellow; */
     position: absolute;
     top: 20px;
     right: 20px;
 
     .my-badge-card {
-        /*  border: solid 3px green; */
         width: fit-content;
         background: #dae7f4;
         border-radius: 50px;
@@ -86,8 +74,20 @@
     }
 }
 
-.hero .hero-visual .main-image img {
-    object-position: 56% 0 !important;
+/* Emergency */
+.contact-item {
+    display: flex;
+    align-items: center !important;
+}
+
+.emergency-info {
+    strong {
+        font-size: 32px !important;
+
+        a {
+            color: #112344 !important;
+        }
+    }
 }
 
 .my-emergency-banner {
@@ -105,70 +105,57 @@
     }
 }
 
+/* About sections */
+.about {
+    position: relative;
 
-.appointment-card {
-    @media (max-width: 1200px) {
-        display: none !important;
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("../../../public/img/website/bg/abstract-bg-3.webp") center / cover;
+        opacity: 0.2;
+        z-index: 0;
     }
 }
 
+#about {
+    p {
+        font-size: 20px !important;
+    }
 
+    .list-unstyled {
+        font-size: 20px !important;
 
-.my-blue {
-    color: $primary;
-}
+        i {
+            font-size: 30px !important;
+        }
+    }
 
-.featured-services .service-image-wrapper img {
-    height: 100% !important;
-}
-
-.home-about .about-content .section-heading {
-    font-size: 44px;
-}
-
-.section-title h2 {
-    font-size: 44px;
-}
-
-.section-title p {
-    font-size: 20px;
-}
-
-.home-about .about-visual .experience-badge {
-    background-color: $white;
-    color: $primary !important;
-    border: solid 2px #175cd1 !important;
-}
-
-.featured-departments .specialty-card p {
-    font-size: 18px;
-}
-
-.home-about .about-content .lead-text {
-    font-size: 22px;
-}
-
-.featured-departments .specialty-features span {
-    font-weight: bold;
-    font-size: 20px;
-
-    i {
-        font-size: 30px !important;
+    th {
+        background-color: $primary !important;
+        color: $white !important;
     }
 }
 
-.featured-services .service-details p {
-    font-size: 20px;
-}
+.home-about {
+    .about-content {
+        .section-heading {
+            font-size: 44px;
+        }
 
-.badge-content {
-    .text {
-        font-size: 17px !important;
+        .lead-text {
+            font-size: 22px;
+        }
     }
-}
 
-.hero .hero-content .hero-actions .btn.btn-primary {
-    font-size: 22px;
+    .about-visual {
+        .experience-badge {
+            background-color: $white;
+            color: $primary !important;
+            border: solid 2px #175cd1 !important;
+        }
+    }
 }
 
 #home-about {
@@ -216,6 +203,60 @@
                     font-size: 30px !important;
                 }
             }
+        }
+    }
+}
+
+/* Sections titles */
+.section-title {
+    h2 {
+        font-size: 44px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+/* Featured departments */
+.featured-departments {
+    .specialty-visual {
+        height: 475px;
+
+        img {
+            object-position: 48% 67%;
+        }
+    }
+
+    .specialty-card {
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .specialty-features {
+        span {
+            font-weight: bold;
+            font-size: 20px;
+
+            i {
+                font-size: 30px !important;
+            }
+        }
+    }
+}
+
+/* Featured services */
+.featured-services {
+    .service-image-wrapper {
+        img {
+            height: 100% !important;
+        }
+    }
+
+    .service-details {
+        p {
+            font-size: 20px;
         }
     }
 }
@@ -281,26 +322,20 @@
     }
 }
 
-#about {
-    p {
-        font-size: 20px !important;
+/* Cards */
+.appointment-card {
+    @media (max-width: 1200px) {
+        display: none !important;
     }
-
-    .list-unstyled {
-        font-size: 20px !important;
-
-        i {
-            font-size: 30px !important;
-        }
-    }
-
-    th {
-        background-color: $primary !important;
-        color: $white !important;
-    }
-
 }
 
-.active {
-    color: $primary !important;
+.badge-content {
+    .text {
+        font-size: 17px !important;
+    }
+}
+
+
+.departments-tabs .specialty-navigation .department-tab.active {
+    color: $white !important;
 }

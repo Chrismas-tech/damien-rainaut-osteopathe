@@ -8,93 +8,342 @@
                         <div class="nav nav-pills d-flex" id="specialty-tabs" role="tablist" data-aos="fade-up"
                             data-aos-delay="400">
                             <a class="nav-link department-tab active" id="qvt-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-qvt" role="tab" aria-controls="departments-tabs-qvt"
-                                aria-selected="true">Entreprise & QVT</a>
+                                href="#departments-tabs-qvt" role="tab">Gestion Anxiété & Stress à Nice</a>
                             <a class="nav-link department-tab" id="sport-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-sport" role="tab"
-                                aria-controls="departments-tabs-sport">Clubs Sportifs & Salles</a>
+                                href="#departments-tabs-sport" role="tab">Clubs Sportifs & Salles</a>
                             <a class="nav-link department-tab" id="spa-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-spa" role="tab" aria-controls="departments-tabs-spa">Spas &
-                                Prestige</a>
+                                href="#departments-tabs-spa" role="tab">Récupération & Bien-être</a>
                             <a class="nav-link department-tab" id="autres-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-autres" role="tab"
-                                aria-controls="departments-tabs-autres">Formats & Modalités</a>
+                                href="#departments-tabs-autres" role="tab">Pédiatrie & Posture</a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12">
                     <div class="tab-content department-content" id="specialty-content" data-aos="fade-up"
                         data-aos-delay="500">
 
-                        <!-- Tab QVT / Entreprise -->
-                        <div class="tab-pane fade show active" id="departments-tabs-qvt" role="tabpanel"
-                            aria-labelledby="qvt-tab">
+                        <!-- Anxiété -->
+                        <div class="tab-pane fade show active" id="departments-tabs-qvt" role="tabpanel">
                             <div class="row department-layout">
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
-                                        <img src="{{ asset('img/website/damien/osteo-5.webp') }}"
-                                            alt="Intervention QVT Nice" class="img-fluid"> <!-- change l'image -->
+                                        <img src="{{ asset('img/website/damien/anxiété-1.webp') }}"
+                                            alt="Gestion stress entreprise Nice" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
                                     <div class="department-info">
-                                        <h2 class="department-title">Santé & Performance en Entreprise</h2>
-                                        <p class="department-description">Interventions sur site à Nice et 06 pour
-                                            prévenir les TMS, réduire l'absentéisme et booster la productivité via
-                                            ostéopathie, ergonomie et gestion du stress.</p>
+                                        <h2 class="department-title">Gestion Anxiété & Stress à Nice</h2>
+                                        <p class="department-description">
+                                            Le stress chronique → tensions persistantes (nuque raide, mâchoire serrée,
+                                            souffle court, digestion difficile, fatigue). Il entretient un cercle
+                                            vicieux corps-esprit.
+                                            L’ostéopathie agit par libération physique pour réguler le système nerveux
+                                            et retrouver un équilibre global.
+                                        </p>
+
                                         <div class="row mt-4">
-                                            <!-- Tes services ici, ex. -->
                                             <div class="col-md-6">
                                                 <div class="service-item">
-                                                    <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
                                                     <div class="service-content">
-                                                        <h4>Permanences d'ostéopathie</h4>
-                                                        <p>Consultations individuelles (30-45 min) directement dans vos
-                                                            locaux.</p>
+                                                        <h4>Libération des tensions liées au stress</h4>
+                                                        <p>Cervicales, mâchoire, diaphragme, bassin</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Ajoute les autres... -->
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Régulation nerveuse</h4>
+                                                        <p>Techniques crâniennes favorisant détente, sommeil, calme
+                                                            intérieur</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Viscéral & fascial</h4>
+                                                        <p>Travail des zones digestives et respiratoires amplifiées par
+                                                            le stress</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Bilan postural individuel</h4>
+                                                        <p>Approche corps-esprit globale et personnalisée</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+
+                                        <a target="_blank"
+                                            href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                                            class="btn-custom-primary w-100">
+                                            <span>
+                                                Prendre rendez-vous sur
+                                            </span>
+                                            <span class="kaushan-script-regular ms-2">
+                                                Doctolib
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Tab Sport -->
-                        <div class="tab-pane fade" id="departments-tabs-sport" role="tabpanel"
-                            aria-labelledby="sport-tab">
+                        <div class="tab-pane fade" id="departments-tabs-sport" role="tabpanel">
                             <div class="row department-layout">
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
-                                        <img src="{{ asset('img/website/damien/osteo-5.webp') }}"
-                                            alt="Ostéopathie sportif Nice" class="img-fluid">
+                                        <img src="{{ asset('img/website/damien/sport-1.webp') }}"
+                                            alt="Ostéopathie du sport Nice" class="img-fluid">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
                                     <div class="department-info">
-                                        <h2 class="department-title">Clubs Sportifs & Salles de Sport</h2>
-                                        <p class="department-description">L’ingénierie de l’athlète au service du
-                                            résultat. Analyse gestuelle, récupération, réathlétisation et vigilance
-                                            terrain (héritage pompier).</p>
-                                        <!-- Ajoute tes points en service-item -->
+                                        <h2 class="department-title">Ostéopathie du Sport – Performance Durable</h2>
+                                        <p class="department-description">
+                                            Nice, capitale du triathlon international : Ironman France, 70.3 Mondiaux.
+                                            Corps soumis à charges extrêmes → impacts cumulés, rotations asymétriques,
+                                            sursollicitations.
+                                            Pour performer sans se blesser, l’ostéopathie optimise la mobilité et la
+                                            récupération.
+                                        </p>
+
+                                        <div class="row mt-4">
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Prévention des blessures</h4>
+                                                        <p>Restrictions articulaires, déséquilibres posturaux, tensions
+                                                            fasciales</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Optimisation de la performance</h4>
+                                                        <p>Libération des chaînes musculaires et amplitude améliorée</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Récupération & drainage</h4>
+                                                        <p>Post-effort, surcharges et microtraumatismes répétés</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Rééducation & gestion stress</h4>
+                                                        <p>Retour terrain post-blessure et focus mental compétition</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a target="_blank"
+                                            href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                                            class="btn-custom-primary w-100">
+                                            <span>
+                                                Prendre rendez-vous sur
+                                            </span>
+                                            <span class="kaushan-script-regular ms-2">
+                                                Doctolib
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Tab Spa -->
-                        <div class="tab-pane fade" id="departments-tabs-spa" role="tabpanel" aria-labelledby="spa-tab">
-                            <!-- Similaire, avec ton texte spa -->
+                        <!-- Tab Récupération -->
+                        <div class="tab-pane fade" id="departments-tabs-spa" role="tabpanel">
+                            <div class="row department-layout">
+                                <div class="col-lg-4 order-lg-2">
+                                    <div class="department-image">
+                                        <img src="{{ asset('img/website/damien/damien-13.webp') }}"
+                                            alt="Récupération ostéopathie Nice" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 order-lg-1">
+                                    <div class="department-info">
+                                        <h2 class="department-title">Récupération Accélérée & Drainage Tissulaire</h2>
+                                        <p class="department-description">
+                                            Après compétition ou entraînement intense, l'ostéopathie relance la
+                                            circulation, améliore la mobilité et diminue les raideurs.
+                                            Chaque séance favorise une performance durable et un entraînement continu
+                                            sur la Côte d'Azur.
+                                        </p>
+
+                                        <div class="row mt-4">
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Drainage tissulaire post-effort</h4>
+                                                        <p>Élimination des toxines et retour musculaire rapide après
+                                                            l'effort</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Libération globale du corps</h4>
+                                                        <p>Déverrouillage articulaire après charges importantes et
+                                                            sollicitations</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Amélioration vasculaire</h4>
+                                                        <p>Optimisation de la vascularisation et oxygénation tissulaire
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Prévention des interruptions</h4>
+                                                        <p>Réduction des risques de blessure et interruption de saison
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a target="_blank"
+                                            href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                                            class="btn-custom-primary w-100">
+                                            <span>
+                                                Prendre rendez-vous sur
+                                            </span>
+                                            <span class="kaushan-script-regular ms-2">
+                                                Doctolib
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <!-- Tab Modalités -->
-                        <div class="tab-pane fade" id="departments-tabs-autres" role="tabpanel"
-                            aria-labelledby="autres-tab">
-                            <!-- Ton tableau formats + citation finale -->
+                        <!-- Tab Pédiatrie & Posture -->
+                        <div class="tab-pane fade" id="departments-tabs-autres" role="tabpanel">
+                            <div class="row department-layout">
+                                <div class="col-lg-4 order-lg-2">
+                                    <div class="department-image">
+                                        <img src="{{ asset('img/website/damien/Femme enceinte-1.webp') }}"
+                                            alt="Ostéopathie Pédiatrique Nice" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 order-lg-1">
+                                    <div class="department-info">
+                                        <h2 class="department-title">Ostéopathie Pédiatrique & Posturologie</h2>
+                                        <p class="department-description">
+                                            Approche douce et sur-mesure pour nourrissons, enfants, femmes enceintes et
+                                            sportifs — rééquilibrage des appuis, correction asymétries et soulagement
+                                            global.
+                                        </p>
+
+                                        <div class="row mt-4">
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Ostéopathie du nourrisson</h4>
+                                                        <p>Techniques douces pour plagiocéphalie, coliques et troubles
+                                                            du sommeil</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Suivi grossesse & post-partum</h4>
+                                                        <p>Équilibre du bassin, gestion des douleurs et traitement des
+                                                            cicatrices</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Bilan postural complet</h4>
+                                                        <p>Analyse des déséquilibres et corrections structurelles
+                                                            adaptées</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Prévention durable</h4>
+                                                        <p>Optimisation posturale et prévention des douleurs chroniques
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a target="_blank"
+                                            href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                                            class="btn-custom-primary w-100">
+                                            <span>
+                                                Prendre rendez-vous sur
+                                            </span>
+                                            <span class="kaushan-script-regular ms-2">
+                                                Doctolib
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                    </div>
+                    </div><!-- End Tabs Content -->
                 </div>
             </div>
         </div>

@@ -115,3 +115,99 @@ AOS.init({
     once: true,
     mirror: false
 });
+
+
+/*---------------------------------------------------------------------*/
+
+document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('#specialty-tabs .department-tab');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+    let currentIndex = 0;
+    let interval;
+    let isHovering = false;
+
+    // Fonction pour changer de tab
+    function activateTab(index) {
+        // Retirer les classes actives de tous les tabs
+        tabs.forEach(tab => {
+            tab.classList.remove('active');
+            tab.setAttribute('aria-selected', 'false');
+        });
+
+        // Retirer les classes actives de tous les panneaux
+        tabPanes.forEach(pane => {
+            pane.classList.remove('show', 'active');
+        });
+
+        // Activer le tab sélectionné
+        tabs[index].classList.add('active');
+        tabs[index].setAttribute('aria-selected', 'true');
+
+        // Activer le panneau correspondant
+        const targetId = tabs[index].getAttribute('href');
+        const targetPane = document.querySelector(targetId);
+        if (targetPane) {
+            targetPane.classList.add('show', 'active');
+        }
+
+        currentIndex = index;
+    }
+
+    function showNextTab() {
+        if (isHovering) return;
+
+        // Passer au suivant
+        const nextIndex = (currentIndex + 1) % tabs.length;
+
+        // Activer le nouveau tab
+        activateTab(nextIndex);
+    }
+
+    // Initialiser - s'assurer que le premier tab est actif
+    activateTab(0);
+
+    // Démarrer le défilement
+    interval = setInterval(showNextTab, 5000);
+
+    // Gérer le survol sur chaque tab individuellement
+    tabs.forEach((tab, index) => {
+        // Arrêter le défilement quand la souris entre sur un tab
+        tab.addEventListener('mouseenter', () => {
+            isHovering = true;
+            clearInterval(interval);
+        });
+
+        // Reprendre le défilement quand la souris quitte le tab
+        tab.addEventListener('mouseleave', () => {
+            isHovering = false;
+            interval = setInterval(showNextTab, 5000);
+        });
+
+        // Gérer les clics manuels sur les tabs
+        tab.addEventListener('click', function (e) {
+            e.preventDefault();
+            activateTab(index);
+
+            // Arrêter et redémarrer le défilement après un clic manuel
+            clearInterval(interval);
+            setTimeout(() => {
+                if (!isHovering) {
+                    interval = setInterval(showNextTab, 5000);
+                }
+            }, 10000);
+        });
+    });
+
+    // Optionnel : Arrêter aussi quand on survole le contenu du tab actif
+    tabPanes.forEach(pane => {
+        pane.addEventListener('mouseenter', () => {
+            isHovering = true;
+            clearInterval(interval);
+        });
+
+        pane.addEventListener('mouseleave', () => {
+            isHovering = false;
+            interval = setInterval(showNextTab, 5000);
+        });
+    });
+});
