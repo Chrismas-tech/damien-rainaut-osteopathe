@@ -11,8 +11,8 @@
 
     @yield('content')
 
-    <div id="featurable-dcbe86cd-ae90-46a5-8cf0-6c656870f0ab" data-featurable-async></div>
-    <script src="https://featurable.com/assets/v2/grid_default.min.js" defer charset="UTF-8"></script>
+   {{--  <div id="featurable-dcbe86cd-ae90-46a5-8cf0-6c656870f0ab" data-featurable-async></div>
+    <script src="https://featurable.com/assets/v2/grid_default.min.js" defer charset="UTF-8"></script> --}}
 
 
     {{-- <section class="container">

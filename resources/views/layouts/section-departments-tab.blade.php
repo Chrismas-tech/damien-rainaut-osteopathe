@@ -1,6 +1,12 @@
 <!-- Departments Tabs Section -->
 <section id="departments-tabs" class="departments-tabs section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Section Title -->
+        <div class="container section-title pb-0" data-aos="fade-up">
+            <h2>Mes Spécialisations en Ostéopathie</h2>
+            <p>Approche manuelle globale, douce et personnalisée pour sportifs, gestion du stress, familles et bien-être
+                quotidien à Nice.</p>
+        </div><!-- End Section Title -->
         <div class="medical-specialties">
             <div class="row">
                 <div class="col-12">
@@ -36,7 +42,7 @@
                                     <div class="department-info">
                                         <h2 class="department-title">Gestion Anxiété & Stress à Nice</h2>
                                         <p class="department-description">
-                                            Le stress chronique → tensions persistantes (nuque raide, mâchoire serrée,
+                                            Le stress chronique tensions persistantes (nuque raide, mâchoire serrée,
                                             souffle court, digestion difficile, fatigue). Il entretient un cercle
                                             vicieux corps-esprit.
                                             L’ostéopathie agit par libération physique pour réguler le système nerveux
@@ -91,12 +97,8 @@
                                         <a target="_blank"
                                             href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                                             class="btn-custom-primary w-100">
-                                            <span>
-                                                Prendre rendez-vous sur
-                                            </span>
-                                            <span class="kaushan-script-regular ms-2">
-                                                Doctolib
-                                            </span>
+                                            <span>Prendre rendez-vous sur</span>
+                                            <span class="kaushan-script-regular ms-2">Doctolib</span>
                                         </a>
                                     </div>
                                 </div>
@@ -117,7 +119,7 @@
                                         <h2 class="department-title">Ostéopathie du Sport – Performance Durable</h2>
                                         <p class="department-description">
                                             Nice, capitale du triathlon international : Ironman France, 70.3 Mondiaux.
-                                            Corps soumis à charges extrêmes → impacts cumulés, rotations asymétriques,
+                                            Corps soumis à charges extrêmes impacts cumulés, rotations asymétriques,
                                             sursollicitations.
                                             Pour performer sans se blesser, l’ostéopathie optimise la mobilité et la
                                             récupération.
@@ -170,12 +172,8 @@
                                         <a target="_blank"
                                             href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                                             class="btn-custom-primary w-100">
-                                            <span>
-                                                Prendre rendez-vous sur
-                                            </span>
-                                            <span class="kaushan-script-regular ms-2">
-                                                Doctolib
-                                            </span>
+                                            <span>Prendre rendez-vous sur</span>
+                                            <span class="kaushan-script-regular ms-2">Doctolib</span>
                                         </a>
                                     </div>
                                 </div>
@@ -251,12 +249,8 @@
                                         <a target="_blank"
                                             href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                                             class="btn-custom-primary w-100">
-                                            <span>
-                                                Prendre rendez-vous sur
-                                            </span>
-                                            <span class="kaushan-script-regular ms-2">
-                                                Doctolib
-                                            </span>
+                                            <span>Prendre rendez-vous sur</span>
+                                            <span class="kaushan-script-regular ms-2">Doctolib</span>
                                         </a>
                                     </div>
                                 </div>
@@ -331,12 +325,8 @@
                                         <a target="_blank"
                                             href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                                             class="btn-custom-primary w-100">
-                                            <span>
-                                                Prendre rendez-vous sur
-                                            </span>
-                                            <span class="kaushan-script-regular ms-2">
-                                                Doctolib
-                                            </span>
+                                            <span>Prendre rendez-vous sur</span>
+                                            <span class="kaushan-script-regular ms-2">Doctolib</span>
                                         </a>
                                     </div>
                                 </div>
