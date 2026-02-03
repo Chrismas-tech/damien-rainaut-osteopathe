@@ -55,6 +55,9 @@
         </div>
 
         <div class="row gy-4 mt-5">
+            <div class="d-flex justify-content-center">
+                <h3>Je peux prendre en charge tous les problèmes ci- dessous…</h3>
+            </div>
 
             <!-- Troubles O.R.L -->
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
