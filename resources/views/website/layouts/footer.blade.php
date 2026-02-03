@@ -122,7 +122,7 @@
 
     <div class="footer-bottom">
         <div class="container">
-            <div class="bottom-content" data-aos="fade-up" data-aos-delay="300">
+            <div class="bottom-content" {{-- data-aos="fade-up" data-aos-delay="300" --}}>
                 <div class="row align-items-center">
 
                     <div class="col-lg-6">
