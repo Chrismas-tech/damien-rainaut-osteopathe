@@ -59,7 +59,6 @@
                     </a>
                 </div>
                 <div>
-
                     <a href="https://www.flaticon.com/fr/icones-gratuites/cerveau" title="cerveau icônes">Cerveau icônes
                         créées par PIXARTIST - Flaticon
                     </a>
@@ -68,7 +67,9 @@
                     <a href="https://www.flaticon.com/fr/chercher/17?word=goutte%20&color=black"
                         title="goutte d'eau icônes">Download</a>
                 </div>
-
+                <div>
+                    <a href="http://www.freepik.com">Designed by vector_corp / Freepik</a>
+                </div>
             </div>
         </section>
     </main>
