@@ -4337,8 +4337,8 @@ section,
 
 .service-details-2 .service-overview .treatment-areas .condition-tags {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 0.8rem;
 }
 
