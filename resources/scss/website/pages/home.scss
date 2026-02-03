@@ -423,3 +423,11 @@
         font-size: 19px !important;
     }
 }
+
+.about-visual {
+    .experience-badge {
+        @media (max-width: 780px) {
+            display: none !important;
+        }
+    }
+}
