@@ -184,3 +184,9 @@ $white: #fff;
     background-color: $primary !important;
     color: $white !important;
 }
+
+section {
+    @media (max-width: 450px) {
+        padding: 40px 0 !important;
+    }
+}

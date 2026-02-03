@@ -375,3 +375,51 @@
 #service-details-2 {
     background-color: #f4f8ff;
 }
+
+.section h2,
+.section-title h2 {
+    font-size: 36px !important;
+}
+
+
+/* ==========================================================================
+   MEDIAS QUERIES
+   ========================================================================== */
+
+
+@media (max-width: 450px) {
+    #header {
+        .bi-phone .rating-card {
+            display: none !important;
+        }
+    }
+
+    .sitename {
+        font-size: 22px !important;
+    }
+
+    .emergency-info strong {
+        font-size: 24px !important;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .section h2,
+    .section-title h2 {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 550px) {
+
+
+    .section-title {
+        padding-bottom: 20px !important;
+    }
+
+    .condition-tags .tag {
+        font-size: 19px !important;
+    }
+}

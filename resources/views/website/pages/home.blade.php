@@ -19,7 +19,7 @@
 
         @include('layouts.section-about')
 
-        @include('layouts.section-call-to-action')
+        {{-- @include('layouts.section-call-to-action') --}}
 
         {{-- @include('layouts.section-features-departments') --}}
 
