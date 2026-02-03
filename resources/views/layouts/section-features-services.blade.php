@@ -35,17 +35,20 @@
                     <div class="service-details">
                         <h2>
                             <i class="bi bi-heart-pulse my-blue"></i>
-                            Une Prise en Charge Diagnostique de Haute Précision
+                            Une prise en charge diagnostique de haute précision
                         </h2>
                         <p>Chaque séance débute par une évaluation clinique stricte. Ma priorité est de garantir que
                             votre motif de consultation relève bien de l’ostéopathie.</p>
 
-                        <p><i class="bi bi-eyeglasses my-blue"></i> <strong>Diagnostic d’opportunité (Différentiel)
+                        <p>
+                            <i class="bi bi-eyeglasses my-blue"></i>
+                            <strong>Diagnostic d’opportunité (Différentiel)
                             </strong> <br>
                             Grâce à mes enseignements et à mes
                             expériences en intervention, je sais identifier les "signaux d’alerte" (Red Flags). Si votre
                             douleur nécessite une prise en charge médicale urgente ou spécialisée, je peux le détecter
-                            immédiatement.</p>
+                            immédiatement.
+                        </p>
 
                         <p><i class="bi bi-kanban-fill my-blue"></i> <strong>Évaluation Systématique</strong> <br>
                             Je ne me

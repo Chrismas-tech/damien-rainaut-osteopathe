@@ -170,8 +170,13 @@
     }
 }
 
+#featured-services,
 #home-about {
-    background-color: $primary;
+    background-image: url("../../../public/img/website/damien/1077.jpg");
+}
+
+#home-about {
+
 
     .lead-text,
     h2 {
@@ -373,12 +378,18 @@
 }
 
 #service-details-2 {
-    background-color: #f4f8ff;
+    /* background-color: #f4f8ff; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("../../../public/img/website/damien/osteo-alois-84.jpg") center/cover no-repeat;
 }
 
 .section h2,
 .section-title h2 {
     font-size: 36px !important;
+}
+
+.tab-content {
+    min-height: 880px;
 }
 
 
