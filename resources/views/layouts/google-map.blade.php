@@ -1,4 +1,4 @@
-<section>
+<section class="google-map">
     <div class="row mb-4">
         <div class="container section-title aos-init aos-animate" data-aos="fade-up">
             <h2>Où me trouver ?</h2>

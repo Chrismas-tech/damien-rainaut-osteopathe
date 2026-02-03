@@ -947,7 +947,7 @@ section,
 .section {
     color: var(--default-color);
     background-color: var(--background-color);
-    padding: 60px 0;
+    padding: 100px 0;
     scroll-margin-top: 90px;
     overflow: clip;
 }
@@ -3234,7 +3234,7 @@ section,
 }
 
 .departments-tabs .medical-specialties {
-    margin-top: 3rem;
+   /*  margin-top: 3rem; */
 }
 
 .departments-tabs .specialty-navigation {

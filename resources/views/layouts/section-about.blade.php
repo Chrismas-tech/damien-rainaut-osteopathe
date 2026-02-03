@@ -3,14 +3,17 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <!-- Première partie : Texte + Image côte-à-côte -->
+        <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+            <h2>
+                Santé & Performance en entreprise :
+                <br>
+                Votre Partenaire QVT à Nice
+            </h2>
+            {{-- <h2>
+                Je peux prendre en charge tous les problèmes ci-dessous :
+            </h2> --}}
+        </div>
         <div class="row align-items-start g-5">
-            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-                <h2>
-                    Santé & Performance en entreprise :
-                    <br>
-                    Votre Partenaire QVT à Nice
-                </h2>
-            </div>
             <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                 <div class="about-content">
                     <p class="lead">Environ 30 % des arrêts de travail sont liés aux Troubles Musculo-Squelettiques

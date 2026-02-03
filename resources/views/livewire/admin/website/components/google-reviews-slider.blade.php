@@ -14,6 +14,9 @@
                                 <h3 class="google-title-business">
                                     {{ App\Models\Website::getSettings()->application_name }}
                                 </h3>
+                                <h3 class="google-title-business">
+                                    Excellent
+                                </h3>
                                 <div class="google-rating-container">
                                     <span class="google-general-rating">{{ $generalRating }}.0</span>
                                     <div class="google-stars">
