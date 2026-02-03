@@ -357,11 +357,14 @@
 }
 
 .condition-tags .tag {
-    font-size: 18px !important;
+    font-size: 22px !important;
 }
 
 .action-card {
-    min-height: 500px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+   /*  min-height: 500px; */
 }
 
 .img-troubles {
