@@ -65,9 +65,10 @@
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.flaticon.com/fr/icones-gratuites/goutte-deau" title="goutte d'eau icônes">Goutte
-                        d'eau icônes créées par Good Ware - Flaticon</a>
+                    <a href="https://www.flaticon.com/fr/chercher/17?word=goutte%20&color=black"
+                        title="goutte d'eau icônes">Download</a>
                 </div>
+
             </div>
         </section>
     </main>
