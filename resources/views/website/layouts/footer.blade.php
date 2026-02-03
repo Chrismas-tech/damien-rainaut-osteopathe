@@ -89,7 +89,7 @@
                                 <div class="nav-column">
                                     <h6>Informations</h6>
                                     <nav class="footer-nav">
-                                        <a href="{{ route('website.credits') }}">Crédits</a>
+                                        <a target="_blank" href="{{ route('website.credits') }}">Crédits</a>
                                         <a href="#">Questions fréquentes</a>
                                         <a href="#">Remboursement mutuelle</a>
                                         <a href="#">Conseils post-consultation</a>

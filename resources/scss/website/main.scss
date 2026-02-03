@@ -4353,7 +4353,7 @@ section,
     transition: all 0.3s ease;
 }
 
-.service-details-2 .service-overview .treatment-areas .condition-tags .tag:hover {
+/* .service-details-2 .service-overview .treatment-areas .condition-tags .tag:hover {
     background: var(--accent-color);
     color: var(--contrast-color);
     border-color: var(--accent-color);
@@ -4362,7 +4362,7 @@ section,
     i {
         color: var(--contrast-color) !important;
     }
-}
+} */
 
 @media (max-width: 992px) {
     .service-details-2 .service-overview {

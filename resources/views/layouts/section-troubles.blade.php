@@ -11,21 +11,42 @@
                     <div class="treatment-areas">
                         <div class="condition-tags">
 
-                            <span class="tag"><i class="bi bi-arrow-right text-primary me-2"></i>Vos douleurs
-                                physiques passagères ou chroniques compliquent votre quotidien</span>
-                            <span class="tag"><i class="bi bi-arrow-right text-primary me-2"></i>Vous avez des
-                                douleurs aiguës (dos, nuque, migraines…) sans soulagement durable</span>
-                            <span class="tag"><i class="bi bi-arrow-right text-primary me-2"></i>Vous êtes souvent
-                                tendu(e), anxieux(se), stressé(e) ou proche du burn-out</span>
-                            <span class="tag"><i class="bi bi-arrow-right text-primary me-2"></i>Vous ressentez
-                                oppression thoracique, palpitations ou fragilité émotionnelle</span>
-                            <span class="tag"><i class="bi bi-arrow-right text-primary me-2"></i>Vous êtes déjà
-                                suivi(e) médicalement et cherchez une approche complémentaire efficace</span>
-                            <span class="tag"><i class="bi bi-arrow-right text-primary me-2"></i>Vous avez des
-                                troubles digestifs, respiratoires, urinaires ou liés à la grossesse</span>
-                            <span class="tag"><i class="bi bi-arrow-right text-primary me-2"></i>Vous êtes
+                            <span class="tag">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>
+                                Vos douleurs
+                                physiques passagères ou chroniques compliquent votre quotidien
+                            </span>
+                            <span class="tag">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>
+                                Vous avez des
+                                douleurs aiguës (dos, nuque, migraines…) sans soulagement durable
+                            </span>
+                            <span class="tag">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>
+                                Vous êtes souvent
+                                tendu(e), anxieux(se), stressé(e) ou proche du burn-out
+                            </span>
+                            <span class="tag">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>
+                                Vous ressentez
+                                oppression thoracique, palpitations ou fragilité émotionnelle
+                            </span>
+                            <span class="tag">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>
+                                Vous êtes déjà
+                                suivi(e) médicalement et cherchez une approche complémentaire efficace
+                            </span>
+                            <span class="tag">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>
+                                Vous avez des
+                                troubles digestifs, respiratoires, urinaires ou liés à la grossesse
+                            </span>
+                            <span class="tag">
+                                <i class="bi bi-arrow-right text-primary me-2"></i>
+                                Vous êtes
                                 sportif(ve) et voulez mieux récupérer, gagner en mobilité ou accélérer votre
-                                rééducation</span>
+                                rééducation
+                            </span>
 
                         </div>
                     </div>
@@ -39,10 +60,22 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-ear"></i>
-                        <h4>Troubles O.R.L</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/oreille.png') }}"
+                            alt="oreille">
+                        <h4 class="mt-4">Troubles O.R.L</h4>
                     </div>
-                    <p>Sinusites, rhinites, rhinopharyngites, otites séreuses, vertiges paroxystiques bénins…</p>
+                    <p>
+                        Sinusites
+                        <br>
+                        Rhinites
+                        <br>
+                        Rhinopharyngites
+                        <br>
+                        Otites séreuses
+                        <br>
+                        Vertiges paroxystiques
+                        bénins
+                    </p>
                 </div>
             </div>
 
@@ -50,11 +83,33 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-back"></i>
-                        <h4>Troubles vertébraux</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/vertebres.png') }}"
+                            alt="">
+                        <h4 class="mt-4">Troubles vertébraux</h4>
                     </div>
-                    <p>Névralgies d’Arnold, névralgies cervico-brachiales, torticolis, cervicalgies, dorsalgies,
-                        douleurs intercostales, lumbagos, lombalgies chroniques, cruralgies, sciatalgies, pubalgies…</p>
+                    <p>
+                        Névralgies d’Arnold
+                        <br>
+                        Névralgies cervico-brachiales
+                        <br>
+                        Torticolis
+                        <br>
+                        Cervicalgies
+                        <br>
+                        Dorsalgies
+                        <br>
+                        Douleurs intercostales
+                        <br>
+                        Lumbagos
+                        <br>
+                        Lombalgies chroniques
+                        <br>
+                        Cruralgies
+                        <br>
+                        Sciatalgies
+                        <br>
+                        Pubalgies
+                    </p>
                 </div>
             </div>
 
@@ -62,11 +117,29 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-activity"></i>
-                        <h4>Troubles locomoteurs</h4>
+                        <img class="img-troubles"
+                            src="{{ asset('img/website/damien/troubles/douleurs-articulaires.png') }}"
+                            alt="douleurs-articulaires">
+                        <h4 class="mt-4">Troubles locomoteurs</h4>
                     </div>
-                    <p>Entorses, foulures, tendinites (tennis et golf-elbows), canal carpien, canal tarsien, douleurs
-                        articulaires (épaules, hanches, genoux…), épines calcanéennes, algodystrophies…</p>
+                    <p>
+                        Entorses
+                        <br>
+                        Foulures
+                        <br>
+                        Tendinites (tennis et golf-elbows)
+                        <br>
+                        Canal carpien
+                        <br>
+                        Canal tarsien
+                        <br>
+                        Douleurs
+                        articulaires (épaules, hanches, genoux…)
+                        <br>
+                        Épines calcanéennes
+                        <br>
+                        Algodystrophies
+                    </p>
                 </div>
             </div>
 
@@ -74,10 +147,16 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="250">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-lungs"></i>
-                        <h4>Troubles respiratoires</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/poumons.png') }}"
+                            alt="poumons">
+                        <h4 class="mt-4">Troubles respiratoires</h4>
                     </div>
-                    <p>Trachéites, bronchites, asthme…</p>
+                    <p>Trachéites
+                        <br>
+                        Bronchites
+                        <br>
+                        Asthme
+                    </p>
                 </div>
             </div>
 
@@ -85,11 +164,26 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-emoji-smile-upside-down"></i>
-                        <h4>Troubles digestifs</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/digestion.png') }}"
+                            alt="digestion">
+                        <h4 class="mt-4">Troubles digestifs</h4>
                     </div>
-                    <p>Ballonnements, aérophagie, digestion lente, reflux gastro-œsophagiens (hernies hiatales),
-                        colopathies fonctionnelles (constipations, diarrhées), troubles hépatobiliaires, hémorroïdes…
+                    <p>Ballonnements
+                        <br>
+                        Aérophagie
+                        <br>
+                        Digestion lente
+                        <br>
+                        Reflux gastro-œsophagiens
+                        <br> (hernies hiatales)
+                        <br>
+                        Colopathies fonctionnelles
+                        <br>
+                        (constipations, diarrhées)
+                        <br>
+                        Troubles hépatobiliaires
+                        <br>
+                        Hémorroïdes
                     </p>
                 </div>
             </div>
@@ -98,10 +192,19 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="350">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-droplet-half"></i>
-                        <h4>Troubles urinaires</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/goutte.png') }}"
+                            alt="goutte">
+                        <h4 class="mt-4">Troubles urinaires</h4>
                     </div>
-                    <p>Cystites, troubles de la prostate, incontinences, énurésies…</p>
+                    <p>
+                        Cystites
+                        <br>
+                        Troubles de la prostate
+                        <br>
+                        Incontinences
+                        <br>
+                        Énurésie
+                    </p>
                 </div>
             </div>
 
@@ -109,10 +212,19 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-gender-female"></i>
-                        <h4>Troubles gynécologiques</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/feminin.png') }}"
+                            alt="feminin">
+                        <h4 class="mt-4">Troubles gynécologiques</h4>
                     </div>
-                    <p>Normalisation du cycle, règles douloureuses, infertilité, troubles de la ménopause…</p>
+                    <p>
+                        Normalisation du cycle
+                        <br>
+                        Règles douloureuses
+                        <br>
+                        Infertilité
+                        <br>
+                        Troubles de la ménopause
+                    </p>
                 </div>
             </div>
 
@@ -120,10 +232,19 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="450">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-heart-pulse"></i>
-                        <h4>Troubles circulatoires</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/goutte.png') }}"
+                            alt="goutte">
+                        <h4 class="mt-4">Troubles circulatoires</h4>
                     </div>
-                    <p>Palpitations, oppressions thoraciques, jambes lourdes, maladie de Raynaud…</p>
+                    <p>
+                        Palpitations
+                        <br>
+                        Oppressions thoraciques
+                        <br>
+                        Jambes lourdes
+                        <br>
+                        Maladie de Raynaud…
+                    </p>
                 </div>
             </div>
 
@@ -131,10 +252,19 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="500">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <i class="bi bi-headset"></i>
-                        <h4>Troubles généraux</h4>
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/cerveau.png') }}"
+                            alt="cerveau">
+                        <h4 class="mt-4">Troubles généraux</h4>
                     </div>
-                    <p>Céphalées, migraines, insomnies, anxiété…</p>
+                    <p>
+                        Céphalées
+                        <br>
+                        Migraines
+                        <br>
+                        Insomnies
+                        <br>
+                        Anxiété
+                    </p>
                 </div>
             </div>
         </div>
