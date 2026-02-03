@@ -232,7 +232,7 @@
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="450">
                 <div class="action-card primary">
                     <div class="card-header">
-                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/goutte.png') }}"
+                        <img class="img-troubles" src="{{ asset('img/website/damien/troubles/crise-cardiaque.png') }}"
                             alt="goutte">
                         <h4 class="mt-4">Troubles circulatoires</h4>
                     </div>
