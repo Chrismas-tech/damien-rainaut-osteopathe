@@ -3234,7 +3234,7 @@ section,
 }
 
 .departments-tabs .medical-specialties {
-   /*  margin-top: 3rem; */
+    /*  margin-top: 3rem; */
 }
 
 .departments-tabs .specialty-navigation {
@@ -4266,8 +4266,8 @@ section,
 }
 
 .service-details-2 .service-overview {
-    background: var(--surface-color);
-    padding: 3rem;
+    /* background: var(--surface-color); */
+    /* padding: 3rem; */
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
 }
@@ -4324,7 +4324,7 @@ section,
 
 .service-details-2 .service-overview .treatment-areas {
     background: color-mix(in srgb, var(--default-color), transparent 97%);
-    padding: 2rem;
+    /* padding: 2rem; */
     border-radius: 16px;
 }
 
@@ -4338,6 +4338,7 @@ section,
 .service-details-2 .service-overview .treatment-areas .condition-tags {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.8rem;
 }
 

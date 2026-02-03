@@ -5,8 +5,7 @@
 
         <div class="row mb-4">
             <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-               {{--  <h2>Ostéopathie & Performance Durable à Nice</h2> --}}
-                <h2>À qui je m'adresse ?</h2>
+                <h2>Ostéopathie & Performance Durable à Nice</h2>
             </div>
             <div class="col-lg-6 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
                 <div class="about-content">

@@ -65,7 +65,7 @@
                                         <a href="#">Présentation</a>
                                         <a href="#">Approche ostéopathique</a>
                                         <a href="#">Le cabinet</a>
-                                        <a href="{{ route('website.honoraires') }}">Honoraires</a>
+                                        <a target="_blank" href="{{ route('website.honoraires') }}">Honoraires</a>
                                         <a
                                             href="https://search.google.com/local/writereview?placeid=ChIJxTKGRwHRzRIRcEX6Youk4d0">Avis</a>
                                     </nav>

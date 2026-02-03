@@ -6,25 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let progressInterval;
     let isHovering = false;
 
-    // Ajouter une progressbar vide dans chaque tab (on l'affichera seulement pour l'actif)
-    tabs.forEach(tab => {
-        const progressContainer = document.createElement('div');
-        progressContainer.className = 'tab-progress mt-1';
-        progressContainer.style.height = '3px';
-        progressContainer.style.backgroundColor = 'transparent';
-        progressContainer.style.borderRadius = '2px';
-        progressContainer.style.overflow = 'hidden';
-
-        const progressBar = document.createElement('div');
-        progressBar.className = 'progress-fill bg-primary';
-        progressBar.style.width = '0%';
-        progressBar.style.height = '100%';
-        progressBar.style.transition = 'width 0.3s linear';
-
-        progressContainer.appendChild(progressBar);
-        tab.appendChild(progressContainer); // la barre est à l'intérieur du <a>
-    });
-
     // Récupère la barre du tab actif
     function getActiveProgressBar() {
         const activeTab = tabsContainer.querySelector('.nav-link.active');

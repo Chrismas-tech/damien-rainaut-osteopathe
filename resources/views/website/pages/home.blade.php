@@ -5,23 +5,28 @@
     <main class="main">
         @include('layouts.section-hero')
 
-        <section class="container">
-            <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-                {{-- <h2>Des centaines de personnes m'ont déjà fait confiance</h2> --}}
-                <h2>Témoignages</h2>
-            </div>
-            @livewire('admin.website.components.google-reviews-slider')
-        </section>
+        @include('layouts.section-temoignages')
+
+        @include('layouts.section-troubles')
 
         @include('layouts.section-home-about')
-        {{-- @include('layouts.section-features-departments') --}}
+
         @include('layouts.section-departments-tab')
+
         @include('layouts.section-features-services')
+
         @include('layouts.google-map')
+
         @include('layouts.section-about')
-        {{-- @include('layouts.section-departments-cards') --}}
-        {{-- @include('layouts.section-find-a-doctor') --}}
+
         @include('layouts.section-call-to-action')
+
+        {{-- @include('layouts.section-features-departments') --}}
+
+        {{-- @include('layouts.section-departments-cards') --}}
+
+        {{-- @include('layouts.section-find-a-doctor') --}}
+
     </main>
 
     {{--    <h1>COMPONENTS</h1>
