@@ -245,7 +245,7 @@
                             <br>
                             Jambes lourdes
                             <br>
-                            Maladie de Raynaud…
+                            Maladie de Raynaud
                         </p>
                     </div>
                 </div>
