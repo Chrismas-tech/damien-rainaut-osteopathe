@@ -96,7 +96,7 @@
                     <div class="col-md-4">
                         <div class="card h-100 shadow-sm border-primary">
                             <div class="card-body text-center">
-                                <i class="bi bi-peace text-primary fs-1 mb-3"></i>
+                                <i class="bi bi-yin-yang text-primary fs-1 mb-3"></i>
                                 <h4 class="mb-3">Régulation de la Charge Mentale (Spécialiste Anxiété)</h4>
                                 <p class="fst-italic">
                                     Le stress est le premier accélérateur de TMS.
