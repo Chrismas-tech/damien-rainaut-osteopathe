@@ -88,6 +88,9 @@
                     </div>
                     <div class="experience-badge">
                         <div class="badge-content">
+                            <div class="img-certificate">
+                                <img src="{{ asset('img/website/damien/certificate.png') }}" alt="certificate-logo">
+                            </div>
                             <span class="years">D.O.</span>
                             <span class="text">Ostéopathe diplômé et reconnu</span>
                         </div>
