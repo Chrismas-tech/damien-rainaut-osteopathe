@@ -14,7 +14,7 @@
                         <div class="nav nav-pills d-flex" id="specialty-tabs" role="tablist" data-aos="fade-up"
                             data-aos-delay="400">
                             <a class="nav-link department-tab active" id="qvt-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-qvt" role="tab">Gestion Anxiété & Stress à Nice</a>
+                                href="#departments-tabs-stress" role="tab">Gestion Anxiété & Stress</a>
                             <a class="nav-link department-tab" id="sport-tab" data-bs-toggle="pill"
                                 href="#departments-tabs-sport" role="tab">Clubs Sportifs & Salles</a>
                             <a class="nav-link department-tab" id="spa-tab" data-bs-toggle="pill"
@@ -32,7 +32,7 @@
                         data-aos-delay="500">
 
                         <!-- Gestion Anxiété -->
-                        <div class="tab-pane fade show active" id="departments-tabs-qvt" role="tabpanel">
+                        <div class="tab-pane fade show active" id="departments-tabs-stress" role="tabpanel">
                             <div class="row department-layout">
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">

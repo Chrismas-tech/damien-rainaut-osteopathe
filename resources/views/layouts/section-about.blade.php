@@ -174,7 +174,7 @@
 
                 <div class="row g-5 justify-content-center align-items-stretch">
                     <!-- Carte 1 : Demi-Journée Prévention -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="card shadow-lg border-0 overflow-hidden h-100 department-card">
                             <div class="row g-0 h-100">
                                 <div class="col-md-5">
@@ -183,86 +183,49 @@
                                         alt="Séance ostéopathie demi-journée prévention TMS en entreprise à Nice">
                                 </div>
                                 <div class="col-md-7">
-                                    <div class="card-body d-flex flex-column p-4 p-lg-5 h-100">
-                                        <h3 class="card-title mb-4">📍 La Demi-Journée Prévention (4h)</h3>
+                                    <div class="card-body d-flex flex-column justify-content-between p-4 p-lg-5 h-100">
+                                        <h3 class="card-title mb-4 d-flex align-items-center">
+                                            <i class="bi bi-clock me-2"></i>
+                                            <span>La Demi-Journée Prévention (4h)</span>
+                                        </h3>
+
                                         <p class="card-text text-muted lead mb-4">
-                                            Idéal pour un suivi ciblé ou une petite équipe. Comprend des consultations
+                                            Idéal pour un suivi ciblé ou une petite équipe.
+                                            <br>
+                                            Comprend des consultations
                                             individuelles de 30 à 45 minutes sur site pour désamorcer les tensions
                                             aiguës et prévenir les TMS.
                                         </p>
-                                        <div class="mt-auto">
-                                            <div class="d-flex justify-content-center">
+                                        <h4 class="mb-3">Autres modalités disponibles :</h4>
+                                        <ul class="list-inline fs-5">
+                                            <li class="list-inline-item mx-3"><i
+                                                    class="bi bi-check-circle text-success me-2"></i>Permanences
+                                                d'ostéopathie sur site
+                                                (30-45 min)</li>
+                                            <li class="list-inline-item mx-3"><i
+                                                    class="bi bi-check-circle text-success me-2"></i>Audits
+                                                Ergo-Dynamiques : analyse et correction des gestes/postures en situation
+                                                réelle</li>
+                                        </ul>
+                                        <p class="mt-4 lead">Solutions "clés en main" directement dans vos locaux à Nice
+                                            et 06.</p>
+                                        <div class="d-flex justify-content-center mt-4">
+                                            <p class="text-center text-lg-start">
                                                 <a target="_blank" href="{{ route('website.contact') }}"
                                                     class="btn-custom-outline">
                                                     <i class="bi bi-arrow-right"></i>
-                                                    <span class="ms-1">Devis gratuit</span>
+                                                    <span class="ms-1">
+                                                        Contactez-moi pour un devis
+                                                        gratuit
+                                                    </span>
                                                 </a>
-                                            </div>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Carte 2 : Journée Santé & QVT -->
-                    <div class="col-lg-6">
-                        <div class="card shadow-lg border-0 overflow-hidden h-100 department-card">
-                            <div class="row g-0 h-100">
-                                <div class="col-md-5">
-                                    <!-- Image différente – remplace par ton vrai fichier si différent -->
-                                    <img src="{{ asset('img/website/damien/osteo-11.webp') }}"
-                                        class="img-fluid h-100 object-fit-cover"
-                                        alt="Séance ostéopathie demi-journée prévention TMS en entreprise à Nice">
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="card-body d-flex flex-column p-4 p-lg-5 h-100">
-                                        <h3 class="card-title mb-4">📍 La Journée Santé & QVT (7h)</h3>
-                                        <p class="card-text text-muted lead mb-4">
-                                            Format complet pour traiter un plus grand nombre de collaborateurs. Inclut
-                                            consultations individuelles + audit rapide des postes de travail et conseils
-                                            collectifs.
-                                        </p>
-                                        <div class="mt-auto">
-                                            <div class="d-flex justify-content-center">
-                                                <a target="_blank" href="{{ route('website.contact') }}"
-                                                    class="btn-custom-outline">
-                                                    <i class="bi bi-arrow-right"></i>
-                                                    <span class="ms-1">Devis gratuit</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Mention des autres modalités -->
-                <div class="mt-5 text-center">
-                    <h4 class="mb-3">Autres modalités disponibles :</h4>
-                    <ul class="list-inline fs-5">
-                        <li class="list-inline-item mx-3"><i
-                                class="bi bi-check-circle text-success me-2"></i>Permanences d'ostéopathie sur site
-                            (30-45 min)</li>
-                        <li class="list-inline-item mx-3"><i class="bi bi-check-circle text-success me-2"></i>Audits
-                            Ergo-Dynamiques : analyse et correction des gestes/postures en situation réelle</li>
-                    </ul>
-                    <p class="mt-4 lead">Solutions "clés en main" directement dans vos locaux à Nice et 06.</p>
-                </div>
-
-                <!-- Call to action final -->
-                <div class="d-flex justify-content-center">
-                    <p class="text-center text-lg-start">
-                        <a target="_blank" href="{{ route('website.contact') }}" class="btn-custom-outline">
-                            <i class="bi bi-arrow-right"></i>
-                            <span class="ms-1">
-                                Contactez-moi pour un devis
-                                gratuit
-                            </span>
-                        </a>
-                    </p>
                 </div>
             </div>
         </div>
