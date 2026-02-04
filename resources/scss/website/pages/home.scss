@@ -438,6 +438,12 @@
     }
 }
 
+#home-about .lead-text::before,
+#home-about h2::before,
+#home-about .h2::before {
+    background-color: $primary !important;
+}
+
 
 
 
