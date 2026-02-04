@@ -138,7 +138,6 @@
                             <a href="{{ route('website.terms-of-services') }}">Conditions d’utilisation</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

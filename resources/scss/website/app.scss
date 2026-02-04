@@ -63,10 +63,11 @@
 
 /* Pages & Layouts */
 @import "./html-base.scss";
+@import "./layouts/header.scss";
 @import "./pages/home.scss";
 @import "./pages/honoraires.scss";
 @import "./pages/error-404.scss";
-@import "./layouts/header.scss";
+@import "./pages/footer.scss";
 
 /* --------------------------------------------------------------- */
 
