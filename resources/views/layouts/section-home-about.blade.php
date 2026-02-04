@@ -21,7 +21,7 @@
                         </span>
                     </p>
 
-                    <p>
+                    <p class="lead-text">
                         Au-delà du soulagement ponctuel, chaque consultation est une analyse précise et 100 %
                         personnalisée :
                         <br>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
 
-                    <p>
+                    <p class="lead-text">
                         Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
                         persistante,
                         un
@@ -83,7 +83,7 @@
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
-                        <img src={{ asset('img/website/damien/damien-4.webp') }} alt="Cabinet d'ostéopathie à Nice"
+                        <img src={{ asset('img/website/damien/osteo-11.webp') }} alt="Cabinet d'ostéopathie à Nice"
                             class="img-fluid">
                     </div>
                     <div class="experience-badge">

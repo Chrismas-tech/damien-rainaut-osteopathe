@@ -37,29 +37,40 @@
                             <i class="bi bi-heart-pulse my-blue"></i>
                             Une prise en charge diagnostique de haute précision
                         </h2>
-                        <p>Chaque séance débute par une évaluation clinique stricte. Ma priorité est de garantir que
-                            votre motif de consultation relève bien de l’ostéopathie.</p>
-
                         <p>
-                            <i class="bi bi-eyeglasses my-blue"></i>
-                            <strong>Diagnostic d’opportunité (Différentiel)
-                            </strong> <br>
+                            Chaque séance débute par une évaluation clinique stricte. Ma priorité est de garantir que
+                            votre motif de consultation relève bien de l’ostéopathie.
+                        </p>
+                        <p>
+                            <span class="d-flex align-items-center">
+                                <i class="bi bi-eyeglasses my-blue me-1"></i>
+                                <strong>Diagnostic d’opportunité (Différentiel)
+                                </strong>
+                            </span>
                             Grâce à mes enseignements et à mes
                             expériences en intervention, je sais identifier les "signaux d’alerte" (Red Flags). Si votre
                             douleur nécessite une prise en charge médicale urgente ou spécialisée, je peux le détecter
                             immédiatement.
                         </p>
 
-                        <p><i class="bi bi-kanban-fill my-blue"></i> <strong>Évaluation Systématique</strong> <br>
+                        <p>
+                            <span class="d-flex align-items-center">
+                                <i class="bi bi-kanban-fill my-blue me-1"></i>
+                                <strong>Évaluation Systématique</strong>
+                            </span>
                             Je ne me
                             contente pas de traiter la zone
                             douloureuse. J’analyse l’ensemble de vos systèmes (mécanique, viscéral, neurologique) pour
-                            assurer une prise en charge cohérente et sécurisée.</p>
+                            assurer une prise en charge cohérente et sécurisée.
+                        </p>
 
-                        <p><i class="bi bi-arrow-repeat my-blue"></i> <strong>Réorientation Médicale </strong> <br>
-                            Ma
-                            méthode de travail structurée me permet de
-                            collaborer efficacement avec votre parcours de soins classique et de vous réorienter vers le
+                        <p>
+                            <span class="d-flex align-items-center">
+                                <i class="bi bi-arrow-repeat my-blue me-1"></i>
+                                <strong>Réorientation Médicale</strong>
+                            </span>
+                            Ma méthode de travail structurée me permet de collaborer efficacement avec votre parcours de
+                            soins classique et de vous réorienter vers le
                             professionnel de santé adapté si nécessaire.
                         </p>
                     </div>

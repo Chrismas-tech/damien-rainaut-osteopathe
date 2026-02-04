@@ -379,7 +379,7 @@
 
 #service-details-2 {
     /* background-color: #f4f8ff; */
-    background: linear-gradient(rgba(0, 0, 0, 0.1),
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.1)), url("../../../public/img/website/damien/osteo-alois-84.jpg") center/cover no-repeat;
 }
 
@@ -390,6 +390,20 @@
 
 .tab-content {
     min-height: 880px;
+}
+
+#service-details-2 {
+    h2 {
+        color: $white !important;
+
+        &::after {
+            background-color: $white !important;
+        }
+
+        &::before {
+            background-color: rgb(11, 131, 236) !important;
+        }
+    }
 }
 
 

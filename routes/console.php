@@ -40,14 +40,15 @@ Schedule::call(function () {
 
     GoogleReviews::truncate();
 
-    $url = 'https://featurable.com/api/v2/widgets/732f4e08-03c6-4468-82b3-01683f7c328e';
+    $url = 'https://featurable.com/api/v2/widgets/5c7ab84d-8025-4fef-b425-5ae6b056edbb';
 
     $response = json_decode(Http::get($url));
 
-   /*  dd($response); */
+    /* dd($response); */
 
     $googleProfile = $response->widget->gbpLocationSummary;
     $reviews = $response->widget->reviews;
+
 
 
     if ($response->success === true) {
@@ -59,12 +60,11 @@ Schedule::call(function () {
         ]);
 
         foreach ($reviews as $review) {
-
             GoogleReviews::create([
                 'author_name' => $review->author->name,
                 'rating' => $review->rating->value,
                 'text' => $review->originalText,
-                'relative_time_description' => \Carbon\Carbon::parse($review->publishedAt)->translatedFormat('d F Y'),
+                'date' => \Carbon\Carbon::parse($review->publishedAt)->translatedFormat('d F Y'),
                 'profile_photo_src' => $review->author->avatarUrl,
             ]);
         }
