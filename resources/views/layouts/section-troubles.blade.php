@@ -56,25 +56,31 @@
         </div>
         <div class="container">
             <div class="row gy-4">
-                <!-- Troubles O.R.L -->
-                <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+
+                <!-- Troubles digestifs -->
+                <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
                     <div class="action-card primary">
                         <div class="card-header">
-                            <img class="img-troubles" src="{{ asset('img/website/damien/troubles/oreille.png') }}"
-                                alt="oreille">
-                            <h4 class="mt-4">Troubles O.R.L</h4>
+                            <img class="img-troubles" src="{{ asset('img/website/damien/troubles/digestion.png') }}"
+                                alt="digestion">
+                            <h4 class="mt-4">Troubles digestifs</h4>
                         </div>
-                        <p>
-                            Sinusites
+                        <p>Ballonnements
                             <br>
-                            Rhinites
+                            Aérophagie
                             <br>
-                            Rhinopharyngites
+                            Digestion lente
                             <br>
-                            Otites séreuses
+                            Reflux gastro-œsophagiens
+                            <br> (hernies hiatales)
                             <br>
-                            Vertiges paroxystiques
-                            bénins
+                            Colopathies fonctionnelles
+                            <br>
+                            (constipations, diarrhées)
+                            <br>
+                            Troubles hépatobiliaires
+                            <br>
+                            Hémorroïdes
                         </p>
                     </div>
                 </div>
@@ -143,6 +149,29 @@
                     </div>
                 </div>
 
+                <!-- Troubles O.R.L -->
+                <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="action-card primary">
+                        <div class="card-header">
+                            <img class="img-troubles" src="{{ asset('img/website/damien/troubles/oreille.png') }}"
+                                alt="oreille">
+                            <h4 class="mt-4">Troubles O.R.L</h4>
+                        </div>
+                        <p>
+                            Sinusites
+                            <br>
+                            Rhinites
+                            <br>
+                            Rhinopharyngites
+                            <br>
+                            Otites séreuses
+                            <br>
+                            Vertiges paroxystiques
+                            bénins
+                        </p>
+                    </div>
+                </div>
+
                 <!-- Troubles respiratoires -->
                 <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="250">
                     <div class="action-card primary">
@@ -160,33 +189,6 @@
                     </div>
                 </div>
 
-                <!-- Troubles digestifs -->
-                <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="action-card primary">
-                        <div class="card-header">
-                            <img class="img-troubles" src="{{ asset('img/website/damien/troubles/digestion.png') }}"
-                                alt="digestion">
-                            <h4 class="mt-4">Troubles digestifs</h4>
-                        </div>
-                        <p>Ballonnements
-                            <br>
-                            Aérophagie
-                            <br>
-                            Digestion lente
-                            <br>
-                            Reflux gastro-œsophagiens
-                            <br> (hernies hiatales)
-                            <br>
-                            Colopathies fonctionnelles
-                            <br>
-                            (constipations, diarrhées)
-                            <br>
-                            Troubles hépatobiliaires
-                            <br>
-                            Hémorroïdes
-                        </p>
-                    </div>
-                </div>
 
                 <!-- Troubles urinaires -->
                 <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="350">
