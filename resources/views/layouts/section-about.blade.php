@@ -192,21 +192,44 @@
                                         <p class="card-text text-muted lead mb-4">
                                             Idéal pour un suivi ciblé ou une petite équipe.
                                             <br>
+                                            <br>
                                             Comprend des consultations
                                             individuelles de 30 à 45 minutes sur site pour désamorcer les tensions
                                             aiguës et prévenir les TMS.
                                         </p>
                                         <h4 class="mb-3">Autres modalités disponibles :</h4>
-                                        <ul class="list-inline fs-5">
-                                            <li class="list-inline-item mx-3"><i
-                                                    class="bi bi-check-circle text-success me-2"></i>Permanences
-                                                d'ostéopathie sur site
-                                                (30-45 min)</li>
-                                            <li class="list-inline-item mx-3"><i
-                                                    class="bi bi-check-circle text-success me-2"></i>Audits
-                                                Ergo-Dynamiques : analyse et correction des gestes/postures en situation
-                                                réelle</li>
-                                        </ul>
+
+                                        <div class="departments-tabs">
+                                            <div class="service-item mb-0">
+                                                <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                </div>
+                                                <div class="service-content">
+                                                    <h4>
+                                                        Permanences d'ostéopathie
+                                                    </h4>
+                                                    <p>
+                                                        Directement sur site
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="departments-tabs">
+                                            <div class="service-item mb-0">
+                                                <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                </div>
+                                                <div class="service-content">
+                                                    <h4>
+                                                        Audits
+                                                        Ergo-Dynamiques
+                                                    </h4>
+                                                    <p>
+                                                        Analyse et correction des gestes/postures en
+                                                        situation
+                                                        réelle
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <p class="mt-4 lead">Solutions "clés en main" directement dans vos locaux à Nice
                                             et 06.</p>
                                         <div class="d-flex justify-content-center mt-4">

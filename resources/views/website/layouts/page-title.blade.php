@@ -8,7 +8,7 @@
                     <p class="mb-0">
                         Ostéopathe D.O. à Nice – Approche manuelle douce et globale pour soulager vos douleurs,
                         restaurer votre mobilité et améliorer votre bien-être au quotidien.
-                        Cabinet Pôle Ostéo et consultations à domicile.
+                        Consultations au cabinet et consultations à domicile.
                     </p>
                 </div>
             </div>

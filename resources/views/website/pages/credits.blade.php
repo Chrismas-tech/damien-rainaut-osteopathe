@@ -54,7 +54,8 @@
                 </div>
                 <div>
 
-                    <a href="https://www.flaticon.com/fr/icones-gratuites/coeur" title="cœur icônes">Cœur icônes créées par
+                    <a href="https://www.flaticon.com/fr/icones-gratuites/coeur" title="cœur icônes">
+                        Cœur icônes créées par
                         Freepik - Flaticon
                     </a>
                 </div>
@@ -64,8 +65,9 @@
                     </a>
                 </div>
                 <div>
-                    <a href="https://www.flaticon.com/fr/chercher/17?word=goutte%20&color=black"
-                        title="goutte d'eau icônes">Download</a>
+                    <a href="https://www.flaticon.com/fr/icones-gratuites/goutte-deau" title="goutte d'eau icônes">
+                        Goutte
+                        d'eau icônes créées par Adury5711 - Flaticon</a>
                 </div>
                 <div>
                     <a href="http://www.freepik.com">Designed by vector_corp / Freepik</a>
