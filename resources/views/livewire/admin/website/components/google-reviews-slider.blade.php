@@ -1,4 +1,12 @@
 <div>
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <div class="d-flex justify-content-center">
+            @foreach ($googleReviews as $review)
+                <img class="google-logo-img mx-1 mb-4" src="{{ $review['profile_photo_src'] }}" alt="Photo Profile">
+            @endforeach
+        </div>
+        <h2>Des centaines de personnes m'ont déjà fait confiance</h2>
+    </div>
     @if ($apiCheck)
         <div class="google-reviews" data-aos="fade-up" data-aos-delay="200">
             <div class="google-wrapper">
