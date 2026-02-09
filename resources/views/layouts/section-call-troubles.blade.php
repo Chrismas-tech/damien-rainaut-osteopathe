@@ -1,4 +1,4 @@
-<section id="service-details-2" class="service-details-2 section">
+<section id="service-details-2" class="service-details-2 section d-flex align-items-center justify-content-center h-100">
     <div>
         <div class="container section-title aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <h2>Je m’adresse particulièrement à vous si…</h2>

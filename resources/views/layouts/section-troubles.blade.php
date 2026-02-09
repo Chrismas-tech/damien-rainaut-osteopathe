@@ -14,7 +14,7 @@
                         <h4 class="my-4">Troubles digestifs</h4>
                     </div>
                     <div class="row gy-1">
-                        <div class="col-6">
+                        <div class="col-6 border-end">
                             <p class="mb-0">Ballonnements<br>Aérophagie<br>Digestion lente<br>Reflux
                                 gastro-œsophagiens<br>(hernies hiatales)</p>
                         </div>
@@ -35,7 +35,7 @@
                         <h4 class="my-4">Troubles vertébraux</h4>
                     </div>
                     <div class="row gy-1">
-                        <div class="col-6">
+                        <div class="col-6 border-end">
                             <p class="mb-0">Névralgies d’Arnold<br>Névralgies
                                 cervico-brachiales<br>Torticolis<br>Cervicalgies<br>Dorsalgies</p>
                         </div>
@@ -58,7 +58,7 @@
                         <h4 class="my-4">Troubles locomoteurs</h4>
                     </div>
                     <div class="row gy-1">
-                        <div class="col-6">
+                        <div class="col-6 border-end">
                             <p class="mb-0">Entorses<br>Foulures<br>Tendinites (tennis et golf-elbows)<br>Canal
                                 carpien<br>Canal
                                 tarsien</p>
@@ -80,7 +80,7 @@
                         <h4 class="my-4">Troubles O.R.L</h4>
                     </div>
                     <div class="row gy-1">
-                        <div class="col-6">
+                        <div class="col-6 border-end">
                             <p class="mb-0">Sinusites<br>Rhinites<br>Rhinopharyngites</p>
                         </div>
                         <div class="col-6">

@@ -1,8 +1,16 @@
+@php
+    $reviews_photos = [
+        'https://lh3.googleusercontent.com/a-/ALV-UjUysRN54t-lMs-LyfaReq9gR3NL0FuhYHuGdiogvTJkQCuIBQSBeg=s64-c-rp-mo-ba2-br100',
+        'https://lh3.googleusercontent.com/a-/ALV-UjVgtx-sYDwMTNnV1nfv_1rsWMkWOSDdcWQ0rTx5O_46xre1JDE6=s64-c-rp-mo-br100',
+        'https://lh3.googleusercontent.com/a-/ALV-UjWBOBA1u0wGjf-6Yt0gP40zpDVGiIzrZUbGUN1NNZ1x2azslkgo=s64-c-rp-mo-ba3-br100',
+        'https://lh3.googleusercontent.com/a-/ALV-UjVBc5lglZVuxZdjYJhlb-AQM8GADL_REttY_QSxUxoiosk5C4oM=s64-c-rp-mo-br100',
+    ];
+@endphp
 <div>
     <div class="container section-title aos-init aos-animate" data-aos="fade-up">
         <div class="d-flex justify-content-center">
-            @foreach ($googleReviews as $review)
-                <img class="google-logo-img mx-1 mb-4" src="{{ $review['profile_photo_src'] }}" alt="Photo Profile">
+            @foreach ($reviews_photos as $review)
+                <img class="google-logo-img mx-1 mb-4" src="{{ $review }}" alt="Photo Profile">
             @endforeach
         </div>
         <h2>Des centaines de personnes m'ont déjà fait confiance</h2>
