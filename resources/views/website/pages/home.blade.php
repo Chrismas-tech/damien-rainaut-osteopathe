@@ -7,6 +7,8 @@
 
         @include('layouts.section-temoignages')
 
+        @include('layouts.section-call-troubles')
+
         @include('layouts.section-troubles')
 
         @include('layouts.section-home-about')

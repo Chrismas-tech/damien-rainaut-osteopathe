@@ -102,7 +102,7 @@
                             class="img-fluid">
                     </div>
                     <div class="department-content">
-                        <h3>Clubs Sportifs & Salles</h3>
+                        <h3>Ostéopathie du Sport & Performance Durable</h3>
                         <p>Analyse gestuelle, récupération post-effort, réathlétisation et diagnostic terrain rapide.
                             Pour maximiser la performance et minimiser les blessures (expérience pompier + STAPS).</p>
                         <a href="#contact" class="learn-more">

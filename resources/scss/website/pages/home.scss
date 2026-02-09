@@ -34,14 +34,14 @@
 
 .service-details-2 {
     position: relative;
-    /* background-image: url("../../../public/img/website/bg/bg-3.jpg"); */
+    /*  background-image: url("../../../public/img/website/bg/bg-4.jpg"); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
-    /*  background-image:
+    /* background-image:
         linear-gradient(rgba(255, 255, 255, 0.65), rgba(0, 0, 0, 0.15)),
-        url("../../../public/img/website/bg/bg-3.jpg"); */
+        url("../../../public/img/website/bg/bg-4.jpg"); */
 }
 
 /* Hero */
@@ -393,7 +393,7 @@
 }
 
 .condition-tags .tag {
-    font-size: 22px !important;
+    font-size: 25px !important;
 }
 
 .action-card {
@@ -405,11 +405,12 @@
 }
 
 .img-troubles {
-    width: 80px;
-    max-height: 80px;
+    width: 90px;
+    max-height: 90px;
 }
 
 #service-details-2 {
+   /*  min-height: 1000px; */
     /* background-color: #f4f8ff; */
     background: linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.1)), url("../../../public/img/website/damien/osteo-alois-84.jpg") center/cover no-repeat;

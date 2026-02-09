@@ -77,7 +77,7 @@
                                         <a target="_blank" href="{{ route('website.honoraires') }}">
                                             Honoraires
                                         </a>
-                                        <a href="{{ route('website.contact') }}">Contact</a>
+                                        <a target="_blank" href="{{ route('website.contact') }}">Contact</a>
                                     </nav>
                                 </div>
                             </div>

@@ -16,11 +16,11 @@
                             <a class="nav-link department-tab active" id="qvt-tab" data-bs-toggle="pill"
                                 href="#departments-tabs-stress" role="tab">Gestion Anxiété & Stress</a>
                             <a class="nav-link department-tab" id="sport-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-sport" role="tab">Clubs Sportifs & Salles</a>
+                                href="#departments-tabs-sport" role="tab">Ostéopathie du Sport & Performance Durable</a>
                             <a class="nav-link department-tab" id="spa-tab" data-bs-toggle="pill"
                                 href="#departments-tabs-spa" role="tab">Récupération Accélérée & Drainage Tissulaire</a>
                             <a class="nav-link department-tab" id="autres-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-autres" role="tab">Femmes enceintes/post-partum</a>
+                                href="#departments-tabs-autres" role="tab">Femmes Enceintes/Post-partum</a>
                             <a class="nav-link department-tab" id="autres-tab" data-bs-toggle="pill"
                                 href="#departments-tabs-autres" role="tab">Posturologie</a>
                         </div>
@@ -118,7 +118,7 @@
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
                                     <div class="department-info">
-                                        <h2 class="department-title">Ostéopathie du Sport – Performance Durable</h2>
+                                        <h2 class="department-title">Ostéopathie du Sport & Performance Durable</h2>
                                         <p class="department-description">
                                             Nice, capitale du triathlon international : Ironman France, 70.3 Mondiaux.
                                             Corps soumis à charges extrêmes impacts cumulés, rotations asymétriques,
@@ -197,8 +197,6 @@
                                         <p class="department-description">
                                             Après compétition ou entraînement intense, l'ostéopathie relance la
                                             circulation, améliore la mobilité et diminue les raideurs.
-                                            Chaque séance favorise une performance durable et un entraînement continu
-                                            sur la Côte d'Azur.
                                         </p>
 
                                         <div class="row mt-4">
@@ -220,7 +218,7 @@
                                                     <div class="service-content">
                                                         <h4>Libération globale du corps</h4>
                                                         <p>Déverrouillage articulaire après charges importantes et
-                                                            sollicitations</p>
+                                                            sursollicitations</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -240,8 +238,8 @@
                                                     <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
                                                     </div>
                                                     <div class="service-content">
-                                                        <h4>Prévention des interruptions</h4>
-                                                        <p>Réduction des risques de blessure et interruption de saison
+                                                        <h4>Prévention des interruptions sportives</h4>
+                                                        <p>Réduction des risques de blessure
                                                         </p>
                                                     </div>
                                                 </div>
