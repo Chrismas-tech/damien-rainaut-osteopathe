@@ -16,11 +16,13 @@
                             <a class="nav-link department-tab active" id="qvt-tab" data-bs-toggle="pill"
                                 href="#departments-tabs-stress" role="tab">Gestion Anxiété & Stress</a>
                             <a class="nav-link department-tab" id="sport-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-sport" role="tab">Ostéopathie du Sport & Performance Durable</a>
+                                href="#departments-tabs-sport" role="tab">Ostéopathie du Sport & Performance
+                                Durable</a>
                             <a class="nav-link department-tab" id="spa-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-spa" role="tab">Récupération Accélérée & Drainage Tissulaire</a>
+                                href="#departments-tabs-spa" role="tab">Récupération Accélérée & Drainage
+                                Tissulaire</a>
                             <a class="nav-link department-tab" id="autres-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-autres" role="tab">Femmes Enceintes/Post-partum</a>
+                                href="#departments-tabs-autres" role="tab">Femmes Enceintes / Post-partum</a>
                             <a class="nav-link department-tab" id="autres-tab" data-bs-toggle="pill"
                                 href="#departments-tabs-autres" role="tab">Posturologie</a>
                         </div>
@@ -268,11 +270,13 @@
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
                                     <div class="department-info">
-                                        <h2 class="department-title">Femmes enceintes/post-partum</h2>
+                                        <h2 class="department-title">Femmes enceintes / Post-partum</h2>
                                         <p class="department-description">
-                                            Approche douce et sur-mesure pour nourrissons, enfants, femmes enceintes et
-                                            sportifs — rééquilibrage des appuis, correction asymétries et soulagement
-                                            global.
+                                            Une approche douce et entièrement personnalisée pour les futures mamans.
+                                            <br>
+                                            Une méthode tout en douceur pour rééquilibrer vos appuis pendant la
+                                            grossesse, réduire les asymétries posturales liées aux changements du corps
+                                            et soulager en profondeur le dos, le bassin et les jambes.
                                         </p>
 
                                         <div class="row mt-4">
@@ -281,9 +285,12 @@
                                                     <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
                                                     </div>
                                                     <div class="service-content">
-                                                        <h4>Ostéopathie du nourrisson</h4>
-                                                        <p>Techniques douces pour plagiocéphalie, coliques et troubles
-                                                            du sommeil</p>
+                                                        <h4>Suivi de Grossesse</h4>
+                                                        <p>Troubles du sommeil, sciatiques, cervicalgies, pubalgies,
+                                                            lombalgies, dorsalgies… ces maux fréquents pendant la
+                                                            grossesse peuvent être apaisés grâce à une méthode tout en
+                                                            douceur pour réharmoniser vos appuis et retrouver du confort
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -292,9 +299,11 @@
                                                     <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
                                                     </div>
                                                     <div class="service-content">
-                                                        <h4>Suivi grossesse & post-partum</h4>
-                                                        <p>Équilibre du bassin, gestion des douleurs et traitement des
-                                                            cicatrices</p>
+                                                        <h4>Suivi post-partum</h4>
+                                                        <p>Rééquilibrage du bassin pour une meilleure stabilité, gestion
+                                                            bienveillante des douleurs courantes et traitement
+                                                            respectueux des cicatrices, pour vivre ces étapes avec plus
+                                                            de confort et de sérénité.</p>
                                                     </div>
                                                 </div>
                                             </div>

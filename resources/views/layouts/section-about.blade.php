@@ -178,7 +178,7 @@
                         <div class="card shadow-lg border-0 overflow-hidden h-100 department-card">
                             <div class="row g-0 h-100">
                                 <div class="col-md-5">
-                                    <img src="{{ asset('img/website/damien/osteo-11.webp') }}"
+                                    <img src="{{ asset('img/website/damien/prevention-tms.jpeg') }}"
                                         class="img-fluid h-100 object-fit-cover"
                                         alt="Séance ostéopathie demi-journée prévention TMS en entreprise à Nice">
                                 </div>
