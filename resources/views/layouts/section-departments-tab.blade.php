@@ -46,11 +46,11 @@
                                     <div class="department-info">
                                         <h2 class="department-title">Gestion Anxiété & Stress à Nice</h2>
                                         <p class="department-description">
-                                            Le stress chronique tensions persistantes (nuque raide, mâchoire serrée,
-                                            souffle court, digestion difficile, fatigue). Il entretient un cercle
-                                            vicieux corps-esprit.
-                                            L’ostéopathie agit par libération physique pour réguler le système nerveux
-                                            et retrouver un équilibre global.
+                                            Vivre sous pression constante déclenche des symptômes physiques concrets,
+                                            comme une raideur de la nuque ou une fatigue persistante, qui finissent par
+                                            piéger l'esprit dans un cercle vicieux. L’ostéopathie intervient pour
+                                            dénouer ces tensions, réguler le système nerveux et restaurer l'équilibre
+                                            global entre le corps et l'esprit.
                                         </p>
 
                                         <div class="row mt-4">
