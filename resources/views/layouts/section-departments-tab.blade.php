@@ -122,11 +122,8 @@
                                     <div class="department-info">
                                         <h2 class="department-title">Ostéopathie du Sport & Performance Durable</h2>
                                         <p class="department-description">
-                                            Nice, capitale du triathlon international : Ironman France, 70.3 Mondiaux.
-                                            Corps soumis à charges extrêmes impacts cumulés, rotations asymétriques,
-                                            sursollicitations.
-                                            Pour performer sans se blesser, l’ostéopathie optimise la mobilité et la
-                                            récupération.
+                                            Nice, capitale mondiale du triathlon : Ironman France, 70.3 Mondiaux… <br>
+                                            Le corps encaisse des charges extrêmes : impacts cumulés, rotations asymétriques, sursollicitations intenses. Pour performer durablement sans se blesser, l’ostéopathie optimise mobilité, récupération et équilibre biomécanique.
                                         </p>
 
                                         <div class="row mt-4">
@@ -264,7 +261,7 @@
                             <div class="row department-layout">
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
-                                        <img src="{{ asset('img/website/damien/Femme enceinte-1.webp') }}"
+                                        <img src="{{ asset('img/website/damien/posture-1.webp') }}"
                                             alt="Ostéopathie Pédiatrique Nice" class="img-fluid w-100">
                                     </div>
                                 </div>
@@ -347,7 +344,7 @@
                             <div class="row department-layout">
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
-                                        <img src="{{ asset('img/website/damien/Femme enceinte-1.webp') }}"
+                                        <img src="{{ asset('img/website/damien/Femme-enceinte-1.webp') }}"
                                             alt="Ostéopathie Pédiatrique Nice" class="img-fluid w-100">
                                     </div>
                                 </div>
