@@ -22,9 +22,10 @@
                                 href="#departments-tabs-spa" role="tab">Récupération Accélérée & Drainage
                                 Tissulaire</a>
                             <a class="nav-link department-tab" id="autres-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-autres" role="tab">Femmes Enceintes / Post-partum</a>
+                                href="#departments-tabs-femmes-enceintes" role="tab">Femmes Enceintes /
+                                Post-partum</a>
                             <a class="nav-link department-tab" id="autres-tab" data-bs-toggle="pill"
-                                href="#departments-tabs-autres" role="tab">Posturologie</a>
+                                href="#departments-tabs-posturologie" role="tab">Posturologie</a>
                         </div>
                     </div>
                 </div>
@@ -260,7 +261,90 @@
                         </div>
 
                         <!-- Femmes enceintes/post-partum -->
-                        <div class="tab-pane fade" id="departments-tabs-autres" role="tabpanel">
+                        <div class="tab-pane fade" id="departments-tabs-femmes-enceintes" role="tabpanel">
+                            <div class="row department-layout">
+                                <div class="col-lg-4 order-lg-2">
+                                    <div class="department-image">
+                                        <img src="{{ asset('img/website/damien/posture-1.webp') }}"
+                                            alt="Ostéopathie Pédiatrique Nice" class="img-fluid w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 order-lg-1">
+                                    <div class="department-info">
+                                        <h2 class="department-title">Femmes enceintes / Post-partum</h2>
+                                        <p class="department-description">
+                                            Une approche douce et entièrement personnalisée pour les futures mamans.
+                                            <br>
+                                            Une méthode tout en douceur pour rééquilibrer vos appuis pendant la
+                                            grossesse, réduire les asymétries posturales liées aux changements du corps
+                                            et soulager en profondeur le dos, le bassin et les jambes.
+                                        </p>
+
+                                        <div class="row mt-4">
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Suivi de Grossesse</h4>
+                                                        <p>Troubles du sommeil, sciatiques, cervicalgies, pubalgies,
+                                                            lombalgies, dorsalgies… ces maux fréquents pendant la
+                                                            grossesse peuvent être apaisés grâce à une méthode tout en
+                                                            douceur pour réharmoniser vos appuis et retrouver du confort
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Suivi post-partum</h4>
+                                                        <p>Rééquilibrage du bassin pour une meilleure stabilité, gestion
+                                                            bienveillante des douleurs courantes et traitement
+                                                            respectueux des cicatrices, pour vivre ces étapes avec plus
+                                                            de confort et de sérénité.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Bilan postural complet</h4>
+                                                        <p>Analyse des déséquilibres et corrections structurelles
+                                                            adaptées</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mt-3">
+                                                <div class="service-item">
+                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                    </div>
+                                                    <div class="service-content">
+                                                        <h4>Prévention durable</h4>
+                                                        <p>Optimisation posturale et prévention des douleurs chroniques
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a target="_blank"
+                                            href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                                            class="btn-custom-primary w-100">
+                                            <span>Prendre rendez-vous sur</span>
+                                            <span class="kaushan-script-regular ms-2">Doctolib</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Posturologie -->
+                        <div class="tab-pane fade" id="departments-tabs-posturologie" role="tabpanel">
                             <div class="row department-layout">
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
@@ -317,87 +401,6 @@
                                                             séances, adaptées à l’évolution du patient, visent une
                                                             réduction durable des douleurs, une meilleure stabilité
                                                             et une économie posturale optimale.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <a target="_blank"
-                                            href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
-                                            class="btn-custom-primary w-100">
-                                            <span>Prendre rendez-vous sur</span>
-                                            <span class="kaushan-script-regular ms-2">Doctolib</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Posturologie -->
-                        <div class="tab-pane fade" id="departments-tabs-autres" role="tabpanel">
-                            <div class="row department-layout">
-                                <div class="col-lg-4 order-lg-2">
-                                    <div class="department-image">
-                                        <img src="{{ asset('img/website/damien/Femme-enceinte-1.webp') }}"
-                                            alt="Ostéopathie Pédiatrique Nice" class="img-fluid w-100">
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 order-lg-1">
-                                    <div class="department-info">
-                                        <h2 class="department-title">Posturologie</h2>
-                                        <p class="department-description">
-                                            Approche douce et sur-mesure pour nourrissons, enfants, femmes enceintes
-                                            et
-                                            sportifs — rééquilibrage des appuis, correction asymétries et
-                                            soulagement
-                                            global.
-                                        </p>
-
-                                        <div class="row mt-4">
-                                            <div class="col-md-6">
-                                                <div class="service-item">
-                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4>Ostéopathie du nourrisson</h4>
-                                                        <p>Techniques douces pour plagiocéphalie, coliques et
-                                                            troubles
-                                                            du sommeil</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="service-item">
-                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4>Suivi grossesse & post-partum</h4>
-                                                        <p>Équilibre du bassin, gestion des douleurs et traitement
-                                                            des
-                                                            cicatrices</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mt-3">
-                                                <div class="service-item">
-                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4>Bilan postural complet</h4>
-                                                        <p>Analyse des déséquilibres et corrections structurelles
-                                                            adaptées</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mt-3">
-                                                <div class="service-item">
-                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4>Prévention durable</h4>
-                                                        <p>Optimisation posturale et prévention des douleurs
-                                                            chroniques
                                                         </p>
                                                     </div>
                                                 </div>
