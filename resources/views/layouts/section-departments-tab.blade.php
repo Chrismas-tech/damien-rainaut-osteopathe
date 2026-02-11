@@ -123,7 +123,10 @@
                                         <h2 class="department-title">Ostéopathie du Sport & Performance Durable</h2>
                                         <p class="department-description">
                                             Nice, capitale mondiale du triathlon : Ironman France, 70.3 Mondiaux… <br>
-                                            Le corps encaisse des charges extrêmes : impacts cumulés, rotations asymétriques, sursollicitations intenses. Pour performer durablement sans se blesser, l’ostéopathie optimise mobilité, récupération et équilibre biomécanique.
+                                            Le corps encaisse des charges extrêmes : impacts cumulés, rotations
+                                            asymétriques, sursollicitations intenses. Pour performer durablement sans se
+                                            blesser, l’ostéopathie optimise mobilité, récupération et équilibre
+                                            biomécanique.
                                         </p>
 
                                         <div class="row mt-4">
@@ -267,61 +270,53 @@
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
                                     <div class="department-info">
-                                        <h2 class="department-title">Femmes enceintes / Post-partum</h2>
+                                        <h2 class="department-title">Posturologie</h2>
                                         <p class="department-description">
-                                            Une approche douce et entièrement personnalisée pour les futures mamans.
-                                            <br>
-                                            Une méthode tout en douceur pour rééquilibrer vos appuis pendant la
-                                            grossesse, réduire les asymétries posturales liées aux changements du corps
-                                            et soulager en profondeur le dos, le bassin et les jambes.
+                                            Une approche douce, globale et entièrement personnalisée pour retrouver un
+                                            équilibre postural harmonieux.
+                                            Une méthode tout en douceur pour réinformer vos capteurs posturaux,
+                                            rééquilibrer vos appuis, réduire les asymétries et soulager en profondeur
+                                            les tensions accumulées dans le dos, le bassin, les membres inférieurs et
+                                            l’ensemble des chaînes musculaires.
                                         </p>
 
                                         <div class="row mt-4">
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                 <div class="service-item">
                                                     <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
                                                     </div>
                                                     <div class="service-content">
-                                                        <h4>Suivi de Grossesse</h4>
-                                                        <p>Troubles du sommeil, sciatiques, cervicalgies, pubalgies,
-                                                            lombalgies, dorsalgies… ces maux fréquents pendant la
-                                                            grossesse peuvent être apaisés grâce à une méthode tout en
-                                                            douceur pour réharmoniser vos appuis et retrouver du confort
+                                                        <h4>Bilan Postural Complet</h4>
+                                                        <p>
+                                                            Évaluation approfondie et systématique de votre posture
+                                                            statique et dynamique.
+                                                            Interrogatoire détaillé, analyse des capteurs posturaux
+                                                            (podaux, oculaires, mandibulaires, vestibulaires), examen
+                                                            des chaînes musculaires, du centre de gravité et des
+                                                            asymétries. Ce bilan identifie les origines des troubles
+                                                            musculo-squelettiques chroniques et définit un plan de prise
+                                                            en charge adapté et priorisé.
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                 <div class="service-item">
                                                     <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
                                                     </div>
                                                     <div class="service-content">
-                                                        <h4>Suivi post-partum</h4>
-                                                        <p>Rééquilibrage du bassin pour une meilleure stabilité, gestion
-                                                            bienveillante des douleurs courantes et traitement
-                                                            respectueux des cicatrices, pour vivre ces étapes avec plus
-                                                            de confort et de sérénité.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mt-3">
-                                                <div class="service-item">
-                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4>Bilan postural complet</h4>
-                                                        <p>Analyse des déséquilibres et corrections structurelles
-                                                            adaptées</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mt-3">
-                                                <div class="service-item">
-                                                    <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
-                                                    </div>
-                                                    <div class="service-content">
-                                                        <h4>Prévention durable</h4>
-                                                        <p>Optimisation posturale et prévention des douleurs chroniques
+                                                        <h4>Suivi ostéopathique postural</h4>
+                                                        <p>
+                                                            Traitement manuel ciblé et progressif centré sur la
+                                                            rééducation des capteurs posturaux pour restaurer
+                                                            l’équilibre global.
+                                                            Libération des restrictions articulaires et fasciales,
+                                                            réinformation précise des capteurs (podaux, oculaires,
+                                                            mandibulaires, vestibulaires…), rééquilibrage des appuis
+                                                            et normalisation des chaînes de compensation. Les
+                                                            séances, adaptées à l’évolution du patient, visent une
+                                                            réduction durable des douleurs, une meilleure stabilité
+                                                            et une économie posturale optimale.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -352,8 +347,10 @@
                                     <div class="department-info">
                                         <h2 class="department-title">Posturologie</h2>
                                         <p class="department-description">
-                                            Approche douce et sur-mesure pour nourrissons, enfants, femmes enceintes et
-                                            sportifs — rééquilibrage des appuis, correction asymétries et soulagement
+                                            Approche douce et sur-mesure pour nourrissons, enfants, femmes enceintes
+                                            et
+                                            sportifs — rééquilibrage des appuis, correction asymétries et
+                                            soulagement
                                             global.
                                         </p>
 
@@ -364,7 +361,8 @@
                                                     </div>
                                                     <div class="service-content">
                                                         <h4>Ostéopathie du nourrisson</h4>
-                                                        <p>Techniques douces pour plagiocéphalie, coliques et troubles
+                                                        <p>Techniques douces pour plagiocéphalie, coliques et
+                                                            troubles
                                                             du sommeil</p>
                                                     </div>
                                                 </div>
@@ -375,7 +373,8 @@
                                                     </div>
                                                     <div class="service-content">
                                                         <h4>Suivi grossesse & post-partum</h4>
-                                                        <p>Équilibre du bassin, gestion des douleurs et traitement des
+                                                        <p>Équilibre du bassin, gestion des douleurs et traitement
+                                                            des
                                                             cicatrices</p>
                                                     </div>
                                                 </div>
@@ -397,7 +396,8 @@
                                                     </div>
                                                     <div class="service-content">
                                                         <h4>Prévention durable</h4>
-                                                        <p>Optimisation posturale et prévention des douleurs chroniques
+                                                        <p>Optimisation posturale et prévention des douleurs
+                                                            chroniques
                                                         </p>
                                                     </div>
                                                 </div>
