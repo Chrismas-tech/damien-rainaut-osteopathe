@@ -26,7 +26,8 @@
                             fatalité</strong>. Elles sont le résultat d'une mécanique corporelle sous contrainte.
                     </p>
                     <p>
-                        Mon rôle ? Intervenir <strong>en amont</strong> grâce à l'ostéopathie pour transformer la santé de vos collaborateurs
+                        Mon rôle ? Intervenir <strong>en amont</strong> grâce à l'ostéopathie pour transformer la santé
+                        de vos collaborateurs
                         en un <strong>levier de productivité durable</strong>.
                     </p>
 
@@ -168,8 +169,10 @@
             <div class="col-12">
                 <h3 class="text-center mb-5">🛠️ Formats d'Intervention : Flexibilité & Proximité</h3>
                 <p class="text-center lead mb-5">
-                    J'interviens directement dans vos locaux à Nice et dans les Alpes-Maritimes (06) avec des formules
-                    adaptées à votre agenda et à vos besoins.
+                    J'interviens directement dans vos locaux à Nice et dans les Alpes-Maritimes (06)
+                    <br>
+                    avec des formules
+                    adaptées à votre agenda et aux besoins de votre entreprise.
                 </p>
 
                 <div class="row g-5 justify-content-center align-items-stretch">
@@ -178,8 +181,8 @@
                         <div class="card shadow-lg border-0 overflow-hidden h-100 department-card">
                             <div class="row g-0 h-100">
                                 <div class="col-md-5">
-                                    <img src="{{ asset('img/website/damien/osteo-11.webp') }}"
-                                        class="img-fluid h-100 object-fit-cover"
+                                    <img src="{{ asset('img/website/bg/entreprise-2.jpeg') }}"
+                                        class="img-entreprise-2 img-fluid h-100 object-fit-cover"
                                         alt="Séance ostéopathie demi-journée prévention TMS en entreprise à Nice">
                                 </div>
                                 <div class="col-md-7">
@@ -208,7 +211,24 @@
                                                         Permanences d'ostéopathie
                                                     </h4>
                                                     <p>
-                                                        Directement sur site
+                                                        Directement sur site, Installation rapide, sans rien à préparer
+                                                        de votre côté
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="departments-tabs">
+                                            <div class="service-item mb-0">
+                                                <div class="service-icon"><i class="bi bi-check-circle-fill"></i>
+                                                </div>
+                                                <div class="service-content">
+                                                    <h4>
+                                                        En complète autonomie
+                                                    </h4>
+                                                    <p>
+                                                        Table de soins portable et protections draps, hygiéniques
+                                                        incluses.
+
                                                     </p>
                                                 </div>
                                             </div>
