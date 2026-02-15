@@ -38,6 +38,27 @@
                             Une prise en charge diagnostique de haute précision
                         </h2>
                         <p>
+                            Ancien sapeur-pompier de Nice pendant plus de 10 ans, j’ai exercé en première intervention
+                            sur des centaines de cas graves : secours routiers sur les axes majeurs, feux urbains,
+                            urgences vitales et polytraumatismes.
+                            <br>
+                            <br>
+                            Cette expérience m’a donné une capacité unique à
+                            détecter vite les situations préoccupantes, à évaluer globalement et à rester méthodique
+                            sous pression.
+
+                            <br>
+                            <br>
+
+                            En ostéopathie, j’utilise ces compétences chaque jour : diagnostic
+                            d’opportunité immédiat pour écarter les pathologies graves, analyse systématique de
+                            l’ensemble des systèmes du corps, gestes toujours respectueux des limites physiologiques.
+                            <br>
+                            <br>
+                            Grâce à ce passé de terrain, votre prise en charge est plus vigilante, plus précise et plus
+                            sécurisante.
+                        </p>
+                        {{--  <p>
                             Chaque séance débute par une évaluation clinique stricte. Ma priorité est de garantir que
                             votre motif de consultation relève bien de l’ostéopathie.
                         </p>
@@ -72,7 +93,7 @@
                             Ma méthode de travail structurée me permet de collaborer efficacement avec votre parcours de
                             soins classique et de vous réorienter vers le
                             professionnel de santé adapté si nécessaire.
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@
             <h2>
                 Santé & Performance en entreprise
                 <br>
-                Votre Partenaire QVT à Nice
+                Ostéopathie en entreprise : Boostez votre QVT à Nice
             </h2>
         </div>
 
