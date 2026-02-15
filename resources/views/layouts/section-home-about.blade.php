@@ -10,18 +10,72 @@
             <div class="col-lg-6 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
                 <div class="about-content">
                     <p class="lead-text">
-                        Spécialiste de la dynamique du mouvement et de la régulation corps-esprit,
-                        j’accompagne toute personne en quête d’un mieux-être durable :
-                        <br>
-                        <span class="fw-bold">
-                            sportifs (amateurs ou de haut
-                            niveau), télé-travailleurs tendus, parents stressés, ou simplement ceux qui veulent mieux
-                            gérer
-                            leur anxiété, leur stress quotidien et retrouver un équilibre profond.
-                        </span>
+                        Spécialiste en dynamique du mouvement et régulation corps-esprit, j’accompagne toute personne
+                        qui recherche un mieux-être profond et durable.
                     </p>
 
+                    <div class="skills-section">
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Sportifs (amateurs ou de haut niveau)
+                            </span>
+                        </div>
+
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Télétravailleurs soumis à des tensions posturales et au stress chronique
+                            </span>
+                        </div>
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Toute personne souhaitant mieux gérer son anxiété, son stress ou retrouver un équilibre
+                                psycho-corporel harmonieux
+                            </span>
+                        </div>
+                    </div>
+
                     <p class="lead-text">
+                        Chaque séance repose sur une évaluation approfondie et entièrement individualisée :
+                        votre parcours de vie, votre posture actuelle, vos habitudes quotidiennes et vos objectifs
+                        personnels servent de fil conducteur pour construire un accompagnement sur mesure, résolument
+                        orienté vers des changements profonds et durables, bien au-delà d’un soulagement temporaire.
+                        <br>
+                        <br>
+                        J’intègre de façon complémentaire et adaptée à chaque personne les approches suivantes :
+                    </p>
+
+                    <div class="skills-section">
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Techniques structurelles (articulations, muscles, colonne)
+                            </span>
+                        </div>
+
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Ostéopathie crânio-sacrée
+                            </span>
+                        </div>
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Travail viscéral
+                            </span>
+                        </div>
+                        <div class="skills">
+                            <i class="bi bi-check-circle-fill me-2"></i>
+                            <span>
+                                Libération des tissus fasciaux
+                            </span>
+                        </div>
+                    </div>
+
+                    {{-- <p class="lead-text">
                         Au-delà du soulagement ponctuel, chaque consultation est une analyse précise et 100 %
                         personnalisée :
                         <br>
@@ -30,8 +84,12 @@
                         <br>
                         <br>
                         J’associe des techniques structurelles, crâniennes, viscérales et fasciales, adaptées à chacun.
-                        Mes domaines d’expertise à Nice :
+                        Mes domaines d’expertise :
                         <br>
+                    </p> --}}
+
+                    <p class="lead-text">
+                        Domaines d’expertise principaux :
                     </p>
 
                     <div class="skills-section">
@@ -65,18 +123,6 @@
                             </span>
                         </div>
                     </div>
-
-                    <p class="lead-text">
-                        Que vous soyez coureur, crossfiteur, nageur, personne confrontée à une anxiété
-                        persistante,
-                        un
-                        stress professionnel intense, ou simplement en recherche d’un équilibre
-                        corps-esprit
-                        retrouvé,
-                        je vous aide à vous sentir mieux, performer plus sereinement et durer sans
-                        douleur ni
-                        épuisement.
-                    </p>
                 </div>
             </div>
 

@@ -25,10 +25,18 @@
                     </h1>
 
                     <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                        Le corps possède une capacité d’adaptation remarquable lorsqu’on prend le temps de l’observer et
-                        de le comprendre. Mon objectif est de vous accompagner vers des mouvements plus libres et un
-                        quotidien plus confortable, à la maison comme au travail.
+                        Ostéopathe D.O. diplômé d'école reconnu, je vous reçois en cabinet à Nice ou je viens à votre
+                        domicile.
                         <br>
+                        <br>
+                        Ancien sapeur-pompier volontaire à Nice (chef d’équipe), nageur-sauveteur et passionné de
+                        triathlon et plongée, j’allie technicité, rigueur et écoute pour traiter efficacement vos
+                        douleurs et tensions.
+                        <br>
+                        <br>
+                        De la femme enceinte au senior, du sportif au sédentaire, je vous accompagne vers un mieux-être
+                        durable.
+                        {{-- <br>
                         <br>
                         Je mets mes compétences à votre disposition pour soulager ces douleurs et troubles qui entravent
                         votre épanouissement :
@@ -40,7 +48,7 @@
                         <br>
                         Une pratique ostéopathique centrée sur la personne, qui s’intéresse aux causes profondes plutôt
                         qu’à la
-                        simple manifestation de la douleur, pour vous guider durablement vers l’équilibre.
+                        simple manifestation de la douleur, pour vous guider durablement vers l’équilibre. --}}
                     </p>
 
                     <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
@@ -67,8 +75,7 @@
                         </div> --}}
                     </div>
 
-                    <div class="hero-actions d-flex justify-content-center" data-aos="fade-right"
-                        data-aos-delay="600">
+                    <div class="hero-actions d-flex justify-content-center" data-aos="fade-right" data-aos-delay="600">
                         <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
                             class="btn-custom-primary w-100">
                             <span>
