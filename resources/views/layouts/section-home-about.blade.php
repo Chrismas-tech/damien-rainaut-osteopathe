@@ -88,7 +88,7 @@
                         <br>
                     </p> --}}
 
-                    <p class="lead-text">
+                    {{-- <p class="lead-text">
                         Domaines d’expertise principaux :
                     </p>
 
@@ -122,7 +122,7 @@
                                 enfants dès 5 ans, femmes enceintes, seniors
                             </span>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 

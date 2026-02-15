@@ -145,7 +145,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="specialty-card">
                         <div class="specialty-image">
-                            <img src={{ asset('img/website/damien/tensionmètre.webp') }} alt="Diagnostic d'opportunité"
+                            <img src={{ asset('img/website/health/vaccination-3.webp') }} alt="Diagnostic d'opportunité"
                                 class="img-fluid" loading="lazy">
                         </div>
                         <div class="specialty-content">
@@ -159,7 +159,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="specialty-card">
                         <div class="specialty-image">
-                            <img src={{ asset('img/website/health/vaccination-3.webp') }} alt="Évaluation systématique"
+                            <img src={{ asset('img/website/damien/tensionmètre.webp') }} alt="Évaluation systématique"
                                 class="img-fluid" loading="lazy">
                         </div>
                         <div class="specialty-content">

@@ -25,7 +25,7 @@
                     </h1>
 
                     <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                        Ostéopathe D.O. diplômé d'école reconnu, je vous reçois en cabinet à Nice ou je viens à votre
+                        Ostéopathe D.O. diplômé d'école reconnu, je vous reçois à mon cabinet dans le centre de Nice ou je viens à votre
                         domicile.
                         <br>
                         <br>

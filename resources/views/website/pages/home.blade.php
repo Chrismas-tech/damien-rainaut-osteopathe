@@ -9,11 +9,11 @@
 
         {{-- @include('layouts.section-call-troubles') --}}
 
-        @include('layouts.section-troubles')
-
         @include('layouts.section-home-about')
 
         @include('layouts.section-departments-tab')
+
+        @include('layouts.section-troubles')
 
         @include('layouts.section-features-services')
 
