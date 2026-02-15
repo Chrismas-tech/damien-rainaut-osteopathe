@@ -201,13 +201,13 @@
     }
 }
 
-#featured-services,
-#home-about {
-    background-image: url("../../../public/img/website/bg/bg-2.webp");
+#featured-services {
+    /* background-image: url("../../../public/img/website/bg/malmm-13.jpg"); */
 }
 
-#home-about {
 
+#home-about {
+    /*  background-image: url("../../../public/img/website/bg/bg-2.webp"); */
 
     .lead-text,
     h2 {
@@ -381,6 +381,10 @@
     .text {
         font-size: 17px !important;
     }
+}
+
+.departments-tabs {
+    background-image: url("../../../public/img/website/bg/bg-1.webp") !important;
 }
 
 

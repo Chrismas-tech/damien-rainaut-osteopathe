@@ -265,7 +265,7 @@
                             <div class="row department-layout">
                                 <div class="col-lg-4 order-lg-2">
                                     <div class="department-image">
-                                        <img src="{{ asset('img/website/damien/posture-1.webp') }}"
+                                        <img src="{{ asset('img/website/damien/Femme-enceinte-1.webp') }}"
                                             alt="Ostéopathie Pédiatrique Nice" class="img-fluid w-100">
                                     </div>
                                 </div>
