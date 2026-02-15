@@ -26,7 +26,7 @@
                             fatalité</strong>. Elles sont le résultat d'une mécanique corporelle sous contrainte.
                     </p>
                     <p>
-                        Mon rôle ? Intervenir <strong>en amont</strong> pour transformer la santé de vos collaborateurs
+                        Mon rôle ? Intervenir <strong>en amont</strong> grâce à l'ostéopathie pour transformer la santé de vos collaborateurs
                         en un <strong>levier de productivité durable</strong>.
                     </p>
 
