@@ -26,7 +26,7 @@
                         personnalisée :
                         <br>
                         votre histoire de vie, votre posture, votre mode de vie et vos objectifs guident
-                        un soin sur-mesure pour des résultats profonds et durables
+                        un soin sur-mesure pour des résultats profonds et durables.
                         <br>
                         <br>
                         J’associe des techniques structurelles, crâniennes, viscérales et fasciales, adaptées à chacun.

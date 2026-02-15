@@ -45,7 +45,7 @@
                                 </div>
                                 <div class="col-lg-8 order-lg-1">
                                     <div class="department-info">
-                                        <h2 class="department-title">Gestion Anxiété & Stress à Nice</h2>
+                                        <h2 class="department-title">Gestion Anxiété & Stress</h2>
                                         <p class="department-description">
                                             Vivre sous pression constante déclenche des symptômes physiques concrets,
                                             comme une raideur de la nuque ou une fatigue persistante, qui finissent par
