@@ -30,7 +30,7 @@ if (Schema::hasTable('email_schedulers')) {
  * 2.Call Api
  * 3.Save new recent Reviews in DB
  */
-Schedule::call(function () {
+/* Schedule::call(function () {
 
     $googleProfileDB = GoogleReviewsProfile::first();
 
@@ -42,11 +42,11 @@ Schedule::call(function () {
 
     $url = 'https://featurable.com/api/v2/widgets/5c7ab84d-8025-4fef-b425-5ae6b056edbb';
 
-    $response = json_decode(Http::get($url));
+    $response = json_decode(Http::get($url)); */
 
     /* dd($response); */
 
-    $googleProfile = $response->widget->gbpLocationSummary;
+   /*  $googleProfile = $response->widget->gbpLocationSummary;
     $reviews = $response->widget->reviews;
 
 
@@ -71,5 +71,5 @@ Schedule::call(function () {
     } else {
         dd('Problem avec Google API KEY');
     }
-    /* })->weeklyOn(1, '00:00'); */ /* Pour le serveur */
-});
+})->weeklyOn(1, '00:00'); */ /* Pour le serveur */
+/* }); */
