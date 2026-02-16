@@ -1,7 +1,7 @@
 <div style="background-color: #f9f9f9; padding: 20px;">
     <h4 style="color: #333; margin: 0;">
         <b>
-            Thanks,<br>
+            Cordialement,<br>
             {{ \App\Models\Website::getSettings()->application_name }} <br>
             {{ config('app.url') }}
         </b>
