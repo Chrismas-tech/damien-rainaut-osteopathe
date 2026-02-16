@@ -7,7 +7,6 @@
 
         <!-- Contact Section -->
         <section id="contact" class="contact section">
-
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row g-5">
                     <div class="col-lg-5">
@@ -60,7 +59,5 @@
             </div>
 
         </section><!-- /Contact Section -->
-
     </main>
-
 @endsection

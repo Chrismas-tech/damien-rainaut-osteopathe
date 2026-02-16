@@ -54,46 +54,47 @@
                     </div>
                 </div>
 
-                <div class="col-lg-7">
-                    <div class="footer-nav-wrapper">
-                        <div class="row">
-                            <div class="col-6 col-lg-4">
-                                <div class="nav-column">
-                                    <h6>Ostéopathie D.O</h6>
-                                    <nav class="footer-nav">
-                                        <a href="#hero">Présentation</a>
-                                        <a href="#home-about">Approche ostéopathique</a>
-                                        <a href="#departments-tabs">Spécialisations ostéopathiques</a>
-                                        <a href="#featured-services">Expertise Terrain & Sécurité Clinique</a>
-                                    </nav>
+                @if (Route::currentRouteName() !== 'website.contact')
+                    <div class="col-lg-7">
+                        <div class="footer-nav-wrapper">
+                            <div class="row">
+                                <div class="col-6 col-lg-4">
+                                    <div class="nav-column">
+                                        <h6>Ostéopathie D.O</h6>
+                                        <nav class="footer-nav">
+                                            <a href="#hero">Présentation</a>
+                                            <a href="#home-about">Approche ostéopathique</a>
+                                            <a href="#departments-tabs">Spécialisations ostéopathiques</a>
+                                            <a href="#featured-services">Expertise Terrain & Sécurité Clinique</a>
+                                        </nav>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6 col-lg-4">
-                                <div class="nav-column">
-                                    <h6>Consultations</h6>
-                                    <nav class="footer-nav">
-                                        <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut"
-                                            target="_blank">Prendre rendez-vous</a>
-                                        <a target="_blank" href="{{ route('website.honoraires') }}">
-                                            Honoraires
-                                        </a>
-                                        <a target="_blank" href="{{ route('website.contact') }}">Contact</a>
-                                    </nav>
+                                <div class="col-6 col-lg-4">
+                                    <div class="nav-column">
+                                        <h6>Consultations</h6>
+                                        <nav class="footer-nav">
+                                            <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut"
+                                                target="_blank">Prendre rendez-vous</a>
+                                            <a target="_blank" href="{{ route('website.honoraires') }}">
+                                                Honoraires
+                                            </a>
+                                            <a target="_blank" href="{{ route('website.contact') }}">Contact</a>
+                                        </nav>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6 col-lg-4">
-                                <div class="nav-column">
-                                    <h6>Site Web</h6>
-                                    <nav class="footer-nav">
-                                        <a href="#google-map">Plan google map</a>
-                                        <a target="_blank" href="{{ route('website.credits') }}">Crédits</a>
-                                    </nav>
+                                <div class="col-6 col-lg-4">
+                                    <div class="nav-column">
+                                        <h6>Site Web</h6>
+                                        <nav class="footer-nav">
+                                            <a href="#google-map">Plan google map</a>
+                                            <a target="_blank" href="{{ route('website.credits') }}">Crédits</a>
+                                        </nav>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
+                @endif
             </div>
         </div>
     </div>
