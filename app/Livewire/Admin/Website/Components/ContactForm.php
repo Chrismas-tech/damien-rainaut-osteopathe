@@ -23,7 +23,7 @@ class ContactForm extends Component
     public string $message;
     public bool $termsOfServices = false;
 
-    public int $nbSubmitsPerday = 5; // 2
+    public int $nbSubmitsPerday = 100; // 2
 
     public bool $isFormValid = false;
 
@@ -60,9 +60,9 @@ class ContactForm extends Component
 
     public function submit()
     {
-        /* $this->clearRateLimiter(
+        $this->clearRateLimiter(
             'submit',
-        ); */
+        );
 
         try {
             $this->rateLimit(
