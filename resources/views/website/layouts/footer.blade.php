@@ -54,10 +54,10 @@
                     </div>
                 </div>
 
-                @if (Route::currentRouteName() !== 'website.contact' || Route::currentRouteName() !== 'website.honoraires')
-                    <div class="col-lg-7">
-                        <div class="footer-nav-wrapper">
-                            <div class="row">
+                <div class="col-lg-7">
+                    <div class="footer-nav-wrapper">
+                        <div class="row">
+                            @if (Route::currentRouteName() === 'website.home')
                                 <div class="col-6 col-lg-4">
                                     <div class="nav-column">
                                         <h6>Ostéopathie D.O</h6>
@@ -82,19 +82,19 @@
                                         </nav>
                                     </div>
                                 </div>
-                                <div class="col-6 col-lg-4">
-                                    <div class="nav-column">
-                                        <h6>Site Web</h6>
-                                        <nav class="footer-nav">
-                                            <a href="#google-map">Plan google map</a>
-                                            <a target="_blank" href="{{ route('website.credits') }}">Crédits</a>
-                                        </nav>
-                                    </div>
+                            @endif
+                            <div class="col-6 col-lg-4">
+                                <div class="nav-column">
+                                    <h6>Site Web</h6>
+                                    <nav class="footer-nav">
+                                        <a href="#google-map">Plan google map</a>
+                                        <a target="_blank" href="{{ route('website.credits') }}">Crédits</a>
+                                    </nav>
                                 </div>
                             </div>
                         </div>
                     </div>
-                @endif
+                </div>
             </div>
         </div>
     </div>
