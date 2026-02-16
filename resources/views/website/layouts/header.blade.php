@@ -11,7 +11,7 @@
 
                 <a
                     href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
-                    <i class="bi bi-phone d-flex align-items-center ms-4">
+                    <i class="bi bi-phone  ms-4">
                         {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
                     </i>
                 </a>

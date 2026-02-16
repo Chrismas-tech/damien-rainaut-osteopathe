@@ -458,7 +458,7 @@
 
 @media (max-width: 450px) {
     #header {
-        .bi-phone .rating-card {
+        .bi-phone, .rating-card {
             display: none !important;
         }
     }

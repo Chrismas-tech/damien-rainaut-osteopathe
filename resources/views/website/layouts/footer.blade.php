@@ -54,7 +54,7 @@
                     </div>
                 </div>
 
-                @if (Route::currentRouteName() !== 'website.contact')
+                @if (Route::currentRouteName() !== 'website.contact' || Route::currentRouteName() !== 'website.honoraires')
                     <div class="col-lg-7">
                         <div class="footer-nav-wrapper">
                             <div class="row">

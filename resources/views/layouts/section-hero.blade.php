@@ -25,7 +25,8 @@
                     </h1>
 
                     <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                        Ostéopathe D.O. diplômé d'école reconnu, je vous reçois à mon cabinet dans le centre de Nice ou je viens à votre
+                        Ostéopathe D.O. diplômé d'école reconnu, je vous reçois à mon cabinet dans le centre de Nice ou
+                        je viens à votre
                         domicile.
                         <br>
                         <br>
@@ -142,20 +143,21 @@
                                 <span>Ostéopathe diplômé</span>
                             </div>
                         </div>
-
-                        <div class="floating-card rating-card">
-                            <div class="card-content">
-                                <div class="rating-stars">
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
+                        <a href="#google-reviews">
+                            <div class="floating-card rating-card">
+                                <div class="card-content">
+                                    <div class="rating-stars">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <h6>{{ App\Models\GoogleReviewsProfile::first()->general_rating }} / 5</h6>
+                                    <small>Avis patients</small>
                                 </div>
-                                <h6>{{ App\Models\GoogleReviewsProfile::first()->general_rating }} / 5</h6>
-                                <small>Avis patients</small>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="background-elements">
                         <div class="element element-1"></div>

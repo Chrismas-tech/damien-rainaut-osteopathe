@@ -2,9 +2,9 @@
 @section('title', 'Honoraires')
 @section('content')
     <main class="main">
-        @include('website.layouts.page-title')
+        {{-- @include('website.layouts.page-title') --}}
 
-        <section class="section light-background honoraires">
+        <section class="light-background honoraires">
             <div class="container">
                 <div class="featured-departments">
                     <div class="row">

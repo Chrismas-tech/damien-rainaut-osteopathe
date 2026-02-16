@@ -6,7 +6,7 @@
         'https://lh3.googleusercontent.com/a-/ALV-UjVBc5lglZVuxZdjYJhlb-AQM8GADL_REttY_QSxUxoiosk5C4oM=s64-c-rp-mo-br100',
     ];
 @endphp
-<div>
+<div id="google-reviews">
     <div class="container section-title aos-init aos-animate" data-aos="fade-up">
         <div class="d-flex justify-content-center">
             @foreach ($reviews_photos as $review)
