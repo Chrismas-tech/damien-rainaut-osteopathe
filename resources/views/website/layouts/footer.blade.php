@@ -69,25 +69,28 @@
                                         </nav>
                                     </div>
                                 </div>
-                                <div class="col-6 col-lg-4">
-                                    <div class="nav-column">
-                                        <h6>Consultations</h6>
-                                        <nav class="footer-nav">
-                                            <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut"
-                                                target="_blank">Prendre rendez-vous</a>
-                                            <a target="_blank" href="{{ route('website.honoraires') }}">
-                                                Honoraires
-                                            </a>
-                                            <a target="_blank" href="{{ route('website.contact') }}">Contact</a>
-                                        </nav>
-                                    </div>
-                                </div>
                             @endif
+                            <div class="col-6 col-lg-4">
+                                <div class="nav-column">
+                                    <h6>Consultations</h6>
+                                    <nav class="footer-nav">
+                                        <a href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut"
+                                            target="_blank">Prendre rendez-vous</a>
+                                        <a target="_blank" href="{{ route('website.honoraires') }}">
+                                            Honoraires
+                                        </a>
+                                        <a target="_blank" href="{{ route('website.contact') }}">Contact</a>
+                                    </nav>
+                                </div>
+                            </div>
+
                             <div class="col-6 col-lg-4">
                                 <div class="nav-column">
                                     <h6>Site Web</h6>
                                     <nav class="footer-nav">
-                                        <a href="#google-map">Plan google map</a>
+                                        @if (Route::currentRouteName() === 'website.home')
+                                            <a href="#google-map">Plan google map</a>
+                                        @endif
                                         <a target="_blank" href="{{ route('website.credits') }}">Crédits</a>
                                     </nav>
                                 </div>
