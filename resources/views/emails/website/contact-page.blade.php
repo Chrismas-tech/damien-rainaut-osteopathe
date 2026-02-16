@@ -7,11 +7,13 @@
         @endcomponent
 
         <p class="light-gray">
-            You have received a new message from <strong>{{ $senderName }}</strong>
-            ({{ $senderEmail }}) through the contact page on
-            {{ \App\Models\Website::getSettings()->application_name }} Application :
+            Vous avez reçu un nouveau message de <strong>{{ $senderName }}</strong>
+            ({{ $senderEmail }}) depuis votre site web
+            {{ \App\Models\Website::getSettings()->application_name }} :
         </p>
 
+        <hr>
+        <h3 class="black m-0"> {{ $subject }}</h3>
         <hr>
 
         @component('mail::message', ['message' => $message])

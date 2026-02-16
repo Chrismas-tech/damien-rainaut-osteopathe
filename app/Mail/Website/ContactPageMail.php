@@ -43,7 +43,7 @@ class ContactPageMail extends Mailable
         $this->admin = User::where('role', 'admin')->first();
         $this->receiverName = $this->admin->firstname . ' ' . $this->admin->lastname;
 
-        $this->subject = 'You received an email from ' . Website::getSettings()->application_name . ' - Contact Page';
+        $this->subject = $attributes['subject'];
         $this->message = $attributes['message'];
 
         /* dd(
