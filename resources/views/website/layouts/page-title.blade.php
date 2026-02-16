@@ -1,5 +1,5 @@
 <!-- Page Title -->
-<div class="page-title">
+{{-- <div class="page-title">
     <div class="heading">
         <div class="container">
             <div class="row d-flex justify-content-center text-center">
@@ -22,4 +22,5 @@
             </ol>
         </div>
     </nav>
-</div><!-- End Page Title -->
+</div> --}}
+<!-- End Page Title -->

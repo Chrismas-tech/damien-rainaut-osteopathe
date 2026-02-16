@@ -39,8 +39,9 @@
                                 </div>
                                 <div class="info-content">
                                     <h3>Horaires d’ouverture</h3>
-                                    <p>Dimanche au vendredi : 9h - 18h</p>
-                                    <p>Samedi : 9h - 16h</p>
+                                    <p>Lundi – Samedi : 7h30 – 21h
+                                    </p>
+                                    <p>Dimanche : 10h – 17h</p>
                                 </div>
                             </div>
 

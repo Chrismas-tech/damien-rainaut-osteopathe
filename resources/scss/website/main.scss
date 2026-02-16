@@ -4467,7 +4467,7 @@ section,
 
 .service-details-2 {
     color: color-mix(in srgb, var(--default-color), transparent 25%);
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     line-height: 1.5;
 }
 
@@ -4503,7 +4503,7 @@ section,
     }
 
     .service-details-2 .service-details .detail-item {
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
 
     .service-details-2 .visual-overlay {
