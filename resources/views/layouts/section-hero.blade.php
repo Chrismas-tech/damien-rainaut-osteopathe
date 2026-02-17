@@ -180,7 +180,6 @@
                                             </span>
                                             <span>
                                                 Cabinet (22 rue Gounod, Nice)</a>
-                                        ou à domicile en
                                         urgence sur RDV
                                         </span>
                                         <br>

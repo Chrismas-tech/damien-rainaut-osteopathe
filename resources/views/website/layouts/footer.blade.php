@@ -110,7 +110,9 @@
                     <div class="col-lg-6">
                         <div class="copyright">
                             <p>© {{ App\Models\Website::getSettings()->application_name }} - {{ date('Y') }}.
-                                Tous droits réservés.</p>
+                                <br>
+                                Tous droits réservés.
+                            </p>
                         </div>
                     </div>
 

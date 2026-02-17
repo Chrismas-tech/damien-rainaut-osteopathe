@@ -2,7 +2,7 @@
 @section('title', 'Honoraires')
 @section('content')
     <main class="main">
-        {{-- @include('website.layouts.page-title') --}}
+        @include('website.layouts.page-title')
 
         <section class="light-background honoraires">
             <div class="container">
@@ -20,8 +20,6 @@
                                                     <i class="bi bi-geo-alt me-1"></i>
                                                     Cabinet (22 rue Gounod, Nice)
                                                 </a>
-                                                ou à domicile en
-                                                urgence sur RDV
                                                 <br>
                                                 <br>
                                                 <i class="bi bi-clock me-1"></i>
