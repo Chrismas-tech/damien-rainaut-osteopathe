@@ -23,7 +23,7 @@ class ContactForm extends Component
     public string $message;
     public bool $termsOfServices = false;
 
-    public int $nbSubmitsPerday = 1000; // 2
+    public int $nbSubmitsPerday = 5; // 2
 
     public bool $isFormValid = false;
 

@@ -426,9 +426,6 @@
     font-size: 45px !important;
 }
 
-.tab-content {
-    min-height: 880px;
-}
 
 #service-details-2 {
     h2 {
@@ -450,15 +447,61 @@
     background-color: $primary !important;
 }
 
-
 /* ==========================================================================
    MEDIAS QUERIES
    ========================================================================== */
 
+/* TABS */
+
+.department-content .tab-pane {
+    min-height: 100%;
+}
+
+/* #departments-tabs {
+    min-height: 1403px;
+}
+
+@media (max-width: 991px) {
+    #departments-tabs {
+        min-height: 2000px;
+    }
+}
+
+@media (max-width: 768px) {
+    #departments-tabs {
+        min-height: 2400px;
+    }
+}
+
+@media (max-width: 576px) {
+    #departments-tabs {
+        min-height: 2500px;
+    }
+} */
+
+
+/***************************/
+
+@media (max-width: 535px) {
+    .service-icon {
+        display: none !important;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .rating-card,
+    .my-floating-card {
+        display: none;
+    }
+}
+
 
 @media (max-width: 450px) {
     #header {
-        .bi-phone, .rating-card {
+
+        .bi-phone,
+        .rating-card {
             display: none !important;
         }
     }
