@@ -13,7 +13,16 @@
                 <img class="google-logo-img mx-1 mb-4" src="{{ $review }}" alt="Photo Profile">
             @endforeach
         </div>
-        <h2>Des centaines de personnes m'ont déjà fait confiance</h2>
+
+        @if (\App\Models\Website::getSettings()->lang === 'fr')
+            <h2>Des centaines de personnes m'ont déjà fait confiance</h2>
+        @elseif (\App\Models\Website::getSettings()->lang === 'en')
+            <h2>Hundreds of people have already trusted me</h2>
+        @elseif (\App\Models\Website::getSettings()->lang === 'de')
+            <h2>Hunderte Menschen haben mir bereits vertraut</h2>
+        @elseif (\App\Models\Website::getSettings()->lang === 'it')
+            <h2>Centinaia di persone si sono già fidate di me</h2>
+        @endif
     </div>
     @if ($apiCheck)
         <div class="google-reviews" data-aos="fade-up" data-aos-delay="200">

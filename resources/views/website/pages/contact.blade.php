@@ -1,5 +1,15 @@
 @extends('website.layouts.base-website')
-@section('title', 'Contact')
+@section('title')
+    @if (\App\Models\Website::getSettings()->lang === 'fr')
+        Contact
+    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+        Contact
+    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+        Kontakt
+    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+        Contatti
+    @endif
+@endsection
 @section('content')
     <main class="main">
 
@@ -16,7 +26,15 @@
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
                                 <div class="info-content">
-                                    <h3>Notre Adresse</h3>
+                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                        <h3>Notre Adresse</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                        <h3>Our Address</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                        <h3>Unsere Adresse</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                        <h3>Il Nostro Indirizzo</h3>
+                                    @endif
                                     <p>{{ App\Models\Website::getSettings()->address_service }}</p>
                                 </div>
                             </div>
@@ -26,7 +44,15 @@
                                     <i class="bi bi-envelope"></i>
                                 </div>
                                 <div class="info-content">
-                                    <h3>Adresse e-mail</h3>
+                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                        <h3>Adresse e-mail</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                        <h3>Email Address</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                        <h3>E-Mail-Adresse</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                        <h3>Indirizzo e-mail</h3>
+                                    @endif
                                     <p>{{ App\Models\Website::getSettings()->email_website }}</p>
                                     <p>{{ App\Models\Website::getSettings()->email_website_secondary }}</p>
                                 </div>
@@ -37,13 +63,30 @@
                                     <i class="bi bi-headset"></i>
                                 </div>
                                 <div class="info-content">
-                                    <h3>Horaires d’ouverture</h3>
-                                    <p>Lundi – Samedi : 7h30 – 21h
-                                    </p>
-                                    <p>Dimanche : 10h – 17h</p>
+                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                        <h3>Horaires d’ouverture</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                        <h3>Opening Hours</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                        <h3>Öffnungszeiten</h3>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                        <h3>Orari di apertura</h3>
+                                    @endif
+                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                        <p>Lundi – Samedi : 7h30 – 21h</p>
+                                        <p>Dimanche : 10h – 17h</p>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                        <p>Monday – Saturday: 7:30 AM – 9:00 PM</p>
+                                        <p>Sunday: 10:00 AM – 5:00 PM</p>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                        <p>Montag – Samstag: 7:30 – 21:00 Uhr</p>
+                                        <p>Sonntag: 10:00 – 17:00 Uhr</p>
+                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                        <p>Lunedì – Sabato: 7:30 – 21:00</p>
+                                        <p>Domenica: 10:00 – 17:00</p>
+                                    @endif
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
@@ -57,7 +100,6 @@
                     height="500" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
         </section><!-- /Contact Section -->
     </main>
 @endsection

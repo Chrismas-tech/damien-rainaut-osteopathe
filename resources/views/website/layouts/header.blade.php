@@ -47,13 +47,29 @@
                     <li>
                         <a href="{{ route('website.home') }}"
                             class="{{ Route::currentRouteName() === 'website.home' ? 'active' : '' }}">
-                            Accueil
+                            @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                Accueil
+                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                Home
+                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                Startseite
+                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                Home
+                            @endif
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('website.contact') }}"
                             class="{{ Route::currentRouteName() === 'website.contact' ? 'active' : '' }}">
-                            Contact
+                            @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                Contact
+                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                Contact
+                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                Kontakt
+                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                Contatti
+                            @endif
                         </a>
                     </li>
                     {{--                     <li>
@@ -150,7 +166,7 @@
                     </li> --}}
 
                     <li class="dropdown">
-                        <a href="#">
+                        <a>
                             @if ($website->lang === 'fr')
                                 <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/french.png') }}" alt="french">
