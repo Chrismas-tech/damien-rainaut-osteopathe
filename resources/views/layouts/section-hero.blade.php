@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="hero-actions d-flex justify-content-center" data-aos="fade-right" data-aos-delay="600">
-                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-outline glightbox">
+                        <a href="https://www.youtube.com/shorts/3mFtnr0tC_I" class="btn btn-outline glightbox">
                             <i class="bi bi-play-circle me-2"></i>
                             Découvrir le cabinet en vidéo
                         </a>
