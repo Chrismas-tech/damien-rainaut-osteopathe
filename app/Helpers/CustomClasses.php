@@ -286,4 +286,17 @@ class CustomClasses
         }
         return $formatNumber;
     }
+
+    /**
+     * Génère le lien src pour une iframe Google Maps embed (version simple comme l'originale).
+     *
+     * @param string $address L'adresse à encoder
+     * @param int    $zoom    Niveau de zoom (défaut 18)
+     * @return string
+     */
+    public static function getGoogleMapsIframeSrc(string $address, int $zoom = 18): string
+    {
+        $addressForMap = str_replace(' ', '+', $address);
+        return "https://www.google.com/maps?q=" . $addressForMap . "&output=embed&z=" . $zoom;
+    }
 }

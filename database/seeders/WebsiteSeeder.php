@@ -28,7 +28,6 @@ class WebsiteSeeder extends Seeder
             "link_pinterest" => "https://pinterest.com/pin/create/button/?url=",
             "link_instagram" => "https://www.instagram.com",
             "link_linkedin" => "https://www.linkedin.com/in/damien-rainaut-372159334/",
-            "iframe_link_google_map_src" => "https://www.google.com/maps?q=22+Rue+Gounod+Nice&output=embed",
             'phone_website' => "650866257",
             'country_code_phone_website' => "+33",
             'whatsapp_phone' => "650866257",
