@@ -68,5 +68,5 @@ Schedule::call(function () {
     } else {
         Log::error('Failed to fetch Google Reviews: ' . $response->message);
     }
-    /* })->daily(1, '00:00'); */ /* Pour le serveur */
-});
+})->daily(1, '00:00'); /* Pour le serveur */
+/* }); */
