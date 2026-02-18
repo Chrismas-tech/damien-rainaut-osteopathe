@@ -47,28 +47,32 @@
                     <li>
                         <a href="{{ route('website.home') }}"
                             class="{{ Route::currentRouteName() === 'website.home' ? 'active' : '' }}">
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
+                            @if (session('locale') === 'fr')
                                 Accueil
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                            @elseif (session('locale') === 'en')
                                 Home
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                            @elseif (session('locale') === 'de')
                                 Startseite
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                            @elseif (session('locale') === 'it')
                                 Home
+                            @elseif (session('locale') === 'es')
+                                Inicio
                             @endif
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('website.contact') }}"
                             class="{{ Route::currentRouteName() === 'website.contact' ? 'active' : '' }}">
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
+                            @if (session('locale') === 'fr')
                                 Contact
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                            @elseif (session('locale') === 'en')
                                 Contact
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                            @elseif (session('locale') === 'de')
                                 Kontakt
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                            @elseif (session('locale') === 'it')
                                 Contatti
+                            @elseif (session('locale') === 'es')
+                                Contacto
                             @endif
                         </a>
                     </li>
@@ -167,25 +171,30 @@
 
                     <li class="dropdown">
                         <a>
-                            @if ($website->lang === 'fr')
+                            @if (session('locale') === 'fr')
                                 <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/french.png') }}" alt="french">
                                     <span class="ms-1">FR</span>
                                 </div>
-                            @elseif($website->lang === 'en')
+                            @elseif(session('locale') === 'en')
                                 <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/english.png') }}" alt="english">
                                     <span class="ms-1">EN</span>
                                 </div>
-                            @elseif($website->lang === 'it')
+                            @elseif(session('locale') === 'it')
                                 <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/italian.png') }}" alt="italian">
                                     <span class="ms-1">IT</span>
                                 </div>
-                            @elseif($website->lang === 'de')
+                            @elseif(session('locale') === 'de')
                                 <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/german.png') }}" alt="german">
                                     <span class="ms-1">DE</span>
+                                </div>
+                            @elseif(session('locale') === 'es')
+                                <div class="d-flex align-items-center">
+                                    <img src="{{ asset('img/website/lang/spanish.png') }}" alt="spanish">
+                                    <span class="ms-1">ES</span>
                                 </div>
                             @endif
                             <i class="bi bi-chevron-down toggle-dropdown"></i>
@@ -194,21 +203,22 @@
                             <li>
                                 @php
                                     $flags = [
-                                        ['fr', 'lang.fr', 'french', 'Français'],
-                                        ['en', 'lang.en', 'english', 'English'],
-                                        ['it', 'lang.it', 'italian', 'Italiano'],
-                                        ['de', 'lang.de', 'german', 'Deutsch'],
+                                        ['fr', 'french', 'Français'],
+                                        ['en', 'english', 'English'],
+                                        ['it', 'italian', 'Italiano'],
+                                        ['de', 'german', 'Deutsch'],
+                                        ['es', 'spanish', 'Español'],
                                     ];
                                 @endphp
                                 @foreach ($flags as $flag)
-                                    @if ($website->lang !== $flag[0])
-                                        <a href="{{ route($flag[1]) }}">
+                                    @if (session('locale') !== $flag[0])
+                                        <a href="{{ route('lang.switch', ['locale' => $flag[0]]) }}">
                                             <div class="d-flex align-items-center">
                                                 <img class="me-2"
-                                                    src="{{ asset('img/website/lang/' . $flag[2] . '.png') }}"
+                                                    src="{{ asset('img/website/lang/' . $flag[1] . '.png') }}"
                                                     alt="{{ $flag[2] }}">
                                                 <span>
-                                                    {{ $flag[3] }}
+                                                    {{ $flag[2] }}
                                                 </span>
                                             </div>
                                         </a>

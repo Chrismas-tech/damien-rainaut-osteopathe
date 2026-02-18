@@ -16,8 +16,6 @@ class MetadatasForm extends Component
 
     public string $metaTitle;
     public string $metaDescription;
-    public string $metaKeywordsInput = '';
-    public array $metaKeywords = [];
 
     public bool $toogleEnter;
     public bool $isFormValid = true;
@@ -27,8 +25,6 @@ class MetadatasForm extends Component
         $this->seo = Seo::first();
         $this->metaTitle = $this->seo->meta_title;
         $this->metaDescription = $this->seo->meta_description;
-        $this->metaKeywords = json_decode($this->seo->meta_keywords, true);
-        $this->toogleEnter = $this->metaKeywordsInput ? true : false;
     }
 
     public function rules()
@@ -36,7 +32,6 @@ class MetadatasForm extends Component
         return [
             'metaTitle' => 'required|string|min:3|max:60',
             'metaDescription' => 'string|min:3|max:160',
-            'metaKeywords' => 'array|max:160',
         ];
     }
 
@@ -59,41 +54,6 @@ class MetadatasForm extends Component
         }
 
         $this->validateOnly($property);
-    }
-
-    public function updatedmetaKeywordsInput()
-    {
-        if (strlen($this->metaKeywordsInput) > 2) {
-            $this->toogleEnter = true;
-        } else {
-            $this->toogleEnter = false;
-        }
-    }
-
-    public function addmetaKeywordsInput()
-    {
-
-        if (strlen($this->metaKeywordsInput) > 2) {
-            $keywords = array_map('trim', explode(',', $this->metaKeywordsInput));
-            $newKeywords =
-            array_filter($keywords, fn($keyword) => !empty($keyword) && !in_array($keyword, $this->metaKeywords));
-            $this->metaKeywords = array_merge($this->metaKeywords, $newKeywords);
-            sort($this->metaKeywords);
-        }
-
-        $this->toogleEnter = false;
-        $this->updated('metaKeywords');
-        $this->reset('metaKeywordsInput');
-    }
-
-    public function removemetaKeywordsInput($metaKeywordTarget)
-    {
-        foreach ($this->metaKeywords as $key => $metaKeyword) {
-            if ($metaKeyword === $metaKeywordTarget) {
-                unset($this->metaKeywords[$key]);
-            }
-        }
-        $this->updated('metaKeywords');
     }
 
     public function submit()

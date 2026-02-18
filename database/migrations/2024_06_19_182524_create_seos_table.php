@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('meta_title')->nullable();
             $table->string('meta_description')->nullable();
-            $table->longText('meta_keywords')->nullable();
             $table->string('google_site_verification_code')->nullable();
             $table->string('open_graph_file_path')->nullable();
             $table->string('favicon_file_path')->nullable();

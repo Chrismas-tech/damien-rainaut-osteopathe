@@ -14,14 +14,16 @@
             @endforeach
         </div>
 
-        @if (\App\Models\Website::getSettings()->lang === 'fr')
+        @if (session('locale') === 'fr')
             <h2>Des centaines de personnes m'ont déjà fait confiance</h2>
-        @elseif (\App\Models\Website::getSettings()->lang === 'en')
+        @elseif (session('locale') === 'en')
             <h2>Hundreds of people have already trusted me</h2>
-        @elseif (\App\Models\Website::getSettings()->lang === 'de')
+        @elseif (session('locale') === 'de')
             <h2>Hunderte Menschen haben mir bereits vertraut</h2>
-        @elseif (\App\Models\Website::getSettings()->lang === 'it')
+        @elseif (session('locale') === 'it')
             <h2>Centinaia di persone si sono già fidate di me</h2>
+        @elseif (session('locale') === 'es')
+            <h2>Cientos de personas ya han confiado en mí</h2>
         @endif
     </div>
     @if ($apiCheck)
@@ -40,7 +42,17 @@
                                     {{ App\Models\Website::getSettings()->application_name }}
                                 </h3>
                                 <h3 class="google-title-business">
-                                    Excellent
+                                    @if (session('locale') === 'fr')
+                                        Excellent
+                                    @elseif (session('locale') === 'en')
+                                        Excellent
+                                    @elseif (session('locale') === 'de')
+                                        Ausgezeichnet
+                                    @elseif (session('locale') === 'it')
+                                        Eccellente
+                                    @elseif (session('locale') === 'es')
+                                        Excelente
+                                    @endif
                                 </h3>
                                 <div class="google-rating-container">
                                     <span class="google-general-rating">{{ $generalRating }}.0</span>
@@ -64,7 +76,19 @@
                 </div>
                 <div class="d-flex justify-content-center">
                     <a class="google-btn-review" href="{{ $writeAReviewUri }}" target="_blank" rel="nofollow noopener">
-                        <span>Laissez un avis</span>
+                        <span>
+                            @if (session('locale') === 'fr')
+                                Laissez un avis
+                            @elseif (session('locale') === 'en')
+                                Leave a review
+                            @elseif (session('locale') === 'de')
+                                Bewertung abgeben
+                            @elseif (session('locale') === 'it')
+                                Lascia una recensione
+                            @elseif (session('locale') === 'es')
+                                Dejar una reseña
+                            @endif
+                        </span>
                         <img class="google-logo-img" src="{{ asset('img/admin/logo/google-logo-white.png') }}"
                             alt="Google logo">
                     </a>

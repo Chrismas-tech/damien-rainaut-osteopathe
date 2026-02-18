@@ -15,6 +15,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
             'role' => \App\Http\Middleware\Role::class,
             'check-maintenance' => CheckMaintenance::class,
+            'lang-default' => \App\Http\Middleware\LangDefault::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {

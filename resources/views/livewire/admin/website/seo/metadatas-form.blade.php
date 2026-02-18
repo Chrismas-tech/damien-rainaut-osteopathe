@@ -63,49 +63,6 @@
                     @enderror
                 </div>
 
-                <div class="mb-1">
-                    <label for="metaKeywords">Meta Keywords</label>
-
-                    <p class="italic text-gray-500">
-                        Please enter a list of keywords, separated by commas: Keyword 1,
-                        Keyword 2, Keyword 3
-                    </p>
-
-                    <div class="flex">
-                        <input wire:model.live="metaKeywordsInput" wire:keydown.enter.prevent="addmetaKeywordsInput"
-                            type="text" id="metaKeywords"minlength="0" maxlength="60"
-                            class="w-full px-4 text-lg block border-gray-500 rounded focus:border-indigo-600 focus:ring-indigo-600 disabled:pointer-events-none disabled:opacity-5" />
-                        @if ($toogleEnter)
-                            <div wire:click="addmetaKeywordsInput" wire:target="metaKeywordsInput"
-                                class="w-48 rounded-none btn bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none  focus:ring-indigo-300">
-                                Press Enter
-                            </div>
-                        @endif
-                    </div>
-                    @error('metaKeywords')
-                        <span
-                            class="bg-red-200 px-2 py-1 text-red-700 text-sm font-medium rounded-md inline-block  text-left mt-1">
-                            {{ $message }}
-                        </span>
-                    @enderror
-                </div>
-
-                <!-- MetaKeywords Array -->
-                <div class="flex flex-wrap items-center mb-1">
-                    @foreach ($metaKeywords as $key => $tag)
-                        <div wire:click="removemetaKeywordsInput('{{ addslashes($tag) }}')"
-                            class="cursor-pointer flex items-center bg-indigo-200 px-2 py-1 text-indigo-700 text-sm font-medium rounded-md *:text-left mt-1 me-2"
-                            title="Remove Keyword">
-                            <span class="me-1">
-                                {{ $tag }}
-                            </span>
-                            <img src="{{ asset('img/admin//svg/x.svg') }}" alt="">
-                        </div>
-                    @endforeach
-                </div>
-                <!-- MetaKeywords Array -->
-
-
                 <div class="mt-4 flex justify-end">
                     <button type="submit" @if (!$isFormValid) disabled @endif
                         class="btn bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none  focus:ring-indigo-300">

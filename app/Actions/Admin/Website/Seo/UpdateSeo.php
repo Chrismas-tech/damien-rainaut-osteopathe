@@ -15,7 +15,6 @@ class UpdateSeo
             [
                 'meta_title' => $attributes['metaTitle'],
                 'meta_description' => $attributes['metaDescription'],
-                'meta_keywords' => json_encode($attributes['metaKeywords'], JSON_FORCE_OBJECT),
             ]
         );
     }

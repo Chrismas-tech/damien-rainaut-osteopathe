@@ -22,8 +22,7 @@ class SeoSeeder extends Seeder
 
         Seo::create([
             'meta_title' => $website->getSettings()->application_name,
-            'meta_description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis...',
-            'meta_keywords' => json_encode([], JSON_FORCE_OBJECT),
+            'meta_description' => 'Soulagez vos douleurs, tensions et stress avec Damien Rainaut, ostéopathe D.O. à Nice. Ostéopathie douce et globale au cabinet ou à domicile. RDV rapide !',
             'logo_file_path' => asset('storage/logo/logo.png'),
             /* 'favicon_file_path' => asset('storage/favicon/favicon.png'),
             'open_graph_file_path' => asset('storage/openGraph/openGraph.jpg'),  */

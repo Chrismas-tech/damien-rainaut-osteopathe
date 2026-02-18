@@ -3,6 +3,7 @@
 @section('content')
 
     <main class="main">
+
         @include('layouts.section-hero')
 
         @include('layouts.section-temoignages')

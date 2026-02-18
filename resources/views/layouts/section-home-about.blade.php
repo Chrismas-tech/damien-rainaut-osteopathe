@@ -1,115 +1,104 @@
 <!-- Home About Section -->
 <section id="home-about" class="home-about section">
-
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row mb-4">
+        <div class="row">
             <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-                @if (\App\Models\Website::getSettings()->lang === 'fr')
+                @if (session('locale') === 'fr')
                     <h2>Ostéopathie & Performance Durable à Nice</h2>
-                @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                @elseif (session('locale') === 'en')
                     <h2>Osteopathy & Sustainable Performance in Nice</h2>
-                @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                @elseif (session('locale') === 'de')
                     <h2>Osteopathie & Nachhaltige Leistungsfähigkeit in Nizza</h2>
-                @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                @elseif (session('locale') === 'it')
                     <h2>Osteopatia & Performance Duratura a Nizza</h2>
+                @elseif (session('locale') === 'es')
+                    <h2>Osteopatía & Rendimiento Sostenible en Niza</h2>
                 @endif
             </div>
             <div class="col-lg-6 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
                 <div class="about-content">
-                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                    @if (session('locale') === 'fr')
                         <p class="lead-text">
                             Spécialiste en dynamique du mouvement et régulation corps-esprit, j’accompagne toute
                             personne
                             qui recherche un mieux-être profond et durable.
                         </p>
-                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                    @elseif (session('locale') === 'en')
                         <p class="lead-text">
                             Specialist in movement dynamics and body-mind regulation, I support anyone seeking deep and
                             lasting well-being.
                         </p>
-                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                    @elseif (session('locale') === 'de')
                         <p class="lead-text">
                             Spezialist für Bewegungsdynamik und Körper-Geist-Regulation begleite ich jeden Menschen, der
                             ein tiefes und nachhaltiges Wohlbefinden sucht.
                         </p>
-                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                    @elseif (session('locale') === 'it')
                         <p class="lead-text">
                             Specialista in dinamica del movimento e regolazione corpo-mente, accompagno chiunque cerchi
                             un benessere profondo e duraturo.
+                        </p>
+                    @elseif (session('locale') === 'es')
+                        <p class="lead-text">
+                            Especialista en dinámica del movimiento y regulación cuerpo-mente, acompaño a toda persona
+                            que busca un bienestar profundo y duradero.
                         </p>
                     @endif
 
                     <div class="skills-section">
                         <div class="skills">
                             <i class="bi bi-check-circle-fill me-2"></i>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
-                                <span>
-                                    Sportifs (amateurs ou de haut niveau)
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
-                                <span>
-                                    Athletes (amateur or high-level)
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
-                                <span>
-                                    Sportler (Amateure oder Leistungssportler)
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
-                                <span>
-                                    Sportivi (amatori o di alto livello)
-                                </span>
+                            @if (session('locale') === 'fr')
+                                <span>Sportifs (amateurs ou de haut niveau)</span>
+                            @elseif (session('locale') === 'en')
+                                <span>Athletes (amateur or high-level)</span>
+                            @elseif (session('locale') === 'de')
+                                <span>Sportler (Amateure oder Leistungssportler)</span>
+                            @elseif (session('locale') === 'it')
+                                <span>Sportivi (amatori o di alto livello)</span>
+                            @elseif (session('locale') === 'es')
+                                <span>Deportistas (amateurs o de alto nivel)</span>
                             @endif
                         </div>
 
                         <div class="skills">
                             <i class="bi bi-check-circle-fill me-2"></i>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
-                                <span>
-                                    Télétravailleurs soumis à des tensions posturales et au stress chronique
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
-                                <span>
-                                    Remote workers subject to postural tensions and chronic stress
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
-                                <span>
-                                    Home-Office-Mitarbeiter mit Haltungspannungen und chronischem Stress
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
-                                <span>
-                                    Lavoratori da remoto soggetti a tensioni posturali e stress cronico
-                                </span>
+                            @if (session('locale') === 'fr')
+                                <span>Télétravailleurs soumis à des tensions posturales et au stress chronique</span>
+                            @elseif (session('locale') === 'en')
+                                <span>Remote workers subject to postural tensions and chronic stress</span>
+                            @elseif (session('locale') === 'de')
+                                <span>Home-Office-Mitarbeiter mit Haltungspannungen und chronischem Stress</span>
+                            @elseif (session('locale') === 'it')
+                                <span>Lavoratori da remoto soggetti a tensioni posturali e stress cronico</span>
+                            @elseif (session('locale') === 'es')
+                                <span>Trabajadores remotos sometidos a tensiones posturales y estrés crónico</span>
                             @endif
                         </div>
+
                         <div class="skills">
                             <i class="bi bi-check-circle-fill me-2"></i>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
-                                <span>
-                                    Toute personne souhaitant mieux gérer son anxiété, son stress ou retrouver un
-                                    équilibre
-                                    psycho-corporel harmonieux
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
-                                <span>
-                                    Anyone wishing to better manage anxiety, stress or regain harmonious
-                                    psycho-corporeal balance
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
-                                <span>
-                                    Jede Person, die Angst, Stress besser bewältigen oder ein harmonisches
-                                    psycho-körperliches Gleichgewicht wiederfinden möchte
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
-                                <span>
-                                    Chiunque desideri gestire meglio ansia, stress o ritrovare un equilibrio
-                                    psico-corporeo armonioso
-                                </span>
+                            @if (session('locale') === 'fr')
+                                <span>Toute personne souhaitant mieux gérer son anxiété, son stress ou retrouver un
+                                    équilibre psycho-corporel harmonieux</span>
+                            @elseif (session('locale') === 'en')
+                                <span>Anyone wishing to better manage anxiety, stress or regain harmonious
+                                    psycho-corporeal balance</span>
+                            @elseif (session('locale') === 'de')
+                                <span>Jede Person, die Angst, Stress besser bewältigen oder ein harmonisches
+                                    psycho-körperliches Gleichgewicht wiederfinden möchte</span>
+                            @elseif (session('locale') === 'it')
+                                <span>Chiunque desideri gestire meglio ansia, stress o ritrovare un equilibrio
+                                    psico-corporeo armonioso</span>
+                            @elseif (session('locale') === 'es')
+                                <span>Cualquier persona que desee gestionar mejor la ansiedad, el estrés o recuperar un
+                                    equilibrio psico-corporal armónico</span>
                             @endif
                         </div>
                     </div>
 
-                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                    @if (session('locale') === 'fr')
                         <p class="lead-text">
                             Chaque séance repose sur une évaluation approfondie et entièrement individualisée :
                             votre parcours de vie, votre posture actuelle, vos habitudes quotidiennes et vos objectifs
@@ -120,7 +109,7 @@
                             <br>
                             J’intègre de façon complémentaire et adaptée à chaque personne les approches suivantes :
                         </p>
-                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                    @elseif (session('locale') === 'en')
                         <p class="lead-text">
                             Each session is based on a thorough and fully individualized assessment:
                             your life journey, current posture, daily habits and personal goals serve as a guideline to
@@ -130,7 +119,7 @@
                             <br>
                             I integrate the following approaches in a complementary and adapted way for each person:
                         </p>
-                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                    @elseif (session('locale') === 'de')
                         <p class="lead-text">
                             Jede Sitzung basiert auf einer gründlichen und vollständig individualisierten Bewertung:
                             Ihr Lebensweg, Ihre aktuelle Haltung, tägliche Gewohnheiten und persönliche Ziele dienen als
@@ -140,7 +129,7 @@
                             <br>
                             Ich integriere ergänzend und individuell angepasst folgende Ansätze:
                         </p>
-                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                    @elseif (session('locale') === 'it')
                         <p class="lead-text">
                             Ogni seduta si basa su una valutazione approfondita e completamente individualizzata:
                             il tuo percorso di vita, la postura attuale, le abitudini quotidiane e i tuoi obiettivi
@@ -150,97 +139,81 @@
                             <br>
                             Integro in modo complementare e adattato a ciascuna persona i seguenti approcci:
                         </p>
+                    @elseif (session('locale') === 'es')
+                        <p class="lead-text">
+                            Cada sesión se basa en una evaluación exhaustiva y completamente individualizada:
+                            tu trayectoria vital, tu postura actual, tus hábitos diarios y tus objetivos personales
+                            sirven como hilo conductor para construir un acompañamiento a medida, resueltamente
+                            orientado a cambios profundos y duraderos, mucho más allá de un alivio temporal.
+                            <br>
+                            <br>
+                            Integro de forma complementaria y adaptada a cada persona los siguientes enfoques:
+                        </p>
                     @endif
 
                     <div class="skills-section">
                         <div class="skills">
                             <i class="bi bi-check-circle-fill me-2"></i>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
-                                <span>
-                                    Techniques structurelles (articulations, muscles, colonne)
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
-                                <span>
-                                    Structural techniques (joints, muscles, spine)
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
-                                <span>
-                                    Strukturelle Techniken (Gelenke, Muskeln, Wirbelsäule)
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
-                                <span>
-                                    Tecniche strutturali (articolazioni, muscoli, colonna vertebrale)
-                                </span>
+                            @if (session('locale') === 'fr')
+                                <span>Techniques structurelles (articulations, muscles, colonne)</span>
+                            @elseif (session('locale') === 'en')
+                                <span>Structural techniques (joints, muscles, spine)</span>
+                            @elseif (session('locale') === 'de')
+                                <span>Strukturelle Techniken (Gelenke, Muskeln, Wirbelsäule)</span>
+                            @elseif (session('locale') === 'it')
+                                <span>Tecniche strutturali (articolazioni, muscoli, colonna vertebrale)</span>
+                            @elseif (session('locale') === 'es')
+                                <span>Técnicas estructurales (articulaciones, músculos, columna)</span>
                             @endif
                         </div>
 
                         <div class="skills">
                             <i class="bi bi-check-circle-fill me-2"></i>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
-                                <span>
-                                    Ostéopathie crânio-sacrée
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
-                                <span>
-                                    Cranio-sacral osteopathy
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
-                                <span>
-                                    Craniosacrale Osteopathie
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
-                                <span>
-                                    Osteopatia cranio-sacrale
-                                </span>
+                            @if (session('locale') === 'fr')
+                                <span>Ostéopathie crânio-sacrée</span>
+                            @elseif (session('locale') === 'en')
+                                <span>Cranio-sacral osteopathy</span>
+                            @elseif (session('locale') === 'de')
+                                <span>Craniosacrale Osteopathie</span>
+                            @elseif (session('locale') === 'it')
+                                <span>Osteopatia cranio-sacrale</span>
+                            @elseif (session('locale') === 'es')
+                                <span>Osteopatía craneosacral</span>
                             @endif
                         </div>
+
                         <div class="skills">
                             <i class="bi bi-check-circle-fill me-2"></i>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
-                                <span>
-                                    Travail viscéral
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
-                                <span>
-                                    Visceral work
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
-                                <span>
-                                    Viszerale Techniken
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
-                                <span>
-                                    Lavoro viscerale
-                                </span>
+                            @if (session('locale') === 'fr')
+                                <span>Travail viscéral</span>
+                            @elseif (session('locale') === 'en')
+                                <span>Visceral work</span>
+                            @elseif (session('locale') === 'de')
+                                <span>Viszerale Techniken</span>
+                            @elseif (session('locale') === 'it')
+                                <span>Lavoro viscerale</span>
+                            @elseif (session('locale') === 'es')
+                                <span>Trabajo visceral</span>
                             @endif
                         </div>
+
                         <div class="skills">
                             <i class="bi bi-check-circle-fill me-2"></i>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
-                                <span>
-                                    Libération des tissus fasciaux
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
-                                <span>
-                                    Fascial tissue release
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
-                                <span>
-                                    Fasziengewebe-Lösung / Myofasziale Release
-                                </span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
-                                <span>
-                                    Liberazione dei tessuti fasciali
-                                </span>
+                            @if (session('locale') === 'fr')
+                                <span>Libération des tissus fasciaux</span>
+                            @elseif (session('locale') === 'en')
+                                <span>Fascial tissue release</span>
+                            @elseif (session('locale') === 'de')
+                                <span>Fasziengewebe-Lösung / Myofasziale Release</span>
+                            @elseif (session('locale') === 'it')
+                                <span>Liberazione dei tessuti fasciali</span>
+                            @elseif (session('locale') === 'es')
+                                <span>Liberación de los tejidos fasciales</span>
                             @endif
                         </div>
                     </div>
-
-                    {{-- Les commentaires restent inchangés, donc pas de traduction ici --}}
-
                 </div>
             </div>
-
             <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                 <div class="about-visual">
                     <div class="main-image">
@@ -253,20 +226,39 @@
                                 <img src="{{ asset('img/website/damien/certificate.png') }}" alt="certificate-logo">
                             </div>
                             <span class="years">D.O.</span>
-                            @if (\App\Models\Website::getSettings()->lang === 'fr')
+                            @if (session('locale') === 'fr')
                                 <span class="text">Ostéopathe diplômé et reconnu</span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                            @elseif (session('locale') === 'en')
                                 <span class="text">Graduate and registered osteopath</span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                            @elseif (session('locale') === 'de')
                                 <span class="text">Dipl. und anerkannter Osteopath</span>
-                            @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                            @elseif (session('locale') === 'it')
                                 <span class="text">Osteopata diplomato e riconosciuto</span>
+                            @elseif (session('locale') === 'es')
+                                <span class="text">Osteópata diplomado y reconocido</span>
                             @endif
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="d-flex justify-content-center mt-8" data-aos="fade-up" data-aos-delay="100">
+            <a target="_blank" href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut#pricing"
+                class="btn-custom-primary-outlined">
+                @if (session('locale') === 'fr')
+                    <span>Prendre rendez-vous sur</span>
+                @elseif (session('locale') === 'en')
+                    <span>Book appointment on</span>
+                @elseif (session('locale') === 'de')
+                    <span>Termin buchen auf</span>
+                @elseif (session('locale') === 'it')
+                    <span>Prenota appuntamento su</span>
+                @elseif (session('locale') === 'es')
+                    <span>Reservar cita en</span>
+                @endif
+                <span class="kaushan-script-regular ms-2">Doctolib</span>
+            </a>
+        </div>
     </div>
-    {{-- Le reste commenté reste commenté, inchangé --}}
-</section><!-- /Home About Section -->
+</section>
+<!-- /Home About Section -->

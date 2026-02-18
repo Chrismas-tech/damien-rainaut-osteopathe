@@ -1,15 +1,19 @@
 @extends('website.layouts.base-website')
+
 @section('title')
-    @if (\App\Models\Website::getSettings()->lang === 'fr')
+    @if (session('locale') === 'fr')
         Contact
-    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+    @elseif (session('locale') === 'en')
         Contact
-    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+    @elseif (session('locale') === 'de')
         Kontakt
-    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+    @elseif (session('locale') === 'it')
         Contatti
+    @elseif (session('locale') === 'es')
+        Contacto
     @endif
 @endsection
+
 @section('content')
     <main class="main">
 
@@ -26,14 +30,16 @@
                                     <i class="bi bi-geo-alt"></i>
                                 </div>
                                 <div class="info-content">
-                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                    @if (session('locale') === 'fr')
                                         <h3>Notre Adresse</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                    @elseif (session('locale') === 'en')
                                         <h3>Our Address</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                    @elseif (session('locale') === 'de')
                                         <h3>Unsere Adresse</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                    @elseif (session('locale') === 'it')
                                         <h3>Il Nostro Indirizzo</h3>
+                                    @elseif (session('locale') === 'es')
+                                        <h3>Nuestra Dirección</h3>
                                     @endif
                                     <p>{{ App\Models\Website::getSettings()->address_service }}</p>
                                 </div>
@@ -44,14 +50,16 @@
                                     <i class="bi bi-envelope"></i>
                                 </div>
                                 <div class="info-content">
-                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                    @if (session('locale') === 'fr')
                                         <h3>Adresse e-mail</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                    @elseif (session('locale') === 'en')
                                         <h3>Email Address</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                    @elseif (session('locale') === 'de')
                                         <h3>E-Mail-Adresse</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                    @elseif (session('locale') === 'it')
                                         <h3>Indirizzo e-mail</h3>
+                                    @elseif (session('locale') === 'es')
+                                        <h3>Dirección de correo electrónico</h3>
                                     @endif
                                     <p>{{ App\Models\Website::getSettings()->email_website }}</p>
                                     <p>{{ App\Models\Website::getSettings()->email_website_secondary }}</p>
@@ -63,27 +71,32 @@
                                     <i class="bi bi-headset"></i>
                                 </div>
                                 <div class="info-content">
-                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                    @if (session('locale') === 'fr')
                                         <h3>Horaires d’ouverture</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                    @elseif (session('locale') === 'en')
                                         <h3>Opening Hours</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                    @elseif (session('locale') === 'de')
                                         <h3>Öffnungszeiten</h3>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                    @elseif (session('locale') === 'it')
                                         <h3>Orari di apertura</h3>
+                                    @elseif (session('locale') === 'es')
+                                        <h3>Horarios de apertura</h3>
                                     @endif
-                                    @if (\App\Models\Website::getSettings()->lang === 'fr')
+                                    @if (session('locale') === 'fr')
                                         <p>Lundi – Samedi : 7h30 – 21h</p>
                                         <p>Dimanche : 10h – 17h</p>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                                    @elseif (session('locale') === 'en')
                                         <p>Monday – Saturday: 7:30 AM – 9:00 PM</p>
                                         <p>Sunday: 10:00 AM – 5:00 PM</p>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                                    @elseif (session('locale') === 'de')
                                         <p>Montag – Samstag: 7:30 – 21:00 Uhr</p>
                                         <p>Sonntag: 10:00 – 17:00 Uhr</p>
-                                    @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                                    @elseif (session('locale') === 'it')
                                         <p>Lunedì – Sabato: 7:30 – 21:00</p>
                                         <p>Domenica: 10:00 – 17:00</p>
+                                    @elseif (session('locale') === 'es')
+                                        <p>Lunes – Sábado: 7:30 – 21:00</p>
+                                        <p>Domingo: 10:00 – 17:00</p>
                                     @endif
                                 </div>
                             </div>

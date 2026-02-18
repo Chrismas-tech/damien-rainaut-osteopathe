@@ -21,7 +21,7 @@ class PrepareSeoMetaTag
 
         SEOMeta::setDescription($seo->meta_description);
         SEOMeta::setCanonical(url()->full());
-        SEOMeta::addKeyword(json_decode($seo->meta_keywords, true));
+        /* SEOMeta::addKeyword(json_decode($seo->meta_keywords, true)); */
 
         OpenGraph::setTitle($meta_title);
         OpenGraph::setDescription($seo->meta_description);

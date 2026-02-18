@@ -35,7 +35,7 @@ class WebsiteSeeder extends Seeder
             'country_code_whatsapp_phone' => "+33",
             "maintenance" => false,
             "calendly_url" => "",
-            'lang' => 'fr'
+            'lang_default' => 'fr'
         ]);
     }
 }

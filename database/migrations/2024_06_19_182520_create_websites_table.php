@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('country_code_phone_website')->nullable();
             $table->string('whatsapp_phone')->nullable();
             $table->string('country_code_whatsapp_phone')->nullable();
-            $table->string('lang')->nullable();
+            $table->string('lang_default')->nullable();
             $table->string('calendly_url')->nullable();
             $table->longText('faq')->nullable();
             $table->longtext('privacy_policy')->nullable();

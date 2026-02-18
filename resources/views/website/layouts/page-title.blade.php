@@ -19,14 +19,16 @@
             <ol>
                 <li>
                     <a href="{{ route('website.home') }}">
-                        @if (\App\Models\Website::getSettings()->lang === 'fr')
+                        @if (session('locale') === 'fr')
                             Accueil
-                        @elseif (\App\Models\Website::getSettings()->lang === 'en')
+                        @elseif (session('locale') === 'en')
                             Home
-                        @elseif (\App\Models\Website::getSettings()->lang === 'de')
+                        @elseif (session('locale') === 'de')
                             Startseite
-                        @elseif (\App\Models\Website::getSettings()->lang === 'it')
+                        @elseif (session('locale') === 'it')
                             Home
+                        @elseif (session('locale') === 'es')
+                            Inicio
                         @endif
                     </a>
                 </li>

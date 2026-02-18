@@ -1,18 +1,21 @@
 <section class="google-map" id="google-map">
     <div class="row mb-4">
         <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-            @if (\App\Models\Website::getSettings()->lang === 'fr')
+            @if (session('locale') === 'fr')
                 <h2>Où me trouver ?</h2>
                 <p>22 rue Gounod à Nice</p>
-            @elseif (\App\Models\Website::getSettings()->lang === 'en')
+            @elseif (session('locale') === 'en')
                 <h2>Where to find me?</h2>
                 <p>22 rue Gounod in Nice</p>
-            @elseif (\App\Models\Website::getSettings()->lang === 'de')
+            @elseif (session('locale') === 'de')
                 <h2>Wo finden Sie mich?</h2>
                 <p>22 rue Gounod in Nizza</p>
-            @elseif (\App\Models\Website::getSettings()->lang === 'it')
+            @elseif (session('locale') === 'it')
                 <h2>Dove trovarmi?</h2>
                 <p>22 rue Gounod a Nizza</p>
+            @elseif (session('locale') === 'es')
+                <h2>¿Dónde encontrarme?</h2>
+                <p>22 rue Gounod en Niza</p>
             @endif
         </div>
 
