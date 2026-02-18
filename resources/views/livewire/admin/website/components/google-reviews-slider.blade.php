@@ -54,6 +54,7 @@
                                         Excelente
                                     @endif
                                 </h3>
+
                                 <div class="google-rating-container">
                                     <span class="google-general-rating">{{ $generalRating }}.0</span>
                                     <div class="google-stars">
