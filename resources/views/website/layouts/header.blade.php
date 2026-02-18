@@ -32,7 +32,8 @@
             </div>
 
         </div>
-    </div><!-- End Top Bar -->
+    </div>
+    <!-- End Top Bar -->
 
     <div class="branding d-flex align-items-center">
 
