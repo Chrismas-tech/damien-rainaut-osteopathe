@@ -23,14 +23,13 @@ if (Schema::hasTable('email_schedulers')) {
 };
 
 
-
 /**
  * Call Api Google Reviews via Cron Weekly
  * 1.Erase GoogleProfileDB and GoogleReviewsDB
  * 2.Call Api
  * 3.Save new recent Reviews in DB
  */
-/* Schedule::call(function () {
+Schedule::call(function () {
 
     $googleProfileDB = GoogleReviewsProfile::first();
 
@@ -38,20 +37,20 @@ if (Schema::hasTable('email_schedulers')) {
         GoogleReviewsProfile::first()->delete();
     }
 
-    GoogleReviews::truncate();
+    /* GoogleReviews::truncate(); */
 
     $url = 'https://featurable.com/api/v2/widgets/5c7ab84d-8025-4fef-b425-5ae6b056edbb';
 
-    $response = json_decode(Http::get($url)); */
+    $response = json_decode(Http::get($url));
 
     /* dd($response); */
 
-   /*  $googleProfile = $response->widget->gbpLocationSummary;
-    $reviews = $response->widget->reviews;
-
-
+    $googleProfile = $response->widget->gbpLocationSummary;
+    /* $reviews = $response->widget->reviews; */
 
     if ($response->success === true) {
+
+        dd($googleProfile->rating, $googleProfile->reviewsCount, $googleProfile->writeAReviewUri);
 
         GoogleReviewsProfile::create([
             'general_rating' =>  $googleProfile->rating,
@@ -59,7 +58,7 @@ if (Schema::hasTable('email_schedulers')) {
             'writeAReviewUri' => $googleProfile->writeAReviewUri
         ]);
 
-        foreach ($reviews as $review) {
+        /* foreach ($reviews as $review) {
             GoogleReviews::create([
                 'author_name' => $review->author->name,
                 'rating' => $review->rating->value,
@@ -67,9 +66,9 @@ if (Schema::hasTable('email_schedulers')) {
                 'date' => \Carbon\Carbon::parse($review->publishedAt)->translatedFormat('d F Y'),
                 'profile_photo_src' => $review->author->avatarUrl,
             ]);
-        }
+        } */
     } else {
         dd('Problem avec Google API KEY');
     }
-})->weeklyOn(1, '00:00'); */ /* Pour le serveur */
+})->weeklyOn(1, '00:00'); /* Pour le serveur */
 /* }); */
