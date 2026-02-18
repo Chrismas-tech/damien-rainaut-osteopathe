@@ -5,6 +5,7 @@ use App\Models\GoogleReviews;
 use App\Models\GoogleReviewsProfile;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Schedule;
 
@@ -31,14 +32,6 @@ if (Schema::hasTable('email_schedulers')) {
  */
 Schedule::call(function () {
 
-    $googleProfileDB = GoogleReviewsProfile::first();
-
-    if ($googleProfileDB) {
-        GoogleReviewsProfile::first()->delete();
-    }
-
-    /* GoogleReviews::truncate(); */
-
     $url = 'https://featurable.com/api/v2/widgets/5c7ab84d-8025-4fef-b425-5ae6b056edbb';
 
     $response = json_decode(Http::get($url));
@@ -50,7 +43,13 @@ Schedule::call(function () {
 
     if ($response->success === true) {
 
-        dd($googleProfile->rating, $googleProfile->reviewsCount, $googleProfile->writeAReviewUri);
+        /* GoogleReviews::truncate(); */
+
+        $googleProfileDB = GoogleReviewsProfile::first();
+
+        if ($googleProfileDB) {
+            GoogleReviewsProfile::first()->delete();
+        }
 
         GoogleReviewsProfile::create([
             'general_rating' =>  $googleProfile->rating,
@@ -68,7 +67,7 @@ Schedule::call(function () {
             ]);
         } */
     } else {
-        dd('Problem avec Google API KEY');
+        Log::error('Failed to fetch Google Reviews: ' . $response->message);
     }
 })->weeklyOn(1, '00:00'); /* Pour le serveur */
 /* }); */
