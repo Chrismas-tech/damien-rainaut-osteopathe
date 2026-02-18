@@ -35,7 +35,6 @@ Schedule::call(function () {
     $url = 'https://featurable.com/api/v2/widgets/5c7ab84d-8025-4fef-b425-5ae6b056edbb';
 
     $response = json_decode(Http::get($url));
-
     /* dd($response); */
 
     $googleProfile = $response->widget->gbpLocationSummary;
