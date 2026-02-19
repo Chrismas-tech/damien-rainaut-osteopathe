@@ -32,7 +32,7 @@
                     target="_blank">
                     <i class="bi bi-whatsapp"></i>
                     <span class="topbar-mobile">
-                        {{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}
+                        {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
                     </span>
                 </a>
             </div>
