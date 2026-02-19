@@ -142,19 +142,19 @@
                             id="terms_of_services">
                         <label class="form-check-label" for="terms_of_services">
                             @if (session('locale') === 'fr')
-                                J'accepte les <a href="{{ route('website.terms-of-services') }}"
+                                J'accepte les <a target="_blank" href="{{ route('website.terms-of-services') }}"
                                     class="font-weight-bold">Conditions générales</a>
                             @elseif (session('locale') === 'en')
-                                I accept the <a href="{{ route('website.terms-of-services') }}"
+                                I accept the <a target="_blank" href="{{ route('website.terms-of-services') }}"
                                     class="font-weight-bold">Terms of Use</a>
                             @elseif (session('locale') === 'de')
-                                Ich akzeptiere die <a href="{{ route('website.terms-of-services') }}"
+                                Ich akzeptiere die <a target="_blank" href="{{ route('website.terms-of-services') }}"
                                     class="font-weight-bold">Nutzungsbedingungen</a>
                             @elseif (session('locale') === 'it')
-                                Accetto le <a href="{{ route('website.terms-of-services') }}"
+                                Accetto le <a target="_blank" href="{{ route('website.terms-of-services') }}"
                                     class="font-weight-bold">Condizioni d’uso</a>
                             @elseif (session('locale') === 'es')
-                                Acepto las <a href="{{ route('website.terms-of-services') }}"
+                                Acepto las <a target="_blank" href="{{ route('website.terms-of-services') }}"
                                     class="font-weight-bold">Condiciones generales</a>
                             @endif
                         </label>

@@ -52,9 +52,9 @@
 
                 <h3 class="fs-3 fw-semibold mb-4">2. Objet</h3>
                 <p class="mb-3">
-                    Les présentes conditions régissent l’utilisation du site <a
-                        href="{{ request()->getHost() }}">{{ request()->getHost() }}</a> (ci-après « le Site
-                    »).
+                    Les présentes conditions régissent l’utilisation du site (ci-après <a
+                        href="{{ route('website.home') }}">« le Site
+                        »</a>).
                 </p>
                 <p class="mb-4">
                     En accédant au Site, vous acceptez ces conditions. Si vous n’acceptez pas, veuillez ne pas utiliser le
