@@ -28,8 +28,8 @@
                         class="bi bi-facebook"></i></a>
                 <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank" class="instagram"><i
                         class="bi bi-instagram"></i></a>
-                <a href="https://wa.me/{{ App\Models\Website::getSettings()->whatsapp_phone }}" class="whatsapp"
-                    target="_blank">
+                <a href="https://wa.me/{{ App\Models\Website::getSettings()->country_code_whatsapp_phone . App\Models\Website::getSettings()->whatsapp_phone }}"
+                    class="whatsapp" target="_blank">
                     <i class="bi bi-whatsapp"></i>
                     <span class="topbar-mobile">
                         {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
