@@ -38,6 +38,7 @@
                                 <a class="nav-link department-tab active" id="qvt-tab" data-bs-toggle="pill" href="#departments-tabs-stress" role="tab">Gestión de Ansiedad y Estrés</a>
                             @endif
 
+
                             @if (session('locale') === 'fr')
                                 <a class="nav-link department-tab" id="sport-tab" data-bs-toggle="pill" href="#departments-tabs-sport" role="tab">Ostéopathie du Sport & Performance Durable</a>
                             @elseif (session('locale') === 'en')

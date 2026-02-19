@@ -32,7 +32,7 @@
                     target="_blank">
                     <i class="bi bi-whatsapp"></i>
                     <span class="topbar-mobile">
-                        {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
+                        {{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}
                     </span>
                 </a>
             </div>
@@ -42,7 +42,6 @@
     <!-- End Top Bar -->
 
     <div class="branding d-flex align-items-center">
-
         <div class="container position-relative d-flex align-items-center justify-content-between">
             <a href="{{ route('website.home') }}" class="logo d-flex align-items-center">
                 <img src="{{ asset('storage/logo/logo.svg') }}" alt="{{ $website->application_name }}">
