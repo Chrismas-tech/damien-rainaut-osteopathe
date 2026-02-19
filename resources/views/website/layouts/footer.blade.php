@@ -229,6 +229,19 @@
                                                 Créditos
                                             @endif
                                         </a>
+                                        <a href="{{ route('website.terms-of-services') }}">
+                                            @if (session('locale') === 'fr')
+                                                Conditions d’utilisation
+                                            @elseif (session('locale') === 'en')
+                                                Terms of Use
+                                            @elseif (session('locale') === 'de')
+                                                Nutzungsbedingungen
+                                            @elseif (session('locale') === 'it')
+                                                Condizioni d’uso
+                                            @elseif (session('locale') === 'es')
+                                                Condiciones de uso
+                                            @endif
+                                        </a>
                                     </nav>
                                 </div>
                             </div>
@@ -272,37 +285,6 @@
                                     Todos los derechos reservados.
                                 </p>
                             @endif
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="legal-links">
-                            <a href="{{ route('website.privacy-policy') }}">
-                                @if (session('locale') === 'fr')
-                                    Politique de confidentialité
-                                @elseif (session('locale') === 'en')
-                                    Privacy Policy
-                                @elseif (session('locale') === 'de')
-                                    Datenschutz
-                                @elseif (session('locale') === 'it')
-                                    Politica sulla privacy
-                                @elseif (session('locale') === 'es')
-                                    Política de privacidad
-                                @endif
-                            </a>
-                            <a href="{{ route('website.terms-of-services') }}">
-                                @if (session('locale') === 'fr')
-                                    Conditions d’utilisation
-                                @elseif (session('locale') === 'en')
-                                    Terms of Use
-                                @elseif (session('locale') === 'de')
-                                    Nutzungsbedingungen
-                                @elseif (session('locale') === 'it')
-                                    Condizioni d’uso
-                                @elseif (session('locale') === 'es')
-                                    Condiciones de uso
-                                @endif
-                            </a>
                         </div>
                     </div>
                 </div>

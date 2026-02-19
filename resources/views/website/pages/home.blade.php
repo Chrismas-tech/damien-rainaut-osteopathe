@@ -1,7 +1,20 @@
 @extends('website.layouts.base-website')
-@section('title', 'Home')
+@section('title')
+    @if (session('locale') === 'fr')
+        Accueil
+    @elseif (session('locale') === 'en')
+        Home
+    @elseif (session('locale') === 'de')
+        Startseite
+    @elseif (session('locale') === 'it')
+        Home
+    @elseif (session('locale') === 'es')
+        Inicio
+    @else
+        Home
+    @endif
+@endsection
 @section('content')
-
     <main class="main">
 
         @include('layouts.section-hero')

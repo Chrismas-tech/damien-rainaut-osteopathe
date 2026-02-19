@@ -72,8 +72,8 @@
                             <a href="{{ route('website.terms-of-services') }}"
                                 class="text-indigo-600 hover:text-indigo-600">Terms of Service</a>
                             and
-                            <a href="{{ route('website.privacy-policy') }}"
-                                class="text-indigo-600 hover:text-indigo-600">Privacy Policy.</a>
+                           {{--  <a href="{{ route('website.privacy-policy') }}"
+                                class="text-indigo-600 hover:text-indigo-600">Privacy Policy.</a> --}}
                         </span>
                     </label>
                 </div>
