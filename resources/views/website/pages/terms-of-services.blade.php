@@ -29,25 +29,24 @@
                         {{ mb_strtoupper(\App\Models\Website::getSettings()->application_name ?? 'Société', 'UTF-8') }}
                     </p>
 
-                    @if (\App\Models\Website::getSettings()->address_website)
-                        <p class="mb-3 fw-semibold" style="white-space: pre-line;">
-                            {!! nl2br(e(\App\Models\Website::getSettings()->address_website)) !!}
-                        </p>
-                    @endif
 
-                    <p class="mb-3 fw-semibold">
+                    <p class="mb-2 fw-semibold">
+                        {!! nl2br(e(\App\Models\Website::getSettings()->address_website)) !!}
+                    </p>
+
+
+                    <p class="mb-2 fw-semibold">
                         SIRET : 990 714 776 00012
                     </p>
 
-                    @if (\App\Models\Website::getSettings()->email_website)
-                        <p class="mb-0 fw-semibold">
-                            CONTACT :
-                            <a href="mailto:{{ \App\Models\Website::getSettings()->email_website }}"
-                                class="text-primary text-decoration-none hover-underline">
-                                {{ \App\Models\Website::getSettings()->email_website }}
-                            </a>
-                        </p>
-                    @endif
+                    <p class="mb-0 fw-semibold">
+                        CONTACT :
+                        <a href="mailto:{{ \App\Models\Website::getSettings()->email_website }}"
+                            class="text-primary text-decoration-none hover-underline">
+                            {{ \App\Models\Website::getSettings()->email_website }}
+                        </a>
+                    </p>
+
                 </div>
 
                 <h3 class="fs-3 fw-semibold mb-4">2. Objet</h3>
