@@ -60,17 +60,17 @@
                             </div>
                         </div>
 
-                        <div class="social-links mt-4 d-flex">
+                        <div class="social-links mt-2 d-flex">
                             {{-- <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank"
                                 class="me-2"><i class="bi bi-twitter-x"></i></a> --}}
                             <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank"
-                                class="me-2"><i class="bi bi-linkedin"></i></a>
+                                class="me-4"><i class="bi bi-linkedin"></i></a>
                             <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank"
-                                class="me-2"><i class="bi bi-facebook"></i></a>
+                                class="me-4"><i class="bi bi-facebook"></i></a>
                             <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank"
-                                class="me-2"><i class="bi bi-instagram"></i></a>
+                                class="me-4"><i class="bi bi-instagram"></i></a>
                             <a href="https://wa.me/{{ App\Models\Website::getSettings()->whatsapp_phone }}"
-                                target="_blank" class="me-2">
+                                target="_blank" class="me-4">
                                 <i class="bi bi-whatsapp"></i>
                             </a>
                         </div>

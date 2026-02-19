@@ -1,3 +1,53 @@
+/* Topbar */
+
+#header {
+    /*     .bi {
+        font-size: 19px;
+    } */
+}
+
+#footer {
+    .social-links i {
+        font-size: 25px;
+    }
+}
+
+.bi-linkedin {
+    color: #0a66c2;
+}
+
+.bi-facebook {
+    color: #4dabf7;
+}
+
+.bi-instagram {
+    color: #ff6b9d;
+}
+
+.bi-whatsapp {
+    color: #40c057;
+}
+
+a:hover .bi-linkedin {
+    color: #0954a0;
+}
+
+a:hover .bi-facebook {
+    color: #339af0;
+}
+
+a:hover .bi-instagram {
+    color: #f06292;
+}
+
+a:hover .bi-whatsapp {
+    color: #37b24d;
+}
+
+.bi {
+    transition: color 0.25s ease;
+}
+
 /* Typography */
 .kaushan-script-regular {
     font-family: "Kaushan Script", cursive;

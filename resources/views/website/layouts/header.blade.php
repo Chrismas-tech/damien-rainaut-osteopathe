@@ -3,7 +3,7 @@
     <div class="topbar d-flex align-items-center dark-background">
         <div class="container d-flex justify-content-center justify-content-md-between">
             <div class="contact-info d-flex align-items-center">
-                <a href="mailto:{{ App\Models\Website::getSettings()->email_website }}">
+                <a class="d-flex align-items-center" href="mailto:{{ App\Models\Website::getSettings()->email_website }}">
                     <i class="bi bi-envelope d-flex align-items-center">
                         <span class="topbar-mobile">
                             {{ App\Models\Website::getSettings()->email_website }}
@@ -11,7 +11,7 @@
                     </i>
                 </a>
 
-                <a
+                <a class="d-flex align-items-center"
                     href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
                     <i class="bi bi-phone ms-4">
                         <span class="topbar-mobile">
@@ -21,17 +21,18 @@
                 </a>
 
             </div>
-            <div class="social-links {{-- d-none --}} d-md-flex align-items-center">
+            <div class="social-links {{-- d-none --}} d-flex align-items-center">
                 <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank" class="linkedin"><i
                         class="bi bi-linkedin"></i></a>
                 <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank" class="facebook"><i
                         class="bi bi-facebook"></i></a>
                 <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank" class="instagram"><i
                         class="bi bi-instagram"></i></a>
-                <a href="https://wa.me/{{ App\Models\Website::getSettings()->country_code_whatsapp_phone . App\Models\Website::getSettings()->whatsapp_phone }}"
+                <a class="d-flex align-items-center"
+                    href="https://wa.me/{{ App\Models\Website::getSettings()->country_code_whatsapp_phone . App\Models\Website::getSettings()->whatsapp_phone }}"
                     class="whatsapp" target="_blank">
                     <i class="bi bi-whatsapp"></i>
-                    <span class="topbar-mobile">
+                    <span class="topbar-mobile ms-1">
                         {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
                     </span>
                 </a>
