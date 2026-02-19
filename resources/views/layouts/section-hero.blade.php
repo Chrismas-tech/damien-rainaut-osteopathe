@@ -190,7 +190,7 @@
                     </div>
 
                     <div class="hero-actions d-flex justify-content-center" data-aos="fade-right" data-aos-delay="600">
-                        <a href="https://www.youtube.com/shorts/3mFtnr0tC_I" class="btn btn-outline glightbox">
+                        <a target='_blank' href="https://www.youtube.com/shorts/3mFtnr0tC_I" class="btn btn-outline glightbox">
                             <i class="bi bi-play-circle me-2"></i>
                             @if (session('locale') === 'fr')
                                 Découvrir le cabinet en vidéo

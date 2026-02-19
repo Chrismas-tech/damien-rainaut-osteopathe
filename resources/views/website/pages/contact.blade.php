@@ -61,8 +61,9 @@
                                     @elseif (session('locale') === 'es')
                                         <h3>Dirección de correo electrónico</h3>
                                     @endif
-                                    <p>{{ App\Models\Website::getSettings()->email_website }}</p>
-                                    <p>{{ App\Models\Website::getSettings()->email_website_secondary }}</p>
+                                    <a href="mailto:{{ App\Models\Website::getSettings()->email_website }}">
+                                        {{ App\Models\Website::getSettings()->email_website }}
+                                        </a>
                                 </div>
                             </div>
 
