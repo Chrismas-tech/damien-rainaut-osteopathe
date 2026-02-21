@@ -169,115 +169,91 @@
 
                     @if (session('locale') === 'fr')
                         <p>
-                            Ancien sapeur-pompier de Nice pendant plus de 10 ans, j’ai exercé en première
-                            intervention
-                            sur des centaines de cas graves :
-                            <br> secours routiers sur les axes majeurs, feux urbains,
-                            urgences vitales et polytraumatismes.
+                            Sapeur-pompier à Nice pendant plus de 10 ans, j’ai exercé en première ligne sur des
+                            centaines de cas critiques&nbsp;: <br>
+                            secours routiers sur les axes majeurs, feux urbains, urgences vitales et
+                            polytraumatismes.<br>
                             <br>
+                            Cette expérience de terrain m’a forgé une capacité unique à identifier l'urgence et à
+                            appréhender le corps dans sa globalité avec un calme et une maîtrise constants.<br>
                             <br>
-                            Cette expérience m’a donné une capacité unique à
-                            détecter vite les situations préoccupantes, à évaluer globalement et à rester méthodique
-                            sous pression.
-
+                            En ostéopathie, je transpose cette exigence chaque jour&nbsp;: <br>
+                            un diagnostic d’opportunité rigoureux pour écarter toute contre-indication médicale, une
+                            analyse précise de la synergie entre vos systèmes, et une pratique manuelle toujours
+                            respectueuse de votre intégrité physiologique.<br>
                             <br>
-                            <br>
-
-                            En ostéopathie, j’utilise ces compétences chaque jour : diagnostic
-                            d’opportunité immédiat pour écarter les pathologies graves, analyse systématique de
-                            l’ensemble des systèmes du corps, gestes toujours respectueux des limites
-                            physiologiques.
-                            <br>
-                            <br>
-                            Grâce à ce passé de terrain, votre prise en charge est plus vigilante, plus précise et
-                            plus
+                            Grâce à ce parcours, votre prise en charge est plus vigilante, plus précise et hautement
                             sécurisante.
                         </p>
                     @elseif (session('locale') === 'en')
                         <p>
-                            Former firefighter in Nice for over 10 years, I performed first-line interventions
-                            on hundreds of serious cases:
-                            <br> road rescues on major routes, urban fires,
-                            life-threatening emergencies and polytrauma.
+                            Firefighter in Nice for over 10 years, I worked on the front line in hundreds of critical
+                            cases:&nbsp;<br>
+                            road rescues on major highways, urban fires, life-threatening emergencies, and
+                            polytrauma.<br>
                             <br>
+                            This field experience has forged in me a unique ability to quickly identify emergencies and
+                            approach the body holistically with constant calm and mastery.<br>
                             <br>
-                            This experience gave me a unique ability to quickly detect concerning situations,
-                            perform global assessments and remain methodical under pressure.
-
+                            In osteopathy, I apply this same rigor every day:&nbsp;<br>
+                            a thorough opportunity diagnosis to rule out any medical contraindication, a precise
+                            analysis of the synergy between your body systems, and manual techniques always respectful
+                            of your physiological integrity.<br>
                             <br>
-                            <br>
-
-                            In osteopathy, I use these skills every day: immediate opportunity diagnosis to rule out
-                            serious pathologies, systematic analysis of all body systems, gestures always respectful
-                            of physiological limits.
-                            <br>
-                            <br>
-                            Thanks to this field background, your care is more vigilant, more precise and more
-                            reassuring.
+                            Thanks to this background, your care is more vigilant, more precise, and highly reassuring.
                         </p>
                     @elseif (session('locale') === 'de')
                         <p>
-                            Ehemaliger Feuerwehrmann in Nizza über mehr als 10 Jahre, ich habe in Ersteinsätzen
-                            Hunderte schwerer Fälle versorgt:
-                            <br> Rettungseinsätze auf Hauptachsen, Stadtbrände,
-                            lebensbedrohliche Notfälle und Polytraumata.
+                            Feuerwehrmann in Nizza seit mehr als 10 Jahren, habe ich in vorderster Linie Hunderte
+                            kritischer Fälle versorgt:&nbsp;<br>
+                            Rettungseinsätze auf Hauptverkehrsachsen, Stadtbrände, lebensbedrohliche Notfälle und
+                            Polytraumata.<br>
                             <br>
+                            Diese Felderfahrung hat mir eine einzigartige Fähigkeit verliehen, Notfälle rasch zu
+                            erkennen und den Körper in seiner Gesamtheit mit ständiger Ruhe und Beherrschung zu
+                            erfassen.<br>
                             <br>
-                            Diese Erfahrung hat mir eine einzigartige Fähigkeit gegeben, schnell besorgniserregende
-                            Situationen zu erkennen, global zu bewerten und unter Druck methodisch zu bleiben.
-
+                            In der Osteopathie übertrage ich diese Anforderung täglich:&nbsp;<br>
+                            eine rigorose Chancendiagnostik, um jede medizinische Kontraindikation auszuschließen, eine
+                            präzise Analyse der Synergie zwischen Ihren Körpersystemen und manuelle Techniken, die stets
+                            Ihre physiologische Integrität respektieren.<br>
                             <br>
-                            <br>
-
-                            In der Osteopathie nutze ich diese Kompetenzen täglich: sofortige Chancendiagnostik zum
-                            Ausschluss schwerer Pathologien, systematische Analyse aller Körpersysteme, immer
-                            respektvolle Bewegungen innerhalb physiologischer Grenzen.
-                            <br>
-                            <br>
-                            Dank dieses Einsatzhintergrunds ist Ihre Betreuung aufmerksamer, präziser und sicherer.
+                            Dank dieses Werdegangs ist Ihre Betreuung aufmerksamer, präziser und hochgradig sichernd.
                         </p>
                     @elseif (session('locale') === 'it')
                         <p>
-                            Ex vigile del fuoco a Nizza per più di 10 anni, ho svolto interventi in prima linea
-                            su centinaia di casi gravi:
-                            <br> soccorsi stradali sulle arterie principali, incendi urbani,
-                            emergenze vitali e politraumi.
+                            Vigile del fuoco a Nizza per più di 10 anni, ho operato in prima linea su centinaia di casi
+                            critici:&nbsp;<br>
+                            soccorsi stradali sulle arterie principali, incendi urbani, emergenze vitali e
+                            politraumi.<br>
                             <br>
+                            Questa esperienza sul campo mi ha forgiato una capacità unica di identificare l’urgenza e di
+                            comprendere il corpo nella sua globalità con calma e padronanza costanti.<br>
                             <br>
-                            Questa esperienza mi ha dato una capacità unica di rilevare rapidamente situazioni
-                            preoccupanti, valutare globalmente e rimanere metodico sotto pressione.
-
+                            In osteopatia, trasferisco questa esigenza ogni giorno:&nbsp;<br>
+                            una diagnosi d’opportunità rigorosa per escludere qualsiasi controindicazione medica,
+                            un’analisi precisa della sinergia tra i vostri sistemi corporei e una pratica manuale sempre
+                            rispettosa della vostra integrità fisiologica.<br>
                             <br>
-                            <br>
-
-                            In osteopatia, utilizzo queste competenze ogni giorno: diagnosi d’opportunità immediata
-                            per escludere patologie gravi, analisi sistematica di tutti i sistemi corporei, gesti
-                            sempre rispettosi dei limiti fisiologici.
-                            <br>
-                            <br>
-                            Grazie a questo passato sul campo, la tua presa in carico è più vigile, più precisa e
-                            più rassicurante.
+                            Grazie a questo percorso, la tua presa in carico è più vigile, più precisa e altamente
+                            rassicurante.
                         </p>
                     @elseif (session('locale') === 'es')
                         <p>
-                            Ex bombero en Niza durante más de 10 años, realicé intervenciones de primera línea
-                            en cientos de casos graves:
-                            <br> rescates viales en vías principales, incendios urbanos,
-                            emergencias vitales y politraumatismos.
+                            Bombero en Niza durante más de 10 años, he intervenido en primera línea en cientos de casos
+                            críticos:&nbsp;<br>
+                            rescates viales en vías principales, incendios urbanos, urgencias vitales y
+                            politraumatismos.<br>
                             <br>
+                            Esta experiencia de terreno me ha forjado una capacidad única para identificar la urgencia y
+                            abordar el cuerpo en su globalidad con calma y dominio constantes.<br>
                             <br>
-                            Esta experiencia me dio una capacidad única para detectar rápidamente situaciones
-                            preocupantes, evaluar globalmente y permanecer metódico bajo presión.
-
+                            En osteopatía, traslado esta exigencia cada día:&nbsp;<br>
+                            un diagnóstico de oportunidad riguroso para descartar cualquier contraindicación médica, un
+                            análisis preciso de la sinergia entre tus sistemas corporales y una práctica manual siempre
+                            respetuosa de tu integridad fisiológica.<br>
                             <br>
-                            <br>
-
-                            En osteopatía, utilizo estas competencias cada día: diagnóstico de oportunidad inmediato
-                            para descartar patologías graves, análisis sistemático de todos los sistemas corporales,
-                            gestos siempre respetuosos de los límites fisiológicos.
-                            <br>
-                            <br>
-                            Gracias a este pasado de campo, tu atención es más vigilante, más precisa y más segura.
+                            Gracias a este recorrido, tu atención es más vigilante, más precisa y altamente segura.
                         </p>
                     @endif
                 </div>
