@@ -193,7 +193,7 @@
                     </li> --}}
 
                     <li class="dropdown">
-                        <a>
+                        <a href="#">
                             @if (session('locale') === 'fr')
                                 <div class="d-flex align-items-center">
                                     <img src="{{ asset('img/website/lang/french.png') }}" alt="french">
