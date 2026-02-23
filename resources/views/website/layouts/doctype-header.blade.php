@@ -13,12 +13,12 @@
 
     <title>{{ \App\Models\Website::getSettings()->application_name }} | @yield('title')</title>
 
-    <link rel="alternate" hreflang="x-default" href="{{ route('website.home') }}" />
+{{--     <link rel="alternate" hreflang="x-default" href="{{ route('website.home') }}" />
     <link rel="alternate" hreflang="fr" href="{{ route('website.home') }}" />
     <link rel="alternate" hreflang="en" href="{{ route('lang.switch', 'en') }}" />
     <link rel="alternate" hreflang="es" href="{{ route('lang.switch', 'es') }}" />
     <link rel="alternate" hreflang="it" href="{{ route('lang.switch', 'it') }}" />
-    <link rel="alternate" hreflang="de" href="{{ route('lang.switch', 'de') }}" />
+    <link rel="alternate" hreflang="de" href="{{ route('lang.switch', 'de') }}" /> --}}
 
     <!-- Prepare Seo Generation -->
     @php

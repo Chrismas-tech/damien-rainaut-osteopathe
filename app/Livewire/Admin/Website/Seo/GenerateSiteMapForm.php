@@ -66,6 +66,14 @@ class GenerateSiteMapForm extends Component
                             ->setPriority(1.0)
                             ->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
 
+                        $cleanUrl
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/', 'fr')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/en', 'en')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/es', 'es')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/it', 'it')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/de', 'de')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/', 'x-default');
+
                         return $cleanUrl;
                     }
 
