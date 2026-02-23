@@ -58,18 +58,32 @@ class GenerateSiteMapForm extends Component
             }
 
             SitemapGenerator::create(config('app.url'))
-                ->hasCrawled(function (Url $url) {
+                ->hasCrawled(function (\Spatie\Sitemap\Tags\Url $url) {
                     $path = $url->path();
 
                     if ($path === '' || $path === '/') {
-                        return Url::create(rtrim(config('app.url'), '/') . '/')
+                        $cleanUrl = \Spatie\Sitemap\Tags\Url::create(rtrim(config('app.url'), '/') . '/')
                             ->setPriority(1.0)
-                            ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY);
+                            ->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
+
+                        $cleanUrl
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/', 'fr')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/en', 'en')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/es', 'es')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/it', 'it')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/de', 'de')
+                            ->addAlternate(rtrim(config('app.url'), '/') . '/', 'x-default');
+
+                        return $cleanUrl;
                     }
 
-                    // Skip /fr si c'est duplicate de la home
                     if ($path === '/fr' || str_starts_with($path, '/fr/')) {
                         return null;
+                    }
+
+                    if (in_array($path, ['/contact', '/honoraires', '/credits', '/terms-of-services'])) {
+                        $url->setPriority(0.7);
+                        $url->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
                     }
 
                     return $url;
