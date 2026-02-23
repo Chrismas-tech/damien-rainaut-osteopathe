@@ -61,24 +61,38 @@ class GenerateSiteMapForm extends Component
                 ->hasCrawled(function (\Spatie\Sitemap\Tags\Url $url) {
                     $path = $url->path();
 
-                    if ($path === '' || $path === '/') {
-                        $cleanUrl = \Spatie\Sitemap\Tags\Url::create(rtrim(config('app.url'), '/') . '/')
-                            ->setPriority(1.0)
-                            ->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
-
-                        return $cleanUrl;
-                    }
-
+                    // On skippe le /fr
                     if ($path === '/fr' || str_starts_with($path, '/fr/')) {
                         return null;
                     }
 
-                    if (in_array($path, ['/contact', '/honoraires', '/credits', '/terms-of-services'])) {
-                        $url->setPriority(0.7);
-                        $url->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
+                    // On nettoie la home
+                    if ($path === '' || $path === '/') {
+                        $cleanUrl = \Spatie\Sitemap\Tags\Url::create(rtrim(config('app.url'), '/') . '/')
+                            ->setPriority(1.0)
+                            ->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
+                    } else {
+                        $cleanUrl = $url;
                     }
 
-                    return $url;
+                    // On set les priorités pour les pages secondaires
+                    if (in_array($path, ['/contact', '/honoraires', '/credits', '/terms-of-services'])) {
+                        $cleanUrl->setPriority(0.7);
+                        $cleanUrl->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
+                    }
+
+                    // === AJOUT HREF LANG ===
+                    // On définit les alternates pour toutes les langues
+                    $baseUrl = rtrim(config('app.url'), '/') . $path;
+
+                    $cleanUrl->addAlternate('x-default', $baseUrl);
+                    $cleanUrl->addAlternate('fr', $baseUrl);
+                    $cleanUrl->addAlternate('en', $baseUrl . '/en');
+                    $cleanUrl->addAlternate('es', $baseUrl . '/es');
+                    $cleanUrl->addAlternate('de', $baseUrl . '/de');
+                    $cleanUrl->addAlternate('it', $baseUrl . '/it');
+
+                    return $cleanUrl;
                 })
                 ->writeToFile(public_path('sitemap.xml'));
 
