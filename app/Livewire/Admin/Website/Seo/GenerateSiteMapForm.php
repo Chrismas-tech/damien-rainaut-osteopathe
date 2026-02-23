@@ -5,6 +5,7 @@ namespace App\Livewire\Admin\Website\Seo;
 use App\Actions\Admin\Website\Seo\UpdateGoogleSiteVerificationCode;
 use App\Models\Seo;
 use App\Models\User;
+use Spatie\Sitemap\Tags\Url;
 use Exception;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
 use Livewire\Component;
@@ -56,7 +57,24 @@ class GenerateSiteMapForm extends Component
                 unlink($sitemapPath);
             }
 
-            SitemapGenerator::create(config('app.url'))->writeToFile($sitemapPath);
+            SitemapGenerator::create(config('app.url'))
+                ->hasCrawled(function (Url $url) {
+                    $path = $url->path();
+
+                    if ($path === '' || $path === '/') {
+                        return Url::create(rtrim(config('app.url'), '/') . '/')
+                            ->setPriority(1.0)
+                            ->setChangeFrequency(Url::CHANGE_FREQUENCY_YEARLY);
+                    }
+
+                    // Skip /fr si c'est duplicate de la home
+                    if ($path === '/fr' || str_starts_with($path, '/fr/')) {
+                        return null;
+                    }
+
+                    return $url;
+                })
+                ->writeToFile(public_path('sitemap.xml'));
 
             $this->alert('success', 'Sitemap file created!');
         } catch (\Throwable $th) {
@@ -64,9 +82,7 @@ class GenerateSiteMapForm extends Component
         }
     }
 
-    public function copyToClipboard()
-    {
-    }
+    public function copyToClipboard() {}
 
     public function submit()
     {
