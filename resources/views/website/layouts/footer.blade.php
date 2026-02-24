@@ -41,6 +41,13 @@
                         @endif
 
                         <div class="contact-info mt-5">
+
+                            <div class="contact-item">
+                                <span>
+                                    N°Adeli / RPPS : 10111515309
+                                </span>
+                            </div>
+
                             <div class="contact-item">
                                 <i class="bi bi-geo-alt"></i>
                                 <span>{{ App\Models\Website::getSettings()->address_service }}</span>
@@ -60,9 +67,6 @@
                             </div>
                         </div>
 
-                        <p class="brand-description">
-                            N°Adeli / RPPS : 10111515309
-                        </p>
 
                         <div class="social-links mt-2 d-flex">
                             {{-- <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank"
