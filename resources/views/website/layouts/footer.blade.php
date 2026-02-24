@@ -61,7 +61,7 @@
                         </div>
 
                         <p class="brand-description">
-                            N°ADELI :
+                            N°Adeli / RPPS : 10111515309
                         </p>
 
                         <div class="social-links mt-2 d-flex">
