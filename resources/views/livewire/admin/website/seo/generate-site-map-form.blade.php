@@ -60,7 +60,8 @@
                         </span>
                         <span>Copy to Clipboard</span>
                     </button>
-                    <a class="ms-1 btn inline-block bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none"
+                    <a target="_blank"
+                        class="ms-1 btn inline-block bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none"
                         href="{{ asset('sitemap.xml') }}">
                         <span class="me-1">
                             Open sitemap
