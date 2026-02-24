@@ -81,17 +81,6 @@ class GenerateSiteMapForm extends Component
                         $cleanUrl->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
                     }
 
-                    // === AJOUT HREF LANG ===
-                    // On définit les alternates pour toutes les langues
-                    $baseUrl = rtrim(config('app.url'), '/') . $path;
-
-                    $cleanUrl->addAlternate('x-default', $baseUrl);
-                    $cleanUrl->addAlternate('fr', $baseUrl);
-                    $cleanUrl->addAlternate('en', $baseUrl . '/en');
-                    $cleanUrl->addAlternate('es', $baseUrl . '/es');
-                    $cleanUrl->addAlternate('de', $baseUrl . '/de');
-                    $cleanUrl->addAlternate('it', $baseUrl . '/it');
-
                     return $cleanUrl;
                 })
                 ->writeToFile(public_path('sitemap.xml'));

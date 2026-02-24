@@ -50,7 +50,8 @@
 
                 <div class="flex">
                     <input
-                        class="ClipboardText flex-grow px-4 text-lg text-black bg-gray-400 border-gray-500 rounded focus:border-indigo-600 focus:ring-indigo-600 disabled:pointer-events-none disabled:opacity-70" type="text" disabled value="{{ config('app.url') . 'sitemap' }}">
+                        class="ClipboardText flex-grow px-4 text-lg text-black bg-gray-400 border-gray-500 rounded focus:border-indigo-600 focus:ring-indigo-600 disabled:pointer-events-none disabled:opacity-70"
+                        type="text" disabled value="{{ config('app.url') . 'sitemap' }}">
                     <button onclick="copyToClipboard(this)" type="button"
                         class="btn inline-block bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none">
                         <span>
@@ -59,6 +60,15 @@
                         </span>
                         <span>Copy to Clipboard</span>
                     </button>
+                    <a class="ms-1 btn inline-block bg-indigo-600 text-white border-indigo-600 hover:bg-indigo-800 hover:border-indigo-800 active:bg-indigo-800 active:border-indigo-800 focus:outline-none"
+                        href="{{ asset('sitemap.xml') }}">
+                        <span class="me-1">
+                            Open sitemap
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
+                    </a>
                 </div>
             </div>
 
