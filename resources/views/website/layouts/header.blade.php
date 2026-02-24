@@ -69,7 +69,7 @@
                     </li>
 
                     <li>
-                        <a target="_blank" href="{{ route('website.home') }}">
+                        <a target="_blank" href="{{ route('website.honoraires') }}">
                             @if (session('locale') === 'fr')
                                 Honoraires
                             @elseif (session('locale') === 'en')
