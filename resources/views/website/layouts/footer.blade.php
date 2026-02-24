@@ -60,6 +60,10 @@
                             </div>
                         </div>
 
+                        <p class="brand-description">
+                            N°ADELI :
+                        </p>
+
                         <div class="social-links mt-2 d-flex">
                             {{-- <a href="{{ App\Models\Website::getSettings()->link_twitter }}" target="_blank"
                                 class="me-2"><i class="bi bi-twitter-x"></i></a> --}}

@@ -3,17 +3,22 @@
     <div class="topbar d-flex align-items-center dark-background">
         <div class="container d-flex justify-content-center justify-content-md-between">
             <div class="contact-info d-flex align-items-center">
-                <a class="d-flex align-items-center" href="mailto:{{ App\Models\Website::getSettings()->email_website }}">
+                {{-- <a class="d-flex align-items-center" href="mailto:{{ App\Models\Website::getSettings()->email_website }}">
                     <i class="bi bi-envelope d-flex align-items-center">
                         <span class="topbar-mobile">
                             {{ App\Models\Website::getSettings()->email_website }}
                         </span>
                     </i>
+                </a> --}}
+
+                <a target="_blank"
+                    href="https://www.doctolib.fr/osteopathe/nice/damien-rainaut/booking?profile_skipped=true&source=external_referral#pricing">
+                    <img class="logo-doctolib" src="{{ asset('img/website/damien/logo-doctolib.png') }}" alt="">
                 </a>
 
                 <a class="d-flex align-items-center"
                     href="tel:{{ App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website }}">
-                    <i class="bi bi-phone ms-4">
+                    <i class="bi bi-phone ms-3">
                         <span class="topbar-mobile">
                             {{ App\Helpers\CustomClasses::formatFrontendPhoneNumber(App\Models\Website::getSettings()->country_code_phone_website . App\Models\Website::getSettings()->phone_website) }}
                         </span>
