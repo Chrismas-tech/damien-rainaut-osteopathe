@@ -1,35 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>
-        <loc>https://rd-osteopathe-nice.fr/</loc>
-        <lastmod>2026-02-24</lastmod>
-        <priority>1.00</priority>
-    </url>
-
-    <url>
-        <loc>https://rd-osteopathe-nice.fr/honoraires</loc>
-        <lastmod>2025-12-01</lastmod>
-        <priority>0.80</priority>
-    </url>
-
-    <url>
-        <loc>https://rd-osteopathe-nice.fr/contact</loc>
-        <lastmod>2025-12-01</lastmod>
-        <priority>0.80</priority>
-    </url>
-
-    <url>
-        <loc>https://rd-osteopathe-nice.fr/credits</loc>
-        <lastmod>2025-12-01</lastmod>
-        <priority>0.60</priority>
-    </url>
-
-    <url>
-        <loc>https://rd-osteopathe-nice.fr/conditions-generales-d-utilisation</loc>
-        <lastmod>2025-12-01</lastmod>
-        <priority>0.40</priority>
-    </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
 </urlset>
