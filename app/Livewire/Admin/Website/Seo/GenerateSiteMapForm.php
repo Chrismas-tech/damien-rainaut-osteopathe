@@ -65,7 +65,18 @@ class GenerateSiteMapForm extends Component
                     // Skip /fr et ses sous-pages
                     if ($path === '/fr' || str_starts_with($path, '/fr/')) {
                         return null;
-                    } elseif ($path === '' || $path === '/') {
+                    }
+
+                    // Liste des préfixes de langues à exclure complètement du sitemap
+                    $languagePrefixes = ['/en', '/de', '/es', '/it'];
+
+                    foreach ($languagePrefixes as $prefix) {
+                        if ($path === $prefix || str_starts_with($path, $prefix . '/')) {
+                            return null;
+                        }
+                    }
+
+                    if ($path === '' || $path === '/') {
                         $cleanUrl = Url::create($baseUrl . '/')
                             ->setPriority(1.0)
                             ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY);
