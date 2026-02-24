@@ -47,7 +47,6 @@ class GenerateSiteMapForm extends Component
         $this->validateOnly($property);
     }
 
-
     public function generateSiteMap()
     {
         try {
@@ -57,48 +56,34 @@ class GenerateSiteMapForm extends Component
                 unlink($sitemapPath);
             }
 
+            $baseUrl = rtrim(config('app.url'), '/');
+
             SitemapGenerator::create(config('app.url'))
-                ->hasCrawled(function (\Spatie\Sitemap\Tags\Url $url) {
+                ->hasCrawled(function (Url $url) use ($baseUrl) {
                     $path = $url->path();
 
-                    // On skippe le /fr
+                    // Skip /fr et ses sous-pages
                     if ($path === '/fr' || str_starts_with($path, '/fr/')) {
                         return null;
                     }
 
-                    // On nettoie la home
                     if ($path === '' || $path === '/') {
-                        $cleanUrl = \Spatie\Sitemap\Tags\Url::create(rtrim(config('app.url'), '/') . '/')
+                        $cleanUrl = Url::create($baseUrl . '/')
                             ->setPriority(1.0)
-                            ->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
+                            ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY);
                     } else {
-                        $cleanUrl = $url;
+                        $cleanUrl = $url
+                            ->setPriority(0.7)
+                            ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY);
                     }
-
-                    // On set les priorités pour les pages secondaires
-                    if (in_array($path, ['/contact', '/honoraires', '/credits', '/terms-of-services'])) {
-                        $cleanUrl->setPriority(0.7);
-                        $cleanUrl->setChangeFrequency(\Spatie\Sitemap\Tags\Url::CHANGE_FREQUENCY_MONTHLY);
-                    }
-
-                    // === AJOUT HREF LANG ===
-                    // On définit les alternates pour toutes les langues
-                    $baseUrl = rtrim(config('app.url'), '/') . $path;
-
-                    $cleanUrl->addAlternate('x-default', $baseUrl);
-                    $cleanUrl->addAlternate('fr', $baseUrl);
-                    $cleanUrl->addAlternate('en', $baseUrl . '/en');
-                    $cleanUrl->addAlternate('es', $baseUrl . '/es');
-                    $cleanUrl->addAlternate('de', $baseUrl . '/de');
-                    $cleanUrl->addAlternate('it', $baseUrl . '/it');
 
                     return $cleanUrl;
                 })
-                ->writeToFile(public_path('sitemap.xml'));
+                ->writeToFile($sitemapPath);
 
-            $this->alert('success', 'Sitemap file created!');
+            $this->alert('success', 'Sitemap généré avec succès !');
         } catch (\Throwable $th) {
-            $this->alert('error', 'Whoops, looks like something went wrong!');
+            $this->alert('error', 'Erreur : ' . $th->getMessage());
         }
     }
 
