@@ -65,9 +65,7 @@ class GenerateSiteMapForm extends Component
                     // Skip /fr et ses sous-pages
                     if ($path === '/fr' || str_starts_with($path, '/fr/')) {
                         return null;
-                    }
-
-                    if ($path === '' || $path === '/') {
+                    } elseif ($path === '' || $path === '/') {
                         $cleanUrl = Url::create($baseUrl . '/')
                             ->setPriority(1.0)
                             ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY);
