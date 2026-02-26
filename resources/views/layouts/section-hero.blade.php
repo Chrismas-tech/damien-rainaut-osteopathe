@@ -464,7 +464,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12 mt-4">
+            <div class="col-lg-12 mt-4" data-aos="fade-left" data-aos-delay="600">
                 <iframe class="doctolib" scrolling="no"
                     src="https://partners.doctolib.fr/osteopathe/nice/damien-rainaut/booking/availabilities?specialityId=10&telehealth=false&placeId=practice-159544&motiveIds%5B%5D=13751581&source=profile"
                     style="height: 472px; min-height: 472px; width: 100%; overflow: hidden;"></iframe>
