@@ -190,7 +190,8 @@
                     </div>
 
                     <div class="hero-actions d-flex justify-content-center" data-aos="fade-right" data-aos-delay="600">
-                        <a target='_blank' href="https://www.youtube.com/shorts/3mFtnr0tC_I" class="btn btn-outline glightbox">
+                        <a target='_blank' href="https://www.youtube.com/shorts/3mFtnr0tC_I"
+                            class="btn btn-outline glightbox">
                             <i class="bi bi-play-circle me-2"></i>
                             @if (session('locale') === 'fr')
                                 Découvrir le cabinet en vidéo
@@ -462,6 +463,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-12 mt-4">
+                <iframe class="doctolib" scrolling="no"
+                    src="https://partners.doctolib.fr/osteopathe/nice/damien-rainaut/booking/availabilities?specialityId=10&telehealth=false&placeId=practice-159544&motiveIds%5B%5D=13751581&source=profile"
+                    style="height: 472px; min-height: 472px; width: 100%; overflow: hidden;"></iframe>
             </div>
         </div>
     </div>
