@@ -464,11 +464,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12 mt-4">
+            {{-- <div class="col-lg-12 mt-4">
                 <iframe class="doctolib" scrolling="no"
-                    src="https://partners.doctolib.fr/osteopathe/nice/damien-rainaut/booking/availabilities?specialityId=10&telehealth=false&placeId=practice-159544&motiveIds%5B%5D=13751581&source=profile"
+                    src="https://partners.doctolib.fr/osteopathe/nice/damien-rainaut/booking/motives?specialityId=10&telehealth=false&placeId=practice-159544&source=profile"
                     style="height: 472px; min-height: 472px; width: 100%; overflow: hidden;"></iframe>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

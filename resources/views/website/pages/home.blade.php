@@ -27,6 +27,8 @@
 
         @include('layouts.section-departments-tab')
 
+       {{--  @include('layouts.section-doctolib') --}}
+
         @include('layouts.section-troubles')
 
         @include('layouts.section-features-services')
