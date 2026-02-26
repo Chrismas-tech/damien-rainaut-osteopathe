@@ -345,25 +345,32 @@
                                             @if (session('locale') === 'fr')
                                                 <span>
                                                     Cabinet (22 rue Gounod, Nice)
+                                                </span>
+                                            @elseif (session('locale') === 'en')
+                                                <span>
+                                                    Practice (22 rue Gounod, Nice)
+                                                </span>
+                                            @elseif (session('locale') === 'de')
+                                                <span>
+                                                    Praxis (22 rue Gounod, Nizza)
+                                                </span>
+                                            @elseif (session('locale') === 'it')
+                                                <span>
+                                                    Studio (22 rue Gounod, Nizza)
+                                                @elseif (session('locale') === 'es')
+                                                </span>
+                                                <span>
+                                                    Consulta (22 rue Gounod, Niza)
+                                                </span>
+                                            @endif
                                         </a>
-                                        </span>
-                                    @elseif (session('locale') === 'en')
-                                        <span>
-                                            Practice (22 rue Gounod, Nice)</a>
-                                        </span>
-                                    @elseif (session('locale') === 'de')
-                                        <span>
-                                            Praxis (22 rue Gounod, Nizza)</a>
-                                        </span>
-                                    @elseif (session('locale') === 'it')
-                                        <span>
-                                            Studio (22 rue Gounod, Nizza)</a>
-                                        </span>
-                                    @elseif (session('locale') === 'es')
-                                        <span>
-                                            Consulta (22 rue Gounod, Niza)</a>
-                                        </span>
-                                        @endif
+                                        </a>
+
+                                        </a>
+
+                                        </a>
+
+                                        </a>
                                         <br>
                                         <br>
                                         <i class="bi bi-clock me-1"></i>
