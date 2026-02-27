@@ -129,7 +129,6 @@
                         </p>
                     @endif
 
-
                     <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
                         <div class="stat-item">
                             <h3>

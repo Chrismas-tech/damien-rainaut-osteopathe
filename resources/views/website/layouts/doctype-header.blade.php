@@ -46,4 +46,5 @@
     <!-- Scripts -->
     @vite(['resources/scss/website/app.scss', 'resources/js/website/app.js'])
     @livewireStyles
+    @include('layouts.section-json-ld')
 </head>
