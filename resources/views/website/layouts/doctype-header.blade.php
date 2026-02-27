@@ -3,14 +3,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- Vendor CSS Files -->
-    {{-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> --}}
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    {{-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> --}}
-    {{-- <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"> --}}
-   {{--  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> --}}
-
     <title>{{ \App\Models\Website::getSettings()->application_name }} | @yield('title')</title>
 
     <link rel="alternate" hreflang="x-default" href="{{ route('website.home') }}" />
