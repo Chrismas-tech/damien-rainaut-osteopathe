@@ -55,7 +55,7 @@
                             domicile.
                             <br>
                             <br>
-                            Ancien sapeur-pompier volontaire à Nice (chef d’équipe), nageur-sauveteur et passionné
+                            Ancien sapeur-pompier à Nice (chef d’équipe), nageur-sauveteur et passionné
                             de
                             triathlon et plongée, j’allie technicité, rigueur et écoute pour traiter efficacement
                             vos
@@ -72,7 +72,7 @@
                             or I come to your home.
                             <br>
                             <br>
-                            Former volunteer firefighter in Nice (team leader), lifeguard and passionate about
+                            Former firefighter in Nice (team leader), lifeguard and passionate about
                             triathlon
                             and diving, I combine technical skill, rigour and attentive listening to effectively treat
                             your
@@ -89,7 +89,7 @@
                             oder komme zu Ihnen nach Hause.
                             <br>
                             <br>
-                            Ehemaliger freiwilliger Feuerwehrmann in Nizza (Gruppenführer), Rettungsschwimmer und
+                            Ehemaliger Feuerwehrmann in Nizza (Gruppenführer), Rettungsschwimmer und
                             passionierter Triathlet und Taucher – ich verbinde fachliche Präzision, Disziplin und
                             Einfühlungsvermögen, um Ihre Schmerzen und Verspannungen wirksam zu behandeln.
                             <br>
@@ -103,7 +103,7 @@
                             Nizza oppure vengo a domicilio.
                             <br>
                             <br>
-                            Ex vigile del fuoco volontario a Nizza (caposquadra), bagnino e appassionato di triathlon e
+                            Ex vigile del fuoco a Nizza (caposquadra), bagnino e appassionato di triathlon e
                             immersioni, combino competenza tecnica, rigore e ascolto per trattare efficacemente i tuoi
                             dolori e tensioni.
                             <br>
@@ -119,7 +119,7 @@
                             voy a tu domicilio.
                             <br>
                             <br>
-                            Ex bombero voluntario en Niza (jefe de equipo), socorrista y apasionado del triatlón y el
+                            Ex bombero en Niza (jefe de equipo), socorrista y apasionado del triatlón y el
                             buceo,
                             combino técnica, rigor y escucha para tratar eficazmente tus dolores y tensiones.
                             <br>
