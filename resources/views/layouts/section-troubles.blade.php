@@ -294,15 +294,15 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Trachéite<br>Bronchite<br>Asthme
+                            BPCO<br>Trachéite<br>Bronchite<br>Asthme
                         @elseif (session('locale') === 'en')
-                            Tracheitis<br>Bronchitis<br>Asthma
+                            COPD<br>Tracheitis<br>Bronchitis<br>Asthma
                         @elseif (session('locale') === 'de')
-                            Tracheitis<br>Bronchitis<br>Asthma
+                            COPD<br>Tracheitis<br>Bronchitis<br>Asthma
                         @elseif (session('locale') === 'it')
-                            Tracheite<br>Bronchite<br>Asma
+                            BPCO<br>Tracheite<br>Bronchite<br>Asma
                         @elseif (session('locale') === 'es')
-                            Traqueítis<br>Bronquitis<br>Asma
+                            EPOC<br>Traqueítis<br>Bronquitis<br>Asma
                         @endif
                     </p>
                 </div>
