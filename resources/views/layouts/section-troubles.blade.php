@@ -431,15 +431,15 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Céphalée<br>Migraine<br>Insomnie<br>Anxiété
+                            Céphalée<br>Migraine<br>Insomnie<br>Anxiété<br>Stress<br>Fatigue
                         @elseif (session('locale') === 'en')
-                            Headache<br>Migraine<br>Insomnia<br>Anxiety
+                            Headache<br>Migraine<br>Insomnia<br>Anxiety<br>Stress<br>Fatigue
                         @elseif (session('locale') === 'de')
-                            Kopfschmerz<br>Migräne<br>Schlaflosigkeit<br>Angstzustand
+                            Kopfschmerz<br>Migräne<br>Schlaflosigkeit<br>Angstzustand<br>Stress<br>Müdigkeit
                         @elseif (session('locale') === 'it')
-                            Cefalea<br>Emicrania<br>Insonnia<br>Ansia
+                            Cefalea<br>Emicrania<br>Insonnia<br>Ansia<br>Stress<br>Fatica
                         @elseif (session('locale') === 'es')
-                            Cefalea<br>Migraña<br>Insomnio<br>Ansiedad
+                            Cefalea<br>Migraña<br>Insomnio<br>Ansiedad<br>Estrés<br>Fatiga
                         @endif
                     </p>
                 </div>
