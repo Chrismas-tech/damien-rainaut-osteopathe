@@ -362,16 +362,15 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Normalisation du cycle<br>Règle douloureuse<br>Infertilité<br>Trouble de la ménopause
+                            Normalisation du cycle<br>Règle douloureuse<br>Trouble de la ménopause<br>Endométriose
                         @elseif (session('locale') === 'en')
-                            Cycle normalization<br>Painful period<br>Infertility<br>Menopause disorder
+                            Cycle normalization<br>Painful period<br>Menopause disorder<br>Endometriosis
                         @elseif (session('locale') === 'de')
-                            Zyklusnormalisierung<br>Schmerzhafte
-                            Regelblutung<br>Unfruchtbarkeit<br>Wechseljahresbeschwerde
+                            Zyklusnormalisierung<br>Schmerzhafte Regelblutung<br>Wechseljahresbeschwerde<br>Endometriose
                         @elseif (session('locale') === 'it')
-                            Normalizzazione del ciclo<br>Regola dolorosa<br>Infertilità<br>Disturbo della menopausa
+                            Normalizzazione del ciclo<br>Regola dolorosa<br>Disturbo della menopausa<br>Endometriosi
                         @elseif (session('locale') === 'es')
-                            Normalización del ciclo<br>Regla dolorosa<br>Infertilidad<br>Trastorno de la menopausia
+                            Normalización del ciclo<br>Regla dolorosa<br>Trastorno de la menopausia<br>Endometriosis
                         @endif
                     </p>
                 </div>
