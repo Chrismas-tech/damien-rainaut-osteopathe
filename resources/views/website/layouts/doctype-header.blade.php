@@ -39,4 +39,15 @@
     @vite(['resources/scss/website/app.scss', 'resources/js/website/app.js'])
     @livewireStyles
     @include('layouts.section-json-ld')
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWLLL85ZDM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-FWLLL85ZDM');
+    </script>
 </head>
