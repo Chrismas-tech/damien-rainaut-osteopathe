@@ -166,7 +166,6 @@
             </div>
 
             <!-- Troubles locomoteurs -->
-            <!-- Troubles locomoteurs -->
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
                 <div class="action-card primary">
                     <div class="card-header">
@@ -188,20 +187,20 @@
                     <div class="row gy-1">
                         <div class="col-6 border-end">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Entorse<br>Foulure<br>Tendinite (tennis et golf-elbow)<br>Canal
-                                    carpien<br>Canal tarsien</p>
+                                <p class="mb-0">Entorse<br>Foulure<br>Tendinite (tennis et golf-elbow)<br>Syndrome du
+                                    canal carpien<br>Canal tarsien</p>
                             @elseif (session('locale') === 'en')
-                                <p class="mb-0">Sprain<br>Strain<br>Tendinitis (tennis and golfer's elbow)<br>Carpal
-                                    tunnel<br>Tarsal tunnel</p>
+                                <p class="mb-0">Sprain<br>Strain<br>Tendinitis (tennis and golf elbow)<br>Carpal
+                                    tunnel syndrome<br>Tarsal tunnel</p>
                             @elseif (session('locale') === 'de')
-                                <p class="mb-0">Verstauchung<br>Zerrung<br>Tendinitis (Tennis- und
-                                    Golferellenbogen)<br>Karpaltunnel<br>Tarsaltunnel</p>
+                                <p class="mb-0">Verstauchung<br>Zerrung<br>Tendinitis (tennis and golf
+                                    elbow)<br>Karpaltunnelsyndrom<br>Tarsaltunnel</p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Distorsione<br>Stiramento<br>Tendinite (gomito del tennista e del
-                                    golfista)<br>Tunnel carpale<br>Tunnel tarsale</p>
+                                <p class="mb-0">Distorsione<br>Stiramento<br>Tendinitis (tennis and golf
+                                    elbow)<br>Sindrome del tunnel carpale<br>Tunnel tarsale</p>
                             @elseif (session('locale') === 'es')
-                                <p class="mb-0">Esguince<br>Distensión<br>Tendinitis (codo de tenista y
-                                    golfista)<br>Túnel carpiano<br>Túnel tarsiano</p>
+                                <p class="mb-0">Esguince<br>Distensión<br>Tendinitis (tennis and golf
+                                    elbow)<br>Síndrome del túnel carpiano<br>Túnel tarsiano</p>
                             @endif
                         </div>
                         <div class="col-6">
