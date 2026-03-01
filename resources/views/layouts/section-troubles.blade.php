@@ -38,38 +38,38 @@
                     <div class="row gy-1">
                         <div class="col-6 border-end">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Ballonnements<br>Aérophagie<br>Digestion lente<br>Reflux
-                                    gastro-œsophagiens<br>(hernies hiatales)</p>
+                                <p class="mb-0">Ballonnement<br>Aérophagie<br>Digestion lente<br>Reflux
+                                    gastro-œsophagien<br>(hernie hiatale)</p>
                             @elseif (session('locale') === 'en')
                                 <p class="mb-0">Bloating<br>Aerophagia<br>Slow digestion<br>Gastroesophageal
-                                    reflux<br>(hiatal hernias)</p>
+                                    reflux<br>(hiatal hernia)</p>
                             @elseif (session('locale') === 'de')
-                                <p class="mb-0">Blähungen<br>Aerophagie<br>Langsame Verdauung<br>Gastroösophagealer
-                                    Reflux<br>(Hiatushernien)</p>
+                                <p class="mb-0">Blähung<br>Aerophagie<br>Langsame Verdauung<br>Gastroösophagealer
+                                    Reflux<br>(Hiatushernie)</p>
                             @elseif (session('locale') === 'it')
                                 <p class="mb-0">Gonfiore<br>Aerofagia<br>Digestione lenta<br>Reflusso
-                                    gastroesofageo<br>(ernie iatali)</p>
+                                    gastroesofageo<br>(ernia iatale)</p>
                             @elseif (session('locale') === 'es')
                                 <p class="mb-0">Hinchazón<br>Aerofagia<br>Digestión lenta<br>Reflujo
-                                    gastroesofágico<br>(hernias hiatales)</p>
+                                    gastroesofágico<br>(hernia hiatal)</p>
                             @endif
                         </div>
                         <div class="col-6">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Colopathies fonctionnelles<br>(constipations, diarrhées)<br>Troubles
-                                    hépatobiliaires<br>Hémorroïdes</p>
+                                <p class="mb-0">Colopathie fonctionnelle<br>(constipation, diarrhée)<br>Trouble
+                                    hépatobiliaire<br>Hémorroïde</p>
                             @elseif (session('locale') === 'en')
-                                <p class="mb-0">Functional colopathies<br>(constipation, diarrhea)<br>Hepatobiliary
-                                    disorders<br>Hemorrhoids</p>
+                                <p class="mb-0">Functional colopathy<br>(constipation, diarrhea)<br>Hepatobiliary
+                                    disorder<br>Hemorrhoid</p>
                             @elseif (session('locale') === 'de')
-                                <p class="mb-0">Funktionelle Kolopathien<br>(Verstopfung, Durchfall)<br>Hepatobiliäre
-                                    Störungen<br>Hämorrhoiden</p>
+                                <p class="mb-0">Funktionelle Kolopathie<br>(Verstopfung, Durchfall)<br>Hepatobiliäre
+                                    Störung<br>Hämorrhöide</p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Colopatie funzionali<br>(stitichezza, diarrea)<br>Disturbi
-                                    epatobiliari<br>Emorroidi</p>
+                                <p class="mb-0">Colopatia funzionale<br>(stitichezza, diarrea)<br>Disturbo
+                                    epatobiliare<br>Emorroide</p>
                             @elseif (session('locale') === 'es')
-                                <p class="mb-0">Colopatías funcionales<br>(estreñimiento, diarrea)<br>Trastornos
-                                    hepatobiliares<br>Hemorroides</p>
+                                <p class="mb-0">Colopatía funcional<br>(estreñimiento, diarrea)<br>Trastorno
+                                    hepatobiliar<br>Hemorroide</p>
                             @endif
                         </div>
                     </div>
@@ -98,12 +98,12 @@
                         <div class="col-6 border-end">
                             @if (session('locale') === 'fr')
                                 <p class="mb-0">
-                                    Névralgies d’Arnold<br>
-                                    Névralgies cervico-brachiales<br>
+                                    Névralgie d’Arnold<br>
+                                    Névralgie cervico-brachiale<br>
                                     Torticolis<br>
-                                    Cervicalgies<br>
-                                    Dorsalgies<br>
-                                    Sciatiques
+                                    Cervicalgie<br>
+                                    Dorsalgie<br>
+                                    Sciatique
                                 </p>
                             @elseif (session('locale') === 'en')
                                 <p class="mb-0">
@@ -145,20 +145,20 @@
                         </div>
                         <div class="col-6">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Lumbagos<br>Lombalgies
-                                    chroniques<br>Cruralgies<br>Sciatalgies<br>Pubalgies<br>Douleurs intercostales</p>
+                                <p class="mb-0">Lumbago<br>Lombalgie
+                                    chronique<br>Cruralgie<br>Sciatalgie<br>Pubalgie<br>Douleur intercostale</p>
                             @elseif (session('locale') === 'en')
                                 <p class="mb-0">Lumbago<br>Chronic low back
                                     pain<br>Cruralgia<br>Sciatica<br>Pubalgia<br>Intercostal pain</p>
                             @elseif (session('locale') === 'de')
                                 <p class="mb-0">Lumbago<br>Chronische
-                                    Lumbalgie<br>Cruralgie<br>Ischialgie<br>Pubalgie<br>Interkostalschmerzen</p>
+                                    Lumbalgie<br>Cruralgie<br>Ischialgie<br>Pubalgie<br>Interkostalschmerz</p>
                             @elseif (session('locale') === 'it')
                                 <p class="mb-0">Lombago<br>Lombalgia
-                                    cronica<br>Cruralgia<br>Sciatalgia<br>Pubalgia<br>Dolori intercostali</p>
+                                    cronica<br>Cruralgia<br>Sciatalgia<br>Pubalgia<br>Dolore intercostale</p>
                             @elseif (session('locale') === 'es')
                                 <p class="mb-0">Lumbago<br>Lumbalgia
-                                    crónica<br>Cruralgia<br>Ciática<br>Pubalgia<br>Dolores intercostales</p>
+                                    crónica<br>Cruralgia<br>Ciática<br>Pubalgia<br>Dolor intercostal</p>
                             @endif
                         </div>
                     </div>
@@ -187,37 +187,37 @@
                     <div class="row gy-1">
                         <div class="col-6 border-end">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Entorses<br>Foulures<br>Tendinites (tennis et golf-elbows)<br>Canal
+                                <p class="mb-0">Entorse<br>Foulure<br>Tendinite (tennis et golf-elbow)<br>Canal
                                     carpien<br>Canal tarsien</p>
                             @elseif (session('locale') === 'en')
-                                <p class="mb-0">Sprains<br>Strains<br>Tendinitis (tennis and golfer's elbow)<br>Carpal
+                                <p class="mb-0">Sprain<br>Strain<br>Tendinitis (tennis and golfer's elbow)<br>Carpal
                                     tunnel<br>Tarsal tunnel</p>
                             @elseif (session('locale') === 'de')
-                                <p class="mb-0">Verstauchungen<br>Zerrungen<br>Tendinitiden (Tennis- und
+                                <p class="mb-0">Verstauchung<br>Zerrung<br>Tendinitis (Tennis- und
                                     Golferellenbogen)<br>Karpaltunnel<br>Tarsaltunnel</p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Distorsioni<br>Stiramenti<br>Tendiniti (gomito del tennista e del
+                                <p class="mb-0">Distorsione<br>Stiramento<br>Tendinite (gomito del tennista e del
                                     golfista)<br>Tunnel carpale<br>Tunnel tarsale</p>
                             @elseif (session('locale') === 'es')
-                                <p class="mb-0">Esguinces<br>Distensiones<br>Tendinitis (codo de tenista y
+                                <p class="mb-0">Esguince<br>Distensión<br>Tendinitis (codo de tenista y
                                     golfista)<br>Túnel carpiano<br>Túnel tarsiano</p>
                             @endif
                         </div>
                         <div class="col-6">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Douleurs articulaires<br>(épaules, hanches, genoux…)<br>Épines
-                                    calcanéennes<br>Algodystrophies</p>
+                                <p class="mb-0">Douleur articulaire<br>(épaule, hanche, genou…)<br>Épine
+                                    calcanéenne<br>Algodystrophie</p>
                             @elseif (session('locale') === 'en')
-                                <p class="mb-0">Joint pain<br>(shoulders, hips, knees…)<br>Calcaneal spurs<br>Complex
+                                <p class="mb-0">Joint pain<br>(shoulder, hip, knee…)<br>Calcaneal spur<br>Complex
                                     regional pain syndrome (CRPS)</p>
                             @elseif (session('locale') === 'de')
-                                <p class="mb-0">Gelenkschmerzen<br>(Schultern, Hüften,
+                                <p class="mb-0">Gelenkschmerz<br>(Schulter, Hüfte,
                                     Knie…)<br>Fersensporn<br>Algodystrophie (CRPS)</p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Dolori articolari<br>(spalle, anche, ginocchia…)<br>Spina
-                                    calcaneare<br>Algodistrofie</p>
+                                <p class="mb-0">Dolore articolare<br>(spalla, anca, ginocchio…)<br>Spina
+                                    calcaneare<br>Algodistrofia</p>
                             @elseif (session('locale') === 'es')
-                                <p class="mb-0">Dolores articulares<br>(hombros, caderas, rodillas…)<br>Espolón
+                                <p class="mb-0">Dolor articular<br>(hombro, cadera, rodilla…)<br>Espolón
                                     calcáneo<br>Algodistrofia</p>
                             @endif
                         </div>
@@ -246,26 +246,26 @@
                     <div class="row gy-1">
                         <div class="col-6 border-end">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Sinusites<br>Rhinites<br>Rhinopharyngites</p>
+                                <p class="mb-0">Sinusite<br>Rhinite<br>Rhinopharyngite</p>
                             @elseif (session('locale') === 'en')
                                 <p class="mb-0">Sinusitis<br>Rhinitis<br>Rhinopharyngitis</p>
                             @elseif (session('locale') === 'de')
                                 <p class="mb-0">Sinusitis<br>Rhinitis<br>Rhinopharyngitis</p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Sinusiti<br>Riniti<br>Rinofaringiti</p>
+                                <p class="mb-0">Sinusite<br>Rinite<br>Rinofaringite</p>
                             @elseif (session('locale') === 'es')
                                 <p class="mb-0">Sinusitis<br>Rinitis<br>Rinofaringitis</p>
                             @endif
                         </div>
                         <div class="col-6">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Otites séreuses<br>Vertiges paroxystiques bénins</p>
+                                <p class="mb-0">Otite séreuse<br>Vertige paroxystique bénin</p>
                             @elseif (session('locale') === 'en')
                                 <p class="mb-0">Serous otitis media<br>Benign paroxysmal positional vertigo</p>
                             @elseif (session('locale') === 'de')
                                 <p class="mb-0">Seröse Otitis media<br>Gutartiger paroxysmaler Lagerungsschwindel</p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Otiti sierose<br>Vertigini parossistiche benigne</p>
+                                <p class="mb-0">Otite sierosa<br>Vertigine parossistica benigna</p>
                             @elseif (session('locale') === 'es')
                                 <p class="mb-0">Otitis serosa<br>Vértigo posicional paroxístico benigno</p>
                             @endif
@@ -294,13 +294,13 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Trachéites<br>Bronchites<br>Asthme
+                            Trachéite<br>Bronchite<br>Asthme
                         @elseif (session('locale') === 'en')
                             Tracheitis<br>Bronchitis<br>Asthma
                         @elseif (session('locale') === 'de')
                             Tracheitis<br>Bronchitis<br>Asthma
                         @elseif (session('locale') === 'it')
-                            Tracheiti<br>Bronchiti<br>Asma
+                            Tracheite<br>Bronchite<br>Asma
                         @elseif (session('locale') === 'es')
                             Traqueítis<br>Bronquitis<br>Asma
                         @endif
@@ -328,15 +328,15 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Cystites<br>Troubles de la prostate<br>Incontinences<br>Énurésie
+                            Cystite<br>Trouble de la prostate<br>Incontinence<br>Énurésie
                         @elseif (session('locale') === 'en')
-                            Cystitis<br>Prostate disorders<br>Incontinence<br>Enuresis
+                            Cystitis<br>Prostate disorder<br>Incontinence<br>Enuresis
                         @elseif (session('locale') === 'de')
-                            Zystitis<br>Prostatabeschwerden<br>Inkontinenz<br>Enuresis
+                            Zystitis<br>Prostatabeschwerde<br>Inkontinenz<br>Enuresis
                         @elseif (session('locale') === 'it')
-                            Cistiti<br>Disturbi prostatici<br>Incontinenza<br>Enuresi
+                            Cistite<br>Disturbo prostatico<br>Incontinenza<br>Enuresi
                         @elseif (session('locale') === 'es')
-                            Cistitis<br>Trastornos de próstata<br>Incontinencia<br>Enuresis
+                            Cistitis<br>Trastorno de próstata<br>Incontinencia<br>Enuresis
                         @endif
                     </p>
                 </div>
@@ -362,16 +362,16 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Normalisation du cycle<br>Règles douloureuses<br>Infertilité<br>Troubles de la ménopause
+                            Normalisation du cycle<br>Règle douloureuse<br>Infertilité<br>Trouble de la ménopause
                         @elseif (session('locale') === 'en')
-                            Cycle normalization<br>Painful periods<br>Infertility<br>Menopause disorders
+                            Cycle normalization<br>Painful period<br>Infertility<br>Menopause disorder
                         @elseif (session('locale') === 'de')
                             Zyklusnormalisierung<br>Schmerzhafte
-                            Regelblutung<br>Unfruchtbarkeit<br>Wechseljahresbeschwerden
+                            Regelblutung<br>Unfruchtbarkeit<br>Wechseljahresbeschwerde
                         @elseif (session('locale') === 'it')
-                            Normalizzazione del ciclo<br>Regole dolorose<br>Infertilità<br>Disturbi della menopausa
+                            Normalizzazione del ciclo<br>Regola dolorosa<br>Infertilità<br>Disturbo della menopausa
                         @elseif (session('locale') === 'es')
-                            Normalización del ciclo<br>Reglas dolorosas<br>Infertilidad<br>Trastornos de la menopausia
+                            Normalización del ciclo<br>Regla dolorosa<br>Infertilidad<br>Trastorno de la menopausia
                         @endif
                     </p>
                 </div>
@@ -397,15 +397,15 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Palpitations<br>Oppressions thoraciques<br>Jambes lourdes<br>Maladie de Raynaud
+                            Palpitation<br>Oppression thoracique<br>Jambe lourde<br>Maladie de Raynaud
                         @elseif (session('locale') === 'en')
-                            Palpitations<br>Chest tightness<br>Heavy legs<br>Raynaud's disease
+                            Palpitation<br>Chest tightness<br>Heavy leg<br>Raynaud's disease
                         @elseif (session('locale') === 'de')
                             Herzklopfen<br>Thorakale Beklemmung<br>Schwere Beine<br>Morbus Raynaud
                         @elseif (session('locale') === 'it')
-                            Palpitazioni<br>Oppressione toracica<br>Gambe pesanti<br>Malattia di Raynaud
+                            Palpitazione<br>Oppressione toracica<br>Gamba pesante<br>Malattia di Raynaud
                         @elseif (session('locale') === 'es')
-                            Palpitaciones<br>Opresión torácica<br>Piernas pesadas<br>Enfermedad de Raynaud
+                            Palpitación<br>Opresión torácica<br>Pierna pesada<br>Enfermedad de Raynaud
                         @endif
                     </p>
                 </div>
@@ -431,15 +431,15 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            Céphalées<br>Migraines<br>Insomnies<br>Anxiété
+                            Céphalée<br>Migraine<br>Insomnie<br>Anxiété
                         @elseif (session('locale') === 'en')
-                            Headaches<br>Migraines<br>Insomnia<br>Anxiety
+                            Headache<br>Migraine<br>Insomnia<br>Anxiety
                         @elseif (session('locale') === 'de')
-                            Kopfschmerzen<br>Migräne<br>Schlaflosigkeit<br>Angstzustände
+                            Kopfschmerz<br>Migräne<br>Schlaflosigkeit<br>Angstzustand
                         @elseif (session('locale') === 'it')
-                            Cefalee<br>Emicranie<br>Insonnia<br>Ansia
+                            Cefalea<br>Emicrania<br>Insonnia<br>Ansia
                         @elseif (session('locale') === 'es')
-                            Cefaleas<br>Migrañas<br>Insomnio<br>Ansiedad
+                            Cefalea<br>Migraña<br>Insomnio<br>Ansiedad
                         @endif
                     </p>
                 </div>
