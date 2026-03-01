@@ -97,21 +97,50 @@
                     <div class="row gy-1">
                         <div class="col-6 border-end">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Névralgies d’Arnold<br>Névralgies
-                                    cervico-brachiales<br>Torticolis<br>Cervicalgies<br>Dorsalgies</p>
+                                <p class="mb-0">
+                                    Névralgies d’Arnold<br>
+                                    Névralgies cervico-brachiales<br>
+                                    Torticolis<br>
+                                    Cervicalgies<br>
+                                    Dorsalgies<br>
+                                    Sciatiques
+                                </p>
                             @elseif (session('locale') === 'en')
-                                <p class="mb-0">Arnold's neuralgia<br>Cervicobrachial
-                                    neuralgia<br>Torticollis<br>Cervicalgia<br>Dorsalgia</p>
+                                <p class="mb-0">
+                                    Arnold's neuralgia<br>
+                                    Cervicobrachial neuralgia<br>
+                                    Torticollis<br>
+                                    Cervicalgia<br>
+                                    Dorsalgia<br>
+                                    Sciatica
+                                </p>
                             @elseif (session('locale') === 'de')
                                 <p class="mb-0">
-                                    Arnold-Neuralgie<br>Zervikobrachialneuralgie<br>Torticollis<br>Zervikalgie<br>Dorsalgie
+                                    Arnold-Neuralgie<br>
+                                    Zervikobrachialneuralgie<br>
+                                    Torticollis<br>
+                                    Zervikalgie<br>
+                                    Dorsalgie<br>
+                                    Ischialgie
                                 </p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Nevralgia di Arnold<br>Nevralgia
-                                    cervico-brachiale<br>Torticollo<br>Cervicalgia<br>Dorsalgia</p>
+                                <p class="mb-0">
+                                    Nevralgia di Arnold<br>
+                                    Nevralgia cervico-brachiale<br>
+                                    Torticollo<br>
+                                    Cervicalgia<br>
+                                    Dorsalgia<br>
+                                    Sciatalgia
+                                </p>
                             @elseif (session('locale') === 'es')
-                                <p class="mb-0">Neuralgia de Arnold<br>Neuralgia
-                                    cervicobraquial<br>Tortícolis<br>Cervicalgia<br>Dorsalgia</p>
+                                <p class="mb-0">
+                                    Neuralgia de Arnold<br>
+                                    Neuralgia cervicobraquial<br>
+                                    Tortícolis<br>
+                                    Cervicalgia<br>
+                                    Dorsalgia<br>
+                                    Ciática
+                                </p>
                             @endif
                         </div>
                         <div class="col-6">
