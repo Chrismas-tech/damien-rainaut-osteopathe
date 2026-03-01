@@ -166,6 +166,7 @@
             </div>
 
             <!-- Troubles locomoteurs -->
+            <!-- Troubles locomoteurs -->
             <div class="col-lg-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
                 <div class="action-card primary">
                     <div class="card-header">
@@ -205,19 +206,19 @@
                         </div>
                         <div class="col-6">
                             @if (session('locale') === 'fr')
-                                <p class="mb-0">Douleur articulaire<br>(épaule, hanche, genou…)<br>Épine
+                                <p class="mb-0">Douleurs articulaires<br>(épaules, hanches, genoux…)<br>Épine
                                     calcanéenne<br>Algodystrophie</p>
                             @elseif (session('locale') === 'en')
-                                <p class="mb-0">Joint pain<br>(shoulder, hip, knee…)<br>Calcaneal spur<br>Complex
+                                <p class="mb-0">Joint pains<br>(shoulders, hips, knees…)<br>Calcaneal spurs<br>Complex
                                     regional pain syndrome (CRPS)</p>
                             @elseif (session('locale') === 'de')
-                                <p class="mb-0">Gelenkschmerz<br>(Schulter, Hüfte,
+                                <p class="mb-0">Gelenkschmerzen<br>(Schultern, Hüften,
                                     Knie…)<br>Fersensporn<br>Algodystrophie (CRPS)</p>
                             @elseif (session('locale') === 'it')
-                                <p class="mb-0">Dolore articolare<br>(spalla, anca, ginocchio…)<br>Spina
+                                <p class="mb-0">Dolori articolari<br>(spalle, anche, ginocchia…)<br>Spina
                                     calcaneare<br>Algodistrofia</p>
                             @elseif (session('locale') === 'es')
-                                <p class="mb-0">Dolor articular<br>(hombro, cadera, rodilla…)<br>Espolón
+                                <p class="mb-0">Dolores articulares<br>(hombros, caderas, rodillas…)<br>Espolón
                                     calcáneo<br>Algodistrofia</p>
                             @endif
                         </div>
