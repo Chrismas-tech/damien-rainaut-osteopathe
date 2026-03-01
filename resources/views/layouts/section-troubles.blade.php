@@ -294,15 +294,15 @@
                     </div>
                     <p class="mb-0">
                         @if (session('locale') === 'fr')
-                            BPCO<br>Trachéite<br>Bronchite<br>Asthme
+                            Bronchopneumopathie chronique obstructive<br>Trachéite<br>Bronchite<br>Asthme
                         @elseif (session('locale') === 'en')
-                            COPD<br>Tracheitis<br>Bronchitis<br>Asthma
+                            Chronic obstructive pulmonary disease<br>Tracheitis<br>Bronchitis<br>Asthma
                         @elseif (session('locale') === 'de')
-                            COPD<br>Tracheitis<br>Bronchitis<br>Asthma
+                            Chronisch obstruktive Lungenerkrankung<br>Tracheitis<br>Bronchitis<br>Asthma
                         @elseif (session('locale') === 'it')
-                            BPCO<br>Tracheite<br>Bronchite<br>Asma
+                            Broncopneumopatia cronica ostruttiva<br>Tracheite<br>Bronchite<br>Asma
                         @elseif (session('locale') === 'es')
-                            EPOC<br>Traqueítis<br>Bronquitis<br>Asma
+                            Enfermedad pulmonar obstructiva crónica<br>Traqueítis<br>Bronquitis<br>Asma
                         @endif
                     </p>
                 </div>
