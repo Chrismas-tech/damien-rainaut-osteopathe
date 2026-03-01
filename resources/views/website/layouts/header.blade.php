@@ -29,10 +29,10 @@
             <div class="social-links {{-- d-none --}} d-flex align-items-center">
                 <a href="{{ App\Models\Website::getSettings()->link_linkedin }}" target="_blank" class="linkedin"><i
                         class="bi bi-linkedin"></i></a>
-                <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank" class="facebook"><i
+               {{--  <a href="{{ App\Models\Website::getSettings()->link_facebook }}" target="_blank" class="facebook"><i
                         class="bi bi-facebook"></i></a>
                 <a href="{{ App\Models\Website::getSettings()->link_instagram }}" target="_blank" class="instagram"><i
-                        class="bi bi-instagram"></i></a>
+                        class="bi bi-instagram"></i></a> --}}
                 <a class="d-flex align-items-center"
                     href="https://wa.me/{{ App\Models\Website::getSettings()->country_code_whatsapp_phone . App\Models\Website::getSettings()->whatsapp_phone }}"
                     class="whatsapp" target="_blank">
