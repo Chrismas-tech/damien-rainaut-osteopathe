@@ -267,7 +267,7 @@
                                     @elseif (session('locale') === 'es')
                                         <h6>Nuestros Socios</h6>
                                     @endif
-                                    <div class="d-flex flex-wrap justify-content-between align-items-center gap-4">
+                                    <div class="d-flex flex-wrap align-items-center gap-4">
                                         <img class="partners-logo"
                                             src="{{ asset('img/website/partners/doctolib.png') }}" alt="logo-doctolib">
                                         <img class="partners-logo"
