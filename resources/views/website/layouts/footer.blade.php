@@ -269,6 +269,8 @@
                                     @endif
                                     <div class="d-flex flex-wrap justify-content-between align-items-center gap-4">
                                         <img class="partners-logo"
+                                            src="{{ asset('img/website/partners/doctolib.png') }}" alt="logo-doctolib">
+                                        <img class="partners-logo"
                                             src="{{ asset('img/website/partners/reflexosteo.png') }}"
                                             alt="logo-reflexosteo">
                                         <img class="partners-logo"
