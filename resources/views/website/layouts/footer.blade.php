@@ -253,6 +253,33 @@
                                     </nav>
                                 </div>
                             </div>
+
+                            <div class="col-12">
+                                <div class="nav-column">
+                                    @if (session('locale') === 'fr')
+                                        <h6>Nos Partenaires</h6>
+                                    @elseif (session('locale') === 'en')
+                                        <h6>Our Partners</h6>
+                                    @elseif (session('locale') === 'de')
+                                        <h6>Unsere Partner</h6>
+                                    @elseif (session('locale') === 'it')
+                                        <h6>I Nostri Partner</h6>
+                                    @elseif (session('locale') === 'es')
+                                        <h6>Nuestros Socios</h6>
+                                    @endif
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center gap-4">
+                                        <img class="partners-logo"
+                                            src="{{ asset('img/website/partners/reflexosteo.png') }}"
+                                            alt="logo-reflexosteo">
+                                        <img class="partners-logo"
+                                            src="{{ asset('img/website/partners/liberlo.png') }}" alt="logo-liberlo">
+                                        <img class="partners-logo"
+                                            src="{{ asset('img/website/partners/medinat.png') }}" alt="logo-medinat">
+                                        <img class="partners-logo" src="{{ asset('img/website/partners/AXiO.png') }}"
+                                            alt="logo-AXiO">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
