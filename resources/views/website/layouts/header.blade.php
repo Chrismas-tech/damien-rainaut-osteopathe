@@ -104,98 +104,22 @@
                             @endif
                         </a>
                     </li>
-                    {{--                     <li>
-                        <a href="{{ route('website.about') }}" class="{{ Route::currentRouteName() === 'website.about' ? 'active' : '' }}">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('website.departments') }}" class="{{ Route::currentRouteName() === 'website.departments' ? 'active' : '' }}">
-                            Departments
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('website.services') }}" class="{{ Route::currentRouteName() === 'website.services' ? 'active' : '' }}">
-                            Services
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('website.doctors') }}" class="{{ Route::currentRouteName() === 'website.doctors' ? 'active' : '' }}">
-                            Doctors
-                        </a>
-                    </li> --}}
-
-                    {{-- <li class="dropdown">
-                        <a href="#">
-                            @if ($website->lang === 'fr')
-                                <div>
-                                    <img src="{{ asset('img/website/lang/french.png') }}" alt="french">
-                                    <span>FR</span>
-                                </div>
-                            @elseif($website->lang === 'en')
-                                <div>
-                                    <img src="{{ asset('img/website/lang/english.png') }}" alt="english">
-                                    <span>EN</span>
-                                </div>
-                            @elseif($website->lang === 'it')
-                                <div>
-                                    <img src="{{ asset('img/website/lang/italian.png') }}" alt="italian">
-                                    <span>IT</span>
-                                </div>
-                            @elseif($website->lang === 'de')
-                                <div>
-                                    <img src="{{ asset('img/website/lang/german.png') }}" alt="german">
-                                    <span>DE</span>
-                                </div>
-                            @endif
-                        </a>
-                        <a href="#">
-                            <i class="bi bi-chevron-down toggle-dropdown"></i>
-                        </a>
-
-
+                    <li class="dropdown"><a href="#"><span>Blogs</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li>
-                                @php
-                                    $flags = [
-                                        ['fr', 'lang.fr', 'french', 'Français'],
-                                        ['en', 'lang.en', 'english', 'English'],
-                                        ['it', 'lang.it', 'italian', 'Italiano'],
-                                        ['de', 'lang.de', 'german', 'Deutsch'],
-                                    ];
-                                @endphp
-                                @foreach ($flags as $flag)
-                                    @if ($website->lang !== $flag[0])
-                                        <a href="{{ route($flag[1]) }}">
-                                            <div>
-                                                <img class="me-2"
-                                                    src="{{ asset('img/website/lang/' . $flag[2] . '.png') }}"
-                                                    alt="{{ $flag[2] }}">
-                                                <span>
-                                                    {{ $flag[3] }}
-                                                </span>
-                                            </div>
-                                        </a>
-                                    @endif
-                                @endforeach
-                            </li>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown">
-                                <a href="#"><span>Deep Dropdown</span> <i
+                            <li><a href="#">Gestion du Stress & Anxiété</a></li>
+                            <li class="dropdown"><a href="#"><span>Troubles</span> <i
                                         class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                <ul style="padding:0!important;">
+                                    <li><a href="#">Urinaires</a></li>
+                                    <li><a href="#">Digestifs</a></li>
+                                    <li><a href="#">Vertébraux</a></li>
+                                    <li><a href="#">Locomoteurs</a></li>
+                                    <li><a href="#">ORL</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
                         </ul>
-                    </li> --}}
+                    </li>
 
                     <li class="dropdown">
                         <a href="#">
