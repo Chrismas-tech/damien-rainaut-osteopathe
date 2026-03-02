@@ -104,7 +104,7 @@
                             @endif
                         </a>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Blogs</span> <i
+                    {{-- <li class="dropdown"><a href="#"><span>Blogs</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">Gestion du Stress & Anxiété</a></li>
@@ -119,7 +119,7 @@
                                 </ul>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
 
                     <li class="dropdown">
                         <a href="#">
