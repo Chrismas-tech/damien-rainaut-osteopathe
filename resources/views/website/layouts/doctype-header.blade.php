@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ \App\Models\Seo::getSeo()->meta_title }} | @yield('title')</title>
+    <title>{{ \App\Models\Seo::getSeo()->meta_title }}{{--  | @yield('title') --}}</title>
 
     <link rel="alternate" hreflang="x-default" href="{{ route('website.home') }}" />
     <link rel="alternate" hreflang="fr" href="{{ route('website.home') }}" />
